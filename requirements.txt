@@ -1,0 +1,13 @@
+requests
+html5lib
+aiohttp
+asyncio
+pandas
+bs4
+selenium
+simplejson==3.10.0
+elasticsearch
+nltk
+lxml
+pylint
+pytest-aiohttp
