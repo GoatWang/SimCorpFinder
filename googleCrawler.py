@@ -24,13 +24,13 @@ es = Elasticsearch()
 # if not es.indices.exists('companyembedding'):
 #     es.indices.create('companyembedding')
 
-if es.indices.exists('companyembedding_labeled'):
-    es.indices.delete(index='companyembedding_labeled')
+# if es.indices.exists('companyembedding_labeled'):
+#     es.indices.delete(index='companyembedding_labeled')
 if not es.indices.exists('companyembedding_labeled'):
     es.indices.create('companyembedding_labeled')
 
-if es.indices.exists('companyembedding_labeled_url'):
-    es.indices.delete(index='companyembedding_labeled_url')
+# if es.indices.exists('companyembedding_labeled_url'):
+#     es.indices.delete(index='companyembedding_labeled_url')
 if not es.indices.exists('companyembedding_labeled_url'):
     es.indices.create('companyembedding_labeled_url')
 
@@ -68,9 +68,10 @@ class googleCrawler:
                         self.companyInfo += companyInfo
 
                         ## write data per url into first DB index(companyembedding_labeled_url) 
-                        self.data['info'] = companyInfo
-                        self.data['url'] = url
-                        es.create(index='companyembedding_labeled_url', doc_type=self.targetCompany, id=uuid.uuid4(), body=data)  
+                        if companyInfo != "" and companyInfo != None:
+                            self.data['info'] = companyInfo
+                            self.data['url'] = url
+                            es.create(index='companyembedding_labeled_url', doc_type=self.targetCompany, id=uuid.uuid4(), body=self.data)  
 
                     return await response.release()
             except:
@@ -251,24 +252,3 @@ with open("logs/" + filetime + "Empty.json", 'w', encoding='utf8') as fp:
     json.dump(emptylogs, fp)
 
 
-
-# data = {
-#     "query" : {
-#         "constant_score" : {
-#             "filter" : {
-#                 "term" : {
-#                     "distinctName" : distinctName
-#                     }
-#                 }
-#             }
-#         }
-#     }
-count = es.count(index='companyembedding_labeled', doc_type=companyDict['targetCompany'], body=data)['count']
-print('companyembedding_labeled count', count)
-count = es.count(index='companyembedding_labeled_url', doc_type=companyDict['targetCompany'], body=data)['count']
-print('companyembedding_labeled_url count', count)
-
-
-outputFilter = ['hits.hits._source.name', 'hits.hits._id', 'hits.hits._source.distinctName', 'hits.hits._source.createTime', 'hits.hits._score']
-res = es.search(index='companyembedding_labeled', doc_type=companyDict['targetCompany'], body=data, filter_path=outputFilter)
-res = es.search(index='companyembedding_labeled_url', doc_type=companyDict['targetCompany'], body=data, filter_path=outputFilter)

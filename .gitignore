@@ -12,6 +12,7 @@ __pycache__/
 GoogleNews-vectors-negative300.bin.gz
 .ipynb_checkpoints
 logs/*
+*.json
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
