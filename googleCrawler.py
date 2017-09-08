@@ -15,22 +15,26 @@ from selenium import webdriver
 import uuid
 from datetime import datetime
 import string
-from elasticUtl import datetimeReader
+from elasticUtl import datetimeReader, checkExist, checkDateoutAndDelete
 from elasticsearch import Elasticsearch
 es = Elasticsearch()
 
 # if es.indices.exists('companyembedding'):
 #     es.indices.delete(index='companyembedding')
-# if not es.indices.exists('companyembedding'):
-#     es.indices.create('companyembedding')
-
+# if es.indices.exists('companyembedding_url'):
+#     es.indices.delete(index='companyembedding_url')
 # if es.indices.exists('companyembedding_labeled'):
 #     es.indices.delete(index='companyembedding_labeled')
-if not es.indices.exists('companyembedding_labeled'):
-    es.indices.create('companyembedding_labeled')
-
 # if es.indices.exists('companyembedding_labeled_url'):
 #     es.indices.delete(index='companyembedding_labeled_url')
+
+
+if not es.indices.exists('companyembedding'):
+    es.indices.create('companyembedding')
+if not es.indices.exists('companyembedding_url'):
+    es.indices.create('companyembedding_url')
+if not es.indices.exists('companyembedding_labeled'):
+    es.indices.create('companyembedding_labeled')
 if not es.indices.exists('companyembedding_labeled_url'):
     es.indices.create('companyembedding_labeled_url')
 
@@ -39,8 +43,7 @@ if not es.indices.exists('companyembedding_labeled_url'):
 
 #user write
 from setting_selenium import cross_selenium
-from preprocessing import preprocessing
-from crawlerUtl import QueueTransfering
+from crawlerUtl import getDistinctName, QueueTransfering, preprocessing
 from crawlerUtl import BingLinkParser, GoogleLinkParser
 
 #log writing and other
@@ -51,6 +54,11 @@ import time
 
 
 class googleCrawler:
+    def __init__(self, input_companies, fail_log, empty_log):
+        self.input_companies = input_companies
+        self.fail_log = fail_log
+        self.empty_log = empty_log
+        
     async def fetch_coroutine(self, client, url):
         with async_timeout.timeout(10):
             try: 
@@ -82,7 +90,7 @@ class googleCrawler:
         # urls = BingLinkParser(driver, self.query)
         urls = GoogleLinkParser(driver, self.query)
         headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
-        async with aiohttp.ClientSession(loop=loop, headers=headers, conn_timeout=5 ) as client:
+        async with aiohttp.ClientSession(loop=loop, headers=headers, conn_timeout=10 ) as client:
             tasks = [self.fetch_coroutine(client, url) for url in urls]
             await asyncio.gather(*tasks)
 
@@ -94,7 +102,7 @@ class googleCrawler:
         asyncio.set_event_loop(self.loop)
         while True:
             try:
-                self.companyAnnotation = input_companies.get(timeout=1)   ##Build self.query
+                self.companyAnnotation = self.input_companies.get(timeout=1)   ##Build self.query
             except:
                 break
             
@@ -107,18 +115,20 @@ class googleCrawler:
 
             self.data = {
                     "name":self.findingCompany,
-                    # "related":self.companyAnnotation['related'],  ##Build self.related,
                     "distinctName": self.companyAnnotation['distinctName'],  ##Build self.distinctName
                     "createTime":datetime.utcnow()
                     }
+            if self.companyAnnotation['related'] != None:
+                    self.data["related"] = self.companyAnnotation['related']  ##Build self.related,
+            
 
             ## start running loop
             self.loop.run_until_complete(self.main(self.loop))
 
             ## After loop: write log
-            fail_log.put((self.targetCompany, self.findingCompany, self.failLinks))
+            self.fail_log.put((self.targetCompany, self.findingCompany, self.failLinks))
             if self.companyInfo == "":
-                empty_log.put((self.targetCompany, self.findingCompany))
+                self.empty_log.put((self.targetCompany, self.findingCompany))
 
             ## After loop: write data per company into DB
             self.data['info'] = self.companyInfo
@@ -135,120 +145,98 @@ class googleCrawler:
 
 
 
+class Main():
+    def buildQueue(self, compLi=None, targetComp=None, keywords=None):
+        """compLi is list of finding companies"""
+        self.input_companies = queue.Queue()
+        self.fail_log = queue.Queue()
+        self.empty_log = queue.Queue()
 
-## Build Queue
-input_companies = queue.Queue()
-fail_log = queue.Queue()
-empty_log = queue.Queue()
+        if compLi != None:
+            for company in compLi:
+                companyDict = {}
+                companyDict['name'] = company
+                companyDict['query'] = "{} product".format(company)
+                companyDict['related'] = None
+                companyDict['targetCompany'] = targetComp
+                companyDict['distinctName'] = getDistinctName(company)
 
-## Fill Queue with companyDict
-files = os.listdir("labelData")
-files = [file for file in files if "csv" in file]
-# for file in files:
-# for file in files[17:18]:
-# for file in files[14:15]:
-for file in files[3:4]:
-# for file in files[19:20]:
-    print(file)
-    df_comps = pd.read_csv("labelData/" + file, index_col=None, header=None)
+                ## if data doesn't exist, directly put it in queue
+                if not checkExist('companyembedding', companyDict['targetCompany'], companyDict['distinctName']):
+                    print(companyDict['distinctName'], 'does not exist')
+                    self.input_companies.put(companyDict)
+                    continue
 
-    companyTupleList = []
-    def buildTupleList(row):
-        companyTuple = (row[0], row[1])
-        companyTupleList.append(companyTuple)
+                ## if the data has existed over 30 days, delete it and put it in queue
+                if checkDateoutAndDelete('companyembedding', companyDict['targetCompany'], companyDict['distinctName']):
+                    self.input_companies.put(companyDict)
 
-    df_comps.apply(buildTupleList, axis=1)
-    print(len(df_comps), 'companies')
+        else:
+            ## Fill Queue with companyDict
+            files = os.listdir("labelData")
+            files = [file for file in files if "csv" in file]
+            # for file in files:
+            # for file in files[17:18]:
+            # for file in files[14:15]:
+            for file in files[3:4]:
+            # for file in files[19:20]:
+                print(file)
+                df_comps = pd.read_csv("labelData/" + file, index_col=None, header=None)
 
-    for company, related in companyTupleList:
-        companyDict = {}
-        companyDict['name'] = company
-        companyDict['query'] = "{} product".format(company)
-        # companyDict['related'] = related
-        companyDict['targetCompany'] = file.replace(".csv", "")
+                companyTupleList = []
+                def buildTupleList(row):
+                    companyTuple = (row[0], row[1])
+                    companyTupleList.append(companyTuple)
 
-        exclude = set(string.punctuation)
-        distinctName = ''.join(p for p in company if p not in exclude)
-        distinctName = distinctName.replace(" ", "_").lower()  ##Build self.distinctName
-        companyDict['distinctName'] = distinctName
+                df_comps.apply(buildTupleList, axis=1)
+                print(len(df_comps), 'companies')
 
-        # data = {"query": {"match": {"distinctName": distinctName}}}
-        data = {
-            "query" : {
-                "constant_score" : {
-                    "filter" : {
-                        "term" : {
-                            "distinctName" : distinctName
-                            }
-                        }
-                    }
-                }
-            }
-        count = es.count(index='companyembedding_labeled', doc_type=companyDict['targetCompany'], body=data)['count']
-        if count < 1:
-            print(distinctName, 'does not exist')
-            input_companies.put(companyDict)
-            continue
+                for company, related in companyTupleList:
+                    companyDict = {}
+                    companyDict['name'] = company
+                    companyDict['query'] = "{} product".format(company)
+                    companyDict['related'] = related
+                    companyDict['targetCompany'] = file.replace(".csv", "")
+                    companyDict['distinctName'] = getDistinctName(company)
+                
+                    if not checkExist('companyembedding_labeled', companyDict['targetCompany'], companyDict['distinctName']):
+                        print(companyDict['distinctName'], 'does not exist')
+                        self.input_companies.put(companyDict)
+                        continue
 
-        outputFilter = ['hits.hits._source.name', 'hits.hits._id', 'hits.hits._source.distinctName', 'hits.hits._source.createTime', 'hits.hits._score']
-        res = es.search(index='companyembedding_labeled', doc_type=companyDict['targetCompany'], body=data, filter_path=outputFilter)
-        for comp in res['hits']['hits']:
-            createTime = datetimeReader(comp['_source']['createTime'])
-            nowTime = datetime.utcnow()
-            ## basically, the situation will not exist: comp['_source']['distinctName'] != distinctName
-            if comp['_source']['distinctName'] == distinctName and (nowTime-createTime).days > 30:
-            # if comp['_source']['distinctName'] == distinctName and (nowTime-createTime).seconds > 50:
-                print("delete ", distinctName)
-                _id = comp['_id']
-                es.delete(index='companyembedding_labeled', doc_type=companyDict['targetCompany'], id=_id)
-                es.delete(index='companyembedding_labeled_url', doc_type=companyDict['targetCompany'], id=_id)
-                input_companies.put(companyDict)
+                    if checkDateoutAndDelete('companyembedding_labeled', companyDict['targetCompany'], companyDict['distinctName']):
+                        self.input_companies.put(companyDict)
 
+    def startThread(self, compLi=None, targetComp=None, keywords=None):
+        self.buildQueue(compLi, targetComp, keywords)
 
+        starttime = time.time()
+        threads = []
+        for i in range(3):
+            entity = googleCrawler(self.input_companies, self.fail_log, self.empty_log)
+            newthread = threading.Thread(target=entity)
+            newthread.start()
+            threads.append(newthread)
 
-
-
-
-
-
-
-
-
+        for thread in threads:
+            thread.join()
+        endtime = time.time()
+        print(endtime - starttime)
 
 
+        ## log writing
+        nowtime = datetime.now()
+        filetime = str(nowtime).split()[0].replace("-","") + str(nowtime).split()[1].split(":")[0] + str(nowtime).split()[1].split(":")[1]
 
+        if 'logs' not in os.listdir():
+            os.mkdir('logs') 
 
+        faillogs = QueueTransfering(self.fail_log)
+        with open("logs/" + filetime + "FailLink.json", 'w', encoding='utf8') as fp:
+            json.dump(faillogs, fp)
 
-
-
-
-
-starttime = time.time()
-threads = []
-for i in range(3):
-    newthread = threading.Thread(target=googleCrawler())
-    newthread.start()
-    threads.append(newthread)
-
-for thread in threads:
-    thread.join()
-endtime = time.time()
-print(endtime - starttime)
-
-
-## log writing
-nowtime = datetime.now()
-filetime = str(nowtime).split()[0].replace("-","") + str(nowtime).split()[1].split(":")[0] + str(nowtime).split()[1].split(":")[1]
-
-if 'logs' not in os.listdir():
-    os.mkdir('logs') 
-
-faillogs = QueueTransfering(fail_log)
-with open("logs/" + filetime + "FailLink.json", 'w', encoding='utf8') as fp:
-    json.dump(faillogs, fp)
-
-emptylogs = QueueTransfering(empty_log)
-with open("logs/" + filetime + "Empty.json", 'w', encoding='utf8') as fp:
-    json.dump(emptylogs, fp)
+        emptylogs = QueueTransfering(self.empty_log)
+        with open("logs/" + filetime + "Empty.json", 'w', encoding='utf8') as fp:
+            json.dump(emptylogs, fp)
 
 
