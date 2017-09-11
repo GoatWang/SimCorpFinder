@@ -18,6 +18,45 @@ def QueueTransfering(Queue):
 	return Qlist
 
 
+def replaceEscapeChar(url):
+    escapeDict = {
+            '%20': ' ',
+            '%21': '!',
+            '%22': '"',
+            '%23': '#',
+            '%24': '$',
+            '%25': '%',
+            '%26': '&',
+            '%27': "'",
+            '%28': '(',
+            '%29': ')',
+            '%2A': '*',
+            '%2B': '+',
+            '%2C': ",",
+            '%2D': '-',
+            '%2E': '.',
+            '%2F': '/',
+            '%30': '0',
+            '%31': '1',
+            '%32': '2',
+            '%33': '3',
+            '%34': '4',
+            '%35': '5',
+            '%36': '6',
+            '%37': '7',
+            '%38': '8',
+            '%39': '9',
+            '%3A': ':',
+            '%3B': ';',
+            '%3C': '<',
+            '%3D': '=',
+            '%3E': '>',
+            '%3F': '?',
+            '%40': '@'}
+    for key, value in escapeDict.items():
+        url = url.replace(key, value)
+    return url
+
 def BingLinkParser(driver, query):
     url = "https://www.bing.com/"
     driver.get(url)
@@ -40,7 +79,7 @@ def BingLinkParser(driver, query):
     urls = []
     for link in Goodlinks:
         if link['href'] not in urls and link['href'].split("%23")[0] not in urls:
-            urls.append(link['href'])
+            urls.append(replaceEscapeChar(link['href']))
 
     return urls
 
@@ -58,10 +97,10 @@ def GoogleLinkParser(driver, query):
     soup = BeautifulSoup(html, 'lxml')
     urls = []
     for link in soup.find_all('a'):
-        if "/url?q=" in str(link) and not 'googleusercontent' in str(link):
+        if "/url?q=" in str(link).lower() and not 'googleusercontent' in str(link).lower():
             url = link['href'].split('&sa')[0].replace('/url?q=', '')
             if re.findall(r'^http', url.lower()) and url.split("%23")[0] not in urls:
-                urls.append(url)
+                urls.append(replaceEscapeChar(url))
 
     return urls
 
@@ -137,7 +176,7 @@ def preprocessing(companyStr):
 
     return paramStr
 
-if __name__ == '__main__':
-    testingStr = "brands the cocacola company the cocacola company the cocacola company locations africa morocco french asia pacific australia china hong kong india japan new zealand eurasia middle east arabic middle east english pakistan english pakistan urdu russia europe austria belgium dutch belgium french denmark finland france germany great britain ireland italy netherlands norway portugal poland spain sweden switzerland ukraine latin america argentina bolivia brazil chile colombia costa rica dominican republic ecuador el salvador guatemala honduras mexico nicaragua panama paraguay peru uruguay venezuela north america global canada english canada french locations investors  the cocacola company our company our company main about cocacola journey mission vision  values diversity  inclusion human and workplace rights workplace overview supplier diversity cocacola leaders the cocacola system company history company reports sustainability report cocacola product facts us the cocacola foundation world of cocacola cocacola store investors investors main  year in review investors info financial reports and information investors info stock information investors info investor webcasts and events shareowner information corporate governance investors info sec filings press center press center main press releases company statements leadership video library image library press contacts careers careers main contact us contact us main faqs by cokestyle  sustainability report water replenishment giving back diversity  inclusion our commitment to transparency brands the cocacola company cocacola sprite fanta diet coke cocacola zero cocacola life dasani minute maid ciel powerade simply orange cocacola light fresca glacéau vitaminwater del valle glacéau smartwater mello yello fuze fuze tea honest tea odwalla powerade zero cocacola freestyle world of cocacola cocacola store close the cocacola company view product description all social facebook instagram twitter google youtube linkedin visit facebook visit instagram visit twitter visit google visit youtube visit linkedin load more cocacola on social likes followers followers views followers"
-    print(preprocessing(testingStr))        
-    # preprocessing(testingStr)    
+# if __name__ == '__main__':
+#     testingStr = "brands the cocacola company the cocacola company the cocacola company locations africa morocco french asia pacific australia china hong kong india japan new zealand eurasia middle east arabic middle east english pakistan english pakistan urdu russia europe austria belgium dutch belgium french denmark finland france germany great britain ireland italy netherlands norway portugal poland spain sweden switzerland ukraine latin america argentina bolivia brazil chile colombia costa rica dominican republic ecuador el salvador guatemala honduras mexico nicaragua panama paraguay peru uruguay venezuela north america global canada english canada french locations investors  the cocacola company our company our company main about cocacola journey mission vision  values diversity  inclusion human and workplace rights workplace overview supplier diversity cocacola leaders the cocacola system company history company reports sustainability report cocacola product facts us the cocacola foundation world of cocacola cocacola store investors investors main  year in review investors info financial reports and information investors info stock information investors info investor webcasts and events shareowner information corporate governance investors info sec filings press center press center main press releases company statements leadership video library image library press contacts careers careers main contact us contact us main faqs by cokestyle  sustainability report water replenishment giving back diversity  inclusion our commitment to transparency brands the cocacola company cocacola sprite fanta diet coke cocacola zero cocacola life dasani minute maid ciel powerade simply orange cocacola light fresca glacéau vitaminwater del valle glacéau smartwater mello yello fuze fuze tea honest tea odwalla powerade zero cocacola freestyle world of cocacola cocacola store close the cocacola company view product description all social facebook instagram twitter google youtube linkedin visit facebook visit instagram visit twitter visit google visit youtube visit linkedin load more cocacola on social likes followers followers views followers"
+#     print(preprocessing(testingStr))        
+#     # preprocessing(testingStr)    

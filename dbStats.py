@@ -9,15 +9,18 @@ from collections import Counter
 
 import subprocess
 
-subprocess.run(['rm', 'output.json'])
+if 'output.json' in os.listdir():
+    os.remove("output.json")
 
 ## Fill Queue with companyDict
 files = os.listdir("labelData")
 files = [file for file in files if "csv" in file]
-# for file in files:
+files = [file for file in files if "csv" in file and "亞提爾_進銷貨_電子設備" in file]
+
+for file in files:
 # for file in files[17:18]:
 # for file in files[14:15]:
-for file in files[3:4]:
+# for file in files[3:4]:
 # for file in files[19:20]:
     targetComp = file
     df_comps = pd.read_csv("labelData/" + targetComp, index_col=None, header=None)
@@ -88,9 +91,9 @@ data = {
     }
 }
 
-outputFilter = ['hits.hits._source.distinctName', 'hits.hits._score', 'hits.hits.highlight.info']
+outputFilter = ['hits.hits._source.distinctName', 'hits.hits._score', 'hits.hits._source.related' , 'hits.hits.highlight.info']
 res = es.search(index='companyembedding_labeled', doc_type=companyDict['targetCompany'], body=data, filter_path=outputFilter)
-distinctNames = [(comp['_source']['distinctName'], comp['_score'])  for comp in res['hits']['hits']]
+distinctNames = [(comp['_source']['distinctName'], comp['_score'], comp['_source']['related'])  for comp in res['hits']['hits']]
 
 file = open("output.json", 'w', encoding='utf8')
 file.write("Target compaies: " + targetComp + "\n")
@@ -103,6 +106,7 @@ for num, compTuple in enumerate(distinctNames):
     distinctName = compTuple[0]
     file.write(str(num+1) + ". " + distinctName + "\n")
     file.write("score: " + str(compTuple[1]) + "\n")
+    file.write("related: " + str(compTuple[2]) + "\n")
     data = {
             "query" : {
                 "bool":{

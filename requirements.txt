@@ -5,9 +5,9 @@ asyncio
 pandas
 bs4
 selenium
-simplejson==3.10.0
+simplejson
 elasticsearch
 nltk
 lxml
 pylint
-pytest-aiohttp
+# pytest-aiohttp
