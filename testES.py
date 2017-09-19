@@ -38,9 +38,20 @@ print(str(checkExist("companyembedding", "太克_測試_電子儀器", a)))
 outputFilter = ['hits.hits._source.distinctName', 'hits.hits._score', 'hits.hits._source.related' , 'hits.hits.highlight.info']
 
 data = {
+        "size":10,
         "query":{
-            "match":{
-                "info":"test measurement measure gauge analyze analog"
+            "bool":{
+                "should":{
+                    "match":{
+                        "info":"test measurement measure gauge analyze"
+                    }
+                },
+                "must_not":{
+                    "match":{
+                        "info":"analog"
+                    }
+                }
+
             }
         },
         "highlight":{
@@ -53,4 +64,10 @@ data = {
 
 res = es.search('companyembedding', "太克_測試_電子儀器", body=data, filter_path=outputFilter)
 # res = es.search('companyembedding', "太克_測試_電子儀器", filter_path=outputFilter)
-
+from pprint import pprint
+pprint(res)
+print(len(res['hits']['hits']))
+    
+    ## must, should: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html
+    ## must not: https://www.elastic.co/guide/en/elasticsearch/guide/1.x/_combining_queries_with_filters.html
+    
