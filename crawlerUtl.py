@@ -110,14 +110,25 @@ def GoogleLinkParser(driver, query):
 
 import nltk
 import os
+import sys
 
-if not "nltkDataDownloaded" in os.listdir():
+if not "nltkDataDownloaded" in os.listdir("C:\\SimCorpFinderData"):
     nltk.download('stopwords')
     nltk.download('wordnet')
     print('download nltk data success')
-    file = open("downloaded", 'w')
-    file.write("downloaded")
+    file = open("C:\\SimCorpFinderData\\nltkDataDownloaded", 'w')
+    file.write("nltkDataDownloaded")
     file.close()
+
+
+def getCurrentDir():
+    if getattr(sys, 'frozen', False):
+        # frozen
+        dir_ = os.path.dirname(sys.executable)
+    else:
+        # unfrozen
+        dir_ = os.path.dirname(os.path.realpath(__file__))    
+    return dir_
 
 import re
 from nltk import word_tokenize
@@ -160,8 +171,7 @@ def preprocessing(companyStr):
     stops = list(set(stopwords.words('english')))
     lemmer = WordNetLemmatizer()
 
-    file = open('statesFilter/stateSimilars', 'r',encoding='utf8')
-
+    file = open(getCurrentDir() + '/statesFilter/stateSimilars', 'r',encoding='utf8')
     for line in file:
         stops.append(line.replace("\n",""))
     file.close()

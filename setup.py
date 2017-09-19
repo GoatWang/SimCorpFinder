@@ -5,7 +5,7 @@ setup(name = "SimCorpFinder" ,
       description = "" ,
       executables = [Executable(
             "simCorpFinder.py",
-            shortcutName="DTI Playlist",
+            shortcutName="SimCorp Finder",
             shortcutDir="DesktopFolder"
       )],
       options = {
@@ -13,10 +13,10 @@ setup(name = "SimCorpFinder" ,
                   'packages':['asyncio', 'numpy', 'lxml'],
                   'include_files':['phantomjs','phantomjs.exe','statesFilter']
                   },
-            "bdist_msi": {
-                  'packages':['asyncio', 'numpy', 'lxml'],
-                  'include_files':['phantomjs','phantomjs.exe','statesFilter']
-                  }
+            # "bdist_msi": {
+            #       'packages':['asyncio', 'numpy', 'lxml'],
+            #       'include_files':['phantomjs','phantomjs.exe','statesFilter']
+            #       }
             },
       )
 

@@ -1,8 +1,8 @@
-import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QDesktopWidget, QLabel, QLineEdit, QGridLayout
 from PyQt5.QtWidgets import QPushButton, QFileDialog, QMessageBox, QCheckBox, QSlider
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QFocusEvent, QIcon, QFont
+
 
 import numpy 
 import pandas as pd
@@ -10,6 +10,14 @@ import os
 import socket
 from datetime import datetime
 import uuid
+import sys
+
+if not "SimCorpFinderData" in os.listdir("C:\\"):
+    os.mkdir("C:\\SimCorpFinderData")
+if not "logs" in os.listdir("C:\\SimCorpFinderData"):
+    os.mkdir("C:\\SimCorpFinderData\\logs")
+if not "outputs" in os.listdir("C:\\SimCorpFinderData"):
+    os.mkdir("C:\\SimCorpFinderData\\outputs")
 
 from googleCrawler import Main
 from crawlerUtl import getDistinctName
@@ -17,8 +25,6 @@ from elasticUtl import writeStats, esLogin, checkDateoutAndDelete, writeStats_wo
 # from elasticsearch import Elasticsearch
 # es = Elasticsearch()
 es = esLogin()
-
-
 
 # from PyQt5.QtGui import QLine
 class simCorpFinder(QWidget):
@@ -40,16 +46,7 @@ class simCorpFinder(QWidget):
 
         self.targetCorp = ""
         self.keywords = ""
-        
-        if not "stats" in os.listdir():
-            os.mkdir("stats")
-
-        if getattr(sys, 'frozen', False):
-            # frozen
-            self.outputDir = os.path.dirname(sys.executable)+"\\stats"
-        else:
-            # unfrozen
-            self.outputDir = os.path.dirname(os.path.realpath(__file__))+"\\stats"
+        self.outputDir = "C:\\SimCorpFinderData\\outputs"
         self.findingCorps = ""
         self.findingCorpsLi = []
         self.recarwling = False
@@ -185,7 +182,7 @@ class simCorpFinder(QWidget):
                 except:
                     msg = QMessageBox()
                     msg.setIcon(QMessageBox.Information)
-                    msg.setText("Please select csv file")
+                    msg.setText("Please select valid csv file")
                     msg.setWindowTitle("Notice")
                     msg.exec_()
                     ## https://www.tutorialspoint.com/pyqt/pyqt_qmessagebox.htm

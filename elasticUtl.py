@@ -246,6 +246,10 @@ def writeStats_word(targetCorp, keyWords, outputDir, findingCorpsLi ,labeled):
                 "highlight":{
                     "fields":{"info":{}}
                 }}
+
+        ## must, should: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html
+        ## must not: https://www.elastic.co/guide/en/elasticsearch/guide/1.x/_combining_queries_with_filters.html
+        
         outputFilter = ['hits.hits._source.distinctName', 'hits.hits._source.url', 'hits.hits.highlight.info']
         if labeled:
             res = es.search(index='companyembedding_labeled_url', doc_type=targetCorp, body=data, filter_path=outputFilter, size=100)
