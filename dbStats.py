@@ -1,5 +1,8 @@
-from elasticsearch import Elasticsearch
-es = Elasticsearch()
+# from elasticsearch import Elasticsearch
+# es = Elasticsearch()
+from elasticUtl import esLogin
+es = esLogin()
+
 import os
 import pandas as pd
 import string
@@ -8,8 +11,9 @@ from pprint import pprint
 from collections import Counter
 
 import subprocess
+from crawlerUtl import getDistinctName
 
-if 'output.json' in os.listdir():
+if "output.json" in os.listdir():
     os.remove("output.json")
 
 ## Fill Queue with companyDict
@@ -39,10 +43,9 @@ for file in files:
         # companyDict['related'] = related
         companyDict['targetCompany'] = file.replace(".csv", "")
 
-        exclude = set(string.punctuation)
-        distinctName = ''.join(p for p in company if p not in exclude)
-        distinctName = distinctName.replace(" ", "_").lower()  ##Build self.distinctName
+        distinctName = getDistinctName(company)
         companyDict['distinctName'] = distinctName
+
 
         # data = {"query": {"match": {"distinctName": distinctName}}}
         data = {

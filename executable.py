@@ -1,7 +1,9 @@
 from googleCrawler import Main
 
-from elasticsearch import Elasticsearch
-es = Elasticsearch()
+from elasticUtl import esLogin
+# from elasticsearch import Elasticsearch
+# es = Elasticsearch()
+es = esLogin()
 
 # if es.indices.exists('companyembedding'):
 #     es.indices.delete(index='companyembedding')

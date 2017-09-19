@@ -109,9 +109,15 @@ def GoogleLinkParser(driver, query):
 
 
 import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-print('download nltk data success')
+import os
+
+if not "nltkDataDownloaded" in os.listdir():
+    nltk.download('stopwords')
+    nltk.download('wordnet')
+    print('download nltk data success')
+    file = open("downloaded", 'w')
+    file.write("downloaded")
+    file.close()
 
 import re
 from nltk import word_tokenize
