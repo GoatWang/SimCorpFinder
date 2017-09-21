@@ -35,17 +35,21 @@ class simCorpFinder(QWidget):
     def initUI(self):
         # Build Grid Layout
         grid = QGridLayout()
-        grid.setSpacing(20)
-
+        # grid.setSpacing(20)
+        
         ## preview
         preview = QLabel('')
         preview.setWordWrap(True)
         preview.setAlignment(Qt.AlignTop|Qt.AlignLeft)
-        grid.addWidget(preview, 0, 2, 5, 1)
+        grid.addWidget(preview, 0, 2, 7, 1)
         grid.setColumnMinimumWidth(2, 200)
 
         self.targetCorp = ""
         self.keywords = ""
+
+        self.keywords_emphasize = ""
+        self.keywords_filtered = ""
+        
         self.outputDir = "C:\\SimCorpFinderData\\outputs"
         self.findingCorps = ""
         self.findingCorpsLi = []
@@ -57,6 +61,8 @@ class simCorpFinder(QWidget):
             previewText = ""
             previewText += "Target Company: " + str(self.targetCorp) + "\n\n"
             previewText += "Keywords: " + str(self.keywords) + "\n\n"
+            previewText += "Keywords(Emphasize): " + str(self.keywords_emphasize) + "\n\n"
+            previewText += "Keywords(Filtered): " + str(self.keywords_filtered) + "\n\n"
             previewText += "Output Directory: " + self.outputDir + "\n\n"
             previewText += "Finding Companies: \n" + self.findingCorps + "\n\n"
             previewText += "Threads Number: " + str(self.threadNum) + "\n\n"
@@ -91,7 +97,7 @@ class simCorpFinder(QWidget):
         grid.addWidget(keywords, 1, 0)
 
         keywordsEdit = QLineEdit()
-        keywordsEdit.setPlaceholderText("drink juice beverage")
+        keywordsEdit.setPlaceholderText("drink tea")
         grid.addWidget(keywordsEdit, 1, 1)
 
         def textChanged_keywords():
@@ -101,9 +107,47 @@ class simCorpFinder(QWidget):
 
 
 
+        # keyword Label and Textbox
+        keywords_emphasize = QLabel('Keywords(Emphasize)')
+        grid.addWidget(keywords_emphasize, 2, 0)
+
+        keywords_emphasizeEdit = QLineEdit()
+        keywords_emphasizeEdit.setPlaceholderText("beverage")
+        grid.addWidget(keywords_emphasizeEdit, 2, 1)
+
+        def textChanged_keywords_emphasize():
+            self.keywords_emphasize = keywords_emphasizeEdit.text().replace("\n", "")
+            updatePreview()
+        keywords_emphasizeEdit.textChanged.connect(textChanged_keywords_emphasize)
+
+
+
+
+        # keyword Label and Textbox
+        keywords_filtered = QLabel('Keywords(Filtered)')
+        grid.addWidget(keywords_filtered, 3, 0)
+
+        keywords_filteredEdit = QLineEdit()
+        keywords_filteredEdit.setPlaceholderText("juice")
+        grid.addWidget(keywords_filteredEdit, 3, 1)
+
+        def textChanged_keywords_filtered():
+            self.keywords_filtered = keywords_filteredEdit.text().replace("\n", "")
+            updatePreview()
+        keywords_filteredEdit.textChanged.connect(textChanged_keywords_filtered)
+
+
+
+
+
+
+
+
+
+
         ## threads number slider
         thread = QLabel('Threads Number')
-        grid.addWidget(thread, 4, 0)
+        grid.addWidget(thread, 6, 0)
 
         threadSlider = QSlider(Qt.Horizontal)
         threadSlider.setMinimum(2)
@@ -111,7 +155,7 @@ class simCorpFinder(QWidget):
         threadSlider.setValue(4)
         threadSlider.setTickPosition(QSlider.TicksBelow)
         threadSlider.setTickInterval(1)
-        grid.addWidget(threadSlider, 4, 1)
+        grid.addWidget(threadSlider, 6, 1)
 
         def threadChange():
             self.threadNum = threadSlider.value()
@@ -129,17 +173,17 @@ class simCorpFinder(QWidget):
             self.recarwling = recarwlCheckbox.isChecked()
             updatePreview()
         recarwlCheckbox.stateChanged.connect(clickBox)
-        grid.addWidget(recarwlCheckbox, 5, 0)
+        grid.addWidget(recarwlCheckbox, 7, 0)
 
 
 
 
         ## output dir browser
         OutputDirPath = QLabel('Output Directory')
-        grid.addWidget(OutputDirPath, 2, 0)
+        grid.addWidget(OutputDirPath, 4, 0)
 
         btnOutputDirBrowser = QPushButton("File Browser")
-        grid.addWidget(btnOutputDirBrowser, 2, 1)
+        grid.addWidget(btnOutputDirBrowser, 4, 1)
 
         def selectOutputDir():
             dialog = QFileDialog()
@@ -155,11 +199,11 @@ class simCorpFinder(QWidget):
 
         # Input File browser Label and Button
         findingPath = QLabel('Finding Companies')
-        grid.addWidget(findingPath, 3, 0)
+        grid.addWidget(findingPath, 5, 0)
         
         
         btnFileBrowser = QPushButton("File Browser")
-        grid.addWidget(btnFileBrowser, 3, 1)
+        grid.addWidget(btnFileBrowser, 5, 1)
         
         def selectFile():
             filePath = QFileDialog.getOpenFileName(filter="*.csv")[0]
@@ -192,55 +236,65 @@ class simCorpFinder(QWidget):
 
         ## ranking Button
         btnRanking = QPushButton("Start Ranking")
-        grid.addWidget(btnRanking, 5, 2)
+        grid.addWidget(btnRanking, 7, 2)
         
         def startRanking():
-            if not es.indices.exists('companyembedding'):
-                es.indices.create('companyembedding')
-            if not es.indices.exists('companyembedding_url'):
-                es.indices.create('companyembedding_url')
-            if not es.indices.exists('companyembedding_labeled'):
-                es.indices.create('companyembedding_labeled')
-            if not es.indices.exists('companyembedding_labeled_url'):
-                es.indices.create('companyembedding_labeled_url')
-            if not es.indices.exists('user_log'):
-                es.indices.create('user_log')
+            if self.keywords != "" or self.targetCorp != "" or len(self.findingCorpsLi) != 0:
+                if not es.indices.exists('companyembedding'):
+                    es.indices.create('companyembedding')
+                if not es.indices.exists('companyembedding_url'):
+                    es.indices.create('companyembedding_url')
+                if not es.indices.exists('companyembedding_labeled'):
+                    es.indices.create('companyembedding_labeled')
+                if not es.indices.exists('companyembedding_labeled_url'):
+                    es.indices.create('companyembedding_labeled_url')
+                if not es.indices.exists('user_log'):
+                    es.indices.create('user_log')
 
-            msg = QMessageBox()
-            msg.setIcon(QMessageBox.Information)
-            msg.setText("Please wait!")
-            msg.setInformativeText("If this is the first time the program process these companies, the program will take about " + str(int(len(self.findingCorpsLi) * 3.5)) + "~" + str(int(len(self.findingCorpsLi) * 3.5 * 1.4)) +" seconds to process!")
-            msg.setWindowTitle("Notice")
-            msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-            reply = msg.exec_()
-            if reply == QMessageBox.Ok:
-                
-                data = {
-                    "ip":socket.gethostbyname(socket.gethostname()),
-                    "targetCorp":self.targetCorp,
-                    "findingCorps":str(self.findingCorpsLi) ,
-                    "searchTime":datetime.utcnow(),
-                    "keywords":self.keywords
-                }
-                es.create(index="user_log", doc_type="search", id=uuid.uuid4(), body=data)
-                Main().startThread(findingCorps=self.findingCorpsLi, targetComp=self.targetCorp, forceDelete=self.recarwling, threadNum=self.threadNum)
-                
-                # writeStats(self.targetCorp, self.keywords, self.outputDir, self.findingCorpsLi, False)
-                writeStats_word(self.targetCorp, self.keywords, self.outputDir, self.findingCorpsLi, False)
-                
                 msg = QMessageBox()
                 msg.setIcon(QMessageBox.Information)
-                msg.setText("The file was generated under: \n" + self.outputDir + "\n The program will be closed immediately.")
-                msg.setWindowTitle("Output Directory and Close Notice")
-                msg.exec_()
-                self.close()
-            
+                msg.setText("Please wait!")
+                msg.setInformativeText("If this is the first time the program process these companies, the program will take about " + str(int(len(self.findingCorpsLi) * 3.5)) + "~" + str(int(len(self.findingCorpsLi) * 3.5 * 1.4)) +" seconds to process!")
+                msg.setWindowTitle("Notice")
+                msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+                reply = msg.exec_()
+                if reply == QMessageBox.Ok:
+                    
+                    data = {
+                        "ip":socket.gethostbyname(socket.gethostname()),
+                        "targetCorp":self.targetCorp,
+                        "findingCorps":str(self.findingCorpsLi) ,
+                        "searchTime":datetime.utcnow(),
+                        "keywords":self.keywords,
+                        "keywords_emphasize":self.keywords_emphasize,
+                        "keywords_filtered":self.keywords_filtered
+                    }
+                    es.create(index="user_log", doc_type="search", id=uuid.uuid4(), body=data)
+                    Main().startThread(findingCorps=self.findingCorpsLi, targetComp=self.targetCorp, forceDelete=self.recarwling, threadNum=self.threadNum)
+                    
+                    # writeStats(self.targetCorp, self.keywords, self.outputDir, self.findingCorpsLi, False)
+                    writeStats_word(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi, False)
+                    
+                    msg = QMessageBox()
+                    msg.setIcon(QMessageBox.Information)
+                    msg.setText("The file was generated under: \n" + self.outputDir + "\n The program will be closed immediately.")
+                    msg.setWindowTitle("Output Directory and Close Notice")
+                    msg.exec_()
+                    self.close()
+            else:
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Information)
+                msg.setText("Please enter Taget Company or Keywords or Finding Companies!")
+                msg.setWindowTitle("Notice")
+                msg.setStandardButtons(QMessageBox.Ok)
+                reply = msg.exec_()
         btnRanking.clicked.connect(startRanking)
 
         self.setLayout(grid)
         self.setFont(QFont("Times", 9))
         self.setWindowTitle("SimCorpFinder")
         # self.setWindowIcon(QIcon("book.png"))
+        self.move(500,80)
         self.resize(self.sizeHint())
         self.show()
 

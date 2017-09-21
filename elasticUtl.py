@@ -5,15 +5,9 @@ from datetime import datetime
 
 
 from elasticsearch import Elasticsearch
-
+from pwd import esPwdLogin
 def esLogin():
-    es = Elasticsearch(
-        ['1106bb4be3a4d722dd7d157d9d7d8c06.us-east-1.aws.found.io'],
-        http_auth=('elastic', 'QoMDn4EACa7vEOoEzuG9lghz'),
-        port=9243,
-        use_ssl=True
-    )
-    return es
+    return esPwdLogin()
 
 es = esLogin()
 
@@ -119,12 +113,11 @@ import os
 from crawlerUtl import getDistinctName
 
 def writeStats(targetCorp, keyWords, outputDir, findingCorpsLi ,labeled):
-    queryString = keyWords
 
     data = {
         "query":{
             "match":{
-                "info":queryString
+                "info":keyWords
             }
         },
         "highlight":{
@@ -162,7 +155,7 @@ def writeStats(targetCorp, keyWords, outputDir, findingCorpsLi ,labeled):
                 "query" : {
                     "bool":{
                         "should":[
-                                {"match":{"info":queryString}}, 
+                                {"match":{"info":keyWords}}, 
                                 {"match":{"distinctName":distinctName}}
                         ]}},
                 "highlight":{
@@ -190,25 +183,28 @@ from docx.shared import RGBColor, Pt
 import re
 from docx.enum.text import WD_LINE_SPACING
 
-
-def writeStats_word(targetCorp, keyWords, outputDir, findingCorpsLi ,labeled):
-    queryString = keyWords
+def writeStats_word(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outputDir, findingCorpsLi ,labeled):
     count = es.count(index='companyembedding', doc_type=targetCorp)['count']
 
-    data = {
-        "size" : count,
-        "query":{
-            "match":{
-                "info":queryString
-            }
-        },
-        "highlight":{
-            "fields":{
-                "info":{}
-            }
-        }
-    }
-    
+    keyWordsData = {"match":{"info":keyWords}}
+    keywords_emphasizeData = {"match":{"info":{"query":keywords_emphasize,"boost":2}}}
+    keywords_filteredData = {"match":{"info":keywords_filtered}}
+
+    data = {}
+    data['size'] = count
+    data['query'] = {}
+    data['query']['bool'] = {}
+    data['query']['bool']['should'] = []
+    data['query']['bool']['should'].append(keyWordsData)
+
+    if keywords_emphasize != "":
+        data['query']['bool']['should'].append(keywords_emphasizeData)
+
+    if keywords_filtered != "":
+        data['query']['bool']['must_not'] = keywords_filteredData
+
+    data['highlight'] = {"fields":{"info":{}}}
+
     ## must, should: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html
     ## must not: https://www.elastic.co/guide/en/elasticsearch/guide/1.x/_combining_queries_with_filters.html
     
@@ -226,6 +222,8 @@ def writeStats_word(targetCorp, keyWords, outputDir, findingCorpsLi ,labeled):
     document.add_paragraph("Total Input: " + str(len(findingCorpsLi)) + " companies")
     document.add_paragraph("Related: " + str((len(compTuples))) + " companies")
     document.add_paragraph("Keywords: " + ", ".join(keyWords.split()))
+    document.add_paragraph("Keywords(Emphasize): " + ", ".join(keywords_emphasize.split()))
+    document.add_paragraph("Keywords(Filtered): " + ", ".join(keywords_filtered.split()))
     document.add_paragraph()
 
 
@@ -234,29 +232,52 @@ def writeStats_word(targetCorp, keyWords, outputDir, findingCorpsLi ,labeled):
         document.add_paragraph(str(num+1) + ". " + compTuple[1] + " (score: " + str(compTuple[2]) + ")")
     document.add_paragraph()
 
+
+
+
+
+
+
+    data = {
+            "query" : {
+                "bool":{
+                    "should":{
+                        "match":{"info":keyWords + " " + keywords_emphasize}
+                        },
+                    # "must":{
+                    #     "match":{"distinctName":distinctName}
+                    #     }
+                    }
+                },
+            "highlight":{
+                "fields":{"info":{}}
+            }}
+
+
+
+    outputFilter = ['hits.hits._source.distinctName', 'hits.hits._source.url', 'hits.hits.highlight.info']
+    if labeled:
+        res = es.search(index='companyembedding_labeled_url', doc_type=targetCorp, body=data, filter_path=outputFilter, size=1500)
+    else:
+        res = es.search(index='companyembedding_url', doc_type=targetCorp, body=data, filter_path=outputFilter, size=1500)
+    
+
+
+
+
+
+
+
+
+
+
     heading = document.add_heading("Detail", level=1)
     for num, compTuple in enumerate(compTuples):
         distinctName = compTuple[0]
         compName = compTuple[1]
         heading = document.add_heading(str(num+1) + ". " + compName + " (score: " + str(compTuple[2]) + ")", level=2)
         heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
-        data = {
-                "query" : {
-                    "bool":{
-                        "should":[
-                                {"match":{"info":queryString}}, 
-                                {"match":{"distinctName":distinctName}}
-                        ]}},
-                "highlight":{
-                    "fields":{"info":{}}
-                }}
 
-        outputFilter = ['hits.hits._source.distinctName', 'hits.hits._source.url', 'hits.hits.highlight.info']
-        if labeled:
-            res = es.search(index='companyembedding_labeled_url', doc_type=targetCorp, body=data, filter_path=outputFilter, size=100)
-        else:
-            res = es.search(index='companyembedding_url', doc_type=targetCorp, body=data, filter_path=outputFilter, size=100)
-        
         count = 0
         for comp in res['hits']['hits']:
             if comp['_source']['distinctName'] == distinctName and comp.get('highlight') != None:
