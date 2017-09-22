@@ -12,6 +12,8 @@ from datetime import datetime
 import uuid
 import sys
 
+import subprocess
+
 if not "SimCorpFinderData" in os.listdir("C:\\"):
     os.mkdir("C:\\SimCorpFinderData")
 if not "logs" in os.listdir("C:\\SimCorpFinderData"):
@@ -240,17 +242,6 @@ class simCorpFinder(QWidget):
         
         def startRanking():
             if self.keywords != "" or self.targetCorp != "" or len(self.findingCorpsLi) != 0:
-                if not es.indices.exists('companyembedding'):
-                    es.indices.create('companyembedding')
-                if not es.indices.exists('companyembedding_url'):
-                    es.indices.create('companyembedding_url')
-                if not es.indices.exists('companyembedding_labeled'):
-                    es.indices.create('companyembedding_labeled')
-                if not es.indices.exists('companyembedding_labeled_url'):
-                    es.indices.create('companyembedding_labeled_url')
-                if not es.indices.exists('user_log'):
-                    es.indices.create('user_log')
-
                 msg = QMessageBox()
                 msg.setIcon(QMessageBox.Information)
                 msg.setText("Please wait!")
@@ -258,6 +249,18 @@ class simCorpFinder(QWidget):
                 msg.setWindowTitle("Notice")
                 msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
                 reply = msg.exec_()
+
+                # if not es.indices.exists('companyembedding'):
+                #     es.indices.create('companyembedding')
+                # if not es.indices.exists('companyembedding_url'):
+                #     es.indices.create('companyembedding_url')
+                # if not es.indices.exists('companyembedding_labeled'):
+                #     es.indices.create('companyembedding_labeled')
+                # if not es.indices.exists('companyembedding_labeled_url'):
+                #     es.indices.create('companyembedding_labeled_url')
+                # if not es.indices.exists('user_log'):
+                #     es.indices.create('user_log')
+
                 if reply == QMessageBox.Ok:
                     
                     data = {
@@ -270,17 +273,22 @@ class simCorpFinder(QWidget):
                         "keywords_filtered":self.keywords_filtered
                     }
                     es.create(index="user_log", doc_type="search", id=uuid.uuid4(), body=data)
+                    print("Start crawling")
                     Main().startThread(findingCorps=self.findingCorpsLi, targetComp=self.targetCorp, forceDelete=self.recarwling, threadNum=self.threadNum)
                     
                     # writeStats(self.targetCorp, self.keywords, self.outputDir, self.findingCorpsLi, False)
+                    print("95% " + "Writing output file, please wait patiently")
                     writeStats_word(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi, False)
                     
+                    print("100% Finished!")
                     msg = QMessageBox()
                     msg.setIcon(QMessageBox.Information)
                     msg.setText("The file was generated under: \n" + self.outputDir + "\n The program will be closed immediately.")
                     msg.setWindowTitle("Output Directory and Close Notice")
                     msg.exec_()
                     self.close()
+
+                    subprocess.run(["explorer", self.outputDir])
             else:
                 msg = QMessageBox()
                 msg.setIcon(QMessageBox.Information)

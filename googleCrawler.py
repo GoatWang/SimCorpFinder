@@ -15,7 +15,7 @@ from selenium import webdriver
 import uuid
 from datetime import datetime
 import string
-from elasticUtl import datetimeReader, checkExist, checkDateoutAndDelete, esLogin, directlyDelete
+from elasticUtl import datetimeReader, checkExist, checkDateoutAndDelete, esLogin, directlyDelete, check_typeExist
 # from elasticsearch import Elasticsearch
 # es = Elasticsearch()
 es = esLogin()
@@ -151,19 +151,22 @@ class Main():
             if forceDelete:
                 directlyDelete('companyembedding', targetComp)
 
-            for company in findingCorps:
-                companyDict = {}
-                companyDict['name'] = company
-                companyDict['query'] = "{} product".format(company)
-                companyDict['related'] = None
-                companyDict['targetCompany'] = targetComp
-                companyDict['distinctName'] = getDistinctName(company)
+            if not check_typeExist('companyembedding', targetComp):
+                for company in findingCorps:
+                    companyDict = {}
+                    companyDict['name'] = company
+                    companyDict['query'] = "{} product".format(company)
+                    companyDict['related'] = None
+                    companyDict['targetCompany'] = targetComp
+                    companyDict['distinctName'] = getDistinctName(company)
 
-                ## if data doesn't exist, directly put it in queue
-                if not checkExist('companyembedding', companyDict['targetCompany'], companyDict['distinctName']):
-                    print(companyDict['name'], 'does not exist')
                     self.input_companies.put(companyDict)
-                    continue
+
+                    # ## if data doesn't exist, directly put it in queue
+                    # if not checkExist('companyembedding', companyDict['targetCompany'], companyDict['distinctName']):
+                    #     print(companyDict['name'], 'does not exist')
+                    #     self.input_companies.put(companyDict)
+                    #     continue
 
                 ## if the data has existed over 30 days, delete it and put it in queue
                 # if checkDateoutAndDelete('companyembedding', companyDict['targetCompany'], companyDict['distinctName']):
@@ -223,7 +226,7 @@ class Main():
             thread.join()
         endtime = time.time()
         
-        print("Crawling Time: " + "{0:.2f}".format(endtime - starttime) + " seconds")
+        print("90% Crawling Time: " + "{0:.2f}".format(endtime - starttime) + " seconds")
 
 
         ## log writing

@@ -44,12 +44,19 @@ def checkExist(index, targetCompany, distinctName):
     data = getExactDistinctNameData(distinctName)
     count = es.count(index=index, doc_type=targetCompany, body=data)['count']
 
-    if count >= 1:
+    if count > 0:
         return True
     else:
         return False
 
+def check_typeExist(index, targetCompany):
+    count = es.count(index=index, doc_type=targetCompany)['count']
 
+    if count > 0:
+        return True
+    else:
+        return False
+    
 
 def checkDateoutAndDelete(index, targetCompany, distinctName):
     data = getExactDistinctNameData(distinctName)
