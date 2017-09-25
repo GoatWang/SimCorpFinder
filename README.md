@@ -1,7 +1,8 @@
 # Product Information: 
 
-# berfore build this app, you should add a python file contain this
+# berfore build this app
 
+you should add a python file contain these code
 ```
 from elasticsearch import Elasticsearch
 
