@@ -81,18 +81,29 @@ print(len(res['hits']['hits']))
 
 
 ## delete user log
-# from elasticsearch import Elasticsearch
+from elasticsearch import Elasticsearch
 
-# def esLogin():
-#     es = Elasticsearch(
-#         ['1106bb4be3a4d722dd7d157d9d7d8c06.us-east-1.aws.found.io'],
-#         http_auth=('elastic', 'QoMDn4EACa7vEOoEzuG9lghz'),
-#         port=9243,
-#         use_ssl=True
-#     )
-#     return es
+def esLogin():
+    es = Elasticsearch(
+        ['1106bb4be3a4d722dd7d157d9d7d8c06.us-east-1.aws.found.io'],
+        http_auth=('elastic', 'QoMDn4EACa7vEOoEzuG9lghz'),
+        port=9243,
+        use_ssl=True
+    )
+    return es
 
-# es = esLogin()
+es = esLogin()
+
+import pandas as pd
+res = es.search("user_log", size=1000)['hits']['hits']
+
+logLi = []
+for log in res:
+    logLi.append(log['_source'])
+
+df = pd.DataFrame(logLi)
+df.T.to_json("D:\logs.json")
+
 
 
 

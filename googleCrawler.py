@@ -233,12 +233,14 @@ class Main():
         nowtime = datetime.now()
         filetime = str(nowtime).split()[0].replace("-","") + str(nowtime).split()[1].split(":")[0] + str(nowtime).split()[1].split(":")[1]
 
+        
         faillogs = QueueTransfering(self.fail_log)
-        with open("C:\\SimCorpFinderData\\logs\\" + filetime + "FailLink.json", 'w', encoding='utf8') as fp:
-            json.dump(faillogs, fp)
+        if faillogs != []:
+            with open("C:\\SimCorpFinderData\\logs\\" + filetime + "FailLink.json", 'w', encoding='utf8') as fp:
+                json.dump(faillogs, fp)
 
-        emptylogs = QueueTransfering(self.empty_log)
-        with open("C:\\SimCorpFinderData\\logs\\" + filetime + "Empty.json", 'w', encoding='utf8') as fp:
-            json.dump(emptylogs, fp)
+        # emptylogs = QueueTransfering(self.empty_log)
+        # with open("C:\\SimCorpFinderData\\logs\\" + filetime + "Empty.json", 'w', encoding='utf8') as fp:
+        #     json.dump(emptylogs, fp)
 
 

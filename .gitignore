@@ -17,7 +17,7 @@ build
 dist
 stats
 nltkDataDownloaded
-pwd.py
+selfPwd.py
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

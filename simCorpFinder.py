@@ -7,12 +7,21 @@ from PyQt5.QtGui import QFocusEvent, QIcon, QFont
 import numpy 
 import pandas as pd
 import os
-import socket
 from datetime import datetime
 import uuid
 import sys
 
+# user information
+import socket
+import getpass
 import subprocess
+import platform
+
+from pymongo import MongoClient
+import selfPwd
+conn = MongoClient(selfPwd.getMongoUrl())
+db = conn.simcorpfinder
+
 
 if not "SimCorpFinderData" in os.listdir("C:\\"):
     os.mkdir("C:\\SimCorpFinderData")
@@ -258,21 +267,23 @@ class simCorpFinder(QWidget):
                 #     es.indices.create('companyembedding_labeled')
                 # if not es.indices.exists('companyembedding_labeled_url'):
                 #     es.indices.create('companyembedding_labeled_url')
-                # if not es.indices.exists('user_log'):
-                #     es.indices.create('user_log')
 
                 if reply == QMessageBox.Ok:
                     
                     data = {
+                        "user":getpass.getuser(),
                         "ip":socket.gethostbyname(socket.gethostname()),
+                        "hostname":socket.gethostname(),
+                        "platform":platform.platform() + "_" + platform.architecture()[0],
                         "targetCorp":self.targetCorp,
-                        "findingCorps":str(self.findingCorpsLi) ,
+                        "findingCorps":self.findingCorpsLi,
                         "searchTime":datetime.utcnow(),
                         "keywords":self.keywords,
                         "keywords_emphasize":self.keywords_emphasize,
                         "keywords_filtered":self.keywords_filtered
                     }
-                    es.create(index="user_log", doc_type="search", id=uuid.uuid4(), body=data)
+                    collection = db['user_log']   
+                    collection.insert_one(data)
                     print("Start crawling")
                     Main().startThread(findingCorps=self.findingCorpsLi, targetComp=self.targetCorp, forceDelete=self.recarwling, threadNum=self.threadNum)
                     
