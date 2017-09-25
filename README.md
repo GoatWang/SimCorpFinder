@@ -21,7 +21,7 @@ def getMongoUrl():
     return url
 ```
 
-# build: shell script
+# build shell script
 * if you want to build entire project into a directory 
 ```
 python setup.py build
