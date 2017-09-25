@@ -1,0 +1,512 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Urban by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>SimCorpFinder</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+            .style1 p {
+                color: black;
+                font-size: 16px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+
+            .style1 ul {
+                color: black;
+                font-size: 16px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+
+            .style1 h3 {
+                margin-bottom: 10px;
+            }
+
+            .style2 p {
+                color: white;
+                font-size: 16px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+
+            .style2 ul {
+                color: white;
+                font-size: 16px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+            .style2 ol {
+                color: white;
+                font-size: 16px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+
+            .style2 h3 {
+                margin-bottom: 10px;
+            }
+
+            .style2 h4 {
+                font-size:20px;
+                margin-bottom: 3px;
+            }
+
+            .style2 table{
+                color:white;
+            }
+
+            #paramTable{
+                width:450px;
+            }
+
+            #paramTable td{
+                height:30px;
+                padding:5px
+            }
+            .outline {
+                text-decoration-line: underline;
+                font-size: 17px;
+                margin-left: 10px;
+                margin-right: 10px;
+                color:white
+            }
+            
+        </style>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">SimCorpFinder <span>TP Company Filter</span></a></div>
+				<a href="#menu">語言</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">中文</a></li>
+					<li><a href="index_eng.html">English</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>SimCorpFinder</h1>
+						<p>TP Company Filter <br />Put your intelligence on vital things </p>
+					</header>
+
+                    <!--<a href="#main" class="button big scrolly">Learn More</a>-->
+					<a href="#main" class="button big icon fa-download">Download</a>
+
+                    <br />
+                    <br />
+                    <a href="#Features" class="scrolly outline">Features</a>
+                    <a href="#QStart" class="scrolly outline">Quick Start</a>
+                    <a href="#OFile" class="scrolly outline">Output File</a>
+                    <a href="#Documentation" class="scrolly outline">Documentation</a>
+                    <a href="#footer" class="scrolly outline">Contact Us</a>
+				</div>
+			</section>
+
+		<!-- Main -->
+			<div id="main">
+
+                <!-- Section -->
+                <section class="wrapper style1" id="Features">
+                    <div class="inner">
+                        <!-- 2 Columns -->
+
+                        <div class="flex flex-2">
+                            <div class="col col1">
+                                <img src="images/suit_1.png" alt="" width="380" />
+                            </div>
+                            <div class="col col2">
+                                <h3>For Who</h3>
+                                <ul>
+                                    <li>TP report preparer</li>
+                                    <li>TP report examiner</li>
+                                </ul>
+                                <h3>Why use SimCorpFinder</h3>
+                                <ul>
+                                    <li>Save you <strong>1/3 time</strong> doing or examing TP report.</li>
+                                    <li>More <strong>precise and objective</strong> than human selection.</li>
+                                </ul>
+                                    <!--<p>It help you to find comparable companies conveninetly. Using this program, you don't need to waste your time doing reaserches on all companies' product. Instead, you can only set some parameter in this program, then you can get a list ordered by the degree of comparablility of target company's product.</p>-->
+                                <h3>Features: Intelligent, Efficient, Low-Risk</h3>
+                                <ul>
+                                    <li><strong>Intelligent</strong>: We use AI and mathetical methods to select comparable companies with similar products.</li>
+                                    <li><strong>Efficient</strong>: It only takes you only five minutes to complete what you have to done in half a day.</li>
+                                    <li><strong>Low-Risk</strong>: The final output file enable you to recheck the result conveniently, which can help you to control the risk.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+                <!-- Section -->
+                <section class="wrapper style2" id="QStart">
+                    <div class="inner"> 
+                       
+                        <h3>Quick Start</h3>
+                        <span class="image right">
+                            <img src="images/interface.JPG" alt="" />
+                        </span>
+                        <!--<div class="flex flex-2">-->
+                            <div class="col col1">
+                                <ol>
+                                    <li>Download <a href="#" style="color:gold">msi installer and testing data</a></li>
+                                    <li>Install "SimCorpFinder-0.1-amd64.msi"</li>
+                                    <li>Double click "SimCorp Finder" shortcut on the desktop</li>
+                                    <li>
+                                        Input valid parameters
+                                        <table id="paramTable">
+                                            <thead>
+                                                <tr><td>Parameter</td><td>Value</td></tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr><td>Target Company</td><td>Coca-Cola Global</td></tr>
+                                                <tr><td>Keywords</td><td>drink tea</td></tr>
+                                                <tr><td>KeyWords(Emphasize)</td><td>beverage</td></tr>
+                                                <tr><td>KeyWords(Filtered)</td><td>juice</td></tr>
+                                                <tr><td>Finding Companies</td><td>select "coca_cola.csv"</td></tr>
+                                                <tr><td>Threads Number</td><td>default is acceptable</td></tr>
+                                                <tr><td>Recrawling Data</td><td>check it</td></tr>
+                                                <tr><td colspan="2">## For more information, read the <a href="#Documentation" class="scrolly" style="color:gold">Documentation</a></td></tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>
+                                        Click "Start Ranking", and open output file.
+                                    </li>
+                                </ol>
+                            
+                            </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+				<!-- Section -->
+					<section class="wrapper style1" id="OFile">
+						<div class="inner">
+							<!-- 2 Columns -->
+                            <h3>Output Word File Format</h3>
+
+								<div class="flex flex-2">
+									<div class="col col2">
+                                        <div class="image fit">
+                                            <img src="images/output_stats.JPG" alt="" />
+                                        </div>
+									</div>
+									<div class="col col1">
+										<ul>
+                                            <li><h4>Simple Statistics</h4></li>
+                                            <p>This help you to recheck if the parameters are as your expect.</p>
+                                        </ul>
+									</div>
+								</div>
+
+
+                            <div class="flex flex-2">
+                                <div class="col col2">
+                                    <div class="image fit">
+                                        <img src="images/output_order.JPG" alt="" />
+                                    </div>
+                                    <!--<img src="images/cloud.jpg" alt="" />-->
+                                </div>
+                                <div class="col col1">
+                                    <ul>
+                                        <li><h4>The Ordered List</h4></li>
+                                        <p> The most relevant companies will be ranked higher in this list and its score will also be shown besides.</p>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                            <div class="flex flex-2">
+                                <div class="col col2">
+                                    <div class="image fit">
+                                        <img src="images/output_detail.JPG" alt="" />
+                                    </div>
+                                    <!--<img src="images/cloud.jpg" alt="" />-->
+                                </div>
+                                <div class="col col1">
+                                    <ul>
+                                        <li><h4>Detail</h4></li>
+                                        <p>This part shows the websites' urls and paragraphs in which the keywords you input exist, which enable you to recheck the result conveniently</p>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+						</div>
+					</section>
+
+				<!-- Section -->
+					<!--<section class="wrapper style1">
+						<div class="inner">
+							<header class="align-center">
+								<h2>Aliquam ipsum purus dolor</h2>
+								<p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
+							</header>
+							<div class="flex flex-3">
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic03.jpg" alt="" />
+									</div>
+									<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
+									<a href="#" class="button">Learn More</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic05.jpg" alt="" />
+									</div>
+									<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
+									<a href="#" class="button">Learn More</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic04.jpg" alt="" />
+									</div>
+									<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
+									<a href="#" class="button">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</section>-->
+
+
+
+                <!-- Section -->
+                <section class="wrapper style2" id="Documentation">
+                    <div class="inner">
+                        <h3>Documentation</h3>
+
+                        <div class="flex flex-2">
+                            <ul>
+                                <li><h4>System Required</h4></li>
+                                <p>It is tested that this program works on computer with 64-bit windows 10 operating system.</p>
+                            </ul>
+                        </div>
+
+                        <div class="flex flex-2">
+                            <ul>
+                                <li><h4>Installation</h4></li>
+                                <p>It is convenient for you to install the application by msi installer. Using msi installer, the SimCorpFinder.exe will be installed under "C:\Program File\SimCorpFinder", and the shortcut will be built on the desktop automatically. Besides, once you open and run the application the SimCorpFinderData directory will be built under "C:\", which will store the outputfile and program log.</p>
+                            </ul>
+                        </div>
+
+                        <div class="flex flex-2">
+                            <ul>
+                                <li><h4>Input Parameters</h4></li>
+                                <!--<ol>
+                                    <li>Target Company</li>
+                                    <p>The company you want to prepare TP report for. Chinese is acceptable.</p>
+                                    <li>Keywords</li>
+                                    <p>The company with such words you want to find out. You can only use space to seperate words.</p>
+                                    <li>Keywords(Emphasize)</li>
+                                    <p>The same concept with previous prarmeter, but with double weight when retrieving.</p>
+                                    <li>Keywords(Filtered)</li>
+                                    <p>The company with such words will be filtered out.</p>
+                                    <li>Output Directory</li>
+                                    <p>The directory you want to store the output file. It is recommended to use default value (C:\SimCorpFinderData\outputs)</p>
+                                    <li>Finding Companies</li>
+                                    <p>The companies filtered from onesource in which you want to find the comparable companies. You should select a valid csv file. (refer to <a href="#" style="color:gold">sample input</a>)</p>
+                                    <li>Threads Number</li>
+                                    <p>It refers to the speed of crawling. It is recommended to adjust it the same number with the number of the core of the cpu on your computer</p>
+                                    <li>Recralwing Data</li>
+                                    <p>The program will remember what you have search in a day, which will enable you to reset keywords to retrieve data again without recrawling data. However, if you have trouble crawling data, you may want to recraw data. Then you can select this option</p>
+                                    <li>Start Ranking: Messagebox</li>
+                                    <p>The messagebox will calculate the approximate crawling time for you, you can take it into consider and click OK. After the process done, the output directory window will automatically show up, in which you can find the output file.</p>
+                                </ol>-->
+                            </ul>
+                            <table>
+                                <thead>
+                                    <tr><td>Parameter</td><td>Explaination</td></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Target Company</td>
+                                        <td>
+                                            <ul>
+                                                <li>The company you want to prepare TP report for.</li>
+                                                <li>Chinese is acceptable.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Keywords</td>
+                                        <td>
+                                            <ul>
+                                                <li>The keywords shouuld be highly related to the target company's product.</li>
+                                                <li>You can only use space to seperate words.</li>
+                                                <li>English Only.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>KeyWords(Emphasize)</td>
+                                        <td>
+                                            <ul>
+                                                <li>The same concept with previous prarmeter, but with double weight when retrieving.</li>
+                                                <li>English Only.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>KeyWords(Filtered)</td>
+                                        <td>
+                                            <ul>
+                                                <li>The company with such words will be filtered out.</li>
+                                                <li>Please be very careful to use this function. Because the information crawled from search engine can be quite noisy, if you use this function arbitrarily, you may lost something important.</li>
+                                                <li>English Only.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Output Directory</td>
+                                        <td>
+                                            <ul>
+                                                <li>The directory you want to store the output file.</li>
+                                                <li>It is recommended to use default value (C:\SimCorpFinderData\outputs).</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Finding Companies</td>
+                                        <td>
+                                            <ul>
+                                                <li>The companies selected from <a href="https://tax.thomsonreuters.com/products/brands/onesource/" style="color:gold">OneSource</a>.</li>
+                                                <li>It is important for you to notice the format of this input file. A valid csv file is necessary. To make it, you can open an empty excel file, full the first column with a company name list, and save as a csv file.</li>
+                                            </ul>
+                                            <img src="images/outputfile_excel.JPG" alt="" width="500"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Threads Number</td>
+                                        <td>
+                                            <ul>
+                                                <li>It refers to the speed of crawling. It is recommended to adjust it to the same number with the number of the core of the cpu on your computer.</li>
+                                                <li>You can also try to tune it higher step by step to see if it is affordable for your computer to burden. If there is not any error message and the program run successfully, that means it's OK.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Recrawling Data</td>
+                                        <td>
+                                            <ul>
+                                                <li>The database will remember what you have searched in a day, which will enable you to reset keywords to retrieve data again without recrawling data.</li>
+                                                <li>However, if you have trouble crawling data, you may want to recrawl data. Then you can select this option</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <!--<tr>
+                                        <td>Start Ranking: Messagebox</td>
+                                        <td>
+                                            <ul>
+                                                <li>The messagebox will calculate the approximate crawling time for you, you can take it into consider and click OK.</li>
+                                                <li>After the process done, the output directory will automatically show up, in which you can find the output file.</li>
+                                            </ul>
+                                          </td>
+                                    </tr>-->
+                                </tbody>
+                            </table>
+
+
+                            <div class="flex flex-2">
+                                <ul>
+                                    <li><h4>Start Ranking Messagebox</h4></li>
+                                    <p>The messagebox will calculate the approximate crawling time for you, please <strong>be patient</strong> to wait until the procees finish. After the process done, the output directory will automatically show up, in which you can find the output file.</p>
+                                </ul>
+                            </div>
+
+
+                            <div class="flex flex-2">
+                                <ul>
+                                    <li><h4>Update</h4></li>
+                                    <p>When there are some updates available, there will be a messagebox showing up to notice you. And it is recommended for you to remove the app and reinstall the new edition. You can refer to the Uninstall part below, but you don't have to remove "SimCorpFinderData" directory under "C:\" when updating.</p>
+                                </ul>
+                            </div>
+
+
+                            <div class="flex flex-2">
+                                <ul>
+                                    <li><h4>Uninstall</h4></li>
+                                    <p>You can remove this app from "System > Apps & features". If you want complete remove all data create from this app, you can also remove "SimCorpFinderData" directory under "C:\"。</p>
+                                </ul>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </section>
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					<ul class="icons">
+                        <li><a href="https://github.com/GoatWang/SimCorpFinder" class="icon fa-github"><span class="label">Github</span></a></li>
+						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>-->
+					</ul>
+                    <p>
+                        Please feel very free to contact us.
+                        <br />
+                        jeremy4555@yahoo.com.tw
+                    </p>
+					<p>&copy; SimCorpFinder. All rights reserved. Design: <a href="https://www.linkedin.com/in/wanghsuanchung/">Goat Wang</a>. </p>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
