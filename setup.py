@@ -1,7 +1,8 @@
 from cx_Freeze import setup, Executable
+from versionControl import versionControl
 
 setup(name = "SimCorpFinder" ,
-      version = "0.1" ,
+      version = versionControl.version,
       description = "" ,
       executables = [Executable(
             "simCorpFinder.py",

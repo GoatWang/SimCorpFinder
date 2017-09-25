@@ -22,6 +22,8 @@ import selfPwd
 conn = MongoClient(selfPwd.getMongoUrl())
 db = conn.simcorpfinder
 
+from versionControl import versionControl
+
 
 if not "SimCorpFinderData" in os.listdir("C:\\"):
     os.mkdir("C:\\SimCorpFinderData")
@@ -250,7 +252,7 @@ class simCorpFinder(QWidget):
         grid.addWidget(btnRanking, 7, 2)
         
         def startRanking():
-            if self.keywords != "" or self.targetCorp != "" or len(self.findingCorpsLi) != 0:
+            if self.keywords != "" and self.targetCorp != "" and len(self.findingCorpsLi) != 0:
                 msg = QMessageBox()
                 msg.setIcon(QMessageBox.Information)
                 msg.setText("Please wait!")
@@ -311,11 +313,23 @@ class simCorpFinder(QWidget):
 
         self.setLayout(grid)
         self.setFont(QFont("Times", 9))
-        self.setWindowTitle("SimCorpFinder")
+        self.setWindowTitle("SimCorpFinder" + "(v" + versionControl.version + ")")
         # self.setWindowIcon(QIcon("book.png"))
         self.move(500,80)
         self.resize(self.sizeHint())
         self.show()
+
+        collection = db['version']
+        res = collection.find()
+        versionInfo = sorted(res, key=lambda x:x['time'], reverse=True)[0]
+        if versionControl.version != versionInfo['version']: 
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Information)
+                msg.setText("The new version is available, you can go to the official website to download" )
+                msg.setInformativeText("update information: \n" + versionInfo['updateInfo'])
+                msg.setWindowTitle("New version available")
+                msg.setStandardButtons(QMessageBox.Ok)
+                reply = msg.exec_()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
