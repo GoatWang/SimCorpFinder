@@ -327,7 +327,7 @@ class simCorpFinder(QWidget):
                 msg.setIcon(QMessageBox.Information)
                 msg.setText("The new version is available, you can go to the official website to download" )
                 msg.setInformativeText("update information: \n" + versionInfo['updateInfo'])
-                msg.setWindowTitle("New version available")
+                msg.setWindowTitle("New Version Available")
                 msg.setStandardButtons(QMessageBox.Ok)
                 reply = msg.exec_()
 
