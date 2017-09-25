@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 import selfPwd
 from datetime import datetime
+import subprocess
 
 class versionControl(): 
     version = "1.0"
@@ -20,3 +21,4 @@ class versionControl():
 if __name__ == "__main__":
     v = versionControl()
     v.updateversion()
+    subprocess.run(["D:\\Projects\\venvs\\simcorpfinder\\Scripts\\python", "setup.py", "bdist_msi"])
