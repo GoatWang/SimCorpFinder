@@ -246,7 +246,6 @@ class simCorpFinder(QWidget):
         btnFileBrowser.clicked.connect(selectFile)
 
 
-
         ## ranking Button
         btnRanking = QPushButton("Start Ranking")
         grid.addWidget(btnRanking, 7, 2)
@@ -256,7 +255,7 @@ class simCorpFinder(QWidget):
                 msg = QMessageBox()
                 msg.setIcon(QMessageBox.Information)
                 msg.setText("Please wait!")
-                msg.setInformativeText("If this is the first time the program process these companies, the program will take about " + str(int(len(self.findingCorpsLi) * 3.5)) + "~" + str(int(len(self.findingCorpsLi) * 3.5 * 1.4)) +" seconds to process!")
+                msg.setInformativeText("(first time only)It takes about " + str(int(len(self.findingCorpsLi) * 3.5)) + "~" + str(int(len(self.findingCorpsLi) * 3.5 * 1.4)) +" seconds to process!")
                 msg.setWindowTitle("Notice")
                 msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
                 reply = msg.exec_()

@@ -226,6 +226,19 @@ def writeStats_word(targetCorp, keyWords, keywords_emphasize, keywords_filtered,
 
     document = Document()
     document.add_heading(targetCorp, 0)
+    par = document.add_paragraph()
+    par.add_run("Made By SimCorpFinder (")
+    addHyperlink(par, "https://goatwang.github.io/SimCorpFinder/index.html", "20")
+    par.add_run("), contact us(linkedin: ")
+    addHyperlink(par, "https://www.linkedin.com/in/wanghsuanchung/", "20")
+    par.add_run(", Email: jeremy4555@yahoo.com.tw)")
+    document.add_paragraph()
+
+    for run in par.runs:    
+        run.font.size = Pt(10)
+
+
+    document.add_heading("Simple Statistics", level=1)
     document.add_paragraph("Total Input: " + str(len(findingCorpsLi)) + " companies")
     document.add_paragraph("Related: " + str((len(compTuples))) + " companies")
     document.add_paragraph("Keywords: " + ", ".join(keyWords.split()))
@@ -320,7 +333,7 @@ def writeStats_word(targetCorp, keyWords, keywords_emphasize, keywords_filtered,
 
 
 
-def addHyperlink(paragraph, url):
+def addHyperlink(paragraph, url, font_size="22"):
     # This gets access to the document.xml.rels file and gets a new relation id value
     part = paragraph.part
     r_id = part.relate_to(url, docx.opc.constants.RELATIONSHIP_TYPE.HYPERLINK, is_external=True)
@@ -341,6 +354,9 @@ def addHyperlink(paragraph, url):
     underline = docx.oxml.shared.OxmlElement("w:u")
     underline.set(docx.oxml.shared.qn('w:val'), "single", )
 
+    underline = docx.oxml.shared.OxmlElement("w:sz")
+    underline.set(docx.oxml.shared.qn('w:val'), font_size, )
+
     # Join all the xml elements together add add the required text to the w:r element
     rPr.append(fontcolor)
     rPr.append(underline)
@@ -353,6 +369,7 @@ def addHyperlink(paragraph, url):
     #         <w:rPr>
     #             <w:color w:val="0000FF"/>
     #             <w:u w:val="single"/>
+    #             <w:sz w:val="28"/>
     #         </w:rPr>
     #     </w:r>
     # </w:hyperlink>
