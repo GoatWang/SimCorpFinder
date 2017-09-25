@@ -1,4 +1,5 @@
-# Product Information: 
+# Product Information:
+Please go to our [website]()
 
 # berfore build this app
 
@@ -20,7 +21,7 @@ def getMongoUrl():
     return url
 ```
 
-# build: sheel script
+# build: shell script
 * if you want to build entire project into a directory 
 ```
 python setup.py build
