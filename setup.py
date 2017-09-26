@@ -5,7 +5,7 @@ setup(name = "SimCorpFinder" ,
       version = versionControl.version,
       description = "" ,
       executables = [Executable(
-            "simCorpFinder.py",
+            "SimCorpFinder.py",
             shortcutName="SimCorp Finder",
             shortcutDir="DesktopFolder"
       )],

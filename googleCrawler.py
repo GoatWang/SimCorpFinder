@@ -150,8 +150,10 @@ class Main():
         if findingCorps != None: ## user input
             if forceDelete:
                 directlyDelete('companyembedding', targetComp)
+                import time
+                time.sleep(5)
 
-            if not check_typeExist('companyembedding', targetComp):
+            if not check_typeExist('companyembedding'+"_url", targetComp):
                 for company in findingCorps:
                     companyDict = {}
                     companyDict['name'] = company
