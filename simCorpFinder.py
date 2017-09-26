@@ -308,6 +308,7 @@ class simCorpFinder(QWidget):
                 msg.setWindowTitle("Notice")
                 msg.setStandardButtons(QMessageBox.Ok)
                 reply = msg.exec_()
+
         btnRanking.clicked.connect(startRanking)
 
         self.setLayout(grid)
@@ -321,14 +322,17 @@ class simCorpFinder(QWidget):
         collection = db['version']
         res = collection.find()
         versionInfo = sorted(res, key=lambda x:x['time'], reverse=True)[0]
+
+        
         if versionControl.version != versionInfo['version']: 
-                msg = QMessageBox()
-                msg.setIcon(QMessageBox.Information)
-                msg.setText("The new version is available, you can go to the official website to download" )
-                msg.setInformativeText("update information: \n" + versionInfo['updateInfo'])
-                msg.setWindowTitle("New Version Available")
-                msg.setStandardButtons(QMessageBox.Ok)
-                reply = msg.exec_()
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Information)
+            msg.setText("The new version is available, you can go to the official website to download" )
+            msg.setInformativeText("update information: \n" + versionInfo['updateInfo'])
+            msg.setWindowTitle("New Version Available")
+            msg.setStandardButtons(QMessageBox.Ok)
+            reply = msg.exec_()
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

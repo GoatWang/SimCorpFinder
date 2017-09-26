@@ -112,6 +112,7 @@ class googleCrawler:
             
             ## start running loop
             self.loop.run_until_complete(self.main(self.loop))
+            # self.driver.close()
 
             ## After loop: write log
             self.fail_log.put((self.targetCompany, self.findingCompany, self.failLinks))

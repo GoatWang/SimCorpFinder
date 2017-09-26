@@ -17,7 +17,7 @@ def cross_selenium(chrome=False):
 		if chrome:
 			driver = webdriver.Chrome(executable_path = getCurrentDir() + '\\chromedriver.exe')
 		else:
-			driver = webdriver.PhantomJS(executable_path = getCurrentDir() + '\\phantomjs.exe')
+			driver = webdriver.PhantomJS(executable_path = getCurrentDir() + '\\phantomjs.exe', service_log_path='C:\SimCorpFinderData\ghostdriver.log')
 	else:
 		if chrome:
 			driver = webdriver.Chrome(executable_path = getCurrentDir() + '\\chromedriver')

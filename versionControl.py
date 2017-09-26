@@ -4,7 +4,7 @@ from datetime import datetime
 import subprocess
 
 class versionControl(): 
-    version = "1.0"
+    version = "1.1"
 
     def updateversion(self):
         conn = MongoClient(selfPwd.getMongoUrl())
@@ -13,7 +13,7 @@ class versionControl():
         collection = db['version']
         data = {
             "version":self.version,
-            "updateInfo":"first version",
+            "updateInfo":"save gostdriver.log to C:\SimCorpFinder",
             "time":datetime.utcnow()
         }
         collection.insert_one(data)
@@ -21,4 +21,4 @@ class versionControl():
 if __name__ == "__main__":
     v = versionControl()
     v.updateversion()
-    subprocess.run(["D:\\Projects\\venvs\\simcorpfinder\\Scripts\\python", "setup.py", "bdist_msi"])
+    # subprocess.run(["D:\\Projects\\venvs\\simcorpfinder\\Scripts\\python", "setup.py", "bdist_msi"])
