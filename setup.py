@@ -7,7 +7,8 @@ setup(name = "SimCorpFinder" ,
       executables = [Executable(
             "SimCorpFinder.py",
             shortcutName="SimCorp Finder",
-            shortcutDir="DesktopFolder"
+            shortcutDir="DesktopFolder",
+            icon="docs\\favicon-32x32.png"
       )],
       options = {
             'build_exe' : {
