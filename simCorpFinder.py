@@ -33,7 +33,7 @@ if not "outputs" in os.listdir("C:\\SimCorpFinderData"):
     os.mkdir("C:\\SimCorpFinderData\\outputs")
 
 from googleCrawler import Main
-from crawlerUtl import getDistinctName
+from crawlerUtl import getDistinctName, getCurrentDir
 from elasticUtl import writeStats, esLogin, checkDateoutAndDelete, writeStats_word
 # from elasticsearch import Elasticsearch
 # es = Elasticsearch()
@@ -313,7 +313,7 @@ class simCorpFinder(QWidget):
         self.setLayout(grid)
         self.setFont(QFont("Times", 9))
         self.setWindowTitle("SimCorpFinder" + "(v" + versionControl.version + ")")
-        # self.setWindowIcon(QIcon("book.png"))
+        self.setWindowIcon(QIcon( getCurrentDir() + "\\favicon.ico"))
         self.move(500,80)
         self.resize(self.sizeHint())
         self.show()

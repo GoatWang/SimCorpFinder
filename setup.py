@@ -11,12 +11,12 @@ setup(name = "SimCorpFinder" ,
             "SimCorpFinder.py",
             shortcutName="SimCorp Finder",
             shortcutDir="DesktopFolder",
-            icon="docs\\favicon.ico"
+            icon="favicon.ico"
       )],
       options = {
             'build_exe' : {
                   'packages':['asyncio', 'numpy', 'lxml'],
-                  'include_files':['phantomjs','phantomjs.exe','statesFilter']
+                  'include_files':['phantomjs','phantomjs.exe','statesFilter','favicon.ico']
                   },
             # "bdist_msi": {
             #       'packages':['asyncio', 'numpy', 'lxml'],
