@@ -1,14 +1,17 @@
 from cx_Freeze import setup, Executable
 from versionControl import versionControl
+import os
 
 setup(name = "SimCorpFinder" ,
       version = versionControl.version,
-      description = "" ,
+      description = "https://goatwang.github.io/SimCorpFinder/index.html" ,
+      author = 'GoatWang',
+      author_email = 'jeremy4555@yahoo.com.tw',
       executables = [Executable(
             "SimCorpFinder.py",
             shortcutName="SimCorp Finder",
             shortcutDir="DesktopFolder",
-            icon="docs\\favicon-32x32.png"
+            icon="docs\\favicon.ico"
       )],
       options = {
             'build_exe' : {
