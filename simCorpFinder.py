@@ -24,7 +24,6 @@ db = conn.simcorpfinder
 
 from versionControl import versionControl
 
-
 if not "SimCorpFinderData" in os.listdir("C:\\"):
     os.mkdir("C:\\SimCorpFinderData")
 if not "logs" in os.listdir("C:\\SimCorpFinderData"):
@@ -34,13 +33,8 @@ if not "outputs" in os.listdir("C:\\SimCorpFinderData"):
 if not "companyInfo" in os.listdir("C:\\SimCorpFinderData"):
     os.mkdir("C:\\SimCorpFinderData\\companyInfo")
     
-
 from googleCrawler import Main
 from crawlerUtl import getDistinctName, getCurrentDir
-# from elasticUtl import writeStats, esLogin, checkDateoutAndDelete, writeStats_word
-# from elasticsearch import Elasticsearch
-# es = Elasticsearch()
-# es. = esLogin()
 
 # from PyQt5.QtGui import QLine
 class simCorpFinder(QWidget):
