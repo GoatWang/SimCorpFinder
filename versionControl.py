@@ -4,7 +4,7 @@ from datetime import datetime
 import subprocess
 
 class versionControl(): 
-    version = "1.1"
+    version = "2.0"
 
     def updateversion(self):
         conn = MongoClient(selfPwd.getMongoUrl())

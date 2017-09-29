@@ -31,13 +31,16 @@ if not "logs" in os.listdir("C:\\SimCorpFinderData"):
     os.mkdir("C:\\SimCorpFinderData\\logs")
 if not "outputs" in os.listdir("C:\\SimCorpFinderData"):
     os.mkdir("C:\\SimCorpFinderData\\outputs")
+if not "companyInfo" in os.listdir("C:\\SimCorpFinderData"):
+    os.mkdir("C:\\SimCorpFinderData\\companyInfo")
+    
 
 from googleCrawler import Main
 from crawlerUtl import getDistinctName, getCurrentDir
-from elasticUtl import writeStats, esLogin, checkDateoutAndDelete, writeStats_word
+# from elasticUtl import writeStats, esLogin, checkDateoutAndDelete, writeStats_word
 # from elasticsearch import Elasticsearch
 # es = Elasticsearch()
-es = esLogin()
+# es. = esLogin()
 
 # from PyQt5.QtGui import QLine
 class simCorpFinder(QWidget):
@@ -260,15 +263,6 @@ class simCorpFinder(QWidget):
                 msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
                 reply = msg.exec_()
 
-                # if not es.indices.exists('companyembedding'):
-                #     es.indices.create('companyembedding')
-                # if not es.indices.exists('companyembedding_url'):
-                #     es.indices.create('companyembedding_url')
-                # if not es.indices.exists('companyembedding_labeled'):
-                #     es.indices.create('companyembedding_labeled')
-                # if not es.indices.exists('companyembedding_labeled_url'):
-                #     es.indices.create('companyembedding_labeled_url')
-
                 if reply == QMessageBox.Ok:
                     
                     data = {
@@ -276,6 +270,7 @@ class simCorpFinder(QWidget):
                         "ip":socket.gethostbyname(socket.gethostname()),
                         "hostname":socket.gethostname(),
                         "platform":platform.platform() + "_" + platform.architecture()[0],
+                        "version":versionControl.version,
                         "targetCorp":self.targetCorp,
                         "findingCorps":self.findingCorpsLi,
                         "searchTime":datetime.utcnow(),
@@ -285,12 +280,12 @@ class simCorpFinder(QWidget):
                     }
                     collection = db['user_log']   
                     collection.insert_one(data)
+
                     print("Start crawling")
                     Main().startThread(findingCorps=self.findingCorpsLi, targetComp=self.targetCorp, forceDelete=self.recarwling, threadNum=self.threadNum)
                     
-                    # writeStats(self.targetCorp, self.keywords, self.outputDir, self.findingCorpsLi, False)
                     print("95% " + "Writing output file, please wait patiently")
-                    writeStats_word(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi, False)
+                    # writeStats_word(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi, False)
                     
                     print("100% Finished!")
                     msg = QMessageBox()
@@ -307,7 +302,7 @@ class simCorpFinder(QWidget):
                 msg.setText("Please enter Taget Company or Keywords or Finding Companies!")
                 msg.setWindowTitle("Notice")
                 msg.setStandardButtons(QMessageBox.Ok)
-                reply = msg.exec_()
+                msg.exec_()
 
         btnRanking.clicked.connect(startRanking)
 
@@ -324,14 +319,14 @@ class simCorpFinder(QWidget):
         versionInfo = sorted(res, key=lambda x:x['time'], reverse=True)[0]
 
         
-        if versionControl.version != versionInfo['version']: 
+        if versionControl.version < versionInfo['version']: 
             msg = QMessageBox()
             msg.setIcon(QMessageBox.Information)
             msg.setText("The new version is available, you can go to the official website to download" )
             msg.setInformativeText("update information: \n" + versionInfo['updateInfo'])
             msg.setWindowTitle("New Version Available")
             msg.setStandardButtons(QMessageBox.Ok)
-            reply = msg.exec_()
+            msg.exec_()
 
 
 if __name__ == "__main__":
