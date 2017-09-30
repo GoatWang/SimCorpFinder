@@ -44,11 +44,11 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
     keyTfidf = []
     for word in allKeywords:
         if word in keywords_emphasizeLi:
-            keyTfidf.append(2/4 * idfDict[word])
+            keyTfidf.append(2 * idfDict[word])
         elif word in keywords_filteredLi:
-            keyTfidf.append(-10/4 * idfDict[word])
+            keyTfidf.append(-10 * idfDict[word])
         else:
-            keyTfidf.append(1/4 * idfDict[word])
+            keyTfidf.append(1 * idfDict[word])
 
     ##　TF
     companyScoreDict = {}
