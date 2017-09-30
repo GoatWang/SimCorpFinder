@@ -13,7 +13,7 @@ class versionControl():
         collection = db['version']
         data = {
             "version":self.version,
-            "updateInfo":"save gostdriver.log to C:\SimCorpFinder",
+            "updateInfo":"We update the algorithm and database. Sorry, you must update to this version to continue to use this product.",
             "time":datetime.utcnow()
         }
         collection.insert_one(data)
