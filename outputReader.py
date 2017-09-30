@@ -46,7 +46,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         if word in keywords_emphasizeLi:
             keyTfidf.append(2/4 * idfDict[word])
         elif word in keywords_filteredLi:
-            keyTfidf.append(-2/4 * idfDict[word])
+            keyTfidf.append(-10/4 * idfDict[word])
         else:
             keyTfidf.append(1/4 * idfDict[word])
 
