@@ -23,7 +23,6 @@ conn = MongoClient(selfPwd.getMongoUrl())
 db = conn.simcorpfinder
 
 from versionControl import versionControl
-from outputReader import writeStats
 
 if not "SimCorpFinderData" in os.listdir("C:\\"):
     os.mkdir("C:\\SimCorpFinderData")
@@ -36,6 +35,7 @@ if not "companyInfo" in os.listdir("C:\\SimCorpFinderData"):
     
 from googleCrawler import Main
 from crawlerUtl import getDistinctName, getCurrentDir
+from outputReader import writeStats
 
 # from PyQt5.QtGui import QLine
 class simCorpFinder(QWidget):
