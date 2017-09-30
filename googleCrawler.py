@@ -140,6 +140,8 @@ class Main():
         
         if (targetComp in os.listdir(headDir)) and forceDelete:
             shutil.rmtree(targetDir)
+            import time 
+            time.sleep(1)
 
         if not targetComp in os.listdir(headDir):
             os.mkdir(targetDir)

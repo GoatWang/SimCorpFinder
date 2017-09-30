@@ -53,11 +53,13 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
     ##　TF
     companyScoreDict = {}
     
-    ##
-    companyInfoLi = []
+        
+    ## debug
+    # companyInfoLi = []
     for info in companyInfoDict:
-        ##
-        companyInfoDict = []
+        ## debug
+        # companyInfoDict = []
+
         companyInfo = info['info']
         companyScore = 0
         companyInfoLen = sum([times for term, times in companyInfo.items()])
@@ -76,16 +78,16 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
 
         companyScoreDict[info['name']] = score
 
-        ##
-        companyInfoDict.append(info['name'])
-        companyInfoDict.append(allKeywords)
-        companyInfoDict.append(tfCount)
-        companyInfoDict.append(str(keyTfidf))
-        companyInfoDict.append(companyInfoLen)
-        companyInfoDict.append(score)
-        companyInfoLi.append(companyInfoDict) 
-    from pprint import pprint
-    pprint(sorted(companyInfoLi, key=lambda x: x[5], reverse=True))
+        ## debug
+        # companyInfoDict.append(info['name'])
+        # companyInfoDict.append(allKeywords)
+        # companyInfoDict.append(tfCount)
+        # companyInfoDict.append(str(keyTfidf))
+        # companyInfoDict.append(companyInfoLen)
+        # companyInfoDict.append(score)
+        # companyInfoLi.append(companyInfoDict) 
+    # from pprint import pprint
+    # pprint(sorted(companyInfoLi, key=lambda x: x[5], reverse=True))
 
     scoreTupleList = sorted(companyScoreDict.items(), key=lambda x: x[1], reverse=True)
     scoreTupleList = [(comp, score) for (comp, score) in scoreTupleList if score != 0.00]
