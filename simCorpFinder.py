@@ -23,6 +23,7 @@ conn = MongoClient(selfPwd.getMongoUrl())
 db = conn.simcorpfinder
 
 from versionControl import versionControl
+from outputReader import writeStats
 
 if not "SimCorpFinderData" in os.listdir("C:\\"):
     os.mkdir("C:\\SimCorpFinderData")
@@ -280,6 +281,7 @@ class simCorpFinder(QWidget):
                     
                     print("95% " + "Writing output file, please wait patiently")
                     # writeStats_word(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi, False)
+                    writeStats(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi)
                     
                     print("100% Finished!")
                     msg = QMessageBox()

@@ -173,22 +173,24 @@ class Main():
         ## log writing
         nowtime = datetime.now()
         filetime = str(nowtime).split()[0].replace("-","") + str(nowtime).split()[1].split(":")[0] + str(nowtime).split()[1].split(":")[1]
-        
+
         faillogs = QueueTransfering(self.fail_log)
         if faillogs != []:
             with open("C:\\SimCorpFinderData\\logs\\" + filetime + "FailLink.json", 'w', encoding='utf8') as fp:
                 json.dump(faillogs, fp)
 
 
-        companyInfos = QueueTransfering(self.companyInfo)
-        fileLoc = 'C:\\SimCorpFinderData\\companyInfo\\' + targetComp + "\\companyInfo.json"
-        with open(fileLoc, 'w', encoding='utf8') as fp:
-            json.dump(companyInfos, fp)
+        if self.companyInfo.qsize() != 0:
+            companyInfos = QueueTransfering(self.companyInfo)
+            fileLoc = 'C:\\SimCorpFinderData\\companyInfo\\' + targetComp + "\\companyInfo.json"
+            with open(fileLoc, 'w', encoding='utf8') as fp:
+                json.dump(companyInfos, fp)
 
 
-        urlInfos = QueueTransfering(self.urlInfo)
-        fileLoc = 'C:\\SimCorpFinderData\\companyInfo\\' + targetComp + "\\urlInfo.json"
-        with open(fileLoc, 'w', encoding='utf8') as fp:
-            json.dump(urlInfos, fp)
+        if self.urlInfo.qsize() != 0:
+            urlInfos = QueueTransfering(self.urlInfo)
+            fileLoc = 'C:\\SimCorpFinderData\\companyInfo\\' + targetComp + "\\urlInfo.json"
+            with open(fileLoc, 'w', encoding='utf8') as fp:
+                json.dump(urlInfos, fp)
 
 
