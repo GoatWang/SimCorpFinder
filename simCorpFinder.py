@@ -302,6 +302,45 @@ class simCorpFinder(QWidget):
 
         btnRanking.clicked.connect(startRanking)
 
+
+        ## News Button
+        btnNews = QPushButton("News")
+        grid.addWidget(btnNews, 0, 3)
+        def showNews():
+                collection = db['news']
+                res = collection.find()
+                newsLi = sorted(res, key=lambda x:x['time'])[:5]
+                newsStr = ""
+                for news in newsLi:
+                    newsStr += str(news['time'].date()) + " " + news['news'] + "\n"
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Information)
+                msg.setText(newsStr)
+                msg.setWindowTitle("News")
+                msg.setStandardButtons(QMessageBox.Ok)
+                msg.exec_()
+
+        btnNews.clicked.connect(showNews)
+
+
+        ## Web Button
+        btnWeb = QPushButton("Website")
+        grid.addWidget(btnWeb, 1, 3)
+        def goToAbout():
+            subprocess.run(["explorer", "https://goatwang.github.io/SimCorpFinder/index.html"])
+
+        btnWeb.clicked.connect(goToAbout)
+
+
+        ## Documentation Button
+        btnDocumentation = QPushButton("Documentation")
+        grid.addWidget(btnDocumentation, 2, 3)
+        def goToDocumentation():
+            subprocess.run(["explorer", "https://goatwang.github.io/SimCorpFinder/index.html#Documentation"])
+
+        btnDocumentation.clicked.connect(goToDocumentation)
+
+
         self.setLayout(grid)
         self.setFont(QFont("Times", 9))
         self.setWindowTitle("SimCorpFinder" + "(v" + versionControl.version + ")")
@@ -314,7 +353,6 @@ class simCorpFinder(QWidget):
         res = collection.find()
         versionInfo = sorted(res, key=lambda x:x['time'], reverse=True)[0]
 
-        
         if versionControl.version < versionInfo['version']: 
             msg = QMessageBox()
             msg.setIcon(QMessageBox.Information)
