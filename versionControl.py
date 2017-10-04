@@ -4,16 +4,26 @@ from datetime import datetime
 import subprocess
 
 class versionControl(): 
-    version = "2.1"
+    version = "2.2"
 
     def updateversion(self):
         conn = MongoClient(selfPwd.getMongoUrl())
         db = conn.simcorpfinder
 
+        updateInfo = "[bug fixed] lemmatize keywords!"
+
         collection = db['version']
         data = {
             "version":self.version,
-            "updateInfo":"Add some shorcuts(News, Website and Documentation) on the app interface.",
+            "updateInfo":updateInfo,
+            "time":datetime.utcnow()
+        }
+        collection.insert_one(data)
+
+
+        collection = db['news']
+        data = {
+            "news": "[v" + self.version + " updated]" + updateInfo,
             "time":datetime.utcnow()
         }
         collection.insert_one(data)

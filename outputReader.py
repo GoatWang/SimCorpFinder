@@ -20,12 +20,18 @@ from docx.shared import RGBColor, Pt
 import re
 from docx.enum.text import WD_LINE_SPACING
 from datetime import datetime
+from nltk.stem import WordNetLemmatizer
 
 def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outputDir, findingCorpsLi):
     companyInfoDir = "C:\\SimCorpFinderData\\companyInfo\\" + targetCorp + "\\companyInfo.json"
-    keyWordLi = keyWords.split() 
-    keywords_emphasizeLi = keywords_emphasize.split()
-    keywords_filteredLi = keywords_filtered.split()
+    lemmer = WordNetLemmatizer()
+    
+    # if "\"" in keyWords:
+    #     re.findall(r"\".+\"", keyWords)
+
+    keyWordLi = [lemmer.lemmatize(term) for term in keyWords.split()] 
+    keywords_emphasizeLi = [lemmer.lemmatize(term) for term in keywords_emphasize.split()]
+    keywords_filteredLi = [lemmer.lemmatize(term) for term in keywords_filtered.split()]
     allKeywords = keyWordLi + keywords_emphasizeLi + keywords_filteredLi
 
     with open(companyInfoDir, 'r', encoding='utf8') as f:

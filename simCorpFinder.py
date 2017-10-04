@@ -283,6 +283,11 @@ class simCorpFinder(QWidget):
                     # writeStats_word(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi, False)
                     writeStats(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi)
                     
+                    # if "\"" in self.keywords:
+                    #     import re
+                    #     terms = re.findall(r"\".+\"", self.keywords)
+                    #     print(terms)
+
                     print("100% Finished!")
                     msg = QMessageBox()
                     msg.setIcon(QMessageBox.Information)
@@ -309,7 +314,7 @@ class simCorpFinder(QWidget):
         def showNews():
                 collection = db['news']
                 res = collection.find()
-                newsLi = sorted(res, key=lambda x:x['time'])[:5]
+                newsLi = sorted(res, key=lambda x:x['time'], reverse=True)[:5]
                 newsStr = ""
                 for news in newsLi:
                     newsStr += str(news['time'].date()) + " " + news['news'] + "\n"
