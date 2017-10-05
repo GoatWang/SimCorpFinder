@@ -90,7 +90,7 @@ class simCorpFinder(QWidget):
         grid.addWidget(target, 0, 0)
 
         targetEdit = QLineEdit()
-        targetEdit.setPlaceholderText("Coca-Cola Global")
+        targetEdit.setPlaceholderText("Beverage Company")
         grid.addWidget(targetEdit, 0, 1)
 
         def textChanged_target():
@@ -123,7 +123,7 @@ class simCorpFinder(QWidget):
         grid.addWidget(keywords_emphasize, 2, 0)
 
         keywords_emphasizeEdit = QLineEdit()
-        keywords_emphasizeEdit.setPlaceholderText("beverage")
+        keywords_emphasizeEdit.setPlaceholderText('"beverage company" beverage')
         grid.addWidget(keywords_emphasizeEdit, 2, 1)
 
         def textChanged_keywords_emphasize():
