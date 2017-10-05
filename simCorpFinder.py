@@ -30,8 +30,8 @@ if not "logs" in os.listdir("C:\\SimCorpFinderData"):
     os.mkdir("C:\\SimCorpFinderData\\logs")
 if not "outputs" in os.listdir("C:\\SimCorpFinderData"):
     os.mkdir("C:\\SimCorpFinderData\\outputs")
-if not "companyInfo" in os.listdir("C:\\SimCorpFinderData"):
-    os.mkdir("C:\\SimCorpFinderData\\companyInfo")
+if not "companyInfo_v23" in os.listdir("C:\\SimCorpFinderData"):
+    os.mkdir("C:\\SimCorpFinderData\\companyInfo_v23")
     
 from googleCrawler import Main
 from crawlerUtl import getDistinctName, getCurrentDir
@@ -282,11 +282,6 @@ class simCorpFinder(QWidget):
                     print("95% " + "Writing output file, please wait patiently")
                     # writeStats_word(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi, False)
                     writeStats(self.targetCorp, self.keywords, self.keywords_emphasize, self.keywords_filtered, self.outputDir, self.findingCorpsLi)
-                    
-                    # if "\"" in self.keywords:
-                    #     import re
-                    #     terms = re.findall(r"\".+\"", self.keywords)
-                    #     print(terms)
 
                     print("100% Finished!")
                     msg = QMessageBox()

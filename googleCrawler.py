@@ -112,7 +112,7 @@ class googleCrawler:
             self.fail_log.put((self.targetCompany, self.findingCompany, self.failLinks))
 
             ## After loop: write data per company into DB
-            self.data['info'] = dict(Counter(self.accCompInfo.split()))
+            self.data['info'] = self.accCompInfo
             self.data.pop('url', None)  ##if url not found, None is returned
             
             self.companyInfo.put(self.data)
@@ -135,7 +135,7 @@ class Main():
         self.companyInfo = queue.Queue()
         self.urlInfo = queue.Queue()
 
-        headDir = 'C:\\SimCorpFinderData\\companyInfo'
+        headDir = 'C:\\SimCorpFinderData\\companyInfo_v23'
         targetDir = headDir + "\\" + targetComp
         
         if (targetComp in os.listdir(headDir)) and forceDelete:
@@ -184,14 +184,14 @@ class Main():
 
         if self.companyInfo.qsize() != 0:
             companyInfos = QueueTransfering(self.companyInfo)
-            fileLoc = 'C:\\SimCorpFinderData\\companyInfo\\' + targetComp + "\\companyInfo.json"
+            fileLoc = 'C:\\SimCorpFinderData\\companyInfo_v23\\' + targetComp + "\\companyInfo.json"
             with open(fileLoc, 'w', encoding='utf8') as fp:
                 json.dump(companyInfos, fp)
 
 
         if self.urlInfo.qsize() != 0:
             urlInfos = QueueTransfering(self.urlInfo)
-            fileLoc = 'C:\\SimCorpFinderData\\companyInfo\\' + targetComp + "\\urlInfo.json"
+            fileLoc = 'C:\\SimCorpFinderData\\companyInfo_v23\\' + targetComp + "\\urlInfo.json"
             with open(fileLoc, 'w', encoding='utf8') as fp:
                 json.dump(urlInfos, fp)
 

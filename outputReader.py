@@ -21,19 +21,43 @@ import re
 from docx.enum.text import WD_LINE_SPACING
 from datetime import datetime
 from nltk.stem import WordNetLemmatizer
+lemmer = WordNetLemmatizer()
+
+def processKeywordLi(keyWords):
+    keyWordLi = []
+    terms = re.findall(r"\"(.+?)\"", keyWords)
+    for term in terms:
+        processedTerm = []
+        for word in term.split():
+            processedTerm.append(lemmer.lemmatize(word))
+        keyWordLi.append(" ".join(processedTerm))
+        keyWords = keyWords.replace(term, "").replace("\"", "")
+
+    keyWordLi.extend([lemmer.lemmatize(term) for term in keyWords.split()])
+    return keyWordLi
+
+def processInfo(info, multiTermKeywords):
+    infoTerms = []
+    for keyword in multiTermKeywords:
+        infoTerms.extend(re.findall(keyword, info))
+        info = info.replace(keyword, "")
+    infoTerms.extend(info.split())
+    return Counter(infoTerms)
+
 
 def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outputDir, findingCorpsLi):
-    companyInfoDir = "C:\\SimCorpFinderData\\companyInfo\\" + targetCorp + "\\companyInfo.json"
-    lemmer = WordNetLemmatizer()
-    
-    # if "\"" in keyWords:
-    #     re.findall(r"\".+\"", keyWords)
 
-    keyWordLi = [lemmer.lemmatize(term) for term in keyWords.split()] 
-    keywords_emphasizeLi = [lemmer.lemmatize(term) for term in keywords_emphasize.split()]
-    keywords_filteredLi = [lemmer.lemmatize(term) for term in keywords_filtered.split()]
+    keyWordLi = processKeywordLi(keyWords)
+    keywords_emphasizeLi = processKeywordLi(keywords_emphasize)
+    keywords_filteredLi = processKeywordLi(keywords_filtered)
     allKeywords = keyWordLi + keywords_emphasizeLi + keywords_filteredLi
 
+    multiTermKeywords = []
+    multiTermKeywords.extend(re.findall(r"\"(.+?)\"", keyWords))
+    multiTermKeywords.extend(re.findall(r"\"(.+?)\"", keywords_emphasize))
+    multiTermKeywords.extend(re.findall(r"\"(.+?)\"", keywords_filtered))
+
+    companyInfoDir = "C:\\SimCorpFinderData\\companyInfo_v23\\" + targetCorp + "\\companyInfo.json"
     with open(companyInfoDir, 'r', encoding='utf8') as f:
         companyInfoDict = json.loads(f.read())
 
@@ -43,7 +67,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
     for word in allKeywords:
         f = 0
         for info in companyInfoDict:
-            if word in info['info'].keys():        
+            if word in processInfo(info['info'], multiTermKeywords).keys():        
                 f += 1
         idfDict[word] = math.log(docLen / (f + 1))
 
@@ -66,7 +90,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         ## debug
         # companyInfoDict = []
 
-        companyInfo = info['info']
+        companyInfo = processInfo(info['info'], multiTermKeywords)
         companyScore = 0
         companyInfoLen = sum([times for term, times in companyInfo.items()])
         tfidfLi = []
@@ -78,7 +102,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
             tfidf = tf * idfDict[word]
             tfidfLi.append(tfidf)
         
-        tfidfnorm = norm([count for term, count in info['info'].items()])
+        tfidfnorm = norm([count for term, count in companyInfo.items()])
         score = cosine(keyTfidf, tfidfLi, tfidfnorm) * 10 if tfidfLi != [0.0] * len(allKeywords) else 0
 
 
@@ -95,11 +119,9 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
     # from pprint import pprint
     # pprint(sorted(companyInfoLi, key=lambda x: x[5], reverse=True))
 
+
     scoreTupleList = sorted(companyScoreDict.items(), key=lambda x: x[1], reverse=True)
     scoreTupleList = [(comp, score) for (comp, score) in scoreTupleList if score != 0.00]
-
-
-
 
 
     document = Document()
@@ -137,7 +159,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
 
 
     heading = document.add_heading("Detail", level=1)
-    urlInfoDir = "C:\\SimCorpFinderData\\companyInfo\\" + targetCorp + "\\urlInfo.json"
+    urlInfoDir = "C:\\SimCorpFinderData\\companyInfo_v23\\" + targetCorp + "\\urlInfo.json"
     with open(urlInfoDir, 'r', encoding='utf8') as f:
         urlInfoDict = json.loads(f.read())
 
@@ -165,10 +187,14 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
                 par = document.add_paragraph()
                 run = par.add_run("Keyword Existence: ")
                 run.bold = True
+
+                wordCounter = {}
+
                 for word in allKeywords:
-                    count = Counter(info.split()).get(word, 0)
+
+                    count = processInfo(info, multiTermKeywords).get(word, 0)
                     if count != 0:
-                        if word in keyWords:
+                        if word in keyWordLi:
                             par = document.add_paragraph()
                             run = par.add_run("\t" + word + ": " + str(count))
                             font = run.font
@@ -190,7 +216,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
 
 
     # heading = document.add_heading("Detail", level=1)
-    # urlInfoDir = "C:\\SimCorpFinderData\\companyInfo\\" + targetCorp + "\\urlInfo.json"
+    # urlInfoDir = "C:\\SimCorpFinderData\\companyInfo_v23\\" + targetCorp + "\\urlInfo.json"
     # with open(urlInfoDir, 'r', encoding='utf8') as f:
     #     urlInfoDict = json.loads(f.read())
 
