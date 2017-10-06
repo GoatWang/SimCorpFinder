@@ -112,7 +112,7 @@ class simCorpFinder(QWidget):
         grid.addWidget(keywordsEdit, 1, 1)
 
         def textChanged_keywords():
-            self.keywords = keywordsEdit.text().replace("\n", "")
+            self.keywords = keywordsEdit.text().replace("\n", "").lower()
             updatePreview()
         keywordsEdit.textChanged.connect(textChanged_keywords)
 
@@ -127,7 +127,7 @@ class simCorpFinder(QWidget):
         grid.addWidget(keywords_emphasizeEdit, 2, 1)
 
         def textChanged_keywords_emphasize():
-            self.keywords_emphasize = keywords_emphasizeEdit.text().replace("\n", "")
+            self.keywords_emphasize = keywords_emphasizeEdit.text().replace("\n", "").lower()
             updatePreview()
         keywords_emphasizeEdit.textChanged.connect(textChanged_keywords_emphasize)
 
@@ -143,7 +143,7 @@ class simCorpFinder(QWidget):
         grid.addWidget(keywords_filteredEdit, 3, 1)
 
         def textChanged_keywords_filtered():
-            self.keywords_filtered = keywords_filteredEdit.text().replace("\n", "")
+            self.keywords_filtered = keywords_filteredEdit.text().replace("\n", "").lower()
             updatePreview()
         keywords_filteredEdit.textChanged.connect(textChanged_keywords_filtered)
 
