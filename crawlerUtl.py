@@ -112,14 +112,16 @@ import nltk
 import os
 import sys
 
-if not "nltkDataDownloaded" in os.listdir("C:\\SimCorpFinderData"):
-    nltk.download('stopwords')
-    nltk.download('wordnet')
-    print('download nltk data success')
-    file = open("C:\\SimCorpFinderData\\nltkDataDownloaded", 'w')
-    file.write("nltkDataDownloaded")
-    file.close()
+nltk.download('stopwords')
+nltk.download('wordnet')
 
+# if not "nltkDataDownloaded" in os.listdir("C:\\SimCorpFinderData"):
+#     nltk.download('stopwords')
+#     nltk.download('wordnet')
+#     print('download nltk data success')
+#     file = open("C:\\SimCorpFinderData\\nltkDataDownloaded", 'w')
+#     file.write("nltkDataDownloaded")
+#     file.close()
 
 def getCurrentDir():
     if getattr(sys, 'frozen', False):
