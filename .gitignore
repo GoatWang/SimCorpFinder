@@ -18,7 +18,7 @@ dist
 stats
 nltkDataDownloaded
 labelData
-
+.DS_Store
 
 # docs
 .vs
