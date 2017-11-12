@@ -176,7 +176,8 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         for row in df[df['name'] == compName].iterrows():
             row = row[1]
             info = row['info']
-            if len(set(allKeywords) & set(info.split())) > 0:
+            # if len(set(allKeywords) & set(info.split())) > 0:
+            if len(set(allKeywords) & set(processInfo(info, multiTermKeywords).keys())) > 0:
                 pageCount += 1
                 # page source 1: "http://XXXXXXXXXXXXXXX.com"
                 par = document.add_paragraph()
