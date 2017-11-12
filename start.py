@@ -2,6 +2,7 @@ from googleCrawler import Main
 import os 
 from pprint import pprint
 import json
+from outputReader import writeStats
 
 
 
@@ -9,8 +10,15 @@ dirs = [filename for filename in os.listdir("processed_key") if filename.endswit
 for filename in dirs[-4:-3]:
     print(filename)
     file = open(os.path.join("processed_key",filename), 'r', encoding='utf8')
+    
     data = json.loads(file.read())
-    keywords = data['keywords']['Keywords']
-    keyWords_Emphasize = data['keywords']['KeyWords(Emphasize)']
+    targetCorp = data['target']
+    keyWords = data['keywords']['Keywords']
+    keywords_emphasize = data['keywords']['KeyWords(Emphasize)']
+    keywords_filtered = ""
+    findingCorpsLi = data['compLi']
+    
     main = Main()
-    main.startThread(data['compLi'], filename.replace(".json", ""), True, 4)
+    main.startThread(findingCorpsLi, targetCorp, False, 4)
+
+    writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, "output", findingCorpsLi)
