@@ -135,8 +135,8 @@ class Main():
         self.companyInfo = queue.Queue()
         self.urlInfo = queue.Queue()
 
-        headDir = 'C:\\SimCorpFinderData\\companyInfo_v23'
-        targetDir = headDir + "\\" + targetComp
+        headDir = 'companyInfo'
+        targetDir = os.path.join(headDir, targetComp)
         
         if (targetComp in os.listdir(headDir)) and forceDelete:
             shutil.rmtree(targetDir)
@@ -178,20 +178,20 @@ class Main():
 
         faillogs = QueueTransfering(self.fail_log)
         if faillogs != []:
-            with open("C:\\SimCorpFinderData\\logs\\" + filetime + "FailLink.json", 'w', encoding='utf8') as fp:
+            with open(os.path.join("logs", filetime + "FailLink.json"), 'w', encoding='utf8') as fp:
                 json.dump(faillogs, fp)
 
 
         if self.companyInfo.qsize() != 0:
             companyInfos = QueueTransfering(self.companyInfo)
-            fileLoc = 'C:\\SimCorpFinderData\\companyInfo_v23\\' + targetComp + "\\companyInfo.json"
+            fileLoc = os.path.join('companyInfo', targetComp, "companyInfo.json")
             with open(fileLoc, 'w', encoding='utf8') as fp:
                 json.dump(companyInfos, fp)
 
 
         if self.urlInfo.qsize() != 0:
             urlInfos = QueueTransfering(self.urlInfo)
-            fileLoc = 'C:\\SimCorpFinderData\\companyInfo_v23\\' + targetComp + "\\urlInfo.json"
+            fileLoc = os.path.join('companyInfo', targetComp, "urlInfo.json")
             with open(fileLoc, 'w', encoding='utf8') as fp:
                 json.dump(urlInfos, fp)
 
