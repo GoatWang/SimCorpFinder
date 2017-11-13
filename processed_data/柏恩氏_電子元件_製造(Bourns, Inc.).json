@@ -1,0 +1,451 @@
+{
+    "target": "柏恩氏_電子元件_製造(Bourns, Inc.)",
+    "website": "http://www.bourns.com/support/about-us/global-locations",
+    "sic": {
+        "3674": "半導體及相關設備(Semiconducto & Related Devices)",
+        "3675": "電子電容器(Electronic Capacitors)",
+        "3676": "電子電阻器（Electronic Resistors）",
+        "3677": "電子線圈及變壓器(Electronic Coils & Transformers) ",
+        "3679": "其他未分類之電子零組件製造商（Electronic Components, Not Elsewhere Classified）"
+    },
+    "keywords_ori": [
+        "Resistor",
+        "Passive",
+        "Electronic materials",
+        "Semiconductor component"
+    ],
+    "keywords": {
+        "Keywords": [
+            "Circuit Protection",
+            "Automotive",
+            "Circuit Protection",
+            "Outside Plant Products",
+            "CO Plant Products",
+            "Connectors",
+            "Diodes",
+            "Encoders",
+            "LED Shunt Protectors",
+            "Magnetic Products",
+            "Microelectronic Modules",
+            "Position Sensors",
+            "Potentiometers",
+            "Resistive Products",
+            "Surge Protective Devices",
+            "SPDs",
+            "Switches",
+            "Switching Spark Gap"
+        ],
+        "KeyWords(Emphasize)": [        
+            "Resistor",
+            "Passive",
+            "Electronic materials",
+            "Semiconductor component"],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "ABCO Electronics Co Ltd",
+        "Abico FS Co Ltd",
+        "Advanced Microelectronic Products Inc.",
+        "Alliance Fiber Optic Products Inc",
+        "Ample Electronic Technology Co Ltd",
+        "AOI ELECTRONICS CO.,LTD.",
+        "Apogee Optocom Co Ltd",
+        "Arisawa Mfg. Co., Ltd.",
+        "Asia Electronic Material Co., Ltd.",
+        "AverLogic Technologies Corporation",
+        "AVX Corporation",
+        "China Zhenhua (Group) Science & Tech.",
+        "Cowell Fashion Co Ltd",
+        "Crystal Applied Technology Inc.",
+        "CTS Corporation",
+        "D & O Green Technologies Bhd",
+        "Daejoo Electronic Materials Co Ltd",
+        "Daito Electron Co., Ltd.",
+        "Europtronic Group Ltd.",
+        "FOCI Fiber Optic Communications, Inc.",
+        "Forward Electronics Co Ltd",
+        "GCS Holdings Inc",
+        "Globetronics Technology Berhad",
+        "Golden Spring Internet of Things Inc",
+        "G-Shank Enterprise Co.,Ltd.",
+        "GTM Holdings Corp",
+        "Guangdong Fenghua Adv. Tech. (Hldg) Co",
+        "Hokuriku Electric Industry Co Ltd",
+        "Holy Stone Enterprise Co., Ltd.",
+        "Japan Resistor Mfg Co Ltd",
+        "Juic International Corp",
+        "KEMET Corporation",
+        "KOA CORPORATION",
+        "L&F Co., Ltd.",
+        "Lite-On Semiconductor Group",
+        "Nepes Corp",
+        "OPTO Tech Corporation",
+        "Orient Semiconductor Electronics Ltd",
+        "Pixelplus Co Ltd",
+        "Prosperity Dielectrics Co., Ltd.",
+        "Ralec Electronic Corporation",
+        "RDC Semiconductor Co.,Ltd",
+        "ROHM COMPANY LIMITED",
+        "Rubicon Technology, Inc.",
+        "Samsung Electro-Mechanics Co., Ltd.",
+        "Semtech Corporation",
+        "Shenzhen Microgate Technology Co Ltd",
+        "SHIBAURA ELECTRONICS CO., LTD.",
+        "Sino-American Silicon Products Inc.",
+        "Solitron Devices, Inc.",
+        "Ta-I Technology Co., Ltd",
+        "Taiwan Alpha Electronic Co., Ltd.",
+        "TDG Holding  Co., Ltd.",
+        "Team Young Advanced Technology Co Ltd",
+        "Thinking Electronic Industrial Co Ltd",
+        "ThinTech Materials Technology Co., Ltd.",
+        "Tokyo Cosmos Electric Co., Ltd.",
+        "TOPCO Scientific Co., Ltd.",
+        "Tyntek Corporation",
+        "Ty-ohm Electronic Works Co., Ltd.",
+        "Viking Tech Corporation",
+        "Walsin Technology Corporation",
+        "Wisechip Semiconductor Inc",
+        "Wizit Co Ltd",
+        "Wooriro Co Ltd",
+        "WUS Printed Circuit Co., Ltd.",
+        "Yageo Corporation"
+    ],
+    "compLi_detail": [
+        {
+            "name": "ABCO Electronics Co Ltd",
+            "sic": "3677",
+            "selected": true
+        },
+        {
+            "name": "Abico FS Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Advanced Microelectronic Products Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Alliance Fiber Optic Products Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ample Electronic Technology Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "AOI ELECTRONICS CO.,LTD.",
+            "sic": "3674",
+            "selected": true
+        },
+        {
+            "name": "Apogee Optocom Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Arisawa Mfg. Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Asia Electronic Material Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "AverLogic Technologies Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "AVX Corporation",
+            "sic": "3675",
+            "selected": false
+        },
+        {
+            "name": "China Zhenhua (Group) Science & Tech.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Cowell Fashion Co Ltd",
+            "sic": "3675",
+            "selected": false
+        },
+        {
+            "name": "Crystal Applied Technology Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "CTS Corporation",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "D & O Green Technologies Bhd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Daejoo Electronic Materials Co Ltd",
+            "sic": "3679",
+            "selected": true
+        },
+        {
+            "name": "Daito Electron Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Europtronic Group Ltd.",
+            "sic": "3675",
+            "selected": false
+        },
+        {
+            "name": "FOCI Fiber Optic Communications, Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Forward Electronics Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "GCS Holdings Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Globetronics Technology Berhad",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Golden Spring Internet of Things Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "G-Shank Enterprise Co.,Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "GTM Holdings Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Guangdong Fenghua Adv. Tech. (Hldg) Co",
+            "sic": "3675",
+            "selected": true
+        },
+        {
+            "name": "Hokuriku Electric Industry Co Ltd",
+            "sic": "3676",
+            "selected": true
+        },
+        {
+            "name": "Holy Stone Enterprise Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Japan Resistor Mfg Co Ltd",
+            "sic": "3676",
+            "selected": true
+        },
+        {
+            "name": "Juic International Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "KEMET Corporation",
+            "sic": "3675",
+            "selected": false
+        },
+        {
+            "name": "KOA CORPORATION",
+            "sic": "3676",
+            "selected": true
+        },
+        {
+            "name": "L&F Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Lite-On Semiconductor Group",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Nepes Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "OPTO Tech Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Orient Semiconductor Electronics Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Pixelplus Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Prosperity Dielectrics Co., Ltd.",
+            "sic": "3674",
+            "selected": true
+        },
+        {
+            "name": "Ralec Electronic Corporation",
+            "sic": "3676",
+            "selected": true
+        },
+        {
+            "name": "RDC Semiconductor Co.,Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ROHM COMPANY LIMITED",
+            "sic": "3679",
+            "selected": true
+        },
+        {
+            "name": "Rubicon Technology, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Samsung Electro-Mechanics Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Semtech Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Microgate Technology Co Ltd",
+            "sic": "3677",
+            "selected": false
+        },
+        {
+            "name": "SHIBAURA ELECTRONICS CO., LTD.",
+            "sic": "3676",
+            "selected": false
+        },
+        {
+            "name": "Sino-American Silicon Products Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Solitron Devices, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ta-I Technology Co., Ltd",
+            "sic": "3676",
+            "selected": true
+        },
+        {
+            "name": "Taiwan Alpha Electronic Co., Ltd.",
+            "sic": "3676",
+            "selected": false
+        },
+        {
+            "name": "TDG Holding  Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Team Young Advanced Technology Co Ltd",
+            "sic": "3677",
+            "selected": false
+        },
+        {
+            "name": "Thinking Electronic Industrial Co Ltd",
+            "sic": "3676",
+            "selected": false
+        },
+        {
+            "name": "ThinTech Materials Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Tokyo Cosmos Electric Co., Ltd.",
+            "sic": "3676",
+            "selected": true
+        },
+        {
+            "name": "TOPCO Scientific Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Tyntek Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ty-ohm Electronic Works Co., Ltd.",
+            "sic": "3676",
+            "selected": false
+        },
+        {
+            "name": "Viking Tech Corporation",
+            "sic": "3676",
+            "selected": false
+        },
+        {
+            "name": "Walsin Technology Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Wisechip Semiconductor Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Wizit Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Wooriro Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "WUS Printed Circuit Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Yageo Corporation",
+            "sic": "3675",
+            "selected": true
+        }
+    ]
+}

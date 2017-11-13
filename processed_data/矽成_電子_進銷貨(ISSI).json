@@ -1,0 +1,3332 @@
+{
+    "target": "矽成_電子_進銷貨(ISSI)",
+    "website": "http://www.issi.com/US/Index.shtml#",
+    "sic": {
+        "3559": "Special Industry Machinery, nec（特種機械工業）",
+        "3674": "Semiconductors and Related Devices（半導體和相關裝置）",
+        "3679": "Electronic Components, Not Elsewhere Classified(未分類之電子元件)",
+        "5063": "Electrical Apparatus & Equipment (電子零件和設備)",
+        "5065": "Electronic Parts and Equipment, Not Elsewhere Classified (未分類之電子零件和設備)"
+    },
+    "keywords_ori": [
+        "Memory",
+        "Electronic Parts / Components"
+    ],
+    "keywords": {
+        "Keywords": [
+            "DRAM", 
+            "Flash", 
+            "LED", 
+            "SRAM"
+        ],
+        "KeyWords(Emphasize)": [
+            "Memory",
+            "Electronic Parts / Components"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "Aac Technologies Holdings Inc",
+        "Abico FS Co Ltd",
+        "Ace Hightech Co Ltd",
+        "Ace Pillar Co Ltd",
+        "Actions Semiconductor Co., Ltd. (ADR)",
+        "A-DATA Technology Co., Ltd.",
+        "ADTEC Corporation",
+        "Adval Tech Holding AG",
+        "Advanced Digital Chips Inc",
+        "Advanced Microelectronic Products Inc.",
+        "Advanced Systems Automation Limited",
+        "Advanced Wireless Semiconductor Company",
+        "Agilysys, Inc.",
+        "AIA Engineering Ltd",
+        "AIA Engineering Ltd (Parent)",
+        "AIXTRON SE",
+        "AIXTRON SE (ADR)",
+        "Alchip Technologies, Limitd",
+        "All Ring Tech Co Ltd",
+        "Alliance Fiber Optic Products Inc",
+        "Alltek Technology Corp.",
+        "Alltronics Holdings Limited",
+        "Alphachips Corp",
+        "AMINOLOGICS CO.,LTD.",
+        "Amtech Systems, Inc.",
+        "Anixter International Inc.",
+        "Anpec Electronics Corporation",
+        "AOI ELECTRONICS CO.,LTD.",
+        "AP Memory Technology Corp",
+        "APAC Opto Electronics Inc.",
+        "Apacer Technology Inc",
+        "API Technologies Corp",
+        "APIC YAMADA CORPORATION",
+        "Apogee Optocom Co Ltd",
+        "Applied Optoelectronics Inc",
+        "Aptos Technology Inc.",
+        "ARES GREEN TECHNOLOGY CORPORATION",
+        "ARM Holdings plc",
+        "ARM Holdings plc (ADR)",
+        "Arrow Electronics, Inc.",
+        "ASEC International Corporation",
+        "Asia Vital Components Co Ltd",
+        "ASIX ELECTRONICS CORPORATION LTD",
+        "ASMedia Technology Inc",
+        "ASTI Holdings Limited",
+        "Astra Microwave Products Limited",
+        "Astra Microwave Products Ltd (Parent)",
+        "AT Technology Co Ltd",
+        "Atmel Corporation",
+        "AUK Corp",
+        "Aurotek Corp",
+        "AV Concept Holdings Limited",
+        "Avatec Co Ltd",
+        "AverLogic Technologies Corporation",
+        "Avid Electronics Corporation",
+        "AXELL CORPORATION",
+        "Barun Electronics Co Ltd",
+        "Beijing Honggao Cretv Constn Dsgn Co Ltd",
+        "Beijing Sevenstar Electronics Co., Ltd.",
+        "Beijing Triolion Scnc & Technlgy Co Ltd",
+        "Biemt Co Ltd",
+        "Bluecom Co Ltd",
+        "BOE Technology Group Co. Ltd",
+        "BOS Better OnLine Sol (USA)",
+        "BOTHHAND ENTERPRISE INC.",
+        "Brightking Holdings Ltd",
+        "Browave Corp",
+        "Calitech Co Ltd",
+        "Canon Electronics Inc",
+        "Castech Inc",
+        "Cavium Inc",
+        "CDW Holding Limited",
+        "Celestica Inc",
+        "centrotherm photovoltaics AG",
+        "Chander Electronics Corp.",
+        "Chaozhou Three-circle Group Co Ltd",
+        "Chen Full International Co Ltd",
+        "Chengdu Bikong Science & Technology Co",
+        "Chien Wei Precise Technology Co., Ltd.",
+        "China Zhenhua (Group) Science & Tech.",
+        "CHIP HOPE CO., LTD",
+        "Chipbond Technology Corporation",
+        "ChipMOS Technologies (Bermuda) Ltd",
+        "Chipsip Technology Co Ltd",
+        "CHIYODA INTEGRE CO., LTD.",
+        "Cicor Technologies Ltd",
+        "Circuit Electronic Industries PCL",
+        "C-MEDIA ELECTRONICS INC.",
+        "CML Microsystems Plc",
+        "CoAsia Microelectronics Corp.",
+        "Comintel Corporation Berhad",
+        "Contrel Technology Co Ltd",
+        "Core Logic Inc.",
+        "CPT Technology (Group) Co Ltd",
+        "Crystal Applied Technology Inc.",
+        "CTS Corporation",
+        "CVD Equipment Corporation",
+        "CX Technology Corp",
+        "Cypress Semiconductor Corporation",
+        "D & O Green Technologies Bhd",
+        "Daejoo Electronic Materials Co Ltd",
+        "Daetwyler Fuehrungs AG",
+        "Daetwyler Holding AG",
+        "DAISHINKU CORP.",
+        "Daito Electron Co., Ltd.",
+        "Daiwa Associate Holdings Limited",
+        "Dalian Rubber & Plastics Machinery",
+        "Darfon Electronics Corp",
+        "Darwin Precisions Corp",
+        "Dexerials Corp",
+        "DI Corp",
+        "Dialight Plc",
+        "DID Corporation",
+        "Di-Nikko Engineering Co Ltd",
+        "DISCO CORPORATION",
+        "DK UIL Co Ltd",
+        "Dongxu Optoelectronic Technology Co Ltd",
+        "Donpon Precision Inc.",
+        "Dragon Group International Limited",
+        "E&R Engineering Corp",
+        "e.Digital Corporation",
+        "EACO Corp",
+        "Eagle Mountain Corp",
+        "eASIC Corp",
+        "Eclat Forever Machinery Co Ltd",
+        "EDISON OPTO CORPORATION",
+        "Edom Technology Co Ltd",
+        "Electro Scientific Industries, Inc.",
+        "Electronics Industry Public Company Ltd.",
+        "Elematec Corporation",
+        "elexis AG",
+        "Elite Advanced Laser Corporation",
+        "Elite Semiconductor Memory Tech. Inc.",
+        "ELMOS Semiconductor AG",
+        "EMCORE Corporation",
+        "eMemory Technology, Inc.",
+        "Enertronica SpA",
+        "Enphase Energy Inc",
+        "Entropic Communications, Inc.",
+        "EO Technics Co., Ltd.",
+        "Eon Silicon Solution Inc.",
+        "Eris Technology Corp",
+        "Etron Technology Inc",
+        "Everlight Electronics Co., Ltd.",
+        "Exar Corporation",
+        "Excel Cell Electronic Co., Ltd.",
+        "Excel Co Ltd",
+        "Excellence Optoelectronic Inc",
+        "Excelpoint Technology Ltd",
+        "Faraday Technology Corporation",
+        "Fidelix Co Ltd",
+        "Fine DNC Co., Ltd.",
+        "FINE TECHNIX CO.,LTD",
+        "Finisar Corporation",
+        "First Solar, Inc.",
+        "FOCI Fiber Optic Communications, Inc.",
+        "Formosa Sumco Technology Corp",
+        "FORTEC Elektronik AG",
+        "Forward Electronics Co Ltd",
+        "Foshan Nationstar Optoelectronics Co Ltd",
+        "Foxsemicon Integrated Technology Inc",
+        "Frencken Group Limited",
+        "Freund Corporation",
+        "Fuhrmeister Electronics Co.,Ltd.",
+        "Fujian Haiyuan Automatic Eqpmnts Co Ltd",
+        "Gefran S.p.A.",
+        "Genesys Logic Inc",
+        "GEOMATEC CO., LTD.",
+        "GigOptix Inc",
+        "Globetronics Technology Berhad",
+        "Glory Science Co Ltd",
+        "GoerTek Inc.",
+        "Gold Tat Group International Ltd",
+        "Goldenmars Technology Hldg Ltd",
+        "GRAND PLASTIC TECHNOLOGY CORP",
+        "Green Cross Cell Corp",
+        "Green World Hotels Co Ltd",
+        "G-Shank Enterprise Co.,Ltd.",
+        "GSI Group Inc. (USA)",
+        "GSI Technology, Inc.",
+        "GTM Holdings Corp",
+        "GuangDong Failong Crystal Techlgy Co Ltd",
+        "HAGIWARA ELECTRIC CO., LTD.",
+        "Hakuto Co., Ltd.",
+        "Hana Microelectronics Public Co. Ltd.",
+        "Hangzhou Silan Microelectronics Co., Ltd",
+        "Hansol Technics Co Ltd",
+        "Hanyang Digitech Co., Ltd.",
+        "Harmony Electronics Corp",
+        "Harvatek Corporation",
+        "HCK Capital Group Bhd",
+        "Heres Technology BJ Co Ltd",
+        "Hexatronic Group AB",
+        "Hicel Co Ltd",
+        "Higher Way Electronic Co Ltd",
+        "Hirata Corp",
+        "Holtek Semiconductor Inc.",
+        "Holy Stone Enterprise Co., Ltd.",
+        "Honey Hope Honesty Enterprise Co Ltd",
+        "Howteh Technology Co., Ltd.",
+        "Hua Hong Semiconductor Ltd",
+        "Hutchinson Technology Incorporated",
+        "Ichia Technologies Inc.",
+        "I-Chiun Precision Industry Co Ltd",
+        "ICK Co., Ltd.",
+        "Ilya Co Ltd",
+        "Imagis Co Ltd",
+        "Impact Coatings AB",
+        "Inabata & Co., Ltd.",
+        "INESA Electron Co Ltd",
+        "Infineon Technologies AG",
+        "Infineon Technologies AG (ADR)",
+        "Info-Tek Corporation",
+        "Inission AB",
+        "InnoChips Technology Co., Ltd.",
+        "Inotera Memories Inc",
+        "Inrad Optics Inc",
+        "Integrated Device Technology Inc",
+        "Integrated Micro-Electronics, Inc.",
+        "Intel Corporation",
+        "International Standard Resrcs Hldgs Ltd",
+        "Intersil Corp",
+        "Inventec Besta Co Ltd",
+        "Inzi Display Co Ltd",
+        "Ipco International Limited",
+        "Irico Display Devices Co., Ltd.",
+        "IRICO Group Electronics Co., Ltd.",
+        "ISC Co Ltd",
+        "ISDN Holdings Limited",
+        "Ishii Hyoki Co Ltd",
+        "ITE Tech. Inc.",
+        "Jeju Semiconductor Corp",
+        "Jeng Shiang Precision Ind Co Ltd",
+        "Jenoptik AG",
+        "JHM Consolidation Berhad",
+        "Jih Lin Technology Co Ltd",
+        "JMT CO.,Ltd.",
+        "Jochu Technology Co., Ltd.",
+        "Jolywood Suzhou Sunwatt Co Ltd",
+        "Jorjin Technologies Inc",
+        "Jubilee Industries Holdings Ltd",
+        "KAGA ELECTRONICS CO., LTD.",
+        "KANADEN CORPORATION",
+        "KAULIN MANUFACTURING CO., LTD.",
+        "Kendrion NV",
+        "Kenmos Technology Co. Ltd.",
+        "KH Vatec Co., Ltd.",
+        "King Core Electronics Inc.",
+        "Kingpak Technology Inc",
+        "KITAGAWA INDUSTRIES CO.,LTD.",
+        "Kopin Corporation",
+        "Korea Computer Inc",
+        "Koryo Electronics Co Ltd",
+        "KUEN CHAANG UPPERTECH CORP.",
+        "Kuroda Electric Co Ltd",
+        "Laird PLC",
+        "Leaguer Stock Co Ltd",
+        "LED International Holdings Ltd.",
+        "Ledman Optoelectronic Co Ltd",
+        "LG Innotek Co., Ltd.",
+        "LG International Corp",
+        "LGL Group Inc",
+        "LITE-ON JAPAN LTD.",
+        "Lite-On Semiconductor Group",
+        "LIWANLI Innovation Co Ltd",
+        "Liyu Technology Co Ltd",
+        "Lms Co Ltd",
+        "Lung Lung Pien Vacuum Industry Co Ltd",
+        "LuxNet Corp",
+        "Macronix International Co., Ltd.",
+        "MAG.LAYERS Scientific-Technics Co.,Ltd.",
+        "Makus, Inc.",
+        "Malmbergs Elektriska AB",
+        "Martifer SGPS SA",
+        "MARUBUN CORPORATION",
+        "MARUWA CO., LTD.",
+        "Mattson Technology, Inc.",
+        "MAXTEK TECHNOLOGY CO., LTD.",
+        "Mclean Technologies Bhd",
+        "Mcnex Co Ltd",
+        "MegaChips Corporation",
+        "Merdeka Mobile Group Ltd",
+        "MetaTech (AP) Inc.",
+        "MiCo Ltd",
+        "Micro Base Technology Corp",
+        "Microchip Technology Inc.",
+        "Micron Technology, Inc.",
+        "Micropac Industries, Inc.",
+        "Microsemi Corporation",
+        "Mikuni Shoji Co Ltd",
+        "Milacron Holdings Corp",
+        "Mildex Optical Inc.",
+        "Mirae Corp",
+        "Miraial Co., Ltd.",
+        "MITACHI CO., LTD",
+        "Mitsui High-tec, Inc.",
+        "MK Electron Co Ltd",
+        "Mobicon Group Limited",
+        "MoSys Inc.",
+        "Muramoto Electron Thailand PCL",
+        "Mustang Industrial Corp",
+        "Mycronic publ AB",
+        "NADEX CO., LTD.",
+        "Naigai Tec Corporation",
+        "Nanya Technology Corporation",
+        "New Japan Radio Co., Ltd.",
+        "Nextchip Co Ltd",
+        "NICHIDENBO CORPORATION",
+        "NICHING INDUSTRIAL CORPORATION",
+        "NIIME i Mikron OAO",
+        "Ningbo WanHao Holdings Co Ltd",
+        "NIPPO LTD.",
+        "NITTOKU ENGINEERING CO., LTD.",
+        "Nordic Semiconductor ASA",
+        "Norsat International Inc",
+        "Norsat International Inc (USA)",
+        "NPC Incorporated",
+        "NVE Corp",
+        "OEM International AB",
+        "Okins Electronics Co Ltd",
+        "Okmetic Oyj",
+        "ON Semiconductor Corp",
+        "OPTO Tech Corporation",
+        "Orient Semiconductor Electronics Ltd",
+        "Panram International Corp",
+        "Para Light Electronics Co., Ltd",
+        "Perfect Optronics Ltd",
+        "Petrosetco Distribution Joint Stock Co",
+        "Phison Electronics Corp.",
+        "Phoenix Materials Co Ltd",
+        "Phoenix Semiconductor Philippines Corp",
+        "Pierides Holdings Plc",
+        "PixArt Imaging Inc.",
+        "Pixelplus Co Ltd",
+        "Pixelplus Co Ltd (Parent)",
+        "PLA Co Ltd",
+        "Plan Optik AG",
+        "Podak Co Ltd",
+        "POET Technologies Inc",
+        "Pontex Polyblend Co., Ltd.",
+        "Power Integrations Inc",
+        "Power Logics",
+        "Powerchip Technology Corp",
+        "Powertech Technology Inc.",
+        "Premier Farnell plc",
+        "PRESCOPE TECHNOLOGIES CO.,LTD",
+        "Professional Computer Technology Ltd",
+        "Prolific Technology Inc",
+        "ProLight Opto Technology Corp",
+        "Prolink Microsystems Corp",
+        "Promate Electronic Co Ltd",
+        "Prosperity Dielectrics Co., Ltd.",
+        "Pulse Electronics Corp",
+        "R. H. Technologies Ltd.",
+        "Rambus Inc.",
+        "Raygen Co Ltd",
+        "RDC Semiconductor Co.,Ltd",
+        "Realtek Semiconductor Corp.",
+        "REC Solar ASA",
+        "Renesas Easton Co Ltd",
+        "Resonant Inc",
+        "Riber SA",
+        "Richardson Electronics, Ltd.",
+        "Rigidtech Microelectronics Corp",
+        "ROHM COMPANY LIMITED",
+        "RORZE CORPORATION",
+        "Rubicon Technology, Inc.",
+        "Ryosan Company, Limited",
+        "Ryoyo Electro Corp",
+        "S Connect Co Ltd",
+        "S.A.S. Dragon Holdings Limited",
+        "Sakae Electronics Corporation",
+        "Salora International Ltd",
+        "Salora International Ltd (Parent)",
+        "Samjin LND Co Ltd",
+        "Samsung Electro-Mechanics Co., Ltd.",
+        "SAMT Co Ltd",
+        "Sang-A Frontec Co Ltd",
+        "SANSHIN ELECTRONICS CO., LTD.",
+        "SATORI ELECTRIC CO., LTD.",
+        "Seiko Holdings Corp",
+        "Sejin T.S Co., Ltd.",
+        "Semiconductor Manufacturing Int'l",
+        "Semiconductor Manufacturing Int'l (ADR)",
+        "SemiLEDs Corporation",
+        "Sentronic International Corp",
+        "Serial System Ltd",
+        "Serial System Ltd (TDR)",
+        "Seronics Co Ltd",
+        "Service & Quality Technology Co., Ltd",
+        "SFC Energy AG",
+        "Shanghai Aero Auto Electromechanical",
+        "Shengyi Technology Co Ltd",
+        "Shenzhen Everwin Precision Technology Co",
+        "Shenzhen Huakong Seg Co Ltd",
+        "Shenzhen Mason Technologies Co Ltd",
+        "Shenzhen O-film Tech Co., Ltd.",
+        "Shenzhen Refond Optoelectronics",
+        "Shenzhen Sed Industry Co., Ltd",
+        "Shenzhen Sunshine Lsr& Elcts Tech Co Ltd",
+        "Shenzhen Zhongheng Huafa Co., Ltd.",
+        "Shin Zu Shing Co., Ltd.",
+        "Shinden Hightex Corp",
+        "SHINKAWA LTD.",
+        "Shinko Shoji Co., Ltd.",
+        "SHOWA SHINKU CO.,LTD.",
+        "Shunsin Technology Holdings Ltd",
+        "Shuz Tung Machinery Industrial Co Ltd",
+        "Silicon Laboratories",
+        "Siliconware Precision Industries (ADR)",
+        "Siliconware Precision Industries Co, Ltd",
+        "Silitech Technology Corporation",
+        "Siltronic AG",
+        "Siltrontech Electronics Corporation",
+        "SINBON ELECTRONICS CO., LTD.",
+        "Single Well Industrial Corp",
+        "SINGULUS TECHNOLOGIES  AG",
+        "Sino-American Silicon Products Inc.",
+        "Sintek Photronic Corp.",
+        "SK Hynix Inc",
+        "SK Hynix Inc (Parent)",
+        "Skymedi Corporation",
+        "Soaring Technology Co., Ltd.",
+        "Solacia Inc.",
+        "Solar A/S",
+        "Solargiga Energy Holdings Limited",
+        "Solargiga Energy Holdings Ltd",
+        "Solarpro Holding AD Sofia",
+        "Solid State System Co., Ltd",
+        "Solitron Devices, Inc.",
+        "Solomon Technology Corporation",
+        "Spansion Inc.",
+        "STG International Ltd.",
+        "STMicroelectronics NV",
+        "STMicroelectronics NV (ADR)",
+        "Strongunion Technology Co Ltd",
+        "STS Semiconductor and Telecommunications",
+        "Subtron Technology Co., Ltd.",
+        "Sumco Corp",
+        "Sun.King Power Electronics Group Ltd",
+        "SUNG-WOO ELECTRONICS CO., LTD",
+        "SUNNIC Technology & Merchandise Inc.",
+        "SunPower Corporation",
+        "SUN-WA TECHNOS CORPORATION",
+        "Supercom Ltd",
+        "Supreme Electronics Co., Ltd.",
+        "Surge Components, Inc.",
+        "Suzhou Anjie Technology Co Ltd",
+        "Suzhou Chunxing Precision Mechncl Co Ltd",
+        "Synopex Inc.",
+        "Taeyang Electronics Co Ltd",
+        "Tai Shing Electronics Components Corp",
+        "TAI-SAW TECHNOLOGY CO., LTD.",
+        "Taitron Components Inc.",
+        "Taiwan Chi Cheng Enterprise Co.,Ltd",
+        "Taiwan IC Packaging Corporation",
+        "Taiwan Kong King Co Ltd",
+        "Taiwan Oasis Technology Co., Ltd.",
+        "TAIWAN OSTOR CORP.",
+        "Taiwan Semiconductor Co., Ltd.",
+        "Taiwan Semiconductor Mfg. Co. Ltd.",
+        "Taiwan Semiconductor Mfg. Co. Ltd. (ADR)",
+        "Taiwan Thick-Film Ind Corp",
+        "TAKACHIHO KOHEKI CO., LTD.",
+        "Tamagawa Holdings Co Ltd",
+        "Tamul Multimedia Co., Ltd",
+        "TCL Display Technology Holdings Ltd",
+        "TDG Holding  Co., Ltd.",
+        "TE Connectivity Ltd",
+        "Team Group Inc",
+        "Techno Alpha Co., Ltd.",
+        "Techwing Inc",
+        "Telsys Ltd.",
+        "TerraSem Co Ltd",
+        "Tes Co Ltd",
+        "Thin Film Electronics ASA",
+        "ThinTech Materials Technology Co., Ltd.",
+        "Tianjin Zhonghuan Semiconductor Co Ltd",
+        "TM Technology Inc",
+        "Tokai Electronics Co Ltd",
+        "Tokyo Electron Device Ltd",
+        "Tokyo Electron Ltd",
+        "TOMEN DEVICES CORPORATION",
+        "Tongfang Guoxin Electronics Co Ltd",
+        "Topsil Semiconductor Materials A/S",
+        "Toshin Group Co., Ltd.",
+        "Toyo Machinery Metal Co Ltd",
+        "Trais Co Ltd",
+        "Transcend Information, Inc.",
+        "TRINITY INDUSTRIAL CORP.",
+        "TrueLight Corporation",
+        "Trust-Search Corp.,Ltd.",
+        "Turvo International Company Limited",
+        "TXC Corporation",
+        "Tyntek Corporation",
+        "U.I. Display Co., Ltd.",
+        "UKC Holdings Corp",
+        "Ultra Clean Holdings Inc",
+        "Ultratech, Inc.",
+        "UMS Holdings Limited",
+        "UNIFOSA CORP.",
+        "Union Plus Technology Co Ltd",
+        "UniPixel Inc",
+        "Uniquest Corporation",
+        "United Microelectronics Corp (ADR)",
+        "United Microelectronics Corp.",
+        "Unity Opto Technology Co., Ltd.",
+        "Universal Microwave Technology, Inc.",
+        "Universal Scientfc Industrl Shngh Co Ltd",
+        "UR Holding SpA",
+        "U-Tech Co Ltd",
+        "Veeco Instruments Inc.",
+        "Venture Corporation Ltd",
+        "Vicor Corp",
+        "Video Display Corporation",
+        "Vietnam Electric Cable Corp",
+        "Vissem Electronics Co Ltd",
+        "Visual Photonics Epitaxy Co., Ltd",
+        "VITEC CO., LTD.",
+        "V-Tac Technology Co., Ltd.",
+        "Wafer Works Corp.",
+        "Waffer Technology Corp",
+        "Walsin Technology Corporation",
+        "Walton Advanced Engineering Inc",
+        "Weltrend Semiconductor, Inc.",
+        "Wiisol Co Ltd",
+        "Willas-Array Electronics (Holdings) Ltd",
+        "Winbond Electronics Corp.",
+        "Winpac Inc",
+        "Wizit Co Ltd",
+        "Woojeon & Handan Co Ltd",
+        "Wooriro Co Ltd",
+        "WPG Holdings Limited",
+        "WT Microelectronics Co., Ltd.",
+        "Wuhan Fingu Electronic Technology Co",
+        "Wuhan P&S Information Technology Co Ltd",
+        "Xintec Inc",
+        "Yangzhou Yangjie Electrnc Tchnlgy Co Ltd",
+        "Yleiselektroniikka Oyj",
+        "YMC Co Ltd",
+        "Young Bag Micro Motor Co Ltd",
+        "Young Optics Inc.",
+        "YOUNYI Information Communication",
+        "Zeng Hsing Industrial Co Ltd",
+        "Zenitron Corp",
+        "Zentel Electronics Corp.",
+        "Zhejiang Crystal Optech Co Ltd",
+        "Zhejiang East Crystal Electronic Co Ltd",
+        "ZHONGYEDA ELECTRIC CO.,LTD.",
+        "ZJ Sunflower Light Energy Science&Tech"
+    ],
+    "compLi_detail": [
+        {
+            "name": "Aac Technologies Holdings Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Abico FS Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Ace Hightech Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Ace Pillar Co Ltd",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Actions Semiconductor Co., Ltd. (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "A-DATA Technology Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ADTEC Corporation",
+            "sic": "3679",
+            "selected": true
+        },
+        {
+            "name": "Adval Tech Holding AG",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Advanced Digital Chips Inc",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Advanced Microelectronic Products Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Advanced Systems Automation Limited",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Advanced Wireless Semiconductor Company",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Agilysys, Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "AIA Engineering Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "AIA Engineering Ltd (Parent)",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "AIXTRON SE",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "AIXTRON SE (ADR)",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Alchip Technologies, Limitd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "All Ring Tech Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Alliance Fiber Optic Products Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Alltek Technology Corp.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Alltronics Holdings Limited",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Alphachips Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "AMINOLOGICS CO.,LTD.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Amtech Systems, Inc.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Anixter International Inc.",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Anpec Electronics Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "AOI ELECTRONICS CO.,LTD.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "AP Memory Technology Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "APAC Opto Electronics Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Apacer Technology Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "API Technologies Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "APIC YAMADA CORPORATION",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Apogee Optocom Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Applied Optoelectronics Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Aptos Technology Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ARES GREEN TECHNOLOGY CORPORATION",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "ARM Holdings plc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ARM Holdings plc (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Arrow Electronics, Inc.",
+            "sic": "5065",
+            "selected": true
+        },
+        {
+            "name": "ASEC International Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Asia Vital Components Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "ASIX ELECTRONICS CORPORATION LTD",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ASMedia Technology Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ASTI Holdings Limited",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Astra Microwave Products Limited",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Astra Microwave Products Ltd (Parent)",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "AT Technology Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Atmel Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "AUK Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Aurotek Corp",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "AV Concept Holdings Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Avatec Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "AverLogic Technologies Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Avid Electronics Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "AXELL CORPORATION",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Barun Electronics Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Beijing Honggao Cretv Constn Dsgn Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Beijing Sevenstar Electronics Co., Ltd.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Beijing Triolion Scnc & Technlgy Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Biemt Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Bluecom Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "BOE Technology Group Co. Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "BOS Better OnLine Sol (USA)",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "BOTHHAND ENTERPRISE INC.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Brightking Holdings Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Browave Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Calitech Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Canon Electronics Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Castech Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Cavium Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "CDW Holding Limited",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Celestica Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "centrotherm photovoltaics AG",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Chander Electronics Corp.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Chaozhou Three-circle Group Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Chen Full International Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Chengdu Bikong Science & Technology Co",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Chien Wei Precise Technology Co., Ltd.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "China Zhenhua (Group) Science & Tech.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "CHIP HOPE CO., LTD",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Chipbond Technology Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ChipMOS Technologies (Bermuda) Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Chipsip Technology Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "CHIYODA INTEGRE CO., LTD.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Cicor Technologies Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Circuit Electronic Industries PCL",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "C-MEDIA ELECTRONICS INC.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "CML Microsystems Plc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "CoAsia Microelectronics Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Comintel Corporation Berhad",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Contrel Technology Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Core Logic Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "CPT Technology (Group) Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Crystal Applied Technology Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "CTS Corporation",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "CVD Equipment Corporation",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "CX Technology Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Cypress Semiconductor Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "D & O Green Technologies Bhd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Daejoo Electronic Materials Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Daetwyler Fuehrungs AG",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Daetwyler Holding AG",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "DAISHINKU CORP.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Daito Electron Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Daiwa Associate Holdings Limited",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Dalian Rubber & Plastics Machinery",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Darfon Electronics Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Darwin Precisions Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Dexerials Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "DI Corp",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Dialight Plc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "DID Corporation",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Di-Nikko Engineering Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "DISCO CORPORATION",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "DK UIL Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Dongxu Optoelectronic Technology Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Donpon Precision Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Dragon Group International Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "E&R Engineering Corp",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "e.Digital Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "EACO Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Eagle Mountain Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "eASIC Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Eclat Forever Machinery Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "EDISON OPTO CORPORATION",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Edom Technology Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Electro Scientific Industries, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Electronics Industry Public Company Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Elematec Corporation",
+            "sic": "5063",
+            "selected": true
+        },
+        {
+            "name": "elexis AG",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Elite Advanced Laser Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Elite Semiconductor Memory Tech. Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ELMOS Semiconductor AG",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "EMCORE Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "eMemory Technology, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Enertronica SpA",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Enphase Energy Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Entropic Communications, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "EO Technics Co., Ltd.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Eon Silicon Solution Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Eris Technology Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Etron Technology Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Everlight Electronics Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Exar Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Excel Cell Electronic Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Excel Co Ltd",
+            "sic": "5065",
+            "selected": true
+        },
+        {
+            "name": "Excellence Optoelectronic Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Excelpoint Technology Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Faraday Technology Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Fidelix Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Fine DNC Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "FINE TECHNIX CO.,LTD",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Finisar Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "First Solar, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "FOCI Fiber Optic Communications, Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Formosa Sumco Technology Corp",
+            "sic": "3674",
+            "selected": true
+        },
+        {
+            "name": "FORTEC Elektronik AG",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Forward Electronics Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Foshan Nationstar Optoelectronics Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Foxsemicon Integrated Technology Inc",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Frencken Group Limited",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Freund Corporation",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Fuhrmeister Electronics Co.,Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Fujian Haiyuan Automatic Eqpmnts Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Gefran S.p.A.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Genesys Logic Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "GEOMATEC CO., LTD.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "GigOptix Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Globetronics Technology Berhad",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Glory Science Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "GoerTek Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Gold Tat Group International Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Goldenmars Technology Hldg Ltd",
+            "sic": "3674",
+            "selected": true
+        },
+        {
+            "name": "GRAND PLASTIC TECHNOLOGY CORP",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Green Cross Cell Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Green World Hotels Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "G-Shank Enterprise Co.,Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "GSI Group Inc. (USA)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "GSI Technology, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "GTM Holdings Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "GuangDong Failong Crystal Techlgy Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "HAGIWARA ELECTRIC CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Hakuto Co., Ltd.",
+            "sic": "3674",
+            "selected": true
+        },
+        {
+            "name": "Hana Microelectronics Public Co. Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Hangzhou Silan Microelectronics Co., Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Hansol Technics Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Hanyang Digitech Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Harmony Electronics Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Harvatek Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "HCK Capital Group Bhd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Heres Technology BJ Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Hexatronic Group AB",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Hicel Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Higher Way Electronic Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Hirata Corp",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Holtek Semiconductor Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Holy Stone Enterprise Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Honey Hope Honesty Enterprise Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Howteh Technology Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Hua Hong Semiconductor Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Hutchinson Technology Incorporated",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Ichia Technologies Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "I-Chiun Precision Industry Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ICK Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ilya Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Imagis Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Impact Coatings AB",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Inabata & Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "INESA Electron Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Infineon Technologies AG",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Infineon Technologies AG (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Info-Tek Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Inission AB",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "InnoChips Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Inotera Memories Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Inrad Optics Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Integrated Device Technology Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Integrated Micro-Electronics, Inc.",
+            "sic": "3679",
+            "selected": true
+        },
+        {
+            "name": "Intel Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "International Standard Resrcs Hldgs Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Intersil Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Inventec Besta Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Inzi Display Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Ipco International Limited",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Irico Display Devices Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "IRICO Group Electronics Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "ISC Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "ISDN Holdings Limited",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Ishii Hyoki Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "ITE Tech. Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Jeju Semiconductor Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Jeng Shiang Precision Ind Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Jenoptik AG",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "JHM Consolidation Berhad",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Jih Lin Technology Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "JMT CO.,Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Jochu Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Jolywood Suzhou Sunwatt Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Jorjin Technologies Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Jubilee Industries Holdings Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "KAGA ELECTRONICS CO., LTD.",
+            "sic": "3674",
+            "selected": true
+        },
+        {
+            "name": "KANADEN CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "KAULIN MANUFACTURING CO., LTD.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Kendrion NV",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Kenmos Technology Co. Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "KH Vatec Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "King Core Electronics Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Kingpak Technology Inc",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "KITAGAWA INDUSTRIES CO.,LTD.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Kopin Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Korea Computer Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Koryo Electronics Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "KUEN CHAANG UPPERTECH CORP.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Kuroda Electric Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Laird PLC",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Leaguer Stock Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "LED International Holdings Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ledman Optoelectronic Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "LG Innotek Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "LG International Corp",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "LGL Group Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "LITE-ON JAPAN LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Lite-On Semiconductor Group",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "LIWANLI Innovation Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Liyu Technology Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Lms Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Lung Lung Pien Vacuum Industry Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "LuxNet Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Macronix International Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "MAG.LAYERS Scientific-Technics Co.,Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Makus, Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Malmbergs Elektriska AB",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Martifer SGPS SA",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "MARUBUN CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "MARUWA CO., LTD.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Mattson Technology, Inc.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "MAXTEK TECHNOLOGY CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Mclean Technologies Bhd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Mcnex Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "MegaChips Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Merdeka Mobile Group Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "MetaTech (AP) Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "MiCo Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Micro Base Technology Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Microchip Technology Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Micron Technology, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Micropac Industries, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Microsemi Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Mikuni Shoji Co Ltd",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Milacron Holdings Corp",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Mildex Optical Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Mirae Corp",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Miraial Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "MITACHI CO., LTD",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Mitsui High-tec, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "MK Electron Co Ltd",
+            "sic": "3674",
+            "selected": true
+        },
+        {
+            "name": "Mobicon Group Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "MoSys Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Muramoto Electron Thailand PCL",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Mustang Industrial Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Mycronic publ AB",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "NADEX CO., LTD.",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Naigai Tec Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Nanya Technology Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "New Japan Radio Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Nextchip Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "NICHIDENBO CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "NICHING INDUSTRIAL CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "NIIME i Mikron OAO",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ningbo WanHao Holdings Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "NIPPO LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "NITTOKU ENGINEERING CO., LTD.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Nordic Semiconductor ASA",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Norsat International Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Norsat International Inc (USA)",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "NPC Incorporated",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "NVE Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "OEM International AB",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Okins Electronics Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Okmetic Oyj",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ON Semiconductor Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "OPTO Tech Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Orient Semiconductor Electronics Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Panram International Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Para Light Electronics Co., Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Perfect Optronics Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Petrosetco Distribution Joint Stock Co",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Phison Electronics Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Phoenix Materials Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Phoenix Semiconductor Philippines Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Pierides Holdings Plc",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "PixArt Imaging Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Pixelplus Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Pixelplus Co Ltd (Parent)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "PLA Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Plan Optik AG",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Podak Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "POET Technologies Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Pontex Polyblend Co., Ltd.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Power Integrations Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Power Logics",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Powerchip Technology Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Powertech Technology Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Premier Farnell plc",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "PRESCOPE TECHNOLOGIES CO.,LTD",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Professional Computer Technology Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Prolific Technology Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ProLight Opto Technology Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Prolink Microsystems Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Promate Electronic Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Prosperity Dielectrics Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Pulse Electronics Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "R. H. Technologies Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Rambus Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Raygen Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "RDC Semiconductor Co.,Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Realtek Semiconductor Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "REC Solar ASA",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Renesas Easton Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Resonant Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Riber SA",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Richardson Electronics, Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Rigidtech Microelectronics Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ROHM COMPANY LIMITED",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "RORZE CORPORATION",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Rubicon Technology, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ryosan Company, Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Ryoyo Electro Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "S Connect Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "S.A.S. Dragon Holdings Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Sakae Electronics Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Salora International Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Salora International Ltd (Parent)",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Samjin LND Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Samsung Electro-Mechanics Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "SAMT Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Sang-A Frontec Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "SANSHIN ELECTRONICS CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "SATORI ELECTRIC CO., LTD.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Seiko Holdings Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Sejin T.S Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Semiconductor Manufacturing Int'l",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Semiconductor Manufacturing Int'l (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "SemiLEDs Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Sentronic International Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Serial System Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Serial System Ltd (TDR)",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Seronics Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Service & Quality Technology Co., Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "SFC Energy AG",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Shanghai Aero Auto Electromechanical",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Shengyi Technology Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Everwin Precision Technology Co",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Huakong Seg Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Mason Technologies Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen O-film Tech Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Refond Optoelectronics",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Sed Industry Co., Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Sunshine Lsr& Elcts Tech Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Zhongheng Huafa Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shin Zu Shing Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shinden Hightex Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "SHINKAWA LTD.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Shinko Shoji Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "SHOWA SHINKU CO.,LTD.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Shunsin Technology Holdings Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Shuz Tung Machinery Industrial Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Silicon Laboratories",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Siliconware Precision Industries (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Siliconware Precision Industries Co, Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Silitech Technology Corporation",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Siltronic AG",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Siltrontech Electronics Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "SINBON ELECTRONICS CO., LTD.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Single Well Industrial Corp",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "SINGULUS TECHNOLOGIES  AG",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Sino-American Silicon Products Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Sintek Photronic Corp.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "SK Hynix Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "SK Hynix Inc (Parent)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Skymedi Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Soaring Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Solacia Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Solar A/S",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Solargiga Energy Holdings Limited",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Solargiga Energy Holdings Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Solarpro Holding AD Sofia",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Solid State System Co., Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Solitron Devices, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Solomon Technology Corporation",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Spansion Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "STG International Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "STMicroelectronics NV",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "STMicroelectronics NV (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Strongunion Technology Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "STS Semiconductor and Telecommunications",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Subtron Technology Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Sumco Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Sun.King Power Electronics Group Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "SUNG-WOO ELECTRONICS CO., LTD",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "SUNNIC Technology & Merchandise Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "SunPower Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "SUN-WA TECHNOS CORPORATION",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Supercom Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Supreme Electronics Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Surge Components, Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Suzhou Anjie Technology Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Suzhou Chunxing Precision Mechncl Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Synopex Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Taeyang Electronics Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Tai Shing Electronics Components Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "TAI-SAW TECHNOLOGY CO., LTD.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Taitron Components Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Chi Cheng Enterprise Co.,Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Taiwan IC Packaging Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Kong King Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Oasis Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "TAIWAN OSTOR CORP.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Semiconductor Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Semiconductor Mfg. Co. Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Semiconductor Mfg. Co. Ltd. (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Thick-Film Ind Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "TAKACHIHO KOHEKI CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Tamagawa Holdings Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Tamul Multimedia Co., Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "TCL Display Technology Holdings Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "TDG Holding  Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "TE Connectivity Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Team Group Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Techno Alpha Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Techwing Inc",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Telsys Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "TerraSem Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Tes Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Thin Film Electronics ASA",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ThinTech Materials Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Tianjin Zhonghuan Semiconductor Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "TM Technology Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Tokai Electronics Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Tokyo Electron Device Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Tokyo Electron Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "TOMEN DEVICES CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Tongfang Guoxin Electronics Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Topsil Semiconductor Materials A/S",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Toshin Group Co., Ltd.",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Toyo Machinery Metal Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Trais Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Transcend Information, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "TRINITY INDUSTRIAL CORP.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "TrueLight Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Trust-Search Corp.,Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Turvo International Company Limited",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "TXC Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Tyntek Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "U.I. Display Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "UKC Holdings Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ultra Clean Holdings Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ultratech, Inc.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "UMS Holdings Limited",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "UNIFOSA CORP.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Union Plus Technology Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "UniPixel Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Uniquest Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "United Microelectronics Corp (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "United Microelectronics Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Unity Opto Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Universal Microwave Technology, Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Universal Scientfc Industrl Shngh Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "UR Holding SpA",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "U-Tech Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Veeco Instruments Inc.",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Venture Corporation Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Vicor Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Video Display Corporation",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Vietnam Electric Cable Corp",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Vissem Electronics Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Visual Photonics Epitaxy Co., Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "VITEC CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "V-Tac Technology Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Wafer Works Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Waffer Technology Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Walsin Technology Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Walton Advanced Engineering Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Weltrend Semiconductor, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Wiisol Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Willas-Array Electronics (Holdings) Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Winbond Electronics Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Winpac Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Wizit Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Woojeon & Handan Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Wooriro Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "WPG Holdings Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "WT Microelectronics Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Wuhan Fingu Electronic Technology Co",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Wuhan P&S Information Technology Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Xintec Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Yangzhou Yangjie Electrnc Tchnlgy Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Yleiselektroniikka Oyj",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "YMC Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Young Bag Micro Motor Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Young Optics Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "YOUNYI Information Communication",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Zeng Hsing Industrial Co Ltd",
+            "sic": "3559",
+            "selected": false
+        },
+        {
+            "name": "Zenitron Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Zentel Electronics Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Zhejiang Crystal Optech Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Zhejiang East Crystal Electronic Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "ZHONGYEDA ELECTRIC CO.,LTD.",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "ZJ Sunflower Light Energy Science&Tech",
+            "sic": "3674",
+            "selected": false
+        }
+    ]
+}

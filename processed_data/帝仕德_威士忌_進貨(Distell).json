@@ -1,0 +1,1197 @@
+{
+    "target": "帝仕德_威士忌_進貨(Distell)",
+    "website": "https://www.distell.co.za/home/",
+    "sic": {
+        "2084": "Wines,Brandy & Brandy Spirits(葡萄酒，白蘭地及白蘭地烈酒)",
+        "5140": "Groceries And Related Products(雜貨與相關產品)",
+        "5141": "Groceries, General Line(雜貨)",
+        "5149": "Groceries and Related Products, Not Elsewhere Classified(其他未分類之雜貨)",
+        "5180": "Beer, Wine, And Distilled Alcoholic Beverages(啤酒、葡萄酒、蒸餾之酒精飲料)",
+        "5812": "Wine and Distilled Alcoholic Beverages(葡萄酒和蒸餾酒精飲料)",
+        "5813": "Drinking Places(販賣飲品場所)",
+        "5921": "Liquor Stores(酒類專賣店)"
+    },
+    "keywords_ori": [
+        "Wine",
+        "Alcohol",
+        "Distribution",
+        "Suppliers",
+        "Drinking",
+        "Beer"
+    ],
+    "keywords": {
+        "Keywords": [
+        ],
+        "KeyWords(Emphasize)": [
+            "Drinking",
+            "Wine",
+            "Alcohol",
+            "Beer",
+            "spirits",
+            "ciders"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "13 Jul Plantaze ad Podgorica",
+        "Abrau-Durso PAO",
+        "Advini SA",
+        "African Distillers Ltd",
+        "Akasha Wira International Tbk PT",
+        "Akyurek Tuketim Urunleri Pazar Dag ve",
+        "Alkaline Water Company Inc",
+        "Alsea SAB de CV",
+        "AMCON Distributing Co.",
+        "Andrew Peller Ltd.",
+        "Anhui Golden Seed Winery Co., Ltd.",
+        "An-Shin Food Services Co Ltd",
+        "AP Company Co Ltd",
+        "Arcland Service Holdings Co Ltd",
+        "Armeau Brands Inc",
+        "Associated Alcohol and Breweries Ltd",
+        "Auric Pacific Group Limited",
+        "BAB, Inc.",
+        "Badel 1862 dd",
+        "Baron de Ley SA",
+        "Bayn Europe AB",
+        "Berjaya Food Bhd",
+        "BJ's Restaurants, Inc.",
+        "Bloomin' Brands Inc",
+        "Bodegas Bilbainas SA",
+        "Bodegas Esmeralda SA",
+        "Bodegas Riojanas SA",
+        "Booker Group Plc",
+        "Boston Pizza Royalties Income Fund",
+        "Brand New Vintage Limited",
+        "Bucur SA",
+        "Buffalo Wild Wings",
+        "Bunzl plc",
+        "Bunzl plc (ADR)",
+        "Burger Fuel Worldwide Limited",
+        "C&C Group Plc",
+        "Cafe de Coral Holdings Limited",
+        "Cantho Tourist JSC",
+        "Ceylon Beverage Holdings PLC",
+        "Chapel Down Group PLC",
+        "Chellarams Plc",
+        "Chimney Co Ltd",
+        "China Foods Limited",
+        "China Ouhua Winery Holdings Ltd",
+        "China Quanjude (Group) Co., Ltd",
+        "China Tontine Wines Group Limited",
+        "Citic Guoan Wine Co Ltd",
+        "CJ Freshway Corp",
+        "Core-Mark Holding Company, Inc.",
+        "Cosi Inc",
+        "Crimson Wine Group Ltd",
+        "Crystal Rock Holdings Inc",
+        "CUROHOLDINGS Co Ltd",
+        "DAISYO CORPORATION",
+        "Darden Restaurants, Inc.",
+        "Dave & Buster's Entertainment Inc",
+        "Del Frisco's Restaurant Group Inc",
+        "Diamond Dining Co., Ltd.",
+        "DineEquity Inc",
+        "Dingyi Group Investment Ltd",
+        "Domino's Pizza, Inc.",
+        "Dongsuh",
+        "Dunkin Brands Group Inc",
+        "Elgeka Trade Distributions Rep. Industry",
+        "Emperador Inc",
+        "Enterprise Inns plc",
+        "Eurocash SA",
+        "FLYING GARDEN CO., LTD.",
+        "Foodco Holding PJSC",
+        "Fuller, Smith & Turner plc",
+        "G Willi-Food International Ltd",
+        "Gansu Mogao Industrial Development Co.",
+        "Ginebra San Miguel Inc",
+        "Good Times Restaurants Inc.",
+        "Grace Kennedy & Co Ltd",
+        "Greene King plc",
+        "Gulfa Mineral Water & Processing Ind Co.",
+        "Hamama Meir Trading (1996) Ltd",
+        "Harrisons Holdings Malaysia Bhd",
+        "Heracles SA",
+        "Herfy Food Services Co",
+        "Hi-Lai Foods Co Ltd",
+        "Hna-Caissa Travel Group Co Ltd",
+        "HUB CO., LTD.",
+        "Hyundai Green Food Co Ltd",
+        "IPAL  S.A.",
+        "Itochu-Shokuhin Co Ltd",
+        "J Alexanders Holdings Inc",
+        "J Boutaris & Son Holding S.A.",
+        "JALUX Inc.",
+        "Jammin Java Corp",
+        "Jamnica dd",
+        "j-Group Holdings Corp",
+        "Joyfull Co., Ltd.",
+        "KATO SANGYO CO., LTD.",
+        "KFC Holdings Japan Ltd",
+        "Khanh Hoa Mineral Water JSC",
+        "Kisoji Co Ltd",
+        "Kona Grill Inc",
+        "Kook Soon Dang Co Ltd",
+        "KTIMA KOSTAS LAZARIDIS S.A.",
+        "Lamdong Foodstuffs JSC",
+        "Lanson BCC SA",
+        "Latvijas balzams AS",
+        "Laurent-Perrier SA",
+        "Les Eaux Minerales d'Oulmes SA",
+        "Les Toques Blanches du Monde SARL",
+        "Lippo China Resources Limited",
+        "Liquor Stores N.A. Ltd",
+        "Majestic Wine PLC",
+        "Major Holdings Ltd",
+        "MARCHE CORPORATION",
+        "Marr SpA",
+        "Marston's PLC",
+        "McDonald's Corporation",
+        "Metcash Limited",
+        "Mineralbrunnen Ueberkingen-Teinach AG",
+        "Minor International Public Co. Ltd",
+        "MOS FOOD SERVICES, INC.",
+        "Moskovskiy kombinat shampan. vin OAO",
+        "MTY Food Group Inc.",
+        "National Mineral Water Company SAOG",
+        "Neo Group Ltd",
+        "New Silkroad Culturaltainment Ltd",
+        "Next BT Co Ltd",
+        "Ningxia Western Venture Industrial CoLtd",
+        "Nuway Organic Naturals India Ltd",
+        "Ohsho Food Service Corp",
+        "Panera Bread Co",
+        "Papa John's Int'l, Inc.",
+        "Patisserie Holdings PLC",
+        "Pinar Su Sanayi ve Ticaret A.S.",
+        "Pizza Pizza Royalty Corp",
+        "Punch Taverns plc",
+        "Radico Khaitan Limited",
+        "Rave Restaurant Group Inc",
+        "RCI Hospitality Holdings Inc",
+        "Refresco Group NV",
+        "Renuka Holdings Ltd",
+        "Restaurant Brands International Inc",
+        "Restaurant Group PLC",
+        "Revolution Bars Group PLC",
+        "Rocky Mountain Liquor Inc",
+        "ROYAL HOLDINGS CO., LTD.",
+        "Runsystem Co Ltd",
+        "SAF Magellan AD",
+        "Saha Pathanapibul PCL",
+        "Saigon Industrial Foodstuffs JSC",
+        "SAIZERIYA CO., LTD.",
+        "Sakana SA",
+        "Schlumberger AG",
+        "Shake Shack Inc",
+        "Sligro Food Group N.V.",
+        "Sociedad Anonima Vina Santa Rita",
+        "Sonic Corporation",
+        "Soup Restaurant Group Ltd",
+        "Spadel SA",
+        "Spar Group Limited",
+        "SpartanNash Co",
+        "Spritzer Bhd",
+        "Staatl Mineralbrunnen AG",
+        "Taste Holdings Limited",
+        "Telepizza Group SA",
+        "TEN ALLIED CO., LTD.",
+        "Thang Long Wine JSC",
+        "The Chefs Warehouse, Inc",
+        "Tilaknagar Industries Ltd",
+        "Tokan Co., Ltd.",
+        "TOKYO THEATRES COMPANY, INCORPORATED",
+        "Tonghua Grape Wine Co., Ltd",
+        "Top One Allot JSC",
+        "Tri Banyan Tirta Tbk PT",
+        "TTFB Co Ltd",
+        "Tung Lok Restaurants (2000) Ltd.",
+        "UMENOHANA CO., LTD.",
+        "Viet Nam National Generl Exp Imp JSC No1",
+        "Vina Concha y Toro SA",
+        "Vina Concha y Toro SA (ADR)",
+        "Vina San Pedro Tarapaca SA",
+        "Vinarska Vizba Tikves AD Skopje",
+        "Vinedos Emiliana SA",
+        "Vinzavod AD",
+        "Voda Vrnjci ad Vrnjacka Banja",
+        "Vranken-Pommery Monopole SA",
+        "WASGAU Produktions & Handels AG",
+        "Watami Co Ltd",
+        "Wei Long Grape Wine Co Ltd",
+        "Yamatane Corporation",
+        "Yantai Changyu Pioneer Wine Company Ltd",
+        "Young & Co.'s Brewery plc",
+        "YUASA FUNASHOKU CO., LTD.",
+        "Zhejiang GuYueLongShan Shaoxing Wine Co.",
+        "Zydus Wellness Ltd"
+    ],
+    "compLi_detail": [
+        {
+            "name": "13 Jul Plantaze ad Podgorica",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Abrau-Durso PAO",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Advini SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "African Distillers Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Akasha Wira International Tbk PT",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Akyurek Tuketim Urunleri Pazar Dag ve",
+            "sic": "5149",
+            "selected": true
+        },
+        {
+            "name": "Alkaline Water Company Inc",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Alsea SAB de CV",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "AMCON Distributing Co.",
+            "sic": "5141",
+            "selected": true
+        },
+        {
+            "name": "Andrew Peller Ltd.",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Anhui Golden Seed Winery Co., Ltd.",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "An-Shin Food Services Co Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "AP Company Co Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Arcland Service Holdings Co Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Armeau Brands Inc",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Associated Alcohol and Breweries Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Auric Pacific Group Limited",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "BAB, Inc.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Badel 1862 dd",
+            "sic": "2084",
+            "selected": true
+        },
+        {
+            "name": "Baron de Ley SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Bayn Europe AB",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Berjaya Food Bhd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "BJ's Restaurants, Inc.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Bloomin' Brands Inc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Bodegas Bilbainas SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Bodegas Esmeralda SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Bodegas Riojanas SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Booker Group Plc",
+            "sic": "5141",
+            "selected": true
+        },
+        {
+            "name": "Boston Pizza Royalties Income Fund",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Brand New Vintage Limited",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Bucur SA",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Buffalo Wild Wings",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Bunzl plc",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Bunzl plc (ADR)",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Burger Fuel Worldwide Limited",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "C&C Group Plc",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Cafe de Coral Holdings Limited",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Cantho Tourist JSC",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Ceylon Beverage Holdings PLC",
+            "sic": "5921",
+            "selected": false
+        },
+        {
+            "name": "Chapel Down Group PLC",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Chellarams Plc",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Chimney Co Ltd",
+            "sic": "5813",
+            "selected": false
+        },
+        {
+            "name": "China Foods Limited",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "China Ouhua Winery Holdings Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "China Quanjude (Group) Co., Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "China Tontine Wines Group Limited",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Citic Guoan Wine Co Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "CJ Freshway Corp",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Core-Mark Holding Company, Inc.",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Cosi Inc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Crimson Wine Group Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Crystal Rock Holdings Inc",
+            "sic": "5140",
+            "selected": false
+        },
+        {
+            "name": "CUROHOLDINGS Co Ltd",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "DAISYO CORPORATION",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Darden Restaurants, Inc.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Dave & Buster's Entertainment Inc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Del Frisco's Restaurant Group Inc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Diamond Dining Co., Ltd.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "DineEquity Inc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Dingyi Group Investment Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Domino's Pizza, Inc.",
+            "sic": "5140",
+            "selected": false
+        },
+        {
+            "name": "Dongsuh",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Dunkin Brands Group Inc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Elgeka Trade Distributions Rep. Industry",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Emperador Inc",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Enterprise Inns plc",
+            "sic": "5813",
+            "selected": false
+        },
+        {
+            "name": "Eurocash SA",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "FLYING GARDEN CO., LTD.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Foodco Holding PJSC",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Fuller, Smith & Turner plc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "G Willi-Food International Ltd",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Gansu Mogao Industrial Development Co.",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Ginebra San Miguel Inc",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Good Times Restaurants Inc.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Grace Kennedy & Co Ltd",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Greene King plc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Gulfa Mineral Water & Processing Ind Co.",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Hamama Meir Trading (1996) Ltd",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Harrisons Holdings Malaysia Bhd",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Heracles SA",
+            "sic": "5921",
+            "selected": false
+        },
+        {
+            "name": "Herfy Food Services Co",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Hi-Lai Foods Co Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Hna-Caissa Travel Group Co Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "HUB CO., LTD.",
+            "sic": "5813",
+            "selected": false
+        },
+        {
+            "name": "Hyundai Green Food Co Ltd",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "IPAL  S.A.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Itochu-Shokuhin Co Ltd",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "J Alexanders Holdings Inc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "J Boutaris & Son Holding S.A.",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "JALUX Inc.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Jammin Java Corp",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Jamnica dd",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "j-Group Holdings Corp",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Joyfull Co., Ltd.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "KATO SANGYO CO., LTD.",
+            "sic": "5141",
+            "selected": true
+        },
+        {
+            "name": "KFC Holdings Japan Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Khanh Hoa Mineral Water JSC",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Kisoji Co Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Kona Grill Inc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Kook Soon Dang Co Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "KTIMA KOSTAS LAZARIDIS S.A.",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Lamdong Foodstuffs JSC",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Lanson BCC SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Latvijas balzams AS",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Laurent-Perrier SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Les Eaux Minerales d'Oulmes SA",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Les Toques Blanches du Monde SARL",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Lippo China Resources Limited",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Liquor Stores N.A. Ltd",
+            "sic": "5921",
+            "selected": false
+        },
+        {
+            "name": "Majestic Wine PLC",
+            "sic": "5921",
+            "selected": false
+        },
+        {
+            "name": "Major Holdings Ltd",
+            "sic": "5921",
+            "selected": false
+        },
+        {
+            "name": "MARCHE CORPORATION",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Marr SpA",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Marston's PLC",
+            "sic": "5813",
+            "selected": false
+        },
+        {
+            "name": "McDonald's Corporation",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Metcash Limited",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Mineralbrunnen Ueberkingen-Teinach AG",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Minor International Public Co. Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "MOS FOOD SERVICES, INC.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Moskovskiy kombinat shampan. vin OAO",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "MTY Food Group Inc.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "National Mineral Water Company SAOG",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Neo Group Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "New Silkroad Culturaltainment Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Next BT Co Ltd",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Ningxia Western Venture Industrial CoLtd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Nuway Organic Naturals India Ltd",
+            "sic": "2084",
+            "selected": true
+        },
+        {
+            "name": "Ohsho Food Service Corp",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Panera Bread Co",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Papa John's Int'l, Inc.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Patisserie Holdings PLC",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Pinar Su Sanayi ve Ticaret A.S.",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Pizza Pizza Royalty Corp",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Punch Taverns plc",
+            "sic": "5813",
+            "selected": false
+        },
+        {
+            "name": "Radico Khaitan Limited",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Rave Restaurant Group Inc",
+            "sic": "5140",
+            "selected": false
+        },
+        {
+            "name": "RCI Hospitality Holdings Inc",
+            "sic": "5813",
+            "selected": false
+        },
+        {
+            "name": "Refresco Group NV",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Renuka Holdings Ltd",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Restaurant Brands International Inc",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Restaurant Group PLC",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Revolution Bars Group PLC",
+            "sic": "5813",
+            "selected": false
+        },
+        {
+            "name": "Rocky Mountain Liquor Inc",
+            "sic": "5921",
+            "selected": false
+        },
+        {
+            "name": "ROYAL HOLDINGS CO., LTD.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Runsystem Co Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "SAF Magellan AD",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Saha Pathanapibul PCL",
+            "sic": "5141",
+            "selected": true
+        },
+        {
+            "name": "Saigon Industrial Foodstuffs JSC",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "SAIZERIYA CO., LTD.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Sakana SA",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Schlumberger AG",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Shake Shack Inc",
+            "sic": "5812",
+            "selected": true
+        },
+        {
+            "name": "Sligro Food Group N.V.",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Sociedad Anonima Vina Santa Rita",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Sonic Corporation",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Soup Restaurant Group Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Spadel SA",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Spar Group Limited",
+            "sic": "5141",
+            "selected": true
+        },
+        {
+            "name": "SpartanNash Co",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Spritzer Bhd",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Staatl Mineralbrunnen AG",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Taste Holdings Limited",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Telepizza Group SA",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "TEN ALLIED CO., LTD.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Thang Long Wine JSC",
+            "sic": "2084",
+            "selected": true
+        },
+        {
+            "name": "The Chefs Warehouse, Inc",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Tilaknagar Industries Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Tokan Co., Ltd.",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "TOKYO THEATRES COMPANY, INCORPORATED",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Tonghua Grape Wine Co., Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Top One Allot JSC",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Tri Banyan Tirta Tbk PT",
+            "sic": "5149",
+            "selected": true
+        },
+        {
+            "name": "TTFB Co Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Tung Lok Restaurants (2000) Ltd.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "UMENOHANA CO., LTD.",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Viet Nam National Generl Exp Imp JSC No1",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Vina Concha y Toro SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Vina Concha y Toro SA (ADR)",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Vina San Pedro Tarapaca SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Vinarska Vizba Tikves AD Skopje",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Vinedos Emiliana SA",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Vinzavod AD",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Voda Vrnjci ad Vrnjacka Banja",
+            "sic": "5149",
+            "selected": false
+        },
+        {
+            "name": "Vranken-Pommery Monopole SA",
+            "sic": "2084",
+            "selected": true
+        },
+        {
+            "name": "WASGAU Produktions & Handels AG",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Watami Co Ltd",
+            "sic": "5812",
+            "selected": false
+        },
+        {
+            "name": "Wei Long Grape Wine Co Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Yamatane Corporation",
+            "sic": "5149",
+            "selected": true
+        },
+        {
+            "name": "Yantai Changyu Pioneer Wine Company Ltd",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Young & Co.'s Brewery plc",
+            "sic": "5813",
+            "selected": false
+        },
+        {
+            "name": "YUASA FUNASHOKU CO., LTD.",
+            "sic": "5141",
+            "selected": false
+        },
+        {
+            "name": "Zhejiang GuYueLongShan Shaoxing Wine Co.",
+            "sic": "2084",
+            "selected": false
+        },
+        {
+            "name": "Zydus Wellness Ltd",
+            "sic": "5149",
+            "selected": false
+        }
+    ]
+}

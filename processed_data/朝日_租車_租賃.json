@@ -1,0 +1,221 @@
+{
+    "target": "朝日_租車_租賃",
+    "website": "",
+    "sic": {
+        "7513": "Truck Rental & Leasing, No Drivers",
+        "7514": "Passenger Car Rental",
+        "7515": "Passenger Car Leasing"
+    },
+    "keywords_ori": [
+        "Car",
+        "Automobile",
+        "Rental",
+        "Lease"
+    ],
+    "keywords": {
+        "Keywords": [],
+        "KeyWords(Emphasize)": [
+            "Car",
+            "Automobile",
+            "Rental",
+            "Lease"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "ADA SA",
+        "Adi Sarana Armada Tbk PT",
+        "AJ Rent A Car Co Ltd",
+        "AutoHellas S.A.",
+        "Avis Budget Group Inc.",
+        "Beyaz Filo Oto Kiralama AS",
+        "CAR Inc",
+        "Citra Maharlika Nusantara Corpora Tbk PT",
+        "Companhia de Locacao das Americas",
+        "Comprehensive Leasing Co PSC",
+        "Empresas Tattersall SA",
+        "Escorts Finance Ltd",
+        "Europcar Groupe SA",
+        "Hertz Corp",
+        "Hertz Global Holdings Inc",
+        "ICHINEN HOLDINGS CO., LTD.",
+        "Kardan Yazamut 2011 Ltd",
+        "Krungthai Car Rent & Lease PCL",
+        "Localiza Rent a Car SA",
+        "Mida Leasing Public Company Limited",
+        "Phatra Leasing Public Company Limited",
+        "Premier Enterprise PCL",
+        "Prime Car Management SA",
+        "RedcapTour Co Ltd",
+        "Sixt Leasing AG",
+        "Sixt SE",
+        "Thitikorn Public Company Limited",
+        "TRUST CO., LTD.",
+        "Ucar SA",
+        "United International Transportation Co.",
+        "Warisan TC Holdings Berhad",
+        "Yunnan Tourism Co Ltd"
+    ],
+    "compLi_detail": [
+        {
+            "name": "ADA SA",
+            "sic": "7514",
+            "selected": true
+        },
+        {
+            "name": "Adi Sarana Armada Tbk PT",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "AJ Rent A Car Co Ltd",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "AutoHellas S.A.",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "Avis Budget Group Inc.",
+            "sic": "7514",
+            "selected": true
+        },
+        {
+            "name": "Beyaz Filo Oto Kiralama AS",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "CAR Inc",
+            "sic": "7514",
+            "selected": true
+        },
+        {
+            "name": "Citra Maharlika Nusantara Corpora Tbk PT",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "Companhia de Locacao das Americas",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "Comprehensive Leasing Co PSC",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "Empresas Tattersall SA",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "Escorts Finance Ltd",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "Europcar Groupe SA",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "Hertz Corp",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "Hertz Global Holdings Inc",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "ICHINEN HOLDINGS CO., LTD.",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "Kardan Yazamut 2011 Ltd",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "Krungthai Car Rent & Lease PCL",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "Localiza Rent a Car SA",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "Mida Leasing Public Company Limited",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "Phatra Leasing Public Company Limited",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "Premier Enterprise PCL",
+            "sic": "7514",
+            "selected": true
+        },
+        {
+            "name": "Prime Car Management SA",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "RedcapTour Co Ltd",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "Sixt Leasing AG",
+            "sic": "7515",
+            "selected": true
+        },
+        {
+            "name": "Sixt SE",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "Thitikorn Public Company Limited",
+            "sic": "7515",
+            "selected": false
+        },
+        {
+            "name": "TRUST CO., LTD.",
+            "sic": "7514",
+            "selected": true
+        },
+        {
+            "name": "Ucar SA",
+            "sic": "7514",
+            "selected": true
+        },
+        {
+            "name": "United International Transportation Co.",
+            "sic": "7514",
+            "selected": false
+        },
+        {
+            "name": "Warisan TC Holdings Berhad",
+            "sic": "7514",
+            "selected": true
+        },
+        {
+            "name": "Yunnan Tourism Co Ltd",
+            "sic": "7514",
+            "selected": false
+        }
+    ]
+}

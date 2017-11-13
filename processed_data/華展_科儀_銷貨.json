@@ -1,0 +1,1052 @@
+{
+    "target": "華展_科儀_銷貨",
+    "website": "http://qinxia55.big5.made-in-china.com/",
+    "sic": {
+        "5045": "Computers, Peripherals & Software",
+        "5060  ": "Electrical Goods",
+        "5063": "Electrical Apparatus & Equipment",
+        "5064": "Electronic Appliances, TV & Radios",
+        "5065": "Electronic Parts and Equipment, Not Elsewhere Classified",
+        "5099": "Durable Goods, nec"
+    },
+    "keywords_ori": [
+        "Distributor",
+        "Wireless",
+        "Communication",
+        "Component"
+    ],
+    "keywords": {
+        "Keywords": [],
+        "KeyWords(Emphasize)": [
+            "Distributor",
+            "Wireless",
+            "Communication",
+            "Component"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "AB SA",
+        "ABC Data SA",
+        "Acal plc",
+        "Ace Pillar Co Ltd",
+        "Aerospace Communications Holdings Co Ltd",
+        "Agilysys, Inc.",
+        "AIKO CORPORATION",
+        "Alltek Technology Corp.",
+        "Ambertech Limited",
+        "Answer Technology Co., Ltd.",
+        "Arena Bilgisayar Sanayi ve Ticaret AS",
+        "Armada Blgsyr Stmlr Sny ve Tcrt AS",
+        "Arrow Electronics, Inc.",
+        "ASEC International Corporation",
+        "Avnet, Inc.",
+        "Ban Leong Technologies  Ltd",
+        "BEP International Holdings Ltd",
+        "BOS Better OnLine Sol (USA)",
+        "Brimag Digital Age Ltd.",
+        "Chander Electronics Corp.",
+        "Changhong Jiahua Holdings Ltd",
+        "Choo Chiang Holdings Ltd",
+        "Communication & System Solution PCL",
+        "Computer Warehouse Group PLC",
+        "Conexio Corp",
+        "Crown Tech Advance PCL",
+        "Daetwyler Holding AG",
+        "Datagate Bilgisayar Malzemeleri Ticrt AS",
+        "DENKYOSHA CO., LTD.",
+        "Digiworld Corp",
+        "Dionic S.A.",
+        "Dragon Group International Limited",
+        "Dustin Group AB",
+        "EACO Corp",
+        "Edom Technology Co Ltd",
+        "Electrocomponents plc",
+        "Electronics Communctns Tech Inv Dev Corp",
+        "Elematec Corporation",
+        "EnerSys",
+        "Esprinet SpA",
+        "Excel Co Ltd",
+        "FAST TECHNOLOGIES INC.",
+        "Ferrum PCL",
+        "First America Resources Corp",
+        "Fuhrmeister Electronics Co.,Ltd.",
+        "Fujian Furi Electronics Co., Ltd.",
+        "Fujii Sangyo Corporation",
+        "FUSO DENTSU CO., LTD.",
+        "Futong Technology Development Hldgs Ltd",
+        "Galaxy Far East Corp",
+        "Genuine C&C Inc",
+        "Gohigh Data Networks Technology Co., Ltd",
+        "Graybar Electric Co Inc",
+        "GRODNO SA",
+        "HAGIWARA ELECTRIC CO., LTD.",
+        "Hanchang Corporation",
+        "HD Supply Holdings Inc",
+        "Howteh Technology Co., Ltd.",
+        "Huiyin Smart Community Co Ltd",
+        "Hunan Copote Science & Tech Co., Ltd.",
+        "Ideiasnet SA",
+        "Indeks Bilgisayar Sistemleri Muhendislik",
+        "InfoSonics Corporation",
+        "Ingram Micro Inc.",
+        "Innovative Technology Development Corp",
+        "Interlink Communication (Thailand) PCL",
+        "Jiangsu Nandasoft Technology Co Ltd",
+        "KANADEN CORPORATION",
+        "Kingpak Technology Inc",
+        "Korea Information Engineering Services",
+        "Koryo Electronics Co Ltd",
+        "KUEN CHAANG UPPERTECH CORP.",
+        "Laird PLC",
+        "LG International Corp",
+        "LITE-ON JAPAN LTD.",
+        "Logicom Public Ltd",
+        "Malmbergs Elektriska AB",
+        "MANSEI CORPORATION",
+        "MARUBUN CORPORATION",
+        "MAXTEK TECHNOLOGY CO., LTD.",
+        "mDR Ltd",
+        "Medifron DBT Co., Ltd.",
+        "Merdeka Financial Services Group Ltd",
+        "MetaTech (AP) Inc.",
+        "Mobicon Group Limited",
+        "Mystic Electronics Ltd",
+        "NADEX CO., LTD.",
+        "Naigai Tec Corporation",
+        "Namsung Corp",
+        "New Silkroutes Group Ltd",
+        "NICHIDENBO CORPORATION",
+        "NICHING INDUSTRIAL CORPORATION",
+        "NIPPO LTD.",
+        "NJ Holdings Inc",
+        "NTT System SA",
+        "OEM International AB",
+        "PCS Technology Ltd",
+        "Perfect Optronics Ltd",
+        "Petrosetco Distribution Joint Stock Co",
+        "Pierides Holdings Plc",
+        "Planet Communications Asia PCL",
+        "Podak Co Ltd",
+        "Powermatic Data Systems Ltd.",
+        "Premier Farnell plc",
+        "Professional Computer Technology Ltd",
+        "Promaster Technology Corp.",
+        "Promate Electronic Co Ltd",
+        "Ralco Agencies Ltd.",
+        "Rexel SA",
+        "Ryosan Company, Limited",
+        "S.A.S. Dragon Holdings Limited",
+        "Sakae Electronics Corporation",
+        "Salora International Ltd",
+        "Samart I-Mobile PCL",
+        "Sandmartin International Holdings Ltd.",
+        "SANSHIN ELECTRONICS CO., LTD.",
+        "ScanSource, Inc.",
+        "SEIRYO ELECTRIC CORPORATION",
+        "SENSHU ELECTRIC CO., LTD.",
+        "Sentronic International Corp",
+        "Serial System Ltd",
+        "Shanghai East-China Computer Co., Ltd.",
+        "Shanghai Fortune Techgroup Share Co Ltd",
+        "Shenzhen Aisidi Co., LTD.",
+        "Shenzhen Huakong Seg Co Ltd",
+        "Shinden Hightex Corp",
+        "Simat Technologies PCL",
+        "Softlogic Holdings Pvt Ltd",
+        "Solar A/S",
+        "Solomon Technology Corporation",
+        "SUNNIC Technology & Merchandise Inc.",
+        "Surge Components Inc",
+        "SUZUDEN CORPORATION",
+        "Synnex (Thailand) Public Company Limited",
+        "Synnex Technology International Corp",
+        "Sysage Technology Co., Ltd",
+        "Taitron Components Inc.",
+        "TAIWAN OSTOR CORP.",
+        "TAKACHIHO KOHEKI CO., LTD.",
+        "TAKEBISHI CORPORATION",
+        "TANAKA CO., LTD.",
+        "Tatung System Technologies Inc.",
+        "TE Connectivity Ltd",
+        "Tech Data Corp",
+        "Techno Alpha Co., Ltd.",
+        "TeleChoice International Ltd.",
+        "TESSCO Technologies, Inc.",
+        "Tesson Holdings Ltd",
+        "The International Engineering PCL",
+        "TOMEN DEVICES CORPORATION",
+        "Trust-Search Corp.,Ltd.",
+        "Uniquest Corporation",
+        "Unitech Computer Co Ltd",
+        "Unitron Tech Co Ltd",
+        "Vitec Holdings Co Ltd",
+        "VOXX International Corp",
+        "V-Tac Technology Co., Ltd.",
+        "W W Grainger Inc",
+        "Weikeng Industrial Co. Ltd",
+        "WESCO International, Inc.",
+        "Willas-Array Electronics (Holdings) Ltd",
+        "WPG Holdings Limited",
+        "WT Microelectronics Co., Ltd.",
+        "Wuhan P&S Information Technology Co Ltd",
+        "Xander International Corp.",
+        "Xtek Ltd",
+        "Yleiselektroniikka Oyj",
+        "Zenitron Corp",
+        "Zheda Lande Scitech Limited",
+        "ZHONGYEDA ELECTRIC CO.,LTD."
+    ],
+    "compLi_detail": [
+        {
+            "name": "AB SA",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "ABC Data SA",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Acal plc",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Ace Pillar Co Ltd",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Aerospace Communications Holdings Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Agilysys, Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "AIKO CORPORATION",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Alltek Technology Corp.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Ambertech Limited",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "Answer Technology Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Arena Bilgisayar Sanayi ve Ticaret AS",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Armada Blgsyr Stmlr Sny ve Tcrt AS",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Arrow Electronics, Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "ASEC International Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Avnet, Inc.",
+            "sic": "5065",
+            "selected": true
+        },
+        {
+            "name": "Ban Leong Technologies  Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "BEP International Holdings Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "BOS Better OnLine Sol (USA)",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Brimag Digital Age Ltd.",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "Chander Electronics Corp.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Changhong Jiahua Holdings Ltd",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "Choo Chiang Holdings Ltd",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Communication & System Solution PCL",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Computer Warehouse Group PLC",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Conexio Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Crown Tech Advance PCL",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "Daetwyler Holding AG",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Datagate Bilgisayar Malzemeleri Ticrt AS",
+            "sic": "5045",
+            "selected": true
+        },
+        {
+            "name": "DENKYOSHA CO., LTD.",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "Digiworld Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Dionic S.A.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Dragon Group International Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Dustin Group AB",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "EACO Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Edom Technology Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Electrocomponents plc",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Electronics Communctns Tech Inv Dev Corp",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Elematec Corporation",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "EnerSys",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Esprinet SpA",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Excel Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "FAST TECHNOLOGIES INC.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Ferrum PCL",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "First America Resources Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Fuhrmeister Electronics Co.,Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Fujian Furi Electronics Co., Ltd.",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "Fujii Sangyo Corporation",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "FUSO DENTSU CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Futong Technology Development Hldgs Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Galaxy Far East Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Genuine C&C Inc",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Gohigh Data Networks Technology Co., Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Graybar Electric Co Inc",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "GRODNO SA",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "HAGIWARA ELECTRIC CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Hanchang Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "HD Supply Holdings Inc",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Howteh Technology Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Huiyin Smart Community Co Ltd",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "Hunan Copote Science & Tech Co., Ltd.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Ideiasnet SA",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Indeks Bilgisayar Sistemleri Muhendislik",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "InfoSonics Corporation",
+            "sic": "5065",
+            "selected": true
+        },
+        {
+            "name": "Ingram Micro Inc.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Innovative Technology Development Corp",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Interlink Communication (Thailand) PCL",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Jiangsu Nandasoft Technology Co Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "KANADEN CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Kingpak Technology Inc",
+            "sic": "5065",
+            "selected": true
+        },
+        {
+            "name": "Korea Information Engineering Services",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Koryo Electronics Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "KUEN CHAANG UPPERTECH CORP.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Laird PLC",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "LG International Corp",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "LITE-ON JAPAN LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Logicom Public Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Malmbergs Elektriska AB",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "MANSEI CORPORATION",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "MARUBUN CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "MAXTEK TECHNOLOGY CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "mDR Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Medifron DBT Co., Ltd.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Merdeka Financial Services Group Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "MetaTech (AP) Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Mobicon Group Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Mystic Electronics Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "NADEX CO., LTD.",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Naigai Tec Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Namsung Corp",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "New Silkroutes Group Ltd",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "NICHIDENBO CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "NICHING INDUSTRIAL CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "NIPPO LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "NJ Holdings Inc",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "NTT System SA",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "OEM International AB",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "PCS Technology Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Perfect Optronics Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Petrosetco Distribution Joint Stock Co",
+            "sic": "5065",
+            "selected": true
+        },
+        {
+            "name": "Pierides Holdings Plc",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Planet Communications Asia PCL",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Podak Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Powermatic Data Systems Ltd.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Premier Farnell plc",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Professional Computer Technology Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Promaster Technology Corp.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Promate Electronic Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Ralco Agencies Ltd.",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "Rexel SA",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Ryosan Company, Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "S.A.S. Dragon Holdings Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Sakae Electronics Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Salora International Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Samart I-Mobile PCL",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Sandmartin International Holdings Ltd.",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "SANSHIN ELECTRONICS CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "ScanSource, Inc.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "SEIRYO ELECTRIC CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "SENSHU ELECTRIC CO., LTD.",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Sentronic International Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Serial System Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Shanghai East-China Computer Co., Ltd.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Shanghai Fortune Techgroup Share Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Aisidi Co., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Huakong Seg Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Shinden Hightex Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Simat Technologies PCL",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Softlogic Holdings Pvt Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Solar A/S",
+            "sic": "5063",
+            "selected": true
+        },
+        {
+            "name": "Solomon Technology Corporation",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "SUNNIC Technology & Merchandise Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Surge Components Inc",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "SUZUDEN CORPORATION",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Synnex (Thailand) Public Company Limited",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Synnex Technology International Corp",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Sysage Technology Co., Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Taitron Components Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "TAIWAN OSTOR CORP.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "TAKACHIHO KOHEKI CO., LTD.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "TAKEBISHI CORPORATION",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "TANAKA CO., LTD.",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Tatung System Technologies Inc.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "TE Connectivity Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Tech Data Corp",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Techno Alpha Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "TeleChoice International Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "TESSCO Technologies, Inc.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Tesson Holdings Ltd",
+            "sic": "5064",
+            "selected": false
+        },
+        {
+            "name": "The International Engineering PCL",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "TOMEN DEVICES CORPORATION",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Trust-Search Corp.,Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Uniquest Corporation",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Unitech Computer Co Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Unitron Tech Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Vitec Holdings Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "VOXX International Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "V-Tac Technology Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "W W Grainger Inc",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Weikeng Industrial Co. Ltd",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "WESCO International, Inc.",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Willas-Array Electronics (Holdings) Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "WPG Holdings Limited",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "WT Microelectronics Co., Ltd.",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Wuhan P&S Information Technology Co Ltd",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Xander International Corp.",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "Xtek Ltd",
+            "sic": "5063",
+            "selected": false
+        },
+        {
+            "name": "Yleiselektroniikka Oyj",
+            "sic": "5063",
+            "selected": true
+        },
+        {
+            "name": "Zenitron Corp",
+            "sic": "5065",
+            "selected": false
+        },
+        {
+            "name": "Zheda Lande Scitech Limited",
+            "sic": "5045",
+            "selected": false
+        },
+        {
+            "name": "ZHONGYEDA ELECTRIC CO.,LTD.",
+            "sic": "5063",
+            "selected": false
+        }
+    ]
+}

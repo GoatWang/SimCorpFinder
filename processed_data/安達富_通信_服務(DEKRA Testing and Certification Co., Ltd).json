@@ -1,0 +1,2604 @@
+{
+    "target": "安達富_通信_服務(DEKRA Testing and Certification Co., Ltd)",
+    "website": "https://www.dekra.com/en-us/home/",
+    "sic": {
+        "7371": "Computer Programming Services",
+        "7373": "Computer Integrated Systems Design",
+        "7374": "Data Processing & Preparation",
+        "7379": "Computer Related Services, nec"
+    },
+    "keywords_ori": [
+        "Test",
+        "Wireless",
+        "Communication",
+        "Equipment"
+    ],
+    "keywords": {
+        "Keywords": [
+            "Wireless",
+            "Communication",
+            "Equipment",
+            "Vehicle",
+            "Material"
+        ],
+        "KeyWords(Emphasize)": [
+            "Homologation",
+            "Test",
+            "Inspection",
+            "Certificate"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "3i Infotech Ltd",
+        "Accel Frontline Limited",
+        "Acorn Energy Inc",
+        "Acotel Group SpA",
+        "Ad-Sol Nissin Corp.",
+        "Advanced Information Technology PCL",
+        "Aftek Ltd",
+        "AGC Networks Ltd",
+        "AGS Corp",
+        "Airex Inc",
+        "AISINOCO. LTD",
+        "Al Faris National Investments Company",
+        "Allied Architects Inc",
+        "Alpha Grissin Power & Envt. Ctrl. Syst.",
+        "Alten SA",
+        "Anite Ltd",
+        "Appasia Bhd",
+        "Apptix ASA",
+        "Arcus SA",
+        "Asdion Berhad",
+        "Asseco South Eastern Europe SA",
+        "Astellia SA",
+        "Athena Global Technologies Ltd",
+        "Atos SE",
+        "aurionPro Solutions Limited",
+        "Aurum Pacific (China) Group Ltd",
+        "Ausy",
+        "Automated Systems Company KSCC",
+        "Avance Technologies Ltd",
+        "Avega Group AB",
+        "AVIT Ltd",
+        "Azion Corp",
+        "BD Multimedia SA",
+        "Beijing Beida Jade Bird Universal SciTch",
+        "Beijing Boer Communication Tech Co Ltd",
+        "Beijing Century Real Technology Co Ltd",
+        "Beijing Chieftain Cntrl Engg Tech Co Ltd",
+        "Beijing Chuanghe Ctry Tlcmtn Tech Co Ltd",
+        "Beijing CIC Technology Co Ltd",
+        "Beijing Cpc Science and Technolgy Co Ltd",
+        "Beijing Development (Hong Kong) Limited",
+        "Beijing Hantang Ziyuan Tec Co Ltd",
+        "Beijing Holystone Technology Co Ltd",
+        "Beijing InterAct Technology Co Ltd",
+        "Beijing Jinher Software Co Ltd",
+        "Beijing Maystar Infomtion Tchnlgy Co Ltd",
+        "Beijing Orient Ntl Comn Sc & Tch Co Ltd",
+        "Beijing Runtime Information Tech Co Ltd",
+        "Beijing Teamsun Technology Co., Ltd.",
+        "Beijing Techtheme Technology Co Ltd",
+        "Beijing Telecom Easiness Inf Tech Co Ltd",
+        "Beijing Trust Way Science Co Ltd",
+        "Beijing V-simtone Technology JSC Ltd",
+        "Beijing Vsoon Inf and Tech Co Ltd",
+        "Beijing Zhonghaijiyuan Dgtl Tech Dvp Co",
+        "Beijing Zhongxingtong Technology Co Ltd",
+        "BeMap Inc.",
+        "Betacom SA",
+        "Beyondsoft Corp",
+        "Bianor Holding AD Sofia",
+        "Bit Computer Co Ltd",
+        "Bittium Oyj",
+        "Blue Star Infotech Ltd.",
+        "Bluedon Information Security Tech Co Ltd",
+        "Boomsense Technology Co Ltd",
+        "Bouvet ASA",
+        "Bright Oceans Inter-Telecom Co Ltd",
+        "Broadcasting System of Niigata Inc",
+        "Bulk Storage Software Inc",
+        "Business Connexion Group, Ltd.",
+        "Byte Computer S.A.",
+        "California Software Company Ltd.",
+        "Cap Gemini SA",
+        "Caperio Holding AB",
+        "Capital Online Data Service Co Ltd",
+        "CEC CoreCast Corporation Limited",
+        "Century Sage Scientific Holdings Ltd",
+        "Chengdu Yunda Technology Co Ltd",
+        "Cheops Technology France SA",
+        "China All Access (Holdings) Ltd",
+        "China Railway Signal and Communictn Corp",
+        "China Shipping Network Technology Co Ltd",
+        "China TransInfo Technology Co Ltd",
+        "CIBER, Inc.",
+        "Cigniti Technologies Ltd",
+        "Clydestone (Ghana) Limited",
+        "CMC Corp",
+        "Cognizant Technology Solutions Corp",
+        "Comp SA",
+        "COMPTA Equipamentos e Servicos Inform SA",
+        "Compu-Clearing Outsourcing Limited",
+        "Computacenter plc",
+        "Computer Task Group, Inc.",
+        "Comtec Systems Co., Ltd.",
+        "Convergys Corp",
+        "CORE CORPORATION",
+        "Creative Realities Inc",
+        "CREO CO., LTD.",
+        "CRESCO, LTD.",
+        "CS Communication & Systemes SA",
+        "CSE Global Ltd.",
+        "CSG Systems International, Inc.",
+        "CTAC NV",
+        "Curocom Co., Ltd.",
+        "Cyan Inc",
+        "Cyber Com Co., Ltd.",
+        "Cybercom Group AB",
+        "Cyberlinks Co Ltd",
+        "Daea TI Co Ltd",
+        "Daesung Holdings Co Ltd",
+        "Dagang Nexchange Bhd",
+        "Daishin Information",
+        "Danlaw Technologies India Limited",
+        "Datacomo Communications Tech Co Ltd",
+        "Datalink Corporation",
+        "Datamatics Global Services Ltd",
+        "Datang Telecom Technology Co., Ltd",
+        "Dataprep Holdings Berhad",
+        "Datatec Ltd.",
+        "DealerTrack Technologies Inc",
+        "Declout Ltd",
+        "Densan Co Ltd",
+        "Densan System Co.,Ltd.",
+        "DFNN Inc",
+        "DGC One AB",
+        "DHC Software Co., Ltd",
+        "Diadrom Holding AB",
+        "Digia Oyj",
+        "Digital China Information Service Co Ltd",
+        "Dingli Corp Ltd",
+        "Diversified Gateway Solutions Bhd",
+        "DST Systems, Inc.",
+        "Dtcom - Direct to Company SA",
+        "DTS Corp",
+        "Dynacons Systems & Solutions Ltd",
+        "Echelon Corporation",
+        "Econocom Group SA",
+        "ECS ICT Bhd",
+        "Eluon Corp",
+        "Emakina Group SA",
+        "Encore Software Ltd",
+        "Enea AB",
+        "Engagement Labs Inc",
+        "Enjoyor Co Ltd",
+        "EPAM Systems Inc",
+        "Etherstack PLC",
+        "euNetworks Group Ltd",
+        "Euroconsultants S.A.",
+        "Evolving Systems Inc",
+        "eWork Scandinavia AB",
+        "Extenway Solutions Inc",
+        "Fabasoft AG",
+        "FDM Group (Holdings) PLC",
+        "Feelingk Co Ltd",
+        "Fitweiser Holdings Inc",
+        "Focus Systems Corporation",
+        "Fujitsu Ltd",
+        "FullNet Communications Inc",
+        "Galaxia Communications Co Ltd",
+        "Gci Science & Technology Co Ltd",
+        "Gemalto NV",
+        "Gemini Communications Ltd.",
+        "Genesis-IT AB",
+        "Geonext Corporation",
+        "GFI Informatique SA",
+        "GHL Systems Bhd",
+        "Gijima Group Ltd",
+        "Glenbriar Technologies Inc",
+        "Glintt Global Intelligent Technologis SA",
+        "Global Link Communications Holdings Ltd",
+        "GONN Network Technology Inc",
+        "Grand Flo Bhd",
+        "GSS Infotech Ltd",
+        "GTL Limited",
+        "Guangdong Eastone Century Techlgy Co Ltd",
+        "Guangxi Future Technology Co Ltd",
+        "Hakim Information Technology Co Ltd",
+        "Hanil Networks Co Ltd",
+        "HansolNexG Co Ltd",
+        "HashingSpace Corp",
+        "Hearts United Group Co Ltd",
+        "Hexaware Technologies Limited",
+        "Himacs Ltd",
+        "HIPT Group JSC",
+        "HiQ International AB",
+        "HPT Vietnam Corp",
+        "Hwa Create Co Ltd",
+        "I Net Corp",
+        "IB Maroc.com",
+        "ICO Group Ltd",
+        "Icraft Co Ltd",
+        "ICT Automatisering NV",
+        "iDimension Consolidated Bhd",
+        "IDS",
+        "Image Information Inc.",
+        "Indata SA",
+        "Infinite Computer Solutions (In) Ltd",
+        "Infinite Group, Inc.",
+        "INFOCOM CORPORATION",
+        "Informatika ad Beograd",
+        "Information & Networking Technology JSC",
+        "Information Services Int'l -Dentsu, Ltd.",
+        "Infosys Ltd",
+        "Infosys Ltd ADR",
+        "Infotel SA",
+        "INFOvine co., Ltd.",
+        "Inspur Software Co Ltd",
+        "Instacom Group Bhd",
+        "Insung Information Co Ltd",
+        "Intense Technologies Ltd.",
+        "International Research Corporation PCL",
+        "Internet America, Inc.",
+        "Internet Thailand Public Company Limited",
+        "Intershop Communications AG",
+        "InterXion Holding NV",
+        "Intrasense SA",
+        "InVitae Corp",
+        "IT Holdings Corporation",
+        "Ital TBS SpA",
+        "ITCen Co Ltd",
+        "Itochu Techno-Solutions Corp",
+        "Itway SpA",
+        "Ixonos Oyj",
+        "Izmo Ltd",
+        "Japan System Techniques Co., Ltd.",
+        "JAPAN THIRD PARTY CO., LTD.",
+        "JBCC Holdings Inc.",
+        "Jetwell Computer Co Ltd",
+        "JFE Systems, Inc.",
+        "JUST PLANNING INC.",
+        "Kalanit Carmon Services Ltd.",
+        "Kallo Inc",
+        "Keyware Solutions Inc.",
+        "Kingtone Wirelessinfo Solutions Hldg Ltd",
+        "Knowit AB",
+        "Korea Computer & Systems Inc.",
+        "Kornic Glory Co Ltd",
+        "KPIT Technologies Ltd",
+        "KSK CO., LTD.",
+        "Kycom Holdings Co Ltd",
+        "Lac Co Ltd",
+        "Logikom AO",
+        "Luxoft Holding Inc",
+        "Macdonald Dettwiler & Associates Ltd",
+        "Malam Team Ltd",
+        "Mamezou Holdings Co Ltd",
+        "Mastek Ltd",
+        "Mavenir Systems Inc",
+        "Max Sound Corp",
+        "Melstar Information Technologies Ltd",
+        "Mentor Graphics Corp",
+        "Mercuries Data Systems Ltd",
+        "Mexter Technology Berhad",
+        "MFEC Public Company Limited",
+        "Microdata SARL",
+        "MIND C.T.I. Ltd.",
+        "Mindteck India Ltd",
+        "MindTree Ltd",
+        "Minori Solutions Co.,Ltd.",
+        "MiTAC Inc.",
+        "Mitake Data Co Ltd",
+        "MNC Wireless Berhad",
+        "Mobile Create Co Ltd",
+        "Mobile Lads Corp",
+        "Monotype Imaging Holdings Inc.",
+        "MSC Group AB",
+        "Nanjing Sample Technology Company Ltd",
+        "National Energy Services Inc",
+        "NCC Group PLC",
+        "NCS&A CO LTD",
+        "NEC Networks & System Integration Corp",
+        "Net 4 India Ltd",
+        "Net One Systems Co., Ltd.",
+        "NetScout Systems, Inc.",
+        "Nettlinx Ltd",
+        "Netyear Group Corp",
+        "Neusoft Corporation",
+        "New Relic Inc",
+        "Nexeya SA",
+        "Nextgen, Inc.",
+        "Nice-Systems Ltd",
+        "Nihon Unisys Ltd",
+        "NIIT Technologies Ltd.",
+        "Nippon Information Development Co Ltd",
+        "Nippon Office Systems Limited",
+        "Nippon RAD Inc.",
+        "NIPPON SYSTEMWARE CO., LTD.",
+        "Nixu Oyj",
+        "Novabase SGPS SA",
+        "NSD CO., LTD.",
+        "Ntegrator International LTD",
+        "nTels Co Ltd",
+        "NTT Com Security AG",
+        "NTT Data Corp",
+        "Nucleus Software Exports Ltd.",
+        "Nyherji hf",
+        "O2i SA",
+        "OBIC Co., Ltd.",
+        "Octo Technology SA",
+        "One Software Technologies Ltd",
+        "Onstream Media Corp",
+        "Openbase Inc",
+        "OPTeam SA",
+        "Otsuka Information Technology Corp.",
+        "Outsourcery PLC",
+        "Palette Multimedia Berhad",
+        "Panasonic Information Systems Co Ltd",
+        "PC Systems S.A.",
+        "PDF Solutions, Inc.",
+        "PEERTV PLC",
+        "Pegasystems Inc.",
+        "Persistent Systems Limited",
+        "Pinnacle Technology Group PLC",
+        "POSCO ICT COMPANY LTD.",
+        "Privanet Sdn Bhd",
+        "PROCAD SA",
+        "ProntoForms Corp",
+        "Proofpoint Inc",
+        "Q-Soft Verwaltungs AG",
+        "Qumak SA",
+        "R Systems International Limited",
+        "R&A Telecommunication Group Bhd",
+        "RealDolmen NV",
+        "Reply SpA",
+        "RIKEI CORPORATION",
+        "RM plc",
+        "Route1 Inc",
+        "RYOMO SYSTEMS CO., LTD.",
+        "Ryoyu Systems Co Ltd",
+        "S Net Systems Inc.",
+        "Saigon Telecommunication & Tech Corp",
+        "Saison Information Systems Co Ltd",
+        "Saksoft Ltd.",
+        "SAKURA KCS Corporation",
+        "Saleen Automotive Inc",
+        "Sasken Communication Technologies Ltd.",
+        "Satyam Computer Services Limited",
+        "Searainbow Holding Corp.",
+        "Sectra AB",
+        "Secure Earth Technologies Ltd",
+        "Shandong Synthesis Electronc Tech Co Ltd",
+        "Shanghai Baosight Software Co. Ltd",
+        "Shanghai DragonNet Technology Co Ltd",
+        "Shanghai Hi-Tech Control System Co., Ltd",
+        "SharpSpring Inc",
+        "Shenglong Science and Technology Co Ltd",
+        "Shenzhen Dvision Video Commun Co Ltd",
+        "Shenzhen Sunwin Intelligent Co.,Ltd.",
+        "SHINSEGAE INFORMATION & COMMUNICATION Co",
+        "Shutterstock Inc",
+        "Sichuan Troy Informaton Technolgy Co Ltd",
+        "Signal Entertainment Group Corp",
+        "SII S.A.",
+        "SinoCloud Group Ltd",
+        "Smtrack Bhd",
+        "Sobal Corporation",
+        "Softronic AB",
+        "Softsol India Ltd",
+        "Solekia Ltd",
+        "SOLXYZ CO., LTD.",
+        "Sonata Software Limited",
+        "Sonus Networks, Inc.",
+        "Sopra Steria Group",
+        "Space Hellas S.A.",
+        "Spectra Systems Corp",
+        "SQLI SA",
+        "SQS India BFSI Ltd",
+        "SQS Software Quality Systems AG",
+        "SRA Holdings, Inc.",
+        "Ssangyong Information & Communication",
+        "StarCom Information Technology Ltd",
+        "Subex Ltd.",
+        "Sunyard System Engineering Company Ltd.",
+        "Support.com, Inc.",
+        "Swisslog Holding Ltd",
+        "Sykes Enterprises, Incorporated",
+        "Synchronoss Technologies, Inc.",
+        "Synclayer Inc",
+        "Synergon Infmtk Rdzkt Trvz es Kvtlz Nyrt",
+        "SYSCOM COMPUTER ENGINEERING CO.",
+        "SYSTEMS DESIGN Co., Ltd.",
+        "Systena Corp",
+        "SYSTEX Corporation",
+        "Tata Elxsi Limited",
+        "Tech Mahindra Ltd",
+        "TECHMATRIX CORPORATION",
+        "Technodex Bhd",
+        "Telos Corp",
+        "Terilogy Co., Ltd.",
+        "Texcell-NetCom Co Ltd",
+        "The Media Shoppe Berhad",
+        "Theta Edge Berhad",
+        "Tianjin Keyvia Electric Co Ltd",
+        "Tieto Oyj",
+        "TISC CO., LTD.",
+        "Toho System Science Co Ltd",
+        "TOKYO NISSAN COMPUTER SYSTEM CO., LTD.",
+        "Toukei Computer Co., Ltd.",
+        "TRIAD GROUP PLC",
+        "TSR Inc",
+        "TSUZUKI DENKI CO., LTD.",
+        "TTL Information Technology AG",
+        "Uangel Corp",
+        "UBIC Inc",
+        "ULS Group Inc",
+        "UT Group Co Ltd",
+        "V Cube Inc",
+        "Vama Industries Ltd",
+        "Van Lang Tech Dev & Invest JSC",
+        "Verint Systems Inc.",
+        "Vidavo SA",
+        "Vigil Health Solutions Inc",
+        "Virinchi Technologies Ltd",
+        "Vodatel Networks Holdings Limited",
+        "Wai Chun Group Holdings Ltd",
+        "WASKO SA",
+        "Water Intelligence PLC",
+        "Webtech Wireless Inc",
+        "Welltend Technology Corp",
+        "WidePoint Corporation",
+        "Wintoni Group Bhd",
+        "Wirtek A/S",
+        "Wistron Information Tech & Services Corp",
+        "Yahoo! Inc.",
+        "YASKAWA INFORMATION SYSTEMS Corporation",
+        "Zensar Technologies Limited",
+        "Zuken Elmic Inc",
+        "Zylog Systems Ltd."
+    ],
+    "compLi_detail": [
+        {
+            "name": "3i Infotech Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Accel Frontline Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Acorn Energy Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Acotel Group SpA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Ad-Sol Nissin Corp.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Advanced Information Technology PCL",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Aftek Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "AGC Networks Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "AGS Corp",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Airex Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "AISINOCO. LTD",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Al Faris National Investments Company",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Allied Architects Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Alpha Grissin Power & Envt. Ctrl. Syst.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Alten SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Anite Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Appasia Bhd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Apptix ASA",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Arcus SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Asdion Berhad",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Asseco South Eastern Europe SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Astellia SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Athena Global Technologies Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Atos SE",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "aurionPro Solutions Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Aurum Pacific (China) Group Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Ausy",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Automated Systems Company KSCC",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Avance Technologies Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Avega Group AB",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "AVIT Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Azion Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "BD Multimedia SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Beida Jade Bird Universal SciTch",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Boer Communication Tech Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Century Real Technology Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Chieftain Cntrl Engg Tech Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Chuanghe Ctry Tlcmtn Tech Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing CIC Technology Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Beijing Cpc Science and Technolgy Co Ltd",
+            "sic": "7373",
+            "selected": true
+        },
+        {
+            "name": "Beijing Development (Hong Kong) Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Beijing Hantang Ziyuan Tec Co Ltd",
+            "sic": "7373",
+            "selected": true
+        },
+        {
+            "name": "Beijing Holystone Technology Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing InterAct Technology Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Beijing Jinher Software Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Beijing Maystar Infomtion Tchnlgy Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Orient Ntl Comn Sc & Tch Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Beijing Runtime Information Tech Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Teamsun Technology Co., Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Techtheme Technology Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Telecom Easiness Inf Tech Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Trust Way Science Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Beijing V-simtone Technology JSC Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Vsoon Inf and Tech Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Zhonghaijiyuan Dgtl Tech Dvp Co",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beijing Zhongxingtong Technology Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "BeMap Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Betacom SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Beyondsoft Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Bianor Holding AD Sofia",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Bit Computer Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Bittium Oyj",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Blue Star Infotech Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Bluedon Information Security Tech Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Boomsense Technology Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Bouvet ASA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Bright Oceans Inter-Telecom Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Broadcasting System of Niigata Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Bulk Storage Software Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Business Connexion Group, Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Byte Computer S.A.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "California Software Company Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Cap Gemini SA",
+            "sic": "7371",
+            "selected": true
+        },
+        {
+            "name": "Caperio Holding AB",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Capital Online Data Service Co Ltd",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "CEC CoreCast Corporation Limited",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Century Sage Scientific Holdings Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Chengdu Yunda Technology Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Cheops Technology France SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "China All Access (Holdings) Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "China Railway Signal and Communictn Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "China Shipping Network Technology Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "China TransInfo Technology Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "CIBER, Inc.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Cigniti Technologies Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Clydestone (Ghana) Limited",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "CMC Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Cognizant Technology Solutions Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Comp SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "COMPTA Equipamentos e Servicos Inform SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Compu-Clearing Outsourcing Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Computacenter plc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Computer Task Group, Inc.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Comtec Systems Co., Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Convergys Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "CORE CORPORATION",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Creative Realities Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "CREO CO., LTD.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "CRESCO, LTD.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "CS Communication & Systemes SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "CSE Global Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "CSG Systems International, Inc.",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "CTAC NV",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Curocom Co., Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Cyan Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Cyber Com Co., Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Cybercom Group AB",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Cyberlinks Co Ltd",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Daea TI Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Daesung Holdings Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Dagang Nexchange Bhd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Daishin Information",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Danlaw Technologies India Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Datacomo Communications Tech Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Datalink Corporation",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Datamatics Global Services Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Datang Telecom Technology Co., Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Dataprep Holdings Berhad",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Datatec Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "DealerTrack Technologies Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Declout Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Densan Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Densan System Co.,Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "DFNN Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "DGC One AB",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "DHC Software Co., Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Diadrom Holding AB",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Digia Oyj",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Digital China Information Service Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Dingli Corp Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Diversified Gateway Solutions Bhd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "DST Systems, Inc.",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Dtcom - Direct to Company SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "DTS Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Dynacons Systems & Solutions Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Echelon Corporation",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Econocom Group SA",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "ECS ICT Bhd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Eluon Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Emakina Group SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Encore Software Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Enea AB",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Engagement Labs Inc",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Enjoyor Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "EPAM Systems Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Etherstack PLC",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "euNetworks Group Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Euroconsultants S.A.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Evolving Systems Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "eWork Scandinavia AB",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Extenway Solutions Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Fabasoft AG",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "FDM Group (Holdings) PLC",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Feelingk Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Fitweiser Holdings Inc",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Focus Systems Corporation",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Fujitsu Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "FullNet Communications Inc",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Galaxia Communications Co Ltd",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Gci Science & Technology Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Gemalto NV",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Gemini Communications Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Genesis-IT AB",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Geonext Corporation",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "GFI Informatique SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "GHL Systems Bhd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Gijima Group Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Glenbriar Technologies Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Glintt Global Intelligent Technologis SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Global Link Communications Holdings Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "GONN Network Technology Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Grand Flo Bhd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "GSS Infotech Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "GTL Limited",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Guangdong Eastone Century Techlgy Co Ltd",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Guangxi Future Technology Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Hakim Information Technology Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Hanil Networks Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "HansolNexG Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "HashingSpace Corp",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Hearts United Group Co Ltd",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Hexaware Technologies Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Himacs Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "HIPT Group JSC",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "HiQ International AB",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "HPT Vietnam Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Hwa Create Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "I Net Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "IB Maroc.com",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "ICO Group Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Icraft Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "ICT Automatisering NV",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "iDimension Consolidated Bhd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "IDS",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Image Information Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Indata SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Infinite Computer Solutions (In) Ltd",
+            "sic": "7371",
+            "selected": true
+        },
+        {
+            "name": "Infinite Group, Inc.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "INFOCOM CORPORATION",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Informatika ad Beograd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Information & Networking Technology JSC",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Information Services Int'l -Dentsu, Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Infosys Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Infosys Ltd ADR",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Infotel SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "INFOvine co., Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Inspur Software Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Instacom Group Bhd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Insung Information Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Intense Technologies Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "International Research Corporation PCL",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Internet America, Inc.",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Internet Thailand Public Company Limited",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Intershop Communications AG",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "InterXion Holding NV",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Intrasense SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "InVitae Corp",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "IT Holdings Corporation",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Ital TBS SpA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "ITCen Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Itochu Techno-Solutions Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Itway SpA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Ixonos Oyj",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Izmo Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Japan System Techniques Co., Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "JAPAN THIRD PARTY CO., LTD.",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "JBCC Holdings Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Jetwell Computer Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "JFE Systems, Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "JUST PLANNING INC.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Kalanit Carmon Services Ltd.",
+            "sic": "7373",
+            "selected": true
+        },
+        {
+            "name": "Kallo Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Keyware Solutions Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Kingtone Wirelessinfo Solutions Hldg Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Knowit AB",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Korea Computer & Systems Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Kornic Glory Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "KPIT Technologies Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "KSK CO., LTD.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Kycom Holdings Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Lac Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Logikom AO",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Luxoft Holding Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Macdonald Dettwiler & Associates Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Malam Team Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Mamezou Holdings Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Mastek Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Mavenir Systems Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Max Sound Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Melstar Information Technologies Ltd",
+            "sic": "7371",
+            "selected": true
+        },
+        {
+            "name": "Mentor Graphics Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Mercuries Data Systems Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Mexter Technology Berhad",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "MFEC Public Company Limited",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Microdata SARL",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "MIND C.T.I. Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Mindteck India Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "MindTree Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Minori Solutions Co.,Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "MiTAC Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Mitake Data Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "MNC Wireless Berhad",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Mobile Create Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Mobile Lads Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Monotype Imaging Holdings Inc.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "MSC Group AB",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Nanjing Sample Technology Company Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "National Energy Services Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "NCC Group PLC",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "NCS&A CO LTD",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "NEC Networks & System Integration Corp",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Net 4 India Ltd",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Net One Systems Co., Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "NetScout Systems, Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Nettlinx Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Netyear Group Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Neusoft Corporation",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "New Relic Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Nexeya SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Nextgen, Inc.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Nice-Systems Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Nihon Unisys Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "NIIT Technologies Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Nippon Information Development Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Nippon Office Systems Limited",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Nippon RAD Inc.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "NIPPON SYSTEMWARE CO., LTD.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Nixu Oyj",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Novabase SGPS SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "NSD CO., LTD.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Ntegrator International LTD",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "nTels Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "NTT Com Security AG",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "NTT Data Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Nucleus Software Exports Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Nyherji hf",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "O2i SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "OBIC Co., Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Octo Technology SA",
+            "sic": "7373",
+            "selected": true
+        },
+        {
+            "name": "One Software Technologies Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Onstream Media Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Openbase Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "OPTeam SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Otsuka Information Technology Corp.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Outsourcery PLC",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Palette Multimedia Berhad",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Panasonic Information Systems Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "PC Systems S.A.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "PDF Solutions, Inc.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "PEERTV PLC",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Pegasystems Inc.",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Persistent Systems Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Pinnacle Technology Group PLC",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "POSCO ICT COMPANY LTD.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Privanet Sdn Bhd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "PROCAD SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "ProntoForms Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Proofpoint Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Q-Soft Verwaltungs AG",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Qumak SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "R Systems International Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "R&A Telecommunication Group Bhd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "RealDolmen NV",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Reply SpA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "RIKEI CORPORATION",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "RM plc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Route1 Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "RYOMO SYSTEMS CO., LTD.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Ryoyu Systems Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "S Net Systems Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Saigon Telecommunication & Tech Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Saison Information Systems Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Saksoft Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "SAKURA KCS Corporation",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Saleen Automotive Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Sasken Communication Technologies Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Satyam Computer Services Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Searainbow Holding Corp.",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Sectra AB",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Secure Earth Technologies Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Shandong Synthesis Electronc Tech Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Shanghai Baosight Software Co. Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Shanghai DragonNet Technology Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Shanghai Hi-Tech Control System Co., Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "SharpSpring Inc",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Shenglong Science and Technology Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Dvision Video Commun Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Sunwin Intelligent Co.,Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "SHINSEGAE INFORMATION & COMMUNICATION Co",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Shutterstock Inc",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Sichuan Troy Informaton Technolgy Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Signal Entertainment Group Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "SII S.A.",
+            "sic": "7373",
+            "selected": true
+        },
+        {
+            "name": "SinoCloud Group Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Smtrack Bhd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Sobal Corporation",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Softronic AB",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Softsol India Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Solekia Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "SOLXYZ CO., LTD.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Sonata Software Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Sonus Networks, Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Sopra Steria Group",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Space Hellas S.A.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Spectra Systems Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "SQLI SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "SQS India BFSI Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "SQS Software Quality Systems AG",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "SRA Holdings, Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Ssangyong Information & Communication",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "StarCom Information Technology Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Subex Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Sunyard System Engineering Company Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Support.com, Inc.",
+            "sic": "7374",
+            "selected": false
+        },
+        {
+            "name": "Swisslog Holding Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Sykes Enterprises, Incorporated",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Synchronoss Technologies, Inc.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Synclayer Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Synergon Infmtk Rdzkt Trvz es Kvtlz Nyrt",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "SYSCOM COMPUTER ENGINEERING CO.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "SYSTEMS DESIGN Co., Ltd.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Systena Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "SYSTEX Corporation",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Tata Elxsi Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Tech Mahindra Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "TECHMATRIX CORPORATION",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Technodex Bhd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Telos Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Terilogy Co., Ltd.",
+            "sic": "7379",
+            "selected": false
+        },
+        {
+            "name": "Texcell-NetCom Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "The Media Shoppe Berhad",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Theta Edge Berhad",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Tianjin Keyvia Electric Co Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Tieto Oyj",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "TISC CO., LTD.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Toho System Science Co Ltd",
+            "sic": "7371",
+            "selected": true
+        },
+        {
+            "name": "TOKYO NISSAN COMPUTER SYSTEM CO., LTD.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Toukei Computer Co., Ltd.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "TRIAD GROUP PLC",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "TSR Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "TSUZUKI DENKI CO., LTD.",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "TTL Information Technology AG",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Uangel Corp",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "UBIC Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "ULS Group Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "UT Group Co Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "V Cube Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Vama Industries Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Van Lang Tech Dev & Invest JSC",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Verint Systems Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Vidavo SA",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Vigil Health Solutions Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Virinchi Technologies Ltd",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Vodatel Networks Holdings Limited",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Wai Chun Group Holdings Ltd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "WASKO SA",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Water Intelligence PLC",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Webtech Wireless Inc",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Welltend Technology Corp",
+            "sic": "7371",
+            "selected": true
+        },
+        {
+            "name": "WidePoint Corporation",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Wintoni Group Bhd",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Wirtek A/S",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Wistron Information Tech & Services Corp",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Yahoo! Inc.",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "YASKAWA INFORMATION SYSTEMS Corporation",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Zensar Technologies Limited",
+            "sic": "7371",
+            "selected": false
+        },
+        {
+            "name": "Zuken Elmic Inc",
+            "sic": "7373",
+            "selected": false
+        },
+        {
+            "name": "Zylog Systems Ltd.",
+            "sic": "7371",
+            "selected": false
+        }
+    ]
+}

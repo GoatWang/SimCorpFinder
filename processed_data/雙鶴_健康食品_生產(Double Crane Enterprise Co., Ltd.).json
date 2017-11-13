@@ -1,0 +1,871 @@
+{
+    "target": "雙鶴_健康食品_生產(Double Crane Enterprise Co., Ltd.)",
+    "website": "http://www.doublecrane.com.tw/en/",
+    "sic": {
+        "2830": "Menu: Drugs",
+        "2833": "Manu: Medicinals & Bolanicals",
+        "2834": "Manu: Phamaceutical Preparations",
+        "2836": "Manu: Biological Produds, Except Diagnostic",
+        "5499": "Ret: Miscellaneous Food Statesa"
+    },
+    "keywords_ori": [
+        "health food",
+        "nulraceutioal",
+        "nmntiunal",
+        "supplement"
+    ],
+    "keywords": {
+        "Keywords": [
+            "health drink",
+            "health supplement",
+            "skin care",
+            "Water Filter",
+            "Cleaning Product"
+        ],
+        "KeyWords(Emphasize)": [
+            "health food",
+            "nulraceutioal",
+            "nmntiunal",
+            "supplement"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "Abbott Laboratories",
+        "Abbott Laboratories Pakistan Ltd.",
+        "Advanced Chemical Industries Ltd",
+        "Alexandria Pharma. & Chemical Industries",
+        "Alta Natural Herbs & Supplements Ltd.",
+        "Amarillo Biosciences Inc",
+        "Avidus Management Group Inc",
+        "Beijing Sunho Pharmaceutical Co Ltd",
+        "Beximco Pharmaceuticals Limited",
+        "Bioadaptives Inc",
+        "Bioalpha Holdings Bhd",
+        "Biofarm SA",
+        "Biovet AD Peshtera",
+        "Boiron SA",
+        "Boston Therapeutics Inc",
+        "Bukwang Pharmaceutical Co., Ltd.",
+        "Canadian Bioceutical Corp",
+        "CCM Duopharma Biotech Bhd",
+        "Celestial Biolabs Limited",
+        "Cell Biotech Co Ltd",
+        "CFR Pharmaceuticals SA",
+        "Chi Sheng Chemical Corporation",
+        "China YCT International Group Inc.",
+        "Chromadex Corp",
+        "Coral Laboratories Ltd",
+        "Croda International Plc",
+        "CTC Bio Incorporation",
+        "CTD Holdings Inc",
+        "CYANOTECH CORP",
+        "Daehan New Pharm Co., Ltd.",
+        "DaehanPharmaceutical",
+        "Daewon Pharmaceutical Co Ltd",
+        "Daewoong Pharmaceutical Co., Ltd.",
+        "Daito Pharmaceutical Co.,Ltd.",
+        "Darya-Varia Laboratoria Tbk PT",
+        "DIOD OAO",
+        "Divi's Laboratories Ltd",
+        "Dongwha Pharm Co Ltd",
+        "Elder Pharmaceuticals Ltd",
+        "Enzymotec Ltd",
+        "F D C Ltd",
+        "FitLife Brands Inc",
+        "GlaxoSmithKline Consumer Nigeria PLC",
+        "GlaxoSmithKline Pakistan Limited",
+        "Glory Biotech Co Ltd",
+        "GNC Holdings Inc",
+        "Go Life International PCC",
+        "Harbin Gloria Pharmaceuticals Co., Ltd.",
+        "Hester Biosciences Ltd",
+        "Hofseth Biocare ASA",
+        "Hyundai Pharmaceutical Co  Ltd",
+        "Ildong Pharmaceutical Co., Ltd.",
+        "Imagenetix, Inc.",
+        "ImmuDyne Inc",
+        "Industri Jamu dan Farmasi Sd Mncl Tbk PT",
+        "Inergetics Inc",
+        "Institut Biophytis Sas",
+        "IWAKI & CO., LTD.",
+        "Jacks International Limited",
+        "Jerusalem Pharmaceuticals Co Ltd",
+        "Jiangzhong Pharmaceutical Co Ltd",
+        "Jin Yang Pharmaceutical Co., Ltd.",
+        "Jubilant Life Sciences Ltd",
+        "Kalbe Farma Tbk PT",
+        "Knight Therapeutics Inc",
+        "KOREA UNITED PHARM INC",
+        "Korean Drug Co., Ltd.",
+        "KPC Pharmaceuticals Inc",
+        "Kyung Nam Pharm Co Ltd",
+        "Laboratorio Reig Jofre SA",
+        "Lescarden Inc.",
+        "Mannatech, Inc.",
+        "MedFirst Healthcare Services lnc",
+        "Medipharco Tenamyd Central Pharmatcl JSC",
+        "Mega Lifesciences Public Co Ltd",
+        "Middle East Pharmaceutical & Chemical In",
+        "MusclePharm Corp",
+        "Nanjing Sinolife United Co Ltd",
+        "Nattopharma ASA",
+        "Natural Health Trends Corp.",
+        "Nature's Sunshine Prod.",
+        "NatureWise Biotech & Medicals Corp",
+        "Neutra Corp",
+        "Novartis India Limited",
+        "NUTEX Befektetesi Nyrt",
+        "Nutritional Holdings Ltd",
+        "Olainfarm AS",
+        "Orchid Pharma Ltd",
+        "Otsuka Holdings Co Ltd",
+        "Ouro Fino Saude Animal Participacoes SA",
+        "OXIS International, Inc.",
+        "Peak Pharmaceuticals Inc",
+        "PKU HealthCare Corp Ltd",
+        "ProPhase Labs Inc",
+        "Pyridam Farma Tbk PT",
+        "Real Nutriceutical Group Ltd",
+        "Reliv International, Inc",
+        "Rigas Farmaceitiska Fabrika AS",
+        "RM Group Holdings Ltd",
+        "Rui Kang Pharmaceutical Group Invest Ltd",
+        "Sagittarius Life Science Corp",
+        "Samil Pharmaceutical Co., Ltd.",
+        "Sancilio Pharmaceuticals Co Inc",
+        "Sanofi-Aventis Pakistan Limited",
+        "Schnell Biopharmaceuticals",
+        "SciGen Limited",
+        "Sequent Scientific Limited",
+        "SHAKLEE GLOBAL GROUP,INC.",
+        "Shanghai Jiaoda Onlly Co., Ltd",
+        "Shanxi C&Y Pharmaceutical Group Co Ltd",
+        "Sichuan Kelun Pharmaceutical Co Ltd",
+        "Strides Shasun Ltd",
+        "Strides Shasun Ltd (Parent)",
+        "Syngen Biotech Co Ltd",
+        "TAISHO PHARMACEUTICAL HOLDINGS Co Ltd",
+        "Targeted Medical Pharma Inc",
+        "Tchaikapharma High Qulty Medcns AD Sofia",
+        "TCI Co Ltd",
+        "Tempo Scan Pacific Tbk PT",
+        "Themis Medicare Ltd",
+        "Tianjin Zhongxin Phrmctl Gp Cp Ltd",
+        "Tianjin Zhongxin Phrmctl Gp Cp Ltd",
+        "Tien Liang Biotech Co Ltd",
+        "True Drinks Holdings Inc",
+        "Twilight Litaka Pharma Ltd",
+        "USANA Health Sciences, Inc.",
+        "Venture Life Group PLC",
+        "Vita Life Sciences Limited",
+        "Vitaco Holdings Ltd",
+        "Vitality Products Inc",
+        "Vitamin Shoppe Inc",
+        "Wai Yuen Tong Medicine Holdings Limited",
+        "Wanbury Limited",
+        "Wellness Center USA Inc",
+        "Wooridul Pharmaceutical Ltd",
+        "YSP Southeast Asia Holding Bhd",
+        "Yuyu Pharma Inc",
+        "Zentiva SA",
+        "Zeria Pharmaceutical Co Ltd"
+    ],
+    "compLi_detail": [
+        {
+            "name": "Abbott Laboratories",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Abbott Laboratories Pakistan Ltd.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Advanced Chemical Industries Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Alexandria Pharma. & Chemical Industries",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Alta Natural Herbs & Supplements Ltd.",
+            "sic": "2836",
+            "selected": false
+        },
+        {
+            "name": "Amarillo Biosciences Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Avidus Management Group Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Beijing Sunho Pharmaceutical Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Beximco Pharmaceuticals Limited",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Bioadaptives Inc",
+            "sic": "5499",
+            "selected": false
+        },
+        {
+            "name": "Bioalpha Holdings Bhd",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Biofarm SA",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Biovet AD Peshtera",
+            "sic": "2834",
+            "selected": true
+        },
+        {
+            "name": "Boiron SA",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Boston Therapeutics Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Bukwang Pharmaceutical Co., Ltd.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Canadian Bioceutical Corp",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "CCM Duopharma Biotech Bhd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Celestial Biolabs Limited",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Cell Biotech Co Ltd",
+            "sic": "2836",
+            "selected": false
+        },
+        {
+            "name": "CFR Pharmaceuticals SA",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Chi Sheng Chemical Corporation",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "China YCT International Group Inc.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Chromadex Corp",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Coral Laboratories Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Croda International Plc",
+            "sic": "2834",
+            "selected": true
+        },
+        {
+            "name": "CTC Bio Incorporation",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "CTD Holdings Inc",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "CYANOTECH CORP",
+            "sic": "2833",
+            "selected": true
+        },
+        {
+            "name": "Daehan New Pharm Co., Ltd.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "DaehanPharmaceutical",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Daewon Pharmaceutical Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Daewoong Pharmaceutical Co., Ltd.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Daito Pharmaceutical Co.,Ltd.",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Darya-Varia Laboratoria Tbk PT",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "DIOD OAO",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Divi's Laboratories Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Dongwha Pharm Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Elder Pharmaceuticals Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Enzymotec Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "F D C Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "FitLife Brands Inc",
+            "sic": "2833",
+            "selected": true
+        },
+        {
+            "name": "GlaxoSmithKline Consumer Nigeria PLC",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "GlaxoSmithKline Pakistan Limited",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Glory Biotech Co Ltd",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "GNC Holdings Inc",
+            "sic": "5499",
+            "selected": false
+        },
+        {
+            "name": "Go Life International PCC",
+            "sic": "2836",
+            "selected": false
+        },
+        {
+            "name": "Harbin Gloria Pharmaceuticals Co., Ltd.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Hester Biosciences Ltd",
+            "sic": "2836",
+            "selected": false
+        },
+        {
+            "name": "Hofseth Biocare ASA",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Hyundai Pharmaceutical Co  Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Ildong Pharmaceutical Co., Ltd.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Imagenetix, Inc.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "ImmuDyne Inc",
+            "sic": "2836",
+            "selected": false
+        },
+        {
+            "name": "Industri Jamu dan Farmasi Sd Mncl Tbk PT",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Inergetics Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Institut Biophytis Sas",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "IWAKI & CO., LTD.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Jacks International Limited",
+            "sic": "5499",
+            "selected": false
+        },
+        {
+            "name": "Jerusalem Pharmaceuticals Co Ltd",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Jiangzhong Pharmaceutical Co Ltd",
+            "sic": "2834",
+            "selected": true
+        },
+        {
+            "name": "Jin Yang Pharmaceutical Co., Ltd.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Jubilant Life Sciences Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Kalbe Farma Tbk PT",
+            "sic": "2834",
+            "selected": true
+        },
+        {
+            "name": "Knight Therapeutics Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "KOREA UNITED PHARM INC",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Korean Drug Co., Ltd.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "KPC Pharmaceuticals Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Kyung Nam Pharm Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Laboratorio Reig Jofre SA",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Lescarden Inc.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Mannatech, Inc.",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "MedFirst Healthcare Services lnc",
+            "sic": "5499",
+            "selected": false
+        },
+        {
+            "name": "Medipharco Tenamyd Central Pharmatcl JSC",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Mega Lifesciences Public Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Middle East Pharmaceutical & Chemical In",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "MusclePharm Corp",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Nanjing Sinolife United Co Ltd",
+            "sic": "5499",
+            "selected": false
+        },
+        {
+            "name": "Nattopharma ASA",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Natural Health Trends Corp.",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Nature's Sunshine Prod.",
+            "sic": "2834",
+            "selected": true
+        },
+        {
+            "name": "NatureWise Biotech & Medicals Corp",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Neutra Corp",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Novartis India Limited",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "NUTEX Befektetesi Nyrt",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Nutritional Holdings Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Olainfarm AS",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Orchid Pharma Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Otsuka Holdings Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Ouro Fino Saude Animal Participacoes SA",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "OXIS International, Inc.",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Peak Pharmaceuticals Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "PKU HealthCare Corp Ltd",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "ProPhase Labs Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Pyridam Farma Tbk PT",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Real Nutriceutical Group Ltd",
+            "sic": "2834",
+            "selected": true
+        },
+        {
+            "name": "Reliv International, Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Rigas Farmaceitiska Fabrika AS",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "RM Group Holdings Ltd",
+            "sic": "5499",
+            "selected": false
+        },
+        {
+            "name": "Rui Kang Pharmaceutical Group Invest Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Sagittarius Life Science Corp",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Samil Pharmaceutical Co., Ltd.",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Sancilio Pharmaceuticals Co Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Sanofi-Aventis Pakistan Limited",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Schnell Biopharmaceuticals",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "SciGen Limited",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Sequent Scientific Limited",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "SHAKLEE GLOBAL GROUP,INC.",
+            "sic": "5499",
+            "selected": true
+        },
+        {
+            "name": "Shanghai Jiaoda Onlly Co., Ltd",
+            "sic": "2836",
+            "selected": false
+        },
+        {
+            "name": "Shanxi C&Y Pharmaceutical Group Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Sichuan Kelun Pharmaceutical Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Strides Shasun Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Strides Shasun Ltd (Parent)",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Syngen Biotech Co Ltd",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "TAISHO PHARMACEUTICAL HOLDINGS Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Targeted Medical Pharma Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Tchaikapharma High Qulty Medcns AD Sofia",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "TCI Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Tempo Scan Pacific Tbk PT",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Themis Medicare Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Tianjin Zhongxin Phrmctl Gp Cp Ltd",
+            "sic": "2834",
+            "selected": true
+        },
+        {
+            "name": "Tianjin Zhongxin Phrmctl Gp Cp Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Tien Liang Biotech Co Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "True Drinks Holdings Inc",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Twilight Litaka Pharma Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "USANA Health Sciences, Inc.",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Venture Life Group PLC",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Vita Life Sciences Limited",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Vitaco Holdings Ltd",
+            "sic": "5499",
+            "selected": false
+        },
+        {
+            "name": "Vitality Products Inc",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Vitamin Shoppe Inc",
+            "sic": "5499",
+            "selected": false
+        },
+        {
+            "name": "Wai Yuen Tong Medicine Holdings Limited",
+            "sic": "2833",
+            "selected": true
+        },
+        {
+            "name": "Wanbury Limited",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Wellness Center USA Inc",
+            "sic": "5499",
+            "selected": false
+        },
+        {
+            "name": "Wooridul Pharmaceutical Ltd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "YSP Southeast Asia Holding Bhd",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Yuyu Pharma Inc",
+            "sic": "2833",
+            "selected": false
+        },
+        {
+            "name": "Zentiva SA",
+            "sic": "2834",
+            "selected": false
+        },
+        {
+            "name": "Zeria Pharmaceutical Co Ltd",
+            "sic": "2834",
+            "selected": false
+        }
+    ]
+}

@@ -1,0 +1,1869 @@
+{
+    "target": "蘇晶_半導體_進貨(SEMC)",
+    "website": "http://www.e-semc.com/product.php?id=1",
+    "sic": {
+        "1099": "Metal Ores(金屬礦)",
+        "2819": "Industrial Inorganic Chemicals(工業非有機化學物)",
+        "3339": "Primary Nonferrous Metals(主要非鐵類金屬)",
+        "3674": "Semiconductors & Related Devices(半導體及相關設備)",
+        "3679": "Electronic Components(電子零組件)",
+        "3699": "Electrical Equipment & Supplies(電子設備及供給品)"
+    },
+    "keywords_ori": [
+        "Sputtering",
+        "ITO",
+        "Target",
+        "Metal",
+        "Thin Film ",
+        "Iron"
+    ],
+    "keywords": {
+        "Keywords": [
+            "Aluminum target",
+            "Molybdenum target"
+        ],
+        "KeyWords(Emphasize)": [
+            "Sputtering",
+            "ITO",
+            "Target",
+            "Metal",
+            "Thin Film ",
+            "Iron"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "5N Plus Inc.",
+        "AA Group Holdings Ltd",
+        "Abico FS Co Ltd",
+        "Adex Mining Inc",
+        "Advanced Medical Isotope Corp.",
+        "Advanced Microelectronic Products Inc.",
+        "Advanced Nano Products Co Ltd",
+        "Advanced Power Electronics Corp",
+        "Advanced Technology & Materials Co., Ltd",
+        "Akzo Nobel N.V.",
+        "Akzo Nobel N.V. (ADR)",
+        "All Star Minerals Plc",
+        "Alphamin Resources Corp.",
+        "Alumetal SA",
+        "AMG Advanced Metallurgical Group N.V.",
+        "AMPIRE CO., LTD",
+        "ams AG",
+        "ANADIGICS, Inc.",
+        "Anglo American Platinum Ltd",
+        "Apollo Solar Energy, Inc.",
+        "Aptos Technology Inc.",
+        "Aqua Metals Inc",
+        "Argex Titane Inc",
+        "Ascent Solar Technologies, Inc.",
+        "Atlatsa Resources Corp (USA)",
+        "AU Optronics Corp",
+        "AU Optronics Corp (ADR)",
+        "Avatec Co Ltd",
+        "Axe Exploration Inc",
+        "BE Semiconductor Industries NV",
+        "Beijing Kingee Culture Development",
+        "BHK Mining Corp",
+        "Binh Dinh Minerals Company",
+        "BOE Technology Group Co. Ltd",
+        "Boksit a.d. Milici",
+        "BOTHHAND ENTERPRISE INC.",
+        "Brightking Holdings Ltd",
+        "Buwon Precision Sciences Co Ltd",
+        "Canada Rare Earth Corp",
+        "Canarc Resource Corp. (USA)",
+        "Cando Corp",
+        "Cavium Inc",
+        "Chelyabinskiy tsinkovyi zavod OAO",
+        "Chepetskiy Mekhanicheskiy Zavod AO",
+        "CHI MEI MATERIALS TECHNOLOGY CORPORATION",
+        "Chia Chang Co Ltd",
+        "China Molybdenum Luoyang Co Ltd",
+        "China Molybdenum Luoyang Co Ltd",
+        "China Northern Rare Earth Gp H-T Co Ltd",
+        "China Silver Group Ltd",
+        "China Tungsten and Hightech Mtrls Co Ltd",
+        "Chung Hwa Picture Tubes LTD.",
+        "Cicor Technologies Ltd",
+        "Cirrus Logic, Inc.",
+        "CoAsia Microelectronics Corp.",
+        "Commerce Resources Corp.",
+        "Daejoo Electronic Materials Co Ltd",
+        "Data International Co., Ltd",
+        "DID Corporation",
+        "Ding He Mining Holdings Ltd",
+        "Diodes Incorporated",
+        "Display Tech Co., Ltd.",
+        "DK UIL Co Ltd",
+        "Do-Fluoride Chemicals Co.,Ltd.",
+        "Dongbu HiTek Co Ltd",
+        "Ducgiang Chemicals & Detergent Powdr JSC",
+        "Duksan Hi Metal Co Ltd",
+        "E Ink Holdings Inc",
+        "Eagle Plains Resources Ltd.",
+        "eASIC Corp",
+        "Eastern Platinum Ltd.",
+        "EFUN Technology Co Ltd",
+        "EG Co., Ltd.",
+        "ELE-CON Technology Co Ltd",
+        "Elementis plc",
+        "Elite Advanced Laser Corporation",
+        "e-Litecom Co., Ltd.",
+        "ELK Corp",
+        "Eurasia Mining plc",
+        "Everlight Chemical Industrial Corp.",
+        "Excelliance Mos Corp",
+        "Fine DNC Co., Ltd.",
+        "FINE TECHNIX CO.,LTD",
+        "Fitipower Integrated Technology Inc.",
+        "Flat Glass Group Co Ltd",
+        "FocalTech Systems Co Ltd",
+        "FORCE MOS TECHNOLOGY CO., LTD.",
+        "Formation Metals Inc",
+        "Galileo Resources PLC",
+        "GemVax Technology Co Ltd",
+        "Geodex Minerals Ltd",
+        "GEOMATEC CO., LTD.",
+        "Geomega Resources Inc",
+        "Giantplus Technology Co., Ltd.",
+        "Global Cobalt Corp",
+        "Global Mixed-Mode Technology Inc.",
+        "Golden Eagle Mining Ltd",
+        "Gravita India Limited",
+        "Green Energy Technology Inc.",
+        "Green World Hotels Co Ltd",
+        "G-Shank Enterprise Co.,Ltd.",
+        "G-Smatt Global Co Ltd",
+        "GTM Holdings Corp",
+        "Guangdong Dowstone Technology Co Ltd",
+        "Gujarat Mineral Development Corporation",
+        "Gulf Resources, Inc.",
+        "Hanchang Industry Co., Ltd.",
+        "Hancom GMD Inc",
+        "HannStar Display Corp",
+        "Hansol Technics Co Ltd",
+        "Hemijska Industrija Zupa Krsvc u restktj",
+        "Hicel Co Ltd",
+        "Hi-Light Tek Co Ltd",
+        "Himax Technologies, Inc. (ADR)",
+        "HORSEHEAD HOLDING CORP.",
+        "HOYA CORPORATION",
+        "Hua Hong Semiconductor Ltd",
+        "Huludao Zinc Industry Co., Ltd.",
+        "IDM International Ltd",
+        "Iluka Resources Limited",
+        "Industronics Berhad",
+        "INESA Electron Co Ltd",
+        "Info-Tek Corporation",
+        "Innolux Corp",
+        "Inrad Optics Inc",
+        "Integrated Silicon Solution, Inc.",
+        "Intermolecular Inc",
+        "International Display Solutions Co Ltd",
+        "International Rectifier Corporation",
+        "Inzi Display Co Ltd",
+        "IQE plc",
+        "IRICO Group Electronics Co., Ltd.",
+        "ISE CHEMICALS CORPORATION",
+        "IXYS Corporation",
+        "Jeng Shiang Precision Ind Co Ltd",
+        "Jiangsu Nata Opto-electronic Materia",
+        "Jiangsu Wuzhong Industrial Co., Ltd",
+        "Jinduicheng Molybdenum Co., Ltd.",
+        "Jochu Technology Co., Ltd.",
+        "Join Well Technology Co., Ltd.",
+        "KEC Corp.",
+        "KEC Holdings Co Ltd",
+        "KenMec Mechanical Engineering Co. Ltd.",
+        "Korea Zinc Co Ltd",
+        "KSH Investment and Development JSC",
+        "Kuroda Electric Co Ltd",
+        "LandMark Optoelectronics Corp",
+        "LeadFX Inc",
+        "LG Display Co Ltd",
+        "LG Display Co Ltd. (ADR)",
+        "Lingbao Gold Co Ltd",
+        "L'sea Resources International Hldg Ltd",
+        "Macronix International Co., Ltd.",
+        "Mag One Products Inc",
+        "Malaysia Smelting Corporation Berhad",
+        "Manganese Mineral JSC",
+        "Manz AG",
+        "Marhanets'kyi HZK PAT",
+        "MGT Resources Ltd",
+        "Micro Base Technology Corp",
+        "Microtips Technology Inc.",
+        "Microview Technology Corporation",
+        "Mineral and Mechanical JSC",
+        "Mineral Deposits Limited",
+        "MK Electron Co Ltd",
+        "Mkango Resources Ltd",
+        "Molibdenos y Metales S.A.",
+        "Molycorp Inc",
+        "Mosel Vitelic Inc.",
+        "Mustang Industrial Corp",
+        "Namibia Rare Earths Inc",
+        "Nanophase Technologies Corporation",
+        "Neah Power Systems Inc",
+        "Niko Semiconductor Co Ltd",
+        "Ningxia Orient Tantalum Industry Co Ltd",
+        "Niocan Inc.",
+        "Nippon Light Metal Holdings Co Ltd",
+        "Noranda Income Fund",
+        "Nordic Mining ASA",
+        "North American Palladium Ltd (USA)",
+        "Northern Shield Resources Inc.",
+        "Novx21 Inc",
+        "Okmetic Oyj",
+        "Oman Chromite Company",
+        "OmniVision Technologies, Inc.",
+        "Onano Industrial Corp",
+        "Pacific Metals Co., Ltd.",
+        "Pacific North West Capital Corp.",
+        "Pangang Group Vndm Tm & Res Co Ltd",
+        "Pele Mountain Resources Inc.",
+        "Phihong Technology Co Ltd",
+        "Phoenitron Holdings Limited",
+        "PixArt Imaging Inc.",
+        "Pixelplus Co Ltd",
+        "Pixelworks, Inc.",
+        "PLA Co Ltd",
+        "Punjab Alkalies & Chemicals Ltd",
+        "Qingdao Haili Metal One Co Ltd",
+        "Rare Element Resources Ltd",
+        "Raydium Semiconductor Corporation",
+        "Rebab Company SA Limited",
+        "Rec Silicon ASA",
+        "Renesas Electronics Corporation",
+        "Rising Nonferrous Metals Share Co Ltd",
+        "Royal Bafokeng Platinum Ltd",
+        "Rusal Sayanogorskiy Alyumny Zavod AO (P)",
+        "S&S Tech Corp",
+        "SAN CHIH Semiconductor Company",
+        "SAN-EL Muhendislik Elektrik Taahhut San",
+        "Sang-A Frontec Co Ltd",
+        "Sat Nusapersada Tbk PT",
+        "Scandium International Mining Corp",
+        "SCI Engineered Materials Inc",
+        "Search Minerals Inc",
+        "Securitag Assembly Group Co Ltd",
+        "Sejin T.S Co., Ltd.",
+        "Semicon Light Co Ltd",
+        "Semiconductor Manufacturing Int'l",
+        "Semiconductor Manufacturing Int'l (ADR)",
+        "Shaanxi Ligeance Mineral Resourcs Co Ltd",
+        "Shaanxi Xinghua Chemistry Co., Ltd.",
+        "Shenghe Resources Holding Co Ltd",
+        "Shenzhen Everwin Precision Technology Co",
+        "Shenzhen Inovance Technology Co., Ltd",
+        "Shenzhen Laibao Hi-Tech Co., Ltd.",
+        "Shenzhen O-film Tech Co., Ltd.",
+        "Shenzhen Sunshine Lsr& Elcts Tech Co Ltd",
+        "Shin Zu Shing Co., Ltd.",
+        "Shindengen Electric Mfg. Co., Ltd.",
+        "SHINKO ELECTRIC INDUSTRIES CO., LTD.",
+        "Shirpur Gold Refinery Ltd",
+        "SHUN ON ELECTRONIC CO., LTD.",
+        "Shuz Tung Machinery Industrial Co Ltd",
+        "Silicon Optronics, Inc.",
+        "Silitech Technology Corporation",
+        "Siltronic AG",
+        "Sino Rare Precious Metals Ltd",
+        "Sinopower Semiconductor Co Ltd",
+        "Sitronix Technology Corp",
+        "SK Hynix Inc",
+        "Solar Applied Materials Technology Corp",
+        "Solikamskiy magniyevyi zavod OAO",
+        "Solitron Devices, Inc.",
+        "Star World Technology Co., Ltd.",
+        "Stillwater Mining Company",
+        "Success Electronics Ltd",
+        "Success Transformer Corporation Bhd",
+        "Super Dragon Technology Co. Ltd.",
+        "Suzhou Chunxing Precision Mechncl Co Ltd",
+        "Swelect Energy Systems Ltd",
+        "Taeyang Electronics Co Ltd",
+        "Tah Kong Chemical Industrial Corp",
+        "Taiwan Chi Cheng Enterprise Co.,Ltd",
+        "Taiwan Semiconductor Mfg. Co. Ltd.",
+        "Taiwan Semiconductor Mfg. Co. Ltd. (ADR)",
+        "Tajiri Resources Corp",
+        "TANAKA CHEMICAL CORPORATION",
+        "Tasmania Mines Limited",
+        "Tawana Resources N.L.",
+        "Tay Bac Minerals Investment JSC",
+        "TCL Display Technology Holdings Ltd",
+        "TerraSem Co Ltd",
+        "Thin Film Electronics ASA",
+        "ThinTech Materials Technology Co., Ltd.",
+        "Thompson Creek Metals Company Inc",
+        "Tianjin Benefo Tejing Electric Co.,Ltd.",
+        "Tibet Mineral Development Co., Ltd",
+        "Tibet Summit Industry Co., Ltd",
+        "Titan Kogyo, Ltd.",
+        "Toho Zinc Co Ltd",
+        "Tongda Group Holdings Ltd.",
+        "Tovis Co Ltd",
+        "TPK Holding Co., Ltd.",
+        "Tronics Microsystems SA",
+        "Tronox Ltd",
+        "Turvo International Company Limited",
+        "Twinwill Optronics Inc",
+        "U.I. Display Co., Ltd.",
+        "Ucore Rare Metals Inc.",
+        "United States Antimony Corporation",
+        "Unitel High Technology Corporation",
+        "Unity Opto Technology Co., Ltd.",
+        "UPEC Electronics Corp",
+        "Ushine Photonics Corp.",
+        "Ust'-Kamenogor. titan. magn. kombinat AO",
+        "Vanguard Int'l Semiconductor Corp.",
+        "Varitronix International Limited",
+        "ViXS Systems Inc",
+        "W Resources PLC",
+        "Wesizwe Platinum Ltd.",
+        "Western Metal Materials Co., Ltd.",
+        "Wuhu Token Science Co.,LTD.",
+        "Xantia Corp",
+        "Xiamen Tungsten Co., Ltd",
+        "Xiangtan Electrochemical Scie. Co., Ltd.",
+        "Xilinx, Inc.",
+        "Yeebo (International Holdings) Ltd",
+        "YMC Co Ltd",
+        "Yong Thai Public Company Limited",
+        "YOUNYI Information Communication",
+        "Yunnan Chihong Zinc&Germanium Co., Ltd.",
+        "Yunnan Luoping Zinc & Elec. Co., Ltd.",
+        "Yunnan Tin Co., Ltd.",
+        "Zhejiang Crystal Optech Co Ltd",
+        "Zhejiang Nanyang Technology Co.,Ltd."
+    ],
+    "compLi_detail": [
+        {
+            "name": "5N Plus Inc.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "AA Group Holdings Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Abico FS Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Adex Mining Inc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Advanced Medical Isotope Corp.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Advanced Microelectronic Products Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Advanced Nano Products Co Ltd",
+            "sic": "2819",
+            "selected": true
+        },
+        {
+            "name": "Advanced Power Electronics Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Advanced Technology & Materials Co., Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Akzo Nobel N.V.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Akzo Nobel N.V. (ADR)",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "All Star Minerals Plc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Alphamin Resources Corp.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Alumetal SA",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "AMG Advanced Metallurgical Group N.V.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "AMPIRE CO., LTD",
+            "sic": "3679",
+            "selected": true
+        },
+        {
+            "name": "ams AG",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ANADIGICS, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Anglo American Platinum Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Apollo Solar Energy, Inc.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Aptos Technology Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Aqua Metals Inc",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Argex Titane Inc",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Ascent Solar Technologies, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Atlatsa Resources Corp (USA)",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "AU Optronics Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "AU Optronics Corp (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Avatec Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Axe Exploration Inc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "BE Semiconductor Industries NV",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Beijing Kingee Culture Development",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "BHK Mining Corp",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Binh Dinh Minerals Company",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "BOE Technology Group Co. Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Boksit a.d. Milici",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "BOTHHAND ENTERPRISE INC.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Brightking Holdings Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Buwon Precision Sciences Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Canada Rare Earth Corp",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Canarc Resource Corp. (USA)",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Cando Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Cavium Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Chelyabinskiy tsinkovyi zavod OAO",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Chepetskiy Mekhanicheskiy Zavod AO",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "CHI MEI MATERIALS TECHNOLOGY CORPORATION",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Chia Chang Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "China Molybdenum Luoyang Co Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "China Molybdenum Luoyang Co Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "China Northern Rare Earth Gp H-T Co Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "China Silver Group Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "China Tungsten and Hightech Mtrls Co Ltd",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Chung Hwa Picture Tubes LTD.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Cicor Technologies Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Cirrus Logic, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "CoAsia Microelectronics Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Commerce Resources Corp.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Daejoo Electronic Materials Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Data International Co., Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "DID Corporation",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Ding He Mining Holdings Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Diodes Incorporated",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Display Tech Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "DK UIL Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Do-Fluoride Chemicals Co.,Ltd.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Dongbu HiTek Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ducgiang Chemicals & Detergent Powdr JSC",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Duksan Hi Metal Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "E Ink Holdings Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Eagle Plains Resources Ltd.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "eASIC Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Eastern Platinum Ltd.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "EFUN Technology Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "EG Co., Ltd.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "ELE-CON Technology Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Elementis plc",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Elite Advanced Laser Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "e-Litecom Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "ELK Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Eurasia Mining plc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Everlight Chemical Industrial Corp.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Excelliance Mos Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Fine DNC Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "FINE TECHNIX CO.,LTD",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Fitipower Integrated Technology Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Flat Glass Group Co Ltd",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "FocalTech Systems Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "FORCE MOS TECHNOLOGY CO., LTD.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Formation Metals Inc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Galileo Resources PLC",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "GemVax Technology Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Geodex Minerals Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "GEOMATEC CO., LTD.",
+            "sic": "3679",
+            "selected": true
+        },
+        {
+            "name": "Geomega Resources Inc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Giantplus Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Global Cobalt Corp",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Global Mixed-Mode Technology Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Golden Eagle Mining Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Gravita India Limited",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Green Energy Technology Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Green World Hotels Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "G-Shank Enterprise Co.,Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "G-Smatt Global Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "GTM Holdings Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Guangdong Dowstone Technology Co Ltd",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Gujarat Mineral Development Corporation",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Gulf Resources, Inc.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Hanchang Industry Co., Ltd.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Hancom GMD Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "HannStar Display Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Hansol Technics Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Hemijska Industrija Zupa Krsvc u restktj",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Hicel Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Hi-Light Tek Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Himax Technologies, Inc. (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "HORSEHEAD HOLDING CORP.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "HOYA CORPORATION",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Hua Hong Semiconductor Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Huludao Zinc Industry Co., Ltd.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "IDM International Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Iluka Resources Limited",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Industronics Berhad",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "INESA Electron Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Info-Tek Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Innolux Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Inrad Optics Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Integrated Silicon Solution, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Intermolecular Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "International Display Solutions Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "International Rectifier Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Inzi Display Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "IQE plc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "IRICO Group Electronics Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "ISE CHEMICALS CORPORATION",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "IXYS Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Jeng Shiang Precision Ind Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Jiangsu Nata Opto-electronic Materia",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Jiangsu Wuzhong Industrial Co., Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Jinduicheng Molybdenum Co., Ltd.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Jochu Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Join Well Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "KEC Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "KEC Holdings Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "KenMec Mechanical Engineering Co. Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Korea Zinc Co Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "KSH Investment and Development JSC",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Kuroda Electric Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "LandMark Optoelectronics Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "LeadFX Inc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "LG Display Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "LG Display Co Ltd. (ADR)",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Lingbao Gold Co Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "L'sea Resources International Hldg Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Macronix International Co., Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Mag One Products Inc",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Malaysia Smelting Corporation Berhad",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Manganese Mineral JSC",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Manz AG",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Marhanets'kyi HZK PAT",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "MGT Resources Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Micro Base Technology Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Microtips Technology Inc.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Microview Technology Corporation",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Mineral and Mechanical JSC",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Mineral Deposits Limited",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "MK Electron Co Ltd",
+            "sic": "3674",
+            "selected": true
+        },
+        {
+            "name": "Mkango Resources Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Molibdenos y Metales S.A.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Molycorp Inc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Mosel Vitelic Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Mustang Industrial Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Namibia Rare Earths Inc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Nanophase Technologies Corporation",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Neah Power Systems Inc",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Niko Semiconductor Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ningxia Orient Tantalum Industry Co Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Niocan Inc.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Nippon Light Metal Holdings Co Ltd",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Noranda Income Fund",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Nordic Mining ASA",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "North American Palladium Ltd (USA)",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Northern Shield Resources Inc.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Novx21 Inc",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Okmetic Oyj",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Oman Chromite Company",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "OmniVision Technologies, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Onano Industrial Corp",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Pacific Metals Co., Ltd.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Pacific North West Capital Corp.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Pangang Group Vndm Tm & Res Co Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Pele Mountain Resources Inc.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Phihong Technology Co Ltd",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Phoenitron Holdings Limited",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "PixArt Imaging Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Pixelplus Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Pixelworks, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "PLA Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Punjab Alkalies & Chemicals Ltd",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Qingdao Haili Metal One Co Ltd",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Rare Element Resources Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Raydium Semiconductor Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Rebab Company SA Limited",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Rec Silicon ASA",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Renesas Electronics Corporation",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Rising Nonferrous Metals Share Co Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Royal Bafokeng Platinum Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Rusal Sayanogorskiy Alyumny Zavod AO (P)",
+            "sic": "2819",
+            "selected": true
+        },
+        {
+            "name": "S&S Tech Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "SAN CHIH Semiconductor Company",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "SAN-EL Muhendislik Elektrik Taahhut San",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Sang-A Frontec Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Sat Nusapersada Tbk PT",
+            "sic": "3679",
+            "selected": true
+        },
+        {
+            "name": "Scandium International Mining Corp",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "SCI Engineered Materials Inc",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Search Minerals Inc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Securitag Assembly Group Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Sejin T.S Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Semicon Light Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Semiconductor Manufacturing Int'l",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Semiconductor Manufacturing Int'l (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Shaanxi Ligeance Mineral Resourcs Co Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Shaanxi Xinghua Chemistry Co., Ltd.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Shenghe Resources Holding Co Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Everwin Precision Technology Co",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Inovance Technology Co., Ltd",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Laibao Hi-Tech Co., Ltd.",
+            "sic": "3679",
+            "selected": true
+        },
+        {
+            "name": "Shenzhen O-film Tech Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Sunshine Lsr& Elcts Tech Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shin Zu Shing Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shindengen Electric Mfg. Co., Ltd.",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "SHINKO ELECTRIC INDUSTRIES CO., LTD.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Shirpur Gold Refinery Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "SHUN ON ELECTRONIC CO., LTD.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Shuz Tung Machinery Industrial Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Silicon Optronics, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Silitech Technology Corporation",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Siltronic AG",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Sino Rare Precious Metals Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Sinopower Semiconductor Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Sitronix Technology Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "SK Hynix Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Solar Applied Materials Technology Corp",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Solikamskiy magniyevyi zavod OAO",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Solitron Devices, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Star World Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Stillwater Mining Company",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Success Electronics Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Success Transformer Corporation Bhd",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Super Dragon Technology Co. Ltd.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Suzhou Chunxing Precision Mechncl Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Swelect Energy Systems Ltd",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Taeyang Electronics Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Tah Kong Chemical Industrial Corp",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Chi Cheng Enterprise Co.,Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Semiconductor Mfg. Co. Ltd.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Semiconductor Mfg. Co. Ltd. (ADR)",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Tajiri Resources Corp",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "TANAKA CHEMICAL CORPORATION",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Tasmania Mines Limited",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Tawana Resources N.L.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Tay Bac Minerals Investment JSC",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "TCL Display Technology Holdings Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "TerraSem Co Ltd",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Thin Film Electronics ASA",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "ThinTech Materials Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": true
+        },
+        {
+            "name": "Thompson Creek Metals Company Inc",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Tianjin Benefo Tejing Electric Co.,Ltd.",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Tibet Mineral Development Co., Ltd",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Tibet Summit Industry Co., Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Titan Kogyo, Ltd.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Toho Zinc Co Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Tongda Group Holdings Ltd.",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Tovis Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "TPK Holding Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Tronics Microsystems SA",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Tronox Ltd",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Turvo International Company Limited",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Twinwill Optronics Inc",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "U.I. Display Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Ucore Rare Metals Inc.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "United States Antimony Corporation",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Unitel High Technology Corporation",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Unity Opto Technology Co., Ltd.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "UPEC Electronics Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Ushine Photonics Corp.",
+            "sic": "3699",
+            "selected": false
+        },
+        {
+            "name": "Ust'-Kamenogor. titan. magn. kombinat AO",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Vanguard Int'l Semiconductor Corp.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Varitronix International Limited",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "ViXS Systems Inc",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "W Resources PLC",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Wesizwe Platinum Ltd.",
+            "sic": "1099",
+            "selected": false
+        },
+        {
+            "name": "Western Metal Materials Co., Ltd.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Wuhu Token Science Co.,LTD.",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Xantia Corp",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Xiamen Tungsten Co., Ltd",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Xiangtan Electrochemical Scie. Co., Ltd.",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "Xilinx, Inc.",
+            "sic": "3674",
+            "selected": false
+        },
+        {
+            "name": "Yeebo (International Holdings) Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "YMC Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Yong Thai Public Company Limited",
+            "sic": "2819",
+            "selected": false
+        },
+        {
+            "name": "YOUNYI Information Communication",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Yunnan Chihong Zinc&Germanium Co., Ltd.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Yunnan Luoping Zinc & Elec. Co., Ltd.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Yunnan Tin Co., Ltd.",
+            "sic": "3339",
+            "selected": false
+        },
+        {
+            "name": "Zhejiang Crystal Optech Co Ltd",
+            "sic": "3679",
+            "selected": false
+        },
+        {
+            "name": "Zhejiang Nanyang Technology Co.,Ltd.",
+            "sic": "3679",
+            "selected": false
+        }
+    ]
+}

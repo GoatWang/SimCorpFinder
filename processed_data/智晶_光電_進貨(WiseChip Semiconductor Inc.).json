@@ -1,0 +1,1018 @@
+{
+    "target": "智晶_光電_進貨(WiseChip Semiconductor Inc.)",
+    "website": "http://www.wisechip.com.tw/s/1/about.html",
+    "sic": {
+        "3670": " Electronic Components & Accessories",
+        "3679": " Manu: Electronic Components, nec"
+    },
+    "keywords_ori": [
+        "Organic",
+        "LED",
+        "Display"
+    ],
+    "keywords": {
+        "Keywords": [],
+        "KeyWords(Emphasize)": [
+            "PMOLED",
+            "OLED",
+            "Organic",
+            "LED",
+            "Display"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "Accupix Inc",
+        "Advanced Energy Industries, Inc.",
+        "AMPIRE CO., LTD",
+        "Apogee Optocom Co Ltd",
+        "Arisawa Mfg. Co., Ltd.",
+        "Asia Electronic Material Co., Ltd.",
+        "Asia Vital Components Co Ltd",
+        "AU Optronics Corp",
+        "Avatec Co Ltd",
+        "AVIC International Holdings Ltd",
+        "Aztech Group Ltd",
+        "Baotek Industrial Materials Ltd.",
+        "Barco NV",
+        "Beijing Triolion Scnc & Technlgy Co Ltd",
+        "BOE Technology Group Co. Ltd",
+        "Brightking Holdings Ltd",
+        "Buwon Precision Sciences Co Ltd",
+        "Cando Corp",
+        "CDW Holding Limited",
+        "Chemtronics Co Ltd",
+        "CHI MEI MATERIALS TECHNOLOGY CORPORATION",
+        "Chia Chang Co Ltd",
+        "Chung Hwa Picture Tubes LTD.",
+        "Copartner Technology Corp",
+        "Coretronic Corporation",
+        "CPT Technology (Group) Co Ltd",
+        "Crucialtec Co Ltd",
+        "CX Technology Corp",
+        "Daejoo Electronic Materials Co Ltd",
+        "Daiwa Associate Holdings Limited",
+        "Daktronics, Inc.",
+        "Darwin Precisions Corp",
+        "Data International Co., Ltd",
+        "Daxin Materials Corp",
+        "DID Corporation",
+        "Display Tech Co., Ltd.",
+        "Dongxu Optoelectronic Technology Co Ltd",
+        "E Ink Holdings Inc",
+        "EFUN Technology Co Ltd",
+        "e-Litecom Co., Ltd.",
+        "Entire Technology Co., Ltd",
+        "Excel Cell Electronic Co., Ltd.",
+        "Fenwal Controls of Japan, Ltd.",
+        "Fine DNC Co., Ltd.",
+        "FINE TECHNIX CO.,LTD",
+        "Finetek Co Ltd",
+        "Finetek Co Ltd (P)",
+        "Forward Electronics Co Ltd",
+        "Fujipream Corp",
+        "GemVax Technology Co Ltd",
+        "General Interface Solution Gis Hldg Ltd",
+        "GEOMATEC CO., LTD.",
+        "Giantplus Technology Co., Ltd.",
+        "Global Lighting Technologies  Inc",
+        "Green Cross Cell Corp",
+        "HannStar Display Corp",
+        "Hansol Technics Co Ltd",
+        "Heran Co Ltd",
+        "Hicel Co Ltd",
+        "High-Tek Harness Enterprise Co Ltd",
+        "Hi-Light Tek Co Ltd",
+        "Holitech Technology Co Ltd",
+        "Hyundai IBT Co Ltd",
+        "Ichia Technologies Inc.",
+        "IDEC CORPORATION",
+        "Iljin Display Co., Ltd.",
+        "Industronics Berhad",
+        "INESA Electron Co Ltd",
+        "Innolux Corp",
+        "International Display Solutions Co Ltd",
+        "Inzi Display Co Ltd",
+        "Irico Display Devices Co., Ltd.",
+        "IRICO Group Electronics Co., Ltd.",
+        "ITEQ Corporation",
+        "Japan Display Inc",
+        "Jeng Shiang Precision Ind Co Ltd",
+        "Jhen Vei Electronic Co., Ltd.",
+        "Jingyue Microwave Intgr Crct Mftc Co Ltd",
+        "JMT CO.,Ltd.",
+        "JPP Holding Co Ltd",
+        "KCE Electronics Public Company Limited",
+        "KH Vatec Co., Ltd.",
+        "Korea Computer Inc",
+        "Korea Digital Communications Corp",
+        "Koyj Co Ltd",
+        "KURAMOTO CO., LTD.",
+        "Leyard Optoelectronic Co Ltd",
+        "LG Display Co Ltd",
+        "LG Display Co Ltd. (ADR)",
+        "LG Innotek Co., Ltd.",
+        "Litemax Electronics Inc",
+        "Liyu Technology Co Ltd",
+        "Lms Co Ltd",
+        "MARUWA CO., LTD.",
+        "Microview Technology Corporation",
+        "Microvision, Inc.",
+        "MultiQ International AB",
+        "Mustang Industrial Corp",
+        "NB GQY Vid. & Tel. Joint-Stock Co., Ltd.",
+        "New Era Electronics Co Ltd",
+        "Ningbo WanHao Holdings Co Ltd",
+        "Nippon Electric Glass Co., Ltd.",
+        "NRK Co Ltd",
+        "Onano Industrial Corp",
+        "Park & OPC Ltd",
+        "Phoenix Materials Co Ltd",
+        "PLA Co Ltd",
+        "Planar Systems, Inc.",
+        "Powertip Technology Corporation",
+        "PSMC Co Ltd",
+        "Radiant Opto-Electronics Corporation",
+        "Raygen Co Ltd",
+        "S Mac Co Ltd",
+        "Samjin LND Co Ltd",
+        "Sampo Corp",
+        "Sang-A Frontec Co Ltd",
+        "Sejin T.S Co., Ltd.",
+        "Seven Star Works Co Ltd",
+        "Shengyi Technology Co Ltd",
+        "Shenzhen Absen Optoelectronic Co Ltd",
+        "Shenzhen AOTO Electronics Co Ltd",
+        "Shenzhen Everwin Precision Technology Co",
+        "Shenzhen Laibao Hi-Tech Co., Ltd.",
+        "Shenzhen Liantronics Co Ltd",
+        "Shenzhen Sed Industry Co., Ltd",
+        "Shenzhen Textile (Holdings) Co., Ltd",
+        "Shenzhen Zhongheng Huafa Co., Ltd.",
+        "Shin Zu Shing Co., Ltd.",
+        "Shuz Tung Machinery Industrial Co Ltd",
+        "Sintek Photronic Corp.",
+        "SKC Kolon PI Inc",
+        "Soaring Technology Co., Ltd.",
+        "Star World Technology Co., Ltd.",
+        "Success Electronics Ltd",
+        "Syncmold Enterprise Corp.",
+        "TacBright Optronics Corp",
+        "Taeyang Electronics Co Ltd",
+        "Taiwan Chi Cheng Enterprise Co.,Ltd",
+        "Taiwan Oasis Technology Co., Ltd.",
+        "ThinFlex Corporation",
+        "ThinTech Materials Technology Co., Ltd.",
+        "Tianma Microelectronics Co., Ltd.",
+        "Tovis Co Ltd",
+        "Trais Co Ltd",
+        "Truly International Holdings Ltd.",
+        "Twinwill Optronics Inc",
+        "U.I. Display Co., Ltd.",
+        "UBright Optronics Corporation",
+        "Unilumin Group Co Ltd",
+        "UniPixel Inc",
+        "United Radiant Technology Corp.",
+        "Unity Opto Technology Co., Ltd.",
+        "Universal Scientfc Industrl Shngh Co Ltd",
+        "U-Tech Co Ltd",
+        "Varitronix International Limited",
+        "Video Display Corporation",
+        "Vtron Technologies Ltd",
+        "Wizit Co Ltd",
+        "Wuhu Token Science Co.,LTD.",
+        "Yeebo (International Holdings) Ltd",
+        "YMC Co Ltd",
+        "YOUNYI Information Communication",
+        "Zhejiang Crystal Optech Co Ltd",
+        "Zhejiang Firstar Panel Technology Co Ltd",
+        "Zhen Ding Technology Holding Ltd"
+    ],
+    "compLi_detail": [
+        {
+            "name": "Accupix Inc",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Advanced Energy Industries, Inc.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "AMPIRE CO., LTD",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Apogee Optocom Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Arisawa Mfg. Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Asia Electronic Material Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Asia Vital Components Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "AU Optronics Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Avatec Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "AVIC International Holdings Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Aztech Group Ltd",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "Baotek Industrial Materials Ltd.",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Barco NV",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Beijing Triolion Scnc & Technlgy Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "BOE Technology Group Co. Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Brightking Holdings Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Buwon Precision Sciences Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Cando Corp",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "CDW Holding Limited",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Chemtronics Co Ltd",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "CHI MEI MATERIALS TECHNOLOGY CORPORATION",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Chia Chang Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Chung Hwa Picture Tubes LTD.",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Copartner Technology Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Coretronic Corporation",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "CPT Technology (Group) Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Crucialtec Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "CX Technology Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Daejoo Electronic Materials Co Ltd",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "Daiwa Associate Holdings Limited",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Daktronics, Inc.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Darwin Precisions Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Data International Co., Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Daxin Materials Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "DID Corporation",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Display Tech Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Dongxu Optoelectronic Technology Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "E Ink Holdings Inc",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "EFUN Technology Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "e-Litecom Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Entire Technology Co., Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Excel Cell Electronic Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Fenwal Controls of Japan, Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Fine DNC Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "FINE TECHNIX CO.,LTD",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "Finetek Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Finetek Co Ltd (P)",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Forward Electronics Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Fujipream Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "GemVax Technology Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "General Interface Solution Gis Hldg Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "GEOMATEC CO., LTD.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Giantplus Technology Co., Ltd.",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Global Lighting Technologies  Inc",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Green Cross Cell Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "HannStar Display Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Hansol Technics Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Heran Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Hicel Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "High-Tek Harness Enterprise Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Hi-Light Tek Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Holitech Technology Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Hyundai IBT Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Ichia Technologies Inc.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "IDEC CORPORATION",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Iljin Display Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Industronics Berhad",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "INESA Electron Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Innolux Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "International Display Solutions Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Inzi Display Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Irico Display Devices Co., Ltd.",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "IRICO Group Electronics Co., Ltd.",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "ITEQ Corporation",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Japan Display Inc",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Jeng Shiang Precision Ind Co Ltd",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "Jhen Vei Electronic Co., Ltd.",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Jingyue Microwave Intgr Crct Mftc Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "JMT CO.,Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "JPP Holding Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "KCE Electronics Public Company Limited",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "KH Vatec Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Korea Computer Inc",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Korea Digital Communications Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Koyj Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "KURAMOTO CO., LTD.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Leyard Optoelectronic Co Ltd",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "LG Display Co Ltd",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "LG Display Co Ltd. (ADR)",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "LG Innotek Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Litemax Electronics Inc",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Liyu Technology Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Lms Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "MARUWA CO., LTD.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Microview Technology Corporation",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "Microvision, Inc.",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "MultiQ International AB",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Mustang Industrial Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "NB GQY Vid. & Tel. Joint-Stock Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "New Era Electronics Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Ningbo WanHao Holdings Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Nippon Electric Glass Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "NRK Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Onano Industrial Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Park & OPC Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Phoenix Materials Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "PLA Co Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Planar Systems, Inc.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Powertip Technology Corporation",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "PSMC Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Radiant Opto-Electronics Corporation",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Raygen Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "S Mac Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Samjin LND Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Sampo Corp",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "Sang-A Frontec Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Sejin T.S Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Seven Star Works Co Ltd",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "Shengyi Technology Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Absen Optoelectronic Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen AOTO Electronics Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Everwin Precision Technology Co",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Laibao Hi-Tech Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Liantronics Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Sed Industry Co., Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Textile (Holdings) Co., Ltd",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Shenzhen Zhongheng Huafa Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Shin Zu Shing Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Shuz Tung Machinery Industrial Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Sintek Photronic Corp.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "SKC Kolon PI Inc",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Soaring Technology Co., Ltd.",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Star World Technology Co., Ltd.",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "Success Electronics Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Syncmold Enterprise Corp.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "TacBright Optronics Corp",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Taeyang Electronics Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Chi Cheng Enterprise Co.,Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Taiwan Oasis Technology Co., Ltd.",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "ThinFlex Corporation",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "ThinTech Materials Technology Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Tianma Microelectronics Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Tovis Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Trais Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Truly International Holdings Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Twinwill Optronics Inc",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "U.I. Display Co., Ltd.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "UBright Optronics Corporation",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Unilumin Group Co Ltd",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "UniPixel Inc",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "United Radiant Technology Corp.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Unity Opto Technology Co., Ltd.",
+            "sic": "　",
+            "selected": true
+        },
+        {
+            "name": "Universal Scientfc Industrl Shngh Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "U-Tech Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Varitronix International Limited",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Video Display Corporation",
+            "sic": "X",
+            "selected": false
+        },
+        {
+            "name": "Vtron Technologies Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Wizit Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Wuhu Token Science Co.,LTD.",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Yeebo (International Holdings) Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "YMC Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "YOUNYI Information Communication",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Zhejiang Crystal Optech Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Zhejiang Firstar Panel Technology Co Ltd",
+            "sic": "　",
+            "selected": false
+        },
+        {
+            "name": "Zhen Ding Technology Holding Ltd",
+            "sic": "　",
+            "selected": false
+        }
+    ]
+}
