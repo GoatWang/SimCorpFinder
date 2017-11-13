@@ -7,7 +7,7 @@ from outputReader import writeStats
 
 
 dirs = [filename for filename in os.listdir("processed_key") if filename.endswith(".json")]
-for filename in dirs[-4:-3]:
+for filename in dirs:
     print(filename)
     file = open(os.path.join("processed_key",filename), 'r', encoding='utf8')
     

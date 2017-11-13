@@ -84,8 +84,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
 
     ##　TF
     companyScoreDict = {}
-    
-        
+    companyLenDict = {}
     ## debug
     # companyInfoLi = []
     for info in companyInfoDict:
@@ -113,6 +112,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         score = cosine(keyTfidf, tfidfLi, tfidfnorm) * 10 if tfidfLi != [0.0] * len(allKeywords) else 0
 
         companyScoreDict[info['name']] = score
+        companyLenDict[info['name']] = companyInfoLen
 
         ## debug
         # companyInfoDict.append(info['name'])
@@ -128,186 +128,159 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
     scoreTupleList = sorted(companyScoreDict.items(), key=lambda x: x[1], reverse=True)
     scoreTupleList = [(comp, score) for (comp, score) in scoreTupleList if score != 0.00]
 
-
-    document = Document()
-    document.add_heading(targetCorp, 0)
-    par = document.add_paragraph()
-    par.add_run("Made By SimCorpFinder (")
-    addHyperlink(par, "https://goatwang.github.io/SimCorpFinder/index.html", "20")
-    par.add_run("), contact us(linkedin: ")
-    addHyperlink(par, "https://www.linkedin.com/in/wanghsuanchung/", "20")
-    par.add_run(", Email: jeremy4555@yahoo.com.tw)")
-    document.add_paragraph()
-
-    for run in par.runs:    
-        run.font.size = Pt(10)
-
-
-    document.add_heading("Simple Statistics", level=1)
-    document.add_paragraph("Total Input: " + str(len(findingCorpsLi)) + " companies")
-    document.add_paragraph("Related: " + str((len(scoreTupleList))) + " companies")
-    # document.add_paragraph("Keywords: " + ", ".join(keyWords.split()))
-    document.add_paragraph("Keywords: " + ", ".join(keyWords))
-    # document.add_paragraph("Keywords(Emphasize): " + ", ".join(keywords_emphasize.split()))
-    document.add_paragraph("Keywords(Emphasize): " + ", ".join(keywords_emphasize))
-    # document.add_paragraph("Keywords(Filtered): " + ", ".join(keywords_filtered.split()))
-    document.add_paragraph("Keywords(Filtered): " + ", ".join(keywords_filtered))
-    document.add_paragraph()
-
-
-    heading = document.add_heading("Ordered List", level=1)
-    for num, compTuple in enumerate(scoreTupleList):
-        document.add_paragraph(str(num+1) + ". " + compTuple[0] + " (score: " + "{:.4f}".format(compTuple[1]) + ")")
-    document.add_paragraph()
-
-
-
-
-
-
-
-    heading = document.add_heading("Detail", level=1)
     urlInfoDir = os.path.join("companyInfo", targetCorp, "urlInfo.json")
     with open(urlInfoDir, 'r', encoding='utf8') as f:
         urlInfoDict = json.loads(f.read())
 
     df = pd.DataFrame(urlInfoDict)
-    # for each company
+
+    # ================ Start Writing ================
+    # document = Document()
+    # document.add_heading(targetCorp, 0)
+    # par = document.add_paragraph()
+    # par.add_run("Made By SimCorpFinder (")
+    # addHyperlink(par, "https://goatwang.github.io/SimCorpFinder/index.html", "20")
+    # par.add_run("), contact us(linkedin: ")
+    # addHyperlink(par, "https://www.linkedin.com/in/wanghsuanchung/", "20")
+    # par.add_run(", Email: jeremy4555@yahoo.com.tw)")
+    # document.add_paragraph()
+
+    # for run in par.runs:    
+    #     run.font.size = Pt(10)
+
+
+    # document.add_heading("Simple Statistics", level=1)
+    # document.add_paragraph("Total Input: " + str(len(findingCorpsLi)) + " companies")
+    # document.add_paragraph("Related: " + str((len(scoreTupleList))) + " companies")
+    # # document.add_paragraph("Keywords: " + ", ".join(keyWords.split()))
+    # document.add_paragraph("Keywords: " + ", ".join(keyWords))
+    # # document.add_paragraph("Keywords(Emphasize): " + ", ".join(keywords_emphasize.split()))
+    # document.add_paragraph("Keywords(Emphasize): " + ", ".join(keywords_emphasize))
+    # # document.add_paragraph("Keywords(Filtered): " + ", ".join(keywords_filtered.split()))
+    # document.add_paragraph("Keywords(Filtered): " + ", ".join(keywords_filtered))
+    # document.add_paragraph()
+
+
+    # heading = document.add_heading("Ordered List", level=1)
+    # for num, compTuple in enumerate(scoreTupleList):
+    #     document.add_paragraph(str(num+1) + ". " + compTuple[0] + " (score: " + "{:.4f}".format(compTuple[1]) + ")")
+    # document.add_paragraph()
+
+
+
+    # heading = document.add_heading("Detail", level=1)
+
+    # # for each company
+    # for num, compTuple in enumerate(scoreTupleList):
+    #     compName = compTuple[0]
+    #     score = compTuple[1]
+    #     heading = document.add_heading(str(num+1) + ". " + compName + " (score: " + "{:.4f}".format(score) + ")", level=2)
+    #     heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
+    #     count = 0
+
+    #     # for each url
+    #     pageCount = 0
+    #     for row in df[df['name'] == compName].iterrows():
+
+    #         row = row[1]
+    #         info = row['info']
+
+    #         if len(set(allKeywords) & set(processInfo(info, allKeywords).keys())) > 0:
+    #             pageCount += 1
+    #             # page source 1: "http://XXXXXXXXXXXXXXX.com"
+    #             par = document.add_paragraph()
+    #             run = par.add_run("page source "+ str(pageCount) +": ")
+    #             run.bold = True
+    #             hyperlink = addHyperlink(par, row['url'])
+
+    #             par = document.add_paragraph()
+    #             run = par.add_run("Keyword Existence: ")
+    #             run.bold = True
+
+    #             wordCounter = {}
+
+    #             for word in allKeywords:
+    #                 # count = processInfo(info, multiTermKeywords).get(word, 0)
+    #                 count = processInfo(info, allKeywords).get(word, 0)
+    #                 if count != 0:
+    #                     if word in keyWordLi:
+    #                         par = document.add_paragraph()
+    #                         run = par.add_run("\t" + word + ": " + str(count))
+    #                         font = run.font
+    #                         font.color.rgb = RGBColor(255, 0, 0)
+    #                     elif word in keywords_emphasizeLi:
+    #                         par = document.add_paragraph()
+    #                         run = par.add_run("\t" + word + ": " + str(count))
+    #                         font = run.font
+    #                         font.color.rgb = RGBColor(255, 0, 0)
+    #                     else:
+    #                         par = document.add_paragraph()
+    #                         run = par.add_run("\t" + word + ": " + str(count))
+    #                         font = run.font
+    #                         font.color.rgb = RGBColor(0, 255, 0)
+
+    #     par = document.add_paragraph()
+
+    # for para in document.paragraphs:
+    #     para.paragraph_format.space_before = Pt(3)
+    #     para.paragraph_format.space_after = Pt(3)
+
+
+    # nowtime = datetime.now()
+    # filetime = str(nowtime).split()[0].replace("-","") + str(nowtime).split()[1].split(":")[0] + str(nowtime).split()[1].split(":")[1]
+    # document.save(os.path.join(outputDir, targetCorp + filetime + '.docx'))
+
+
+
+
+
+
+    outputdist = []
     for num, compTuple in enumerate(scoreTupleList):
         compName = compTuple[0]
-        heading = document.add_heading(str(num+1) + ". " + compName + " (score: " + "{:.4f}".format(compTuple[1]) + ")", level=2)
-        heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
-        count = 0
+        score = compTuple[1]
+        outputDict = {}
+        outputDict['name'] = compName
+        outputDict['score'] = score
+        outputDict['document_length'] = companyLenDict.get(compName)
 
+        outputDict['order_list'] = []
         # for each url
         pageCount = 0
         for row in df[df['name'] == compName].iterrows():
-
             row = row[1]
             info = row['info']
 
             if len(set(allKeywords) & set(processInfo(info, allKeywords).keys())) > 0:
                 pageCount += 1
                 # page source 1: "http://XXXXXXXXXXXXXXX.com"
-                par = document.add_paragraph()
-                run = par.add_run("page source "+ str(pageCount) +": ")
-                run.bold = True
-                hyperlink = addHyperlink(par, row['url'])
-
-                par = document.add_paragraph()
-                run = par.add_run("Keyword Existence: ")
-                run.bold = True
-
-                wordCounter = {}
+                urlDict = {}
+                urlDict['number'] = pageCount
+                urlDict['url'] = row['url']
+                urlDict['keywords_existence'] = {}
+                urlDict['keywords_emphasize_existence'] = {}
+                urlDict['keywords_filtered_existence'] = {}
 
                 for word in allKeywords:
                     # count = processInfo(info, multiTermKeywords).get(word, 0)
                     count = processInfo(info, allKeywords).get(word, 0)
                     if count != 0:
                         if word in keyWordLi:
-                            par = document.add_paragraph()
-                            run = par.add_run("\t" + word + ": " + str(count))
-                            font = run.font
-                            font.color.rgb = RGBColor(255, 0, 0)
+                            urlDict['keywords_existence'][word] = count
                         elif word in keywords_emphasizeLi:
-                            par = document.add_paragraph()
-                            run = par.add_run("\t" + word + ": " + str(count))
-                            font = run.font
-                            font.color.rgb = RGBColor(255, 0, 0)
+                            urlDict['keywords_emphasize_existence'][word] = count
                         else:
-                            par = document.add_paragraph()
-                            run = par.add_run("\t" + word + ": " + str(count))
-                            font = run.font
-                            font.color.rgb = RGBColor(0, 255, 0)
+                            urlDict['keywords_filtered_existence'][word] = count
 
-        par = document.add_paragraph()
-
-
-
-
-    # heading = document.add_heading("Detail", level=1)
-    # urlInfoDir = "C:\\SimCorpFinderData\\companyInfo_v23\\" + targetCorp + "\\urlInfo.json"
-    # with open(urlInfoDir, 'r', encoding='utf8') as f:
-    #     urlInfoDict = json.loads(f.read())
-
-    # df = pd.DataFrame(urlInfoDict)
-    # # for each company
-    # for num, compTuple in enumerate(scoreTupleList):
-    #     compName = compTuple[0]
-    #     heading = document.add_heading(str(num+1) + ". " + compName + " (score: " + "{:.4f}".format(compTuple[1]) + ")", level=2)
-    #     heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
-    #     count = 0
-
-    #     # for each url
-    #     for row in df[df['name'] == compName].iterrows():
-    #         row = row[1]
-    #         info = row['info']
-    #         if len(set(allKeywords) & set(info.split())) > 0:
-    #             count += 1
-    #             # page source 1: "http://XXXXXXXXXXXXXXX.com"
-    #             par = document.add_paragraph()
-    #             run = par.add_run("page source "+ str(count) +": ")
-    #             run.bold = True
-    #             hyperlink = addHyperlink(par, row['url'])
-    #             # for each para
-    #             # para = document.add_paragraph()
-    #             # run = para.add_run('para' + '. ')
-    #             # run.bold = True
-    #             indices = []
-    #             infoTermLi = info.split()
-    #             for i in range(len(infoTermLi)):
-    #                 if infoTermLi[i] in allKeywords:
-    #                     indices.append(i)
-                
-    #             sliceLi = []
-    #             for idx in indices:
-    #                 subLi = []
-    #                 currentidx = indices.index(idx)
-    #                 while True:
-    #                     subLi.append(indices[currentidx])
-    #                     lowerBound = max(0, subLi[0]-10)
-    #                     upperBound = min(subLi[-1]+10, indices[-1])
-
-    #                     if indices[currentidx] == indices[-1]:
-    #                         sliceLi.append(range(lowerBound, upperBound))
-    #                         break
-                        
-    #                     elif  indices[currentidx+1] - indices[currentidx] > 10:
-    #                         sliceLi.append(range(lowerBound, upperBound))
-    #                         break
-    #                     indices.pop(currentidx)
-
-    #             for num, sli in enumerate(sliceLi):
-    #                 para = document.add_paragraph()
-    #                 run = para.add_run('para' + str(num+1) + '. ')
-    #                 run.bold = True
-    #                 for idx in sli:
-    #                     term = infoTermLi[idx]
-    #                     if term in keyWordLi + keywords_emphasizeLi:
-    #                         run = para.add_run(term + " ")
-    #                         run.bold = True
-    #                         font = run.font
-    #                         font.color.rgb = RGBColor(255, 0, 0)
-    #                     elif term in keywords_filteredLi:
-    #                         run = para.add_run(term + " ")
-    #                         run.bold = True
-    #                         font = run.font
-    #                         font.color.rgb = RGBColor(0, 255, 0)
-    #                     else:
-    #                         para.add_run(term + " ")
-
-    #                 document.add_paragraph("--------------------------")
-    #             document.add_paragraph()
-    #     document.add_paragraph()
-
-    for para in document.paragraphs:
-        para.paragraph_format.space_before = Pt(3)
-        para.paragraph_format.space_after = Pt(3)
-
+                outputDict['order_list'].append(urlDict)
+        outputdist.append(outputDict)
 
     nowtime = datetime.now()
     filetime = str(nowtime).split()[0].replace("-","") + str(nowtime).split()[1].split(":")[0] + str(nowtime).split()[1].split(":")[1]
-    document.save(os.path.join(outputDir, targetCorp + filetime + '.docx'))
+    filename = os.path.join(outputDir, targetCorp + filetime + '.json')
+    with open(filename, 'w', encoding='utf8') as fp:
+        json.dump(outputdist, fp, ensure_ascii=False)
+
 
 
 
