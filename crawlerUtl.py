@@ -112,8 +112,8 @@ import nltk
 import os
 import sys
 
-# nltk.download('stopwords')
-# nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 # if not "nltkDataDownloaded" in os.listdir("C:\\SimCorpFinderData"):
 #     nltk.download('stopwords')
