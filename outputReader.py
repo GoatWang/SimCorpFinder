@@ -54,7 +54,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
     keywords_emphasizeLi = processKeywordLi(keywords_emphasize)
     keywords_filteredLi = processKeywordLi(keywords_filtered)
     allKeywords = keyWordLi + keywords_emphasizeLi + keywords_filteredLi
-
+    keywords_positive = keyWordLi + keywords_emphasizeLi
     # multiTermKeywords = []
     # multiTermKeywords.extend(re.findall(r"\"(.+?)\"", keyWords))
     # multiTermKeywords.extend(re.findall(r"\"(.+?)\"", keywords_emphasize))
@@ -99,13 +99,15 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         companyScore = 0
         companyInfoLen = sum([times for term, times in companyInfo.items()])
         tfidfLi = []
-
         tfCount = []
+        tfPositiveCount = []
         for word in allKeywords:
             tfCount.append(companyInfo.get(word, 0))
             tf = companyInfo.get(word, 0)
             tfidf = tf * idfDict[word]
             tfidfLi.append(tfidf)
+            if word in keywords_positive:
+                tfPositiveCount.append(tf)
 
         # print(info['name'])
         # print(allKeywords)
@@ -117,9 +119,18 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         score = cosine(keyTfidf, tfidfLi, tfidfnorm) * 10 if tfidfLi != [0.0] * len(allKeywords) else 0
         score = score * (sum(np.array(tfCount) != 0)/len(allKeywords))
 
+        if score > 0:
+            tfPositiveCount = np.array([count for count in tfPositiveCount if count >= 1])
+            weight = np.prod(tfPositiveCount) / ((sum(tfPositiveCount)/len(keywords_positive)) ** len(keywords_positive))
+            weight = weight if weight <= 1 else 1
+            weight = weight ** (1/len(keywords_positive))
+            score = score * weight
+
         companyScoreDict[info['name']] = score
         companyLenDict[info['name']] = companyInfoLen
         companyKeywordsDict[info['name']] = dict([(allKeywords[i], tfCount[i])for i in range(len(tfCount))])
+
+
 
 
         ## debug
