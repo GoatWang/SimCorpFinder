@@ -7,7 +7,10 @@ import threading
 import random
 
 # data processing
+import requests
 from bs4 import BeautifulSoup
+import urllib3
+urllib3.disable_warnings()
 
 #write into DB
 from datetime import datetime
@@ -42,6 +45,16 @@ class googleCrawler:
             status = None
             contentType = None
             html = None
+
+            def processhtml(html):
+                soup = BeautifulSoup(html ,'lxml')
+                [x.extract() for x in soup.findAll('script')]  ##take off script part in html
+                [x.extract() for x in soup.findAll('style')]
+                [x.extract() for x in soup.findAll('nav')]
+                [x.extract() for x in soup.findAll('footer')]
+                info = preprocessing(soup.text)
+                return info
+
             try: 
                 async with client.get(url) as response:
                     status = response.status
@@ -49,12 +62,7 @@ class googleCrawler:
                     contentType = str(response.content_type)
                     if 'html' in str(contentType).lower():
                         html = await response.text()
-                        soup = BeautifulSoup(html ,'lxml')
-                        [x.extract() for x in soup.findAll('script')]  ##take off script part in html
-                        [x.extract() for x in soup.findAll('style')]
-                        [x.extract() for x in soup.findAll('nav')]
-                        [x.extract() for x in soup.findAll('footer')]
-                        info = preprocessing(soup.text)
+                        info = processhtml(html)
                         self.accCompInfo += info
                         ## write data per url into first DB index(companyembedding_labeled_url) 
                         if info != "" and info != None:
@@ -65,14 +73,44 @@ class googleCrawler:
                             
                     return await response.release()
             except:
-                self.failLinks.append(str(status) + "------" + url)
+                # import traceback
+                # traceback.print_exc()
+                ## generallt is CancelError
+                try:
+                    headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+                    res = requests.get(url, verify=False, headers=headers, timeout=10)
+                    status = res.status_code
+                    assert status == 200
+
+                    contentType = res.headers.get("Content-Type", res.headers)
+                    if 'html' in str(contentType).lower():
+                        html = res.text
+                        info = processhtml(html)
+                        self.accCompInfo += info
+                        ## write data per url into first DB index(companyembedding_labeled_url) 
+                        if info != "" and info != None:
+                            urldata = self.data.copy()
+                            urldata['info'] = info
+                            urldata['url'] = url
+                            self.urlInfo.put(urldata)
+                except AssertionError:
+                    self.failLinks.append("StatusCodeError" + "------" + url)
+                except urllib3.exceptions.ConnectTimeoutError:
+                    self.failLinks.append("ConnectTimeoutError" + "------" + url)
+                except urllib3.exceptions.ReadTimeoutError:
+                    self.failLinks.append("ReadTimeoutError" + "------" + url)
+                except:
+                    # import traceback
+                    # traceback.print_exc()
+                    self.failLinks.append("OtherError" + "------" + url)
+                    
 
     async def main(self, loop):
         driver = cross_selenium()
         # urls = BingLinkParser(driver, self.query)
         urls = GoogleLinkParser(driver, self.query)
         headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
-        async with aiohttp.ClientSession(loop=loop, headers=headers, conn_timeout=10 ) as client:
+        async with aiohttp.ClientSession(loop=loop, headers=headers, conn_timeout=10, connector=aiohttp.TCPConnector(verify_ssl=False)) as client:
             # tasks = [self.fetch_coroutine(client, url) for url in urls]
             tasks = []
             for url in urls:
@@ -120,9 +158,7 @@ class googleCrawler:
             totalLength = self.oriCompLength
             processedNum = totalLength - self.input_companies.qsize()
             progess = int(processedNum/totalLength * 100 - 10)
-            print(str(progess) + "% "+ self.findingCompany + " success")
-            # print(str(id(self))[-5:], self.findingCompany + " success")
-
+            print(str(progess)+"%", str(id(self))[-5:], self.findingCompany + " success")
 
 
 
@@ -169,7 +205,7 @@ class Main():
             thread.join()
         endtime = time.time()
         
-        print("90% Crawling Time: " + "{0:.2f}".format(endtime - starttime) + " seconds")
+        print("90%", str(id(self))[-5:], "Crawling Time: " + "{0:.2f}".format(endtime - starttime) + " seconds")
 
 
         ## log writing

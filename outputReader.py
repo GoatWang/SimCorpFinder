@@ -23,6 +23,8 @@ from datetime import datetime
 from nltk.stem import WordNetLemmatizer
 lemmer = WordNetLemmatizer()
 
+import numpy as np
+
 def processKeywordLi(keyWords):
     keyWordLi = []
     # terms = re.findall(r"\"(.+?)\"", keyWords)
@@ -85,6 +87,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
     ##　TF
     companyScoreDict = {}
     companyLenDict = {}
+    companyKeywordsDict = {}
     ## debug
     # companyInfoLi = []
     for info in companyInfoDict:
@@ -108,11 +111,16 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         # print(allKeywords)
         # print(tfCount)
         
+        # print(keyTfidf)
+        # print(tfidfLi)
         tfidfnorm = norm([count for term, count in companyInfo.items()])
         score = cosine(keyTfidf, tfidfLi, tfidfnorm) * 10 if tfidfLi != [0.0] * len(allKeywords) else 0
+        score = score * (sum(np.array(tfCount) != 0)/len(allKeywords))
 
         companyScoreDict[info['name']] = score
         companyLenDict[info['name']] = companyInfoLen
+        companyKeywordsDict[info['name']] = dict([(allKeywords[i], tfCount[i])for i in range(len(tfCount))])
+
 
         ## debug
         # companyInfoDict.append(info['name'])
@@ -243,6 +251,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         outputDict['name'] = compName
         outputDict['score'] = score
         outputDict['document_length'] = companyLenDict.get(compName)
+        outputDict['Keywords'] = companyKeywordsDict.get(compName)
 
         outputDict['order_list'] = []
         # for each url
