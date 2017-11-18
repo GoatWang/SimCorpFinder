@@ -1,3 +1,4 @@
+import numpy as np
 from numpy import dot
 from numpy.linalg import norm
 
@@ -16,9 +17,11 @@ from collections import Counter
 
 from docx import Document
 import docx
-from docx.shared import RGBColor, Pt
+from docx.shared import RGBColor, Pt, Inches
 import re
 from docx.enum.text import WD_LINE_SPACING
+from docx.enum.table import WD_TABLE_ALIGNMENT
+
 from datetime import datetime
 from nltk.stem import WordNetLemmatizer
 lemmer = WordNetLemmatizer()
@@ -50,6 +53,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
     keyWordLi = processKeywordLi(keyWords)
     keywords_emphasizeLi = processKeywordLi(keywords_emphasize)
     keywords_filteredLi = processKeywordLi(keywords_filtered)
+    keywords_positive = keyWordLi + keywords_emphasizeLi
     allKeywords = keyWordLi + keywords_emphasizeLi + keywords_filteredLi
 
     multiTermKeywords = []
@@ -82,7 +86,8 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
 
     ##　TF
     companyScoreDict = {}
-    
+    companyLenDict = {}
+    companyKeywordsDict = {}
         
     ## debug
     # companyInfoLi = []
@@ -94,19 +99,31 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         companyScore = 0
         companyInfoLen = sum([times for term, times in companyInfo.items()])
         tfidfLi = []
-
         tfCount = []
+        tfPositiveCount = []
         for word in allKeywords:
-            tfCount.append(companyInfo.get(word, 0))
             tf = companyInfo.get(word, 0)
             tfidf = tf * idfDict[word]
             tfidfLi.append(tfidf)
+            tfCount.append(tf)
+            if word in keywords_positive:
+                tfPositiveCount.append(tf)
         
         tfidfnorm = norm([count for term, count in companyInfo.items()])
         score = cosine(keyTfidf, tfidfLi, tfidfnorm) * 10 if tfidfLi != [0.0] * len(allKeywords) else 0
-
+        # score = score * (sum(np.array(tfCount) != 0)/len(allKeywords))
+        
+        if score > 0:
+            tfPositiveCount = np.array([count for count in tfPositiveCount if count >= 1])
+            weight = np.prod(tfPositiveCount) / ((sum(tfPositiveCount)/len(keywords_positive)) ** len(keywords_positive))
+            weight = weight if weight <= 1 else 1
+            weight = weight ** (1/len(keywords_positive))
+            score = score * weight
 
         companyScoreDict[info['name']] = score
+        companyLenDict[info['name']] = companyInfoLen
+        companyKeywordsDict[info['name']] = dict([(allKeywords[i], tfCount[i])for i in range(len(tfCount))])
+
 
         ## debug
         # companyInfoDict.append(info['name'])
@@ -169,7 +186,32 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
         compName = compTuple[0]
         heading = document.add_heading(str(num+1) + ". " + compName + " (score: " + "{:.4f}".format(compTuple[1]) + ")", level=2)
         heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
-        count = 0
+
+        heading = document.add_heading("    (1). Total Terms: " + str(companyLenDict.get(compName)), level=3)
+        heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
+
+        heading = document.add_heading("    (2). All Key Words: ", level=3)
+        heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
+        keyworddict = companyKeywordsDict.get(compName)
+
+        for word in allKeywords:
+            count = keyworddict.get(word, 0)
+            if count != 0:
+                if word in keyWordLi:
+                    run = heading.add_run("\"" + word + "\"" + ": " + str(count) + ", ")
+                    font = run.font
+                    font.color.rgb = RGBColor(255, 0, 0)
+                elif word in keywords_emphasizeLi:
+                    run = heading.add_run("\"" + word + "\"" + ": " + str(count) + ", ")
+                    font = run.font
+                    font.color.rgb = RGBColor(255, 0, 0)
+                else:
+                    run = heading.add_run("\"" + word + "\"" + ": " + str(count) + ", ")
+                    font = run.font
+                    font.color.rgb = RGBColor(0, 255, 0)
+
+        heading = document.add_heading("    (3). Url List: ", level=3)
+        heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
 
         # for each url
         pageCount = 0
@@ -179,34 +221,29 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
             # if len(set(allKeywords) & set(info.split())) > 0:
             if len(set(allKeywords) & set(processInfo(info, multiTermKeywords).keys())) > 0:
                 pageCount += 1
-                # page source 1: "http://XXXXXXXXXXXXXXX.com"
-                par = document.add_paragraph()
-                run = par.add_run("page source "+ str(pageCount) +": ")
-                run.bold = True
-                hyperlink = addHyperlink(par, row['url'])
+                heading = document.add_heading("        Url "+ str(pageCount) +": ", level=4)
+                heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
+                hyperlink = addHyperlink(heading, row['url'])
 
-                par = document.add_paragraph()
-                run = par.add_run("Keyword Existence: ")
-                run.bold = True
+                heading = document.add_heading("        Keywords: ", level=4)
+                heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
 
-                wordCounter = {}
+                keyworddict = companyKeywordsDict.get(compName)
 
                 for word in allKeywords:
-
                     count = processInfo(info, multiTermKeywords).get(word, 0)
+
                     if count != 0:
+                        par = document.add_paragraph()
                         if word in keyWordLi:
-                            par = document.add_paragraph()
                             run = par.add_run("\t" + word + ": " + str(count))
                             font = run.font
                             font.color.rgb = RGBColor(255, 0, 0)
                         elif word in keywords_emphasizeLi:
-                            par = document.add_paragraph()
                             run = par.add_run("\t" + word + ": " + str(count))
                             font = run.font
                             font.color.rgb = RGBColor(255, 0, 0)
                         else:
-                            par = document.add_paragraph()
                             run = par.add_run("\t" + word + ": " + str(count))
                             font = run.font
                             font.color.rgb = RGBColor(0, 255, 0)
