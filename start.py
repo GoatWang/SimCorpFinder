@@ -7,8 +7,8 @@ from outputReader import writeStats
 
 
 dirs = [filename for filename in os.listdir("processed_data") if filename.endswith(".json")]
-# for filename in dirs:
-for filename in dirs[35:36]:
+for filename in dirs:
+# for filename in dirs[35:36]:
 # for filename in dirs[11:12]:
 # for num, filename in enumerate(dirs):
     print(filename)
@@ -24,7 +24,7 @@ for filename in dirs[35:36]:
     findingCorpsLi = data['compLi']
     
     main = Main()
-    # main.startThread(findingCorpsLi, targetCorp, True, 7)
-    main.startThread(findingCorpsLi, targetCorp, False, 7)
+    main.startThread(findingCorpsLi, targetCorp, True, 7)
+    # main.startThread(findingCorpsLi, targetCorp, False, 7)
 
     writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, "output", findingCorpsLi)
