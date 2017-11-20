@@ -7,15 +7,16 @@ from outputReader import writeStats
 
 
 dirs = [filename for filename in os.listdir("processed_data") if filename.endswith(".json")]
-for filename in dirs:
+# for filename in dirs:
 # for filename in dirs[35:36]:
 # for filename in dirs[11:12]:
-# for num, filename in enumerate(dirs):
-    print(filename)
+for num, filename in list(enumerate(dirs)):
+# for num, filename in list(enumerate(dirs))[29:30]:
+# for num, filename in list(enumerate(dirs))[1:2]:
+    print(num, filename)
     file = open(os.path.join("processed_data",filename), 'r', encoding='utf8')
     
     data = json.loads(file.read())
-    # print(num, len(data['compLi']))
 
     targetCorp = data['target']
     keyWords = data['keywords']['Keywords']
