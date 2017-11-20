@@ -24,7 +24,7 @@ for filename in dirs:
     findingCorpsLi = data['compLi']
     
     main = Main()
-    main.startThread(findingCorpsLi, targetCorp, True, 7)
-    # main.startThread(findingCorpsLi, targetCorp, False, 7)
+    # main.startThread(findingCorpsLi, targetCorp, True, 7)
+    main.startThread(findingCorpsLi, targetCorp, False, 7)
 
     writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, "output", findingCorpsLi)

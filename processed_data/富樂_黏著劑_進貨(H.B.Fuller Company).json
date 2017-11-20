@@ -1,0 +1,317 @@
+{
+    "keywords": {
+        "KeyWords(Emphasize)": [
+            "Adhesive",
+            "Sealant",
+            "Chemical"
+        ],
+        "Keywords": [
+            "induction heating",
+            "Sealing agent",
+            "Polyethylene",
+            "Acetate",
+            "Emulsion",
+            "Ethylene"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "website": "https://www.hbfuller.com/",
+    "target": "富樂_黏著劑_進貨",
+    "sic": {
+        "5169": "Chemicals & Allied Products, nec",
+        "5198": "Paints, Varnishes & Supplies",
+        "5170": "Petroleum & Petroleum Products",
+        "5160": "Chemicals & Allied Products"
+    },
+    "keywords_ori": [
+        "Adhesive",
+        "Sealant",
+        "Chemical"
+    ],
+    "compLi": [
+        "Appu Marketing and Manufacturing Ltd",
+        "Aspo Oyj",
+        "Bayer SA",
+        "Bintang Mitra Semestaraya Tbk PT",
+        "Brenntag AG",
+        "Bri-Chem Corp",
+        "Chemtrade Logistics Income Fund",
+        "Chengde Nanjiang Co Ltd",
+        "Elton SA",
+        "Fermentalg SA",
+        "Foseco India Limited",
+        "Gratitude Infinite PCL",
+        "Harel Mallac and Company Limited",
+        "Imcd NV",
+        "Incoming Inc",
+        "Inter Delta Tbk PT",
+        "Itochu Corp",
+        "Jiangsu Malong Guohua Indst & Trd Co Ltd",
+        "Krakchemia SA",
+        "Lautan Luas Tbk PT",
+        "LMG Chemicals Corporation",
+        "Luxchem Corporation Bhd",
+        "MEIWA CORPORATION",
+        "MITANI SANGYO CO., LTD.",
+        "NAGASE & CO., LTD.",
+        "Nexeo Solutions Hldg LLC",
+        "Orapi SA",
+        "Perdana Bangun Pusaka Tbk PT",
+        "Prymus SA",
+        "Quaker Chemical Corp",
+        "Rayon Industrial SA",
+        "Rifa Industrial Co., Ltd.",
+        "SAKAI TRADING CO., LTD.",
+        "Samyung Trading Co Ltd",
+        "Saudi Industrial Export Company",
+        "SBS Philippines Corp",
+        "Shoei Yakuhin Co Ltd",
+        "Sinochem International Corporation",
+        "Sterling Consolidated Corp",
+        "Tianjin TEDA Co Ltd",
+        "UAC Global PCL",
+        "Union Petrochemical PCL",
+        "Univar Inc",
+        "Veritas (India) Limited",
+        "White Group Public Company Limited",
+        "Wonik Cube Corp",
+        "Yuan Jen Enterprises Co., Ltd."
+    ],
+    "compLi_detail": [
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Appu Marketing and Manufacturing Ltd"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Aspo Oyj"
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "Bayer SA"
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "Bintang Mitra Semestaraya Tbk PT"
+        },
+        {
+            "sic": "5198",
+            "selected": true,
+            "name": "Brenntag AG"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Bri-Chem Corp"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Chemtrade Logistics Income Fund"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Chengde Nanjiang Co Ltd"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Elton SA"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Fermentalg SA"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Foseco India Limited"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Gratitude Infinite PCL"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Harel Mallac and Company Limited"
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "Imcd NV"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Incoming Inc"
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "Inter Delta Tbk PT"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Itochu Corp"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Jiangsu Malong Guohua Indst & Trd Co Ltd"
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "Krakchemia SA"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Lautan Luas Tbk PT"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "LMG Chemicals Corporation"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Luxchem Corporation Bhd"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "MEIWA CORPORATION"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "MITANI SANGYO CO., LTD."
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "NAGASE & CO., LTD."
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Nexeo Solutions Hldg LLC"
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "Orapi SA"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Perdana Bangun Pusaka Tbk PT"
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "Prymus SA"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Quaker Chemical Corp"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Rayon Industrial SA"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Rifa Industrial Co., Ltd."
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "SAKAI TRADING CO., LTD."
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Samyung Trading Co Ltd"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Saudi Industrial Export Company"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "SBS Philippines Corp"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Shoei Yakuhin Co Ltd"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Sinochem International Corporation"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Sterling Consolidated Corp"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Tianjin TEDA Co Ltd"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "UAC Global PCL"
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "Union Petrochemical PCL"
+        },
+        {
+            "sic": "5169",
+            "selected": true,
+            "name": "Univar Inc"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Veritas (India) Limited"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "White Group Public Company Limited"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Wonik Cube Corp"
+        },
+        {
+            "sic": "5169",
+            "selected": false,
+            "name": "Yuan Jen Enterprises Co., Ltd."
+        }
+    ]
+}

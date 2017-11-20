@@ -105,7 +105,7 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
             weight = np.prod(tfPositiveCount) / ((sum(tfPositiveCount)/len(keywords_positive)) ** len(keywords_positive))
             weight = weight if weight <= 1 else 1
             weight = weight ** (1/len(keywords_positive))
-            score = score * weight
+            score = score * (weight**2)
 
         companyScoreDict[info['name']] = score
         companyLenDict[info['name']] = companyInfoLen
@@ -162,8 +162,30 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
                 outputDict['order_list'].append(urlDict)
         outputdist.append(outputDict)
 
+    ## generating csv file for comparason  
+    df_output = pd.DataFrame(outputdist)
+    df_output = df_output.drop('order_list', axis=1)
+    df_output = df_output.drop('Keywords', axis=1)
+    def deletezeroscolumn(df):
+        for column in df.columns:
+            if (df[column] == 0).all():
+                df.drop(column, axis=1, inplace=True)
+        return df
+    df_output = deletezeroscolumn(df_output)
+
+    showing_columns = ['name', 'score', 'document_length']
+    keywords = [keyword for keyword in df_output.columns if keyword not in showing_columns]
+    showing_columns.extend(keywords)
+    df_output = df_output[showing_columns]
+
     nowtime = datetime.now()
     filetime = str(nowtime).split()[0].replace("-","") + str(nowtime).split()[1].split(":")[0] + str(nowtime).split()[1].split(":")[1]
+
+    ## write json file
     filename = os.path.join(outputDir, targetCorp + filetime + '.json')
     with open(filename, 'w', encoding='utf8') as fp:
         json.dump(outputdist, fp, ensure_ascii=False)
+
+    ## write csv file
+    filename = os.path.join(outputDir, targetCorp + filetime + '.csv')
+    df_output.to_csv(filename)

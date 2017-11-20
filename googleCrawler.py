@@ -214,7 +214,8 @@ class Main():
 
         faillogs = QueueTransfering(self.fail_log)
         if faillogs != []:
-            with open(os.path.join("logs", filetime + "FailLink.json"), 'w', encoding='utf8') as fp:
+            fileLoc = os.path.join('logs', targetComp + filetime + '.json')
+            with open(fileLoc, 'w', encoding='utf8') as fp:
                 json.dump(faillogs, fp)
 
 
