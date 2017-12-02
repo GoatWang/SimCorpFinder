@@ -1,6 +1,7 @@
 {
-    "target": "健誠_汽車_進貨(sincere international mass transportation vehicle ltd)",
-    "website": "http://www.sincerebus.com.tw/",
+    "target": "Yangzhou Yaxing Motor Coach Co.,Ltd",
+    "target_ori": "健誠_汽車_進貨(sincere international mass transportation vehicle ltd)",
+    "compLi_Len": 149,
     "sic": {
         "3711": "Motor Vehicles & Car Bodies",
         "3713": "Truck & Bus Bodies"
@@ -41,20 +42,16 @@
         "Autech Corp",
         "Automobile Corp Of Goa Ltd",
         "AvtoKrAZ PAT",
-        "AVTOVAZ OAO",
         "Battistella Administracao Part SA APABA",
         "Bayerische Motoren Werke AG",
         "Beiqi Foton Motor Company Limited",
         "Blue Bird Corp",
-        "Brilliance China Automotive Hldg. (ADR)",
         "Brilliance China Automotive Holding Ltd.",
         "BYD Company Limited",
         "China Automobile Parts Holdings Ltd",
         "China Motor Corporation",
         "Cho Thavee PCL",
         "Chongqing Changan Automobile Company Ltd",
-        "CMC Investment Joint Stock Co",
-        "CME Group Berhad",
         "CNHTC Jinan Truck Co Ltd",
         "Compagnie Plastic Omnium SA",
         "DAIHATSU MOTOR CO., LTD.",
@@ -83,19 +80,15 @@
         "General Motors Company",
         "GHANDHARA INDUSTRIES LIMITED",
         "Ghandhara Nissan Ltd.",
-        "Grande West Transportation Group Inc",
-        "Great Wall Motor Co Ltd",
         "Great Wall Motor Co Ltd",
         "Greenkraft Inc",
         "Guangzhou Automobile Group Co Ltd",
         "Haima Automobile Group Co Ltd",
         "Hindustan Motors Limited",
         "HINO MOTORS, LTD.",
-        "Hino Motors, Ltd. (ADR)",
         "Hino Pak Motors Ltd.",
         "Honda Atlas Cars (Pakistan) Ltd.",
         "Honda Motor Co Ltd",
-        "Honda Motor Co Ltd (ADR)",
         "Hualing Xingma Automobile (Group) Co Ltd",
         "Hwashin Precision Co Ltd",
         "HYUNDAI MOBIS CO., LTD.",
@@ -132,7 +125,6 @@
         "New Flyer Industries Inc.",
         "Nilsson Special Vehicles publ AB",
         "Nissan Motor Co Ltd",
-        "Nissan Motor Co Ltd (ADR)",
         "NISSAN SHATAI CO., LTD.",
         "Otokar Otomotiv ve Savunma Sanayi AS",
         "PACCAR Inc",
@@ -173,818 +165,1204 @@
         "VA Automotive i Hassleholm AB",
         "Vmoto Ltd",
         "Volkswagen AG",
-        "Volkswagen AG (ADR)",
         "WABCO Holdings Inc.",
         "Workhorse Group Inc",
         "Xiamen King Long Motor Group Co., Ltd.",
-        "Yangzhou Yaxing Motor Coach Co.,Ltd",
         "Yulon Motor Co., Ltd.",
-        "Zaporiz'kyi Avtomobil'nyi Zavod PAT",
         "Zhejiang Noblelift Equipment JS Co Ltd",
         "Zhengzhou Yutong Bus Co., Ltd.",
         "Zhonghang Heibao Co Ltd",
         "Zhongtong Bus & Holding Co., Ltd"
     ],
-    "compLi_detail": [
+    "target_label": {
+        "name": "Yangzhou Yaxing Motor Coach Co.,Ltd",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
         {
             "name": "Aerosun Corporation",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Aftab Automobiles Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "A-Jin Industry Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "AMA Group Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "AMO ZIL PAO",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Anadolu Isuzu Otomotiv Sanayii v Tcrt AS",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Anhui Ankai Automobile Co., Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Anhui Jianghuai Automobile Co.,  Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "AnShan SenYuan Road & Bridge Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Arctic Cat Inc",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Arzamasskiy mashinostroit. zavod OAO",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ashok Leyland Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Atul Auto Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Audi AG",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Autech Corp",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Automobile Corp Of Goa Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "AvtoKrAZ PAT",
             "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "AVTOVAZ OAO",
-            "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Battistella Administracao Part SA APABA",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Bayerische Motoren Werke AG",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Beiqi Foton Motor Company Limited",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Blue Bird Corp",
             "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "Brilliance China Automotive Hldg. (ADR)",
-            "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Brilliance China Automotive Holding Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "BYD Company Limited",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China Automobile Parts Holdings Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China Motor Corporation",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Cho Thavee PCL",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chongqing Changan Automobile Company Ltd",
             "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "CMC Investment Joint Stock Co",
-            "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "CME Group Berhad",
-            "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "CNHTC Jinan Truck Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Compagnie Plastic Omnium SA",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "DAIHATSU MOTOR CO., LTD.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Daimler AG",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dewan Farooq Motors Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dongfeng Automobile Co., Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dongfeng Motor Group Co. Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "EDAG Engineering Group AG",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Eicher Motors Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Electro Optic Systems Hldg Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "EN3 Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "EP Manufacturing Bhd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Everdigm Corp",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "EXOR SpA",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Faw Car Co., Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Federal Signal Corporation",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Fiat Chrysler Automobiles NV",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Firstec Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Force Motors Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ford Motor Company",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ford Otomotiv Sanayi AS",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Fuji Heavy Industries Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "GAZ OAO",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "GB Auto Group",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Geely Automobile Holdings Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "General Motors Company",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "GHANDHARA INDUSTRIES LIMITED",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ghandhara Nissan Ltd.",
             "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "Grande West Transportation Group Inc",
-            "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "Great Wall Motor Co Ltd",
-            "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Great Wall Motor Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Greenkraft Inc",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Guangzhou Automobile Group Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Haima Automobile Group Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hindustan Motors Limited",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "HINO MOTORS, LTD.",
             "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "Hino Motors, Ltd. (ADR)",
-            "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hino Pak Motors Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Honda Atlas Cars (Pakistan) Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Honda Motor Co Ltd",
             "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "Honda Motor Co Ltd (ADR)",
-            "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hualing Xingma Automobile (Group) Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hwashin Precision Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "HYUNDAI MOBIS CO., LTD.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hyundai Motor Co",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Indomobil Sukses Internasional Tbk PT",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Indus Motor Company Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Isuzu Motors Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jardine Cycle & Carriage Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jiangling Motors Corporation, Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jiangsu Yueda Investment Co., Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jinxi Axle Company Limited",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "KAMA CO., LTD.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kandi Technologies Group Inc",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "KANEMATSU ENGINEERING CO., LTD.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Karsan Otomotiv Sanayii Ve Ticaret A.S.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kia Motors Corporation",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kian Shen Corporation",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lanka Ashok Leyland Plc",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Liaoning SG Automotive Group Co., Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lifan Industry (group) Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Linhai Co., Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mahindra & Mahindra Limited",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Man SE",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Marcopolo SA",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Maruti Suzuki India Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mazda Motor Corp",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Miller Industries, Inc.",
             "sic": "3713",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Minth Group Limited",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "MITSUBISHI MOTORS CORPORATION",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Morita Holdings Corp",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Motores Diesel Andinos SA",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Navistar International Corp",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Neftekamskiy avtozavod OAO (P)",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "New Flyer Industries Inc.",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nilsson Special Vehicles publ AB",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nissan Motor Co Ltd",
             "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "Nissan Motor Co Ltd (ADR)",
-            "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "NISSAN SHATAI CO., LTD.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Otokar Otomotiv ve Savunma Sanayi AS",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "PACCAR Inc",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Pak Suzuki Motor Company Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Pavlovskiy avtobus OAO (P)",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Peugeot SA",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Pininfarina SpA",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Porsche Automobil Holding SE",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Qingling Motors Co. Ltd.",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "RAC Electric Vehicles Inc",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Renault SA",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Rosenbauer International AG",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SAIC Motor Corporation Limited",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sazgar Engineering Works Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Service Team Inc",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Shanghai Lianming Machinery Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Shenyang Jinbei Automotive Co., Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Showa Aircraft Industry Co., Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sinotruk (Hong Kong) Limited",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SML Isuzu Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sollers PAO",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Spartan Motors Inc",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ssangyong Motor Co., Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Supreme Industries, Inc.",
             "sic": "3713",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Suzuki Motor Corp",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tan Chong Motor Holdings Berhad",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tata Motors Limited",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tesla Motors Inc",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Thai Rung Union Car Public Co., Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tianjin Faw Xiali Automobile Co., Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TMT Motor Joint Stock Co",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tofas Turk Otomobil Fabrikasi A.S.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TOYOTA INDUSTRIES CORPORATION",
             "sic": "3711",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Toyota Motor Corp",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TVS Motor Company Limited",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ukrains'ka Avtomobil'na Korporatsiia PAT",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "UMW Holdings Bhd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "VA Automotive i Hassleholm AB",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Vmoto Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Volkswagen AG",
             "sic": "3711",
-            "selected": true
-        },
-        {
-            "name": "Volkswagen AG (ADR)",
-            "sic": "3711",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "WABCO Holdings Inc.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Workhorse Group Inc",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Xiamen King Long Motor Group Co., Ltd.",
             "sic": "3711",
-            "selected": false
-        },
-        {
-            "name": "Yangzhou Yaxing Motor Coach Co.,Ltd",
-            "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Yulon Motor Co., Ltd.",
             "sic": "3711",
-            "selected": true
-        },
-        {
-            "name": "Zaporiz'kyi Avtomobil'nyi Zavod PAT",
-            "sic": "3711",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zhejiang Noblelift Equipment JS Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zhengzhou Yutong Bus Co., Ltd.",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zhonghang Heibao Co Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zhongtong Bus & Holding Co., Ltd",
             "sic": "3711",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         }
     ]
 }

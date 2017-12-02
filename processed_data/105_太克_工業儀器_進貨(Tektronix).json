@@ -1,0 +1,238 @@
+{
+    "target": "Euro Tech Holdings Co. Ltd.",
+    "target_ori": "105_太克_工業儀器_進貨(Tektronix)",
+    "compLi_Len": 20,
+    "sic": {
+        "5084": "Industrial Machinery and Equipment（工業用途機械及儀器）",
+        "5065": "Electronic Parts and Equipment, Not Elsewhere Classified（無法分類之電子零件及設備 ）",
+        "5063": "Electrical Apparatus and Equipment Wiring Supplies, and Construction Materials（電子儀器、線路設備及建築材料 ）"
+    },
+    "keywords_ori": [
+        "test",
+        "measurement/measure",
+        "gauge",
+        "analyze",
+        "analog"
+    ],
+    "keywords": {
+        "Keywords": [
+            "Oscilloscopes",
+            "Probes And Accessories",
+            "Spectrum Analyzers",
+            "Vector Network Analyzers",
+            "Power Analyzers",
+            "Parameter Analyzers",
+            "Bit Error Rate Testers",
+            "Optical Modulation Analyzers",
+            "Logic Analyzers",
+            "Protocol Analyzers",
+            "Frequency Counters",
+            "Arbitrary Function Generators",
+            "Arbitrary Waveform Generators",
+            "Vector Signal Generators",
+            "Signal Pulse Generators",
+            "Power Supplies",
+            "DC Electronic Loads",
+            "Source Measure Units",
+            "Electrochemistry Products",
+            "Digital Multimeters"
+        ],
+        "KeyWords(Emphasize)": [
+            "test",
+            "measurement",
+            "gauge",
+            "analyze",
+            "analog"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "AIKO CORPORATION",
+        "Answer Technology Co., Ltd.",
+        "Beijing Oriental Jicheng Co Ltd",
+        "Chander Electronics Corp.",
+        "Howteh Technology Co., Ltd.",
+        "Kyokuto Boeki Kaisha, Ltd.",
+        "Makus, Inc.",
+        "MARUBUN CORPORATION",
+        "Naito & Co Ltd",
+        "Nichiden Corp",
+        "NIHON DENKEI CO., LTD.",
+        "Rexel SA",
+        "SUN-WA TECHNOS CORPORATION",
+        "TOMITA CO., LTD.",
+        "Toshin Group Co., Ltd.",
+        "TRUSCO NAKAYAMA CORPORATION",
+        "Trust-Search Corp.,Ltd.",
+        "Uematsu Shokai Co., Ltd.",
+        "WPG Holdings Limited",
+        "YKT CORPORATION"
+    ],
+    "target_label": {
+        "name": "Euro Tech Holdings Co. Ltd.",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
+        {
+            "name": "AIKO CORPORATION",
+            "sic": "5063",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Answer Technology Co., Ltd.",
+            "sic": "5065",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Beijing Oriental Jicheng Co Ltd",
+            "sic": "5084",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Chander Electronics Corp.",
+            "sic": "5065",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Howteh Technology Co., Ltd.",
+            "sic": "5065",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Kyokuto Boeki Kaisha, Ltd.",
+            "sic": "5084",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Makus, Inc.",
+            "sic": "5065",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "MARUBUN CORPORATION",
+            "sic": "5065",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Naito & Co Ltd",
+            "sic": "5084",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Nichiden Corp",
+            "sic": "5084",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "NIHON DENKEI CO., LTD.",
+            "sic": "5084",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Rexel SA",
+            "sic": "5063",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "SUN-WA TECHNOS CORPORATION",
+            "sic": "5063",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "TOMITA CO., LTD.",
+            "sic": "5084",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Toshin Group Co., Ltd.",
+            "sic": "5063",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "TRUSCO NAKAYAMA CORPORATION",
+            "sic": "5084",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Trust-Search Corp.,Ltd.",
+            "sic": "5065",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Uematsu Shokai Co., Ltd.",
+            "sic": "5084",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "WPG Holdings Limited",
+            "sic": "5065",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "YKT CORPORATION",
+            "sic": "5084",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        }
+    ]
+}

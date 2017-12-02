@@ -1,16 +1,17 @@
 {
-    "target": "亞薩合萊_五金零件_進貨(ASSA ABLOY)",
-    "website": "https://www.assaabloy.com/en/com/",
+    "target": "Ace Hardware Indonesia Tbk PT",
+    "target_ori": "亞薩合萊_五金零件_進貨(ASSA ABLOY)",
+    "compLi_Len": 44,
     "sic": {
         "3442 ": "Metal Doors, Sash & Trim",
-        "5023 ": "Homefurnishings",
-        "5072 ": "Hardware",
-        "5084": "Industrial Machinery & Equipment",
-        "5085": "Industrial Supplies",
-        "5141 ": "Groceries, General Line",
         "5211 ": "Lumber & Other Building Materials",
+        "5141 ": "Groceries, General Line",
+        "5084": "Industrial Machinery & Equipment",
+        "5072 ": "Hardware",
+        "5722 ": "Household Appliance Stores",
+        "5023 ": "Homefurnishings",
         "5251 ": "Hardware Stores",
-        "5722 ": "Household Appliance Stores"
+        "5085": "Industrial Supplies"
     },
     "keywords_ori": [
         "Hardware",
@@ -44,9 +45,7 @@
         "KeyWords(Filtered)": []
     },
     "compLi": [
-        "Ace Hardware Indonesia Tbk PT",
         "Agta Record AG",
-        "ALMETAX MANUFACTURING CO., LTD.",
         "Arcland Sakamoto Co Ltd",
         "Beijing JIAYU Door Window & Curtain Wall",
         "Bernabe Cote D'Ivoire SA",
@@ -58,7 +57,6 @@
         "Chuan Huat Resources Bhd",
         "Clas Ohlson AB",
         "Compact Metal Industries Ltd",
-        "Daiken Co Ltd",
         "DCM Holdings Co Ltd",
         "E. Bon Holdings Ltd",
         "Ensor Holdings plc",
@@ -67,17 +65,14 @@
         "Grace Kennedy & Co Ltd",
         "Guangdong Mingzhu Group Co., Ltd.",
         "Hardware and Lumber Limited",
-        "InnoTec TSS AG",
         "Installux SA",
         "Jilin Chengcheng Group Co Ltd",
         "KIMURA CO., LTD.",
         "Kingfisher plc",
-        "Kombassan Holding AS",
         "Komeri Co Ltd",
         "LIXIL Group Corp",
         "LOTTE Himart Co Ltd",
         "Lowe's Companies, Inc.",
-        "Lumax International Corp. Ltd.",
         "MERCOR SA",
         "Metcash Limited",
         "Nergeco SA",
@@ -86,8 +81,6 @@
         "PGT, Inc.",
         "RONA Inc.",
         "Safestyle UK PLC",
-        "SANGETSU CO., LTD.",
-        "Sanwa Holdings Corp",
         "Saudi Company for Hardware",
         "Societe Tunisie Profiles Aluminium SA",
         "SUNDAY CO., LTD.",
@@ -96,261 +89,355 @@
         "Vogiatzoglou Systems SA",
         "Yawal SA"
     ],
-    "compLi_detail": [
-        {
-            "name": "Ace Hardware Indonesia Tbk PT",
-            "sic": "5211",
-            "selected": false
-        },
+    "target_label": {
+        "name": "Ace Hardware Indonesia Tbk PT",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
         {
             "name": "Agta Record AG",
             "sic": "3442",
-            "selected": false
-        },
-        {
-            "name": "ALMETAX MANUFACTURING CO., LTD.",
-            "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Arcland Sakamoto Co Ltd",
             "sic": "5211",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Beijing JIAYU Door Window & Curtain Wall",
             "sic": "3442",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Bernabe Cote D'Ivoire SA",
             "sic": "5072",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Bricorama SA",
             "sic": "5211",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Builders FirstSource, Inc.",
             "sic": "5211",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Bunka Shutter Co Ltd",
             "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Byggmax Group AB",
             "sic": "5211",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China Wire & Cable Co., Ltd.",
             "sic": "3442",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chuan Huat Resources Bhd",
             "sic": "5072",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Clas Ohlson AB",
             "sic": "5251",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Compact Metal Industries Ltd",
             "sic": "3442",
-            "selected": false
-        },
-        {
-            "name": "Daiken Co Ltd",
-            "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "DCM Holdings Co Ltd",
             "sic": "5211",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "E. Bon Holdings Ltd",
             "sic": "5072",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ensor Holdings plc",
             "sic": "3442",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Fujisash Co Ltd",
             "sic": "3442",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "General Commercial & Industrial S.A.",
             "sic": "5072",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Grace Kennedy & Co Ltd",
             "sic": "5141",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Guangdong Mingzhu Group Co., Ltd.",
             "sic": "5072",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hardware and Lumber Limited",
             "sic": "5072",
-            "selected": false
-        },
-        {
-            "name": "InnoTec TSS AG",
-            "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Installux SA",
             "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jilin Chengcheng Group Co Ltd",
             "sic": "5084",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "KIMURA CO., LTD.",
             "sic": "5211",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kingfisher plc",
             "sic": "5211",
-            "selected": false
-        },
-        {
-            "name": "Kombassan Holding AS",
-            "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Komeri Co Ltd",
             "sic": "5211",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "LIXIL Group Corp",
             "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "LOTTE Himart Co Ltd",
             "sic": "5722",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lowe's Companies, Inc.",
             "sic": "5211",
-            "selected": false
-        },
-        {
-            "name": "Lumax International Corp. Ltd.",
-            "sic": "5084",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "MERCOR SA",
             "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Metcash Limited",
             "sic": "5141",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nergeco SA",
             "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nice S.p.A.",
             "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nichiden Corp",
             "sic": "5084",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "PGT, Inc.",
             "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "RONA Inc.",
             "sic": "5251",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Safestyle UK PLC",
             "sic": "3442",
-            "selected": false
-        },
-        {
-            "name": "SANGETSU CO., LTD.",
-            "sic": "5023",
-            "selected": false
-        },
-        {
-            "name": "Sanwa Holdings Corp",
-            "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Saudi Company for Hardware",
             "sic": "5251",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Societe Tunisie Profiles Aluminium SA",
             "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SUNDAY CO., LTD.",
             "sic": "5211",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Test Rite International Co., Ltd.",
             "sic": "5722",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Toyo Shutter Co Ltd",
             "sic": "3442",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Vogiatzoglou Systems SA",
             "sic": "5023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Yawal SA",
             "sic": "3442",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         }
     ]
 }

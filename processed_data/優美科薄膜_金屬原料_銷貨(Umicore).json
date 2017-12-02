@@ -1,0 +1,851 @@
+{
+    "target": "ALCONIX CORPORATION",
+    "target_ori": "優美科薄膜_金屬原料_銷貨(Umicore)",
+    "compLi_Len": 87,
+    "sic": {
+        "5051": "Metals Service Centers & Offices",
+        "5052 ": "Coal & Other Minerals & Ores",
+        "5050": "Metals & Minerals, Except Petroleum",
+        "2819": "Industrial Inorganic Chemicals"
+    },
+    "keywords_ori": [
+        "Metal",
+        "Steel"
+    ],
+    "keywords": {
+        "Keywords": [
+            "Arsenic",
+            "Cobalt",
+            "Gallium",
+            "Gold",
+            "Iridium",
+            "Palladium",
+            "Platinum",
+            "Rhodium",
+            "Ruthenium",
+            "Silver",
+            "Tantalum",
+            "Tungsten",
+            "Electronic Materials",
+            "Fuel Cells Catalysts",
+            "Homogeneous Catalysts",
+            "Oxides",
+            "PGM",
+            "Precursors",
+            "Heterogeneous Catalysts",
+            "hAPIs",
+            "Agrochemicals",
+            "Automotive Catalytic Converters",
+            "Electrochemistry",
+            "Electronics",
+            "Fine Chemicals",
+            "Fuel Cells",
+            "Oxo Industry",
+            "Pharmaceuticals",
+            "Plating",
+            "Polymers",
+            "Renewables",
+            "Sensors",
+            "SiliconesSolar Cells",
+            "Specialty Chemicals",
+            "Vapor Phase Deposition"
+        ],
+        "KeyWords(Emphasize)": [
+            "metal",
+            "Steel"
+        ],
+        "KeyWords(Filtered)": []
+    },
+    "compLi": [
+        "A. M. Castle & Co",
+        "AMD Group Investment JSC",
+        "Aseem Global Ltd",
+        "Asia Enterprises Holding Limited",
+        "Atta Global Group Bhd",
+        "Best Steel Logistics Ltd",
+        "BOWIM SA",
+        "Brodomerkur dd",
+        "Bsi (sa) Limited",
+        "CANOX CORPORATION",
+        "Central Vietnam Metal Corp",
+        "Chengdu Huaze Cobalt & Nickl Mtrl Co Ltd",
+        "Chengtun Mining Group Co Ltd",
+        "China Daye Non Ferrous Metals Mining Ltd",
+        "China Metal Resources Utilization Ltd",
+        "CITIC Resources Holdings Limited",
+        "Devhari Exports (India) Ltd",
+        "Ducgiang Chemicals & Detergent Powdr JSC",
+        "EG Co., Ltd.",
+        "Empire Resources Inc",
+        "Engtex Group Berhad",
+        "Ferro Alloys Corporation Ltd (Parent)",
+        "Fujian Start Group Co Ltd",
+        "Gold by Gold SA",
+        "GS Global Corp",
+        "GTS Chemical PLC Hldg",
+        "HANWA CO., LTD.",
+        "Hariyana Ship Breakers Ltd",
+        "Hashimoto Sogyo Holdings Co Ltd",
+        "Hexa Tradex Ltd",
+        "Hochiminh City Metal Corp",
+        "Hong Kong Shanghai Alliance Holdings Ltd",
+        "Hyundai Corporation",
+        "Jacquet Metal Service SA",
+        "Jiangsu Nata Opto-electronic Materia",
+        "Johnson Matthey PLC",
+        "Kloeckner & Co SE",
+        "Konsorcjum Stali S.A.",
+        "Kordellos Ch. Bros SA",
+        "L.B. Foster Co",
+        "Lesha Industries Ltd",
+        "Loco Hong Kong Holdings Ltd",
+        "Lords Chloro Alkali Limited(NDA)",
+        "Marufuji Sheet Piling Co Ltd",
+        "Max Metal Corporation PCL",
+        "MOLITEC STEEL CO., LTD.",
+        "MRC Global Inc",
+        "Nippon Steel & Sumikin Bussan Corp",
+        "Noble Group Limited",
+        "Nordwest Handel AG",
+        "Olympic Steel, Inc.",
+        "Omansh Enterprises Ltd",
+        "ONOKEN CO., LTD.",
+        "Paik Kwang Industral Co Ltd",
+        "Pantech Group Holdings Berhad",
+        "Porn Prom Metal Public Company Limited",
+        "Punjab Alkalies & Chemicals Ltd",
+        "Rasa Corporation",
+        "Reliance Steel & Aluminum Co",
+        "Rich Asia Corporation PCL",
+        "Russel Metals Inc",
+        "Sahamit Machinery Public Company Limited",
+        "SATO SHO-JI CORPORATION",
+        "Scope Metals Group Ltd",
+        "Seiwa Chuo Holdings Corp",
+        "Shandong Haitian Linkall Co Ltd",
+        "Shanghai Material Trading Co., Ltd.",
+        "Shinsho Corp",
+        "Skyway Securities Group Ltds",
+        "Soc Son Development Investment JSC",
+        "Solavina JSC",
+        "Son Ha Sai Gon JSC",
+        "SP Corporation Limited",
+        "Spectra Industries Ltd",
+        "Tanfac Industries Limited",
+        "Tehnometal-Vardar AD Skopje",
+        "Tien Bo Group JSC",
+        "Tira Austenite Tbk PT",
+        "Tradi SA",
+        "UEX Ltd",
+        "Ushdev International Ltd.",
+        "Vietnam Enterprise Investment & Dev JSC",
+        "WMT SANA Joint Venture Joint Stock Co",
+        "Xiamen ITG Group Corp.,Ltd",
+        "Zhejiang Dongliang New Material Co Ltd",
+        "Zhejiang Fuchunjiang Envtl Thmltc Co Ltd",
+        "Zibao Metals Recycling Holdings Plc"
+    ],
+    "target_label": {
+        "name": "ALCONIX CORPORATION",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
+        {
+            "name": "A. M. Castle & Co",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "AMD Group Investment JSC",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Aseem Global Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Asia Enterprises Holding Limited",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Atta Global Group Bhd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Best Steel Logistics Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "BOWIM SA",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Brodomerkur dd",
+            "sic": "5051",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Bsi (sa) Limited",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "CANOX CORPORATION",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Central Vietnam Metal Corp",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Chengdu Huaze Cobalt & Nickl Mtrl Co Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Chengtun Mining Group Co Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "China Daye Non Ferrous Metals Mining Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "China Metal Resources Utilization Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "CITIC Resources Holdings Limited",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Devhari Exports (India) Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Ducgiang Chemicals & Detergent Powdr JSC",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "EG Co., Ltd.",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Empire Resources Inc",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Engtex Group Berhad",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Ferro Alloys Corporation Ltd (Parent)",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Fujian Start Group Co Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Gold by Gold SA",
+            "sic": "5052",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "GS Global Corp",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "GTS Chemical PLC Hldg",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "HANWA CO., LTD.",
+            "sic": "5051",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Hariyana Ship Breakers Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Hashimoto Sogyo Holdings Co Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Hexa Tradex Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Hochiminh City Metal Corp",
+            "sic": "5051",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Hong Kong Shanghai Alliance Holdings Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Hyundai Corporation",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Jacquet Metal Service SA",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Jiangsu Nata Opto-electronic Materia",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Johnson Matthey PLC",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Kloeckner & Co SE",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Konsorcjum Stali S.A.",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Kordellos Ch. Bros SA",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "L.B. Foster Co",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Lesha Industries Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Loco Hong Kong Holdings Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Lords Chloro Alkali Limited(NDA)",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Marufuji Sheet Piling Co Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Max Metal Corporation PCL",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "MOLITEC STEEL CO., LTD.",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "MRC Global Inc",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Nippon Steel & Sumikin Bussan Corp",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Noble Group Limited",
+            "sic": "5052",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Nordwest Handel AG",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Olympic Steel, Inc.",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Omansh Enterprises Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "ONOKEN CO., LTD.",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Paik Kwang Industral Co Ltd",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Pantech Group Holdings Berhad",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Porn Prom Metal Public Company Limited",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Punjab Alkalies & Chemicals Ltd",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Rasa Corporation",
+            "sic": "5051",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Reliance Steel & Aluminum Co",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Rich Asia Corporation PCL",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Russel Metals Inc",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Sahamit Machinery Public Company Limited",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "SATO SHO-JI CORPORATION",
+            "sic": "5051",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Scope Metals Group Ltd",
+            "sic": "5051",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Seiwa Chuo Holdings Corp",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Shandong Haitian Linkall Co Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Shanghai Material Trading Co., Ltd.",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Shinsho Corp",
+            "sic": "5051",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Skyway Securities Group Ltds",
+            "sic": "5052",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Soc Son Development Investment JSC",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Solavina JSC",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Son Ha Sai Gon JSC",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "SP Corporation Limited",
+            "sic": "5052",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Spectra Industries Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Tanfac Industries Limited",
+            "sic": "2819",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Tehnometal-Vardar AD Skopje",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Tien Bo Group JSC",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Tira Austenite Tbk PT",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Tradi SA",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "UEX Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Ushdev International Ltd.",
+            "sic": "5051",
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Vietnam Enterprise Investment & Dev JSC",
+            "sic": "5052",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "WMT SANA Joint Venture Joint Stock Co",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Xiamen ITG Group Corp.,Ltd",
+            "sic": "5052",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Zhejiang Dongliang New Material Co Ltd",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Zhejiang Fuchunjiang Envtl Thmltc Co Ltd",
+            "sic": "5052",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Zibao Metals Recycling Holdings Plc",
+            "sic": "5051",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 {
-    "target": "志聖_工業零件_銷貨(CSUN MFG. LTD.)",
-    "website": "http://www.csun.com.tw/English/",
+    "target": "C SUN MFG. LTD.",
+    "target_ori": "志聖_工業零件_銷貨(CSUN MFG. LTD.)",
+    "compLi_Len": 190,
     "sic": {
         "3559": "Special Industry Machinery, Not Elsewhere Classified(特殊產業設備)"
     },
@@ -31,22 +32,16 @@
     },
     "compLi": [
         "3S Korea Co Ltd",
-        "Ace Hightech Co Ltd",
+        "Adept Technology Inc",
         "Advanced Process Systems Corp",
-        "AIXTRON SE",
-        "AIXTRON SE (ADR)",
         "All Ring Tech Co Ltd",
-        "American Commerce Solutions, Inc.",
+        "Amba Enterprises Ltd",
         "AMPOC FAR-EAST CO.,LTD",
         "APIC YAMADA CORPORATION",
-        "ARES GREEN TECHNOLOGY CORPORATION",
-        "Asia Tele-Net & Technology Corporation",
         "ASM International NV (ADR)",
         "ASM International NV (Amsterdam)",
-        "ASM Pacific Technology Limited",
         "ASML Holding NV",
         "ASML Holding NV (ADR)",
-        "ASTI Holdings Limited",
         "AT Technology Co Ltd",
         "Aurotek Corp",
         "Avaco Co Ltd",
@@ -54,19 +49,19 @@
         "Axcelis Technologies Inc",
         "BE Semiconductor Industrs NV (USA)",
         "Beijing New Universal Scie & Tech Co Ltd",
+        "Beijing Quanyou Time Sci and Tech Co Ltd",
         "Binh Trieu Construction & Enginering JSC",
-        "C SUN MFG. LTD.",
         "Calitech Co Ltd",
         "Cavotec SA",
-        "centrotherm photovoltaics AG",
+        "Cerinnov Group SA",
         "Charm Engineering Co Ltd",
         "Chen Full International Co Ltd",
         "Chien Wei Precise Technology Co., Ltd.",
         "Chime Ball Technology Co Ltd",
         "China National Materials Company Limited",
+        "Ching Chan Optical Technology Co Ltd",
         "CITIC Heavy Industries Co Ltd",
         "Contrel Technology Co Ltd",
-        "Cosmos Machinery Enterprises Limited",
         "CVD Equipment Corporation",
         "Cymechs Inc",
         "DA Technology Co Ltd",
@@ -81,25 +76,21 @@
         "ELGI Rubber Co Ltd",
         "EO Technics Co., Ltd.",
         "Equis N Zaroo Co Ltd",
-        "EugeneTechnology Co Ltd",
-        "Eva Technologies Co Ltd",
+        "Eugene Technology Co Ltd",
         "Ferrotec Corporation",
         "Foxsemicon Integrated Technology Inc",
-        "Frencken Group Limited",
+        "Fujian Excellence Honcha Envrmtl Int Eqp",
         "Fujian Haiyuan Automatic Eqpmnts Co Ltd",
         "Gallant Precision Machining Co Ltd",
         "Garb Oil & Power Corp",
-        "Genetec Technology Berhad",
         "Global Material Science CoLtd",
         "Global Standard Technology Co Ltd",
-        "Global Testing Corporation Limited",
         "Gongin Precision Industrial Co.,Ltd",
         "Grand Kartech Tbk PT",
         "GRAND PLASTIC TECHNOLOGY CORP",
         "Guangdong Jinming Machinery Co Ltd",
         "Guangdong Yizumi Precision Mchnry Co Ltd",
         "Guangdong Zhengye Technology Co Ltd",
-        "Hanergy Thin Film Power Group Ltd",
         "Hankook Technology Inc",
         "Hanmi Semiconductor Co Ltd",
         "Hanyang Eng Co., Ltd.",
@@ -110,92 +101,87 @@
         "HOLON CO., LTD.",
         "Hunan China Sun Pharmactcl Mchnry Co Ltd",
         "I Factory Co Ltd",
-        "Impact Coatings AB",
-        "Intevac, Inc.",
+        "Innovation For Creative Devices Co Ltd",
+        "Interbulls Co Ltd",
+        "Invenia Co Ltd",
         "ISC Co Ltd",
         "Ishii Hyoki Co Ltd",
         "ISHII TOOL & ENGINEERING CORPORATION",
         "Japan Steel Works Ltd",
         "Jastech Ltd",
-        "Jenoptik AG",
         "Jinyitong Sci AND TechBeijing Co Ltd",
-        "JS Huasheng Tianlong Photoelec. Co.,Ltd.",
         "Juki Corp",
         "Jusung Engineering Co., Ltd.",
         "Kabra Extrusion Technik Limited",
+        "Katy Industries, Inc.",
         "Kctech Co Ltd",
+        "Keen Offshore Engineering Co Ltd",
         "Key Ware Electronics Co., Ltd.",
         "KIMURA CHEMICAL PLANTS CO., LTD.",
         "Kodi M Co Ltd",
         "Korea Semiconductor System",
+        "Lanzhou Hua Ye Tech Engr Jt Stck Co Ltd",
         "Laser Tek Taiwan Co. Ltd.",
         "LB Semicon Co Ltd",
         "Lectra SA",
         "Leed Corp",
-        "Leed Corp (Parent)",
-        "LEWAG Holding AG",
-        "LIG Invenia Co Ltd",
         "Lotvacuum Co Ltd",
         "Lung Lung Pien Vacuum Industry Co Ltd",
         "Luoyang North Glass Technology Co Ltd",
-        "MagneGas Corporation",
         "Manitex International Inc",
-        "Manufacturing Integration Technology Ltd",
         "Marketech International Corp.",
         "Mattson Technology, Inc.",
-        "Max Automation AG",
         "Mechanical & Industrial Construction JSC",
         "Meere Company Inc",
-        "Meiki Co., Ltd.",
         "Mesnac Co Ltd",
         "MiCo Ltd",
         "Milacron Holdings Corp",
         "Mirae Corp",
-        "Muehlbauer Holding AG & Co. KGaA",
-        "Mycronic publ AB",
+        "Mycronic AB (publ)",
+        "Nakamura Choukou Co Ltd",
+        "New Power Plasma Co Ltd",
         "NISSEI PLASTIC INDUSTRIAL CO., LTD.",
         "NITCHITSU CO., LTD.",
         "NITTOKU ENGINEERING CO., LTD.",
+        "Nova Technology Corp",
         "NuFlare Technology, Inc.",
         "Odawara Engineering Co., Ltd.",
         "Osaki Engineering Co., Ltd.",
-        "Paragon Technologies Co., Ltd.",
         "Placo Co Ltd",
-        "Pontex Polyblend Co., Ltd.",
         "Precisetech Networks Beijing Inc",
         "Protec Co Ltd",
         "PSK Inc",
+        "Quantenna Communications Inc",
         "Riber SA",
         "Roblon A/S",
         "RORZE CORPORATION",
         "Rorze Systems Corporation",
         "San Lien Technology Corporation",
         "Screen Holdings Co Ltd",
-        "Seho Robot Co Ltd",
         "SFA Engineering Corp",
         "SGSB Group Co., Ltd.",
         "Shandong Huate Magnet Technology Co Ltd",
+        "Shandong Juxiang Machinery Co Ltd",
+        "Shenzhen Hekeda Precision Clng Eq Co Ltd",
         "Shenzhen JT Automation Equipment Co Ltd",
         "SHIBAURA MECHATRONICS CORPORATION",
-        "SHINKAWA LTD.",
         "SHINSUNG FA CO., LTD.",
         "SHOWA SHINKU CO.,LTD.",
-        "Singer Industries (Ceylon) Limited",
+        "Singer India Ltd",
+        "Singer Industries Ceylon PLC",
         "Single Well Industrial Corp",
-        "SINGULUS TECHNOLOGIES  AG",
         "Sinoma International Engineering Co Ltd",
         "Skako A/S",
         "Sntek Co Ltd",
-        "SNU Precision Co., Ltd.",
+        "SNU Precision Co Ltd",
         "Sono-Tek Corporation",
-        "STI Co Ltd",
-        "Sun East Technology (Holdings) Ltd.",
-        "Sunedison Semiconductor Ltd",
         "Suss MicroTec AG",
+        "Suzhou Goldway Technologies Co Ltd",
         "Symtek Automation Asia Co Ltd",
+        "Systems Technology Inc",
         "Ta Liang Technology Co Ltd",
         "Taiwan Kong King Co Ltd",
-        "Tambovskiy zav Koms im.N.S.Arter OAO (P)",
+        "Tambovskiy Zvd Kmsmlt Imn NS Artm AO (P)",
         "Tangshan Jidong Equipment Enginrg Co Ltd",
         "TAZMO CO., LTD.",
         "Techwing Inc",
@@ -215,1040 +201,1543 @@
         "Toyo Machinery Metal Co Ltd",
         "TRINITY INDUSTRIAL CORP.",
         "TSE Co Ltd",
-        "Ultratech, Inc.",
-        "UMS Holdings Limited",
+        "TSUKISHIMA KIKAI CO., LTD.",
         "Union Semiconductor Equipment Co Ltd",
         "Uroica Mining Safety Engineering Co Ltd",
         "Usun Technology Co Ltd",
-        "Veeco Instruments Inc.",
         "Vessel Co Ltd",
         "Viatron Technologies Inc",
+        "Walchandnagar Industries Ltd.",
         "Wonik IPS Co Ltd",
         "Wooshin Systems Co., Ltd.",
+        "Wuhan Newway Chenchuang Technology Dev",
         "Y.A.C. CO., LTD.",
         "Yantai Longyuan Power Technology Co.,Ltd",
         "Yest Co Ltd",
         "YUSHIN PRECISION EQUIPMENT CO., LTD.",
         "Zeus Co Ltd",
         "ZHEJIANG JINGGONG SCIENCE & TECH Co Ltd",
+        "Zhejiang Kefei Technology Co Ltd",
         "Zhengzhou Coal Mining Machinery Group Co",
         "Zhengzhou Coal Mining Machinery Group Co"
     ],
-    "compLi_detail": [
+    "target_label": {
+        "name": "C SUN MFG. LTD.",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
         {
             "name": "3S Korea Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Ace Hightech Co Ltd",
+            "name": "Adept Technology Inc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Advanced Process Systems Corp",
             "sic": "3559",
-            "selected": true
-        },
-        {
-            "name": "AIXTRON SE",
-            "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "AIXTRON SE (ADR)",
-            "sic": "3559",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "All Ring Tech Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "American Commerce Solutions, Inc.",
+            "name": "Amba Enterprises Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "AMPOC FAR-EAST CO.,LTD",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "APIC YAMADA CORPORATION",
             "sic": "3559",
-            "selected": true
-        },
-        {
-            "name": "ARES GREEN TECHNOLOGY CORPORATION",
-            "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Asia Tele-Net & Technology Corporation",
-            "sic": "3559",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ASM International NV (ADR)",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ASM International NV (Amsterdam)",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "ASM Pacific Technology Limited",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ASML Holding NV",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ASML Holding NV (ADR)",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "ASTI Holdings Limited",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "AT Technology Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Aurotek Corp",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Avaco Co Ltd",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Aval Data Corp",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Axcelis Technologies Inc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "BE Semiconductor Industrs NV (USA)",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Beijing New Universal Scie & Tech Co Ltd",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Beijing Quanyou Time Sci and Tech Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Binh Trieu Construction & Enginering JSC",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "C SUN MFG. LTD.",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Calitech Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Cavotec SA",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "centrotherm photovoltaics AG",
+            "name": "Cerinnov Group SA",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Charm Engineering Co Ltd",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chen Full International Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chien Wei Precise Technology Co., Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chime Ball Technology Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China National Materials Company Limited",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Ching Chan Optical Technology Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "CITIC Heavy Industries Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Contrel Technology Co Ltd",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Cosmos Machinery Enterprises Limited",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "CVD Equipment Corporation",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Cymechs Inc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "DA Technology Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dalian Sunlight Machinery Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dalian Zhiyun Automation Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "DI Corp",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "DISCO CORPORATION",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "DMS Co., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "DSK CO LTD",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "E&R Engineering Corp",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Eclat Forever Machinery Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ELGI Rubber Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "EO Technics Co., Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Equis N Zaroo Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "EugeneTechnology Co Ltd",
+            "name": "Eugene Technology Co Ltd",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Eva Technologies Co Ltd",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ferrotec Corporation",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Foxsemicon Integrated Technology Inc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Frencken Group Limited",
+            "name": "Fujian Excellence Honcha Envrmtl Int Eqp",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Fujian Haiyuan Automatic Eqpmnts Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Gallant Precision Machining Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Garb Oil & Power Corp",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Genetec Technology Berhad",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Global Material Science CoLtd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Global Standard Technology Co Ltd",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Global Testing Corporation Limited",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Gongin Precision Industrial Co.,Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Grand Kartech Tbk PT",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "GRAND PLASTIC TECHNOLOGY CORP",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Guangdong Jinming Machinery Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Guangdong Yizumi Precision Mchnry Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Guangdong Zhengye Technology Co Ltd",
             "sic": "3559",
-            "selected": true
-        },
-        {
-            "name": "Hanergy Thin Film Power Group Ltd",
-            "sic": "3559",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hankook Technology Inc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hanmi Semiconductor Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hanyang Eng Co., Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Harbin Boshi Automation Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "HB Technology Co Ltd",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "HIRANO TECSEED Co., Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hirata Corp",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "HOLON CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hunan China Sun Pharmactcl Mchnry Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "I Factory Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Impact Coatings AB",
+            "name": "Innovation For Creative Devices Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Intevac, Inc.",
+            "name": "Interbulls Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Invenia Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ISC Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ishii Hyoki Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ISHII TOOL & ENGINEERING CORPORATION",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Japan Steel Works Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jastech Ltd",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Jenoptik AG",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jinyitong Sci AND TechBeijing Co Ltd",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "JS Huasheng Tianlong Photoelec. Co.,Ltd.",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Juki Corp",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jusung Engineering Co., Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kabra Extrusion Technik Limited",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Katy Industries, Inc.",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kctech Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Keen Offshore Engineering Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Key Ware Electronics Co., Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "KIMURA CHEMICAL PLANTS CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kodi M Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Korea Semiconductor System",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Lanzhou Hua Ye Tech Engr Jt Stck Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Laser Tek Taiwan Co. Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "LB Semicon Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lectra SA",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Leed Corp",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Leed Corp (Parent)",
-            "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "LEWAG Holding AG",
-            "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "LIG Invenia Co Ltd",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lotvacuum Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lung Lung Pien Vacuum Industry Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Luoyang North Glass Technology Co Ltd",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "MagneGas Corporation",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Manitex International Inc",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Manufacturing Integration Technology Ltd",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Marketech International Corp.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mattson Technology, Inc.",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Max Automation AG",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mechanical & Industrial Construction JSC",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Meere Company Inc",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Meiki Co., Ltd.",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mesnac Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "MiCo Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Milacron Holdings Corp",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mirae Corp",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Muehlbauer Holding AG & Co. KGaA",
+            "name": "Mycronic AB (publ)",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Mycronic publ AB",
+            "name": "Nakamura Choukou Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "New Power Plasma Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "NISSEI PLASTIC INDUSTRIAL CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "NITCHITSU CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "NITTOKU ENGINEERING CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Nova Technology Corp",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "NuFlare Technology, Inc.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Odawara Engineering Co., Ltd.",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Osaki Engineering Co., Ltd.",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Paragon Technologies Co., Ltd.",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Placo Co Ltd",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Pontex Polyblend Co., Ltd.",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Precisetech Networks Beijing Inc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Protec Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "PSK Inc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Quantenna Communications Inc",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Riber SA",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Roblon A/S",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "RORZE CORPORATION",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Rorze Systems Corporation",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "San Lien Technology Corporation",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Screen Holdings Co Ltd",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Seho Robot Co Ltd",
-            "sic": "3559",
-            "selected": true
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SFA Engineering Corp",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SGSB Group Co., Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Shandong Huate Magnet Technology Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Shandong Juxiang Machinery Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Shenzhen Hekeda Precision Clng Eq Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Shenzhen JT Automation Equipment Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SHIBAURA MECHATRONICS CORPORATION",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "SHINKAWA LTD.",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SHINSUNG FA CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SHOWA SHINKU CO.,LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Singer Industries (Ceylon) Limited",
+            "name": "Singer India Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Singer Industries Ceylon PLC",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Single Well Industrial Corp",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "SINGULUS TECHNOLOGIES  AG",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sinoma International Engineering Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Skako A/S",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sntek Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "SNU Precision Co., Ltd.",
+            "name": "SNU Precision Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sono-Tek Corporation",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "STI Co Ltd",
-            "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Sun East Technology (Holdings) Ltd.",
-            "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Sunedison Semiconductor Ltd",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Suss MicroTec AG",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Suzhou Goldway Technologies Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Symtek Automation Asia Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Systems Technology Inc",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ta Liang Technology Co Ltd",
             "sic": "3559",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Taiwan Kong King Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Tambovskiy zav Koms im.N.S.Arter OAO (P)",
+            "name": "Tambovskiy Zvd Kmsmlt Imn NS Artm AO (P)",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tangshan Jidong Equipment Enginrg Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TAZMO CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Techwing Inc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tera Autotech Corp",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tera Semicon Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tes Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tex Holdings plc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TIANJIN SAIXIANG TECHNOLOGY CO.,LTD",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tokyo Electron Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TOKYO OHKA KOGYO CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TOKYO SEIMITSU CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Top Engineering Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TOPGREEN TECHNOLOGY CO.,LTD",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Topoint Technology Co., Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Toptec Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TOWA CORPORATION",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Toyo Machinery Metal Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TRINITY INDUSTRIAL CORP.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "TSE Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Ultratech, Inc.",
+            "name": "TSUKISHIMA KIKAI CO., LTD.",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "UMS Holdings Limited",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Union Semiconductor Equipment Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Uroica Mining Safety Engineering Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Usun Technology Co Ltd",
             "sic": "3559",
-            "selected": false
-        },
-        {
-            "name": "Veeco Instruments Inc.",
-            "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Vessel Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Viatron Technologies Inc",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Walchandnagar Industries Ltd.",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Wonik IPS Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Wooshin Systems Co., Ltd.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Wuhan Newway Chenchuang Technology Dev",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Y.A.C. CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Yantai Longyuan Power Technology Co.,Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Yest Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "YUSHIN PRECISION EQUIPMENT CO., LTD.",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zeus Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ZHEJIANG JINGGONG SCIENCE & TECH Co Ltd",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Zhejiang Kefei Technology Co Ltd",
+            "sic": "3559",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zhengzhou Coal Mining Machinery Group Co",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zhengzhou Coal Mining Machinery Group Co",
             "sic": "3559",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         }
     ]
 }

@@ -1,9 +1,12 @@
 {
-    "target": "南僑_化學工業_銷貨_皇家可口冰部門(namchow)",
-    "website": "http://www.namchow.com.tw/IR/01.html",
+    "target": "Vadilal Industries Ltd",
+    "target_ori": "南僑_化學工業_銷貨_皇家可口冰部門(namchow)",
+    "compLi_Len": 77,
     "sic": {
-        "2024": "ICE CREAM & FROZEN DESSERTS (冰淇淋及冷凍甜點)",
-        "2026": "Fluid Milk(乳品)"
+        "2020": "DIARY PRODUCTS (乳製品)",
+        "2023": "Dry, Condensed & Evaporated Products(濃縮乳製品類)",
+        "2026": "Fluid Milk(乳品)",
+        "2024": "ICE CREAM & FROZEN DESSERTS (冰淇淋及冷凍甜點)"
     },
     "keywords_ori": [
         "ICE CREAM",
@@ -21,10 +24,8 @@
         "Almarai Co",
         "Anik Industries Ltd",
         "Barbados Dairy Industries Ltd.",
-        "Beijing Sanyuan Foods Company Limited",
         "Belgorodskiy Khladokombinat AO (P)",
         "Binggrae Co Ltd",
-        "Bringwell publ AB",
         "Can-One Bhd",
         "China Dairy Group Ltd.",
         "China Huishan Dairy Holdings Co Ltd",
@@ -41,7 +42,6 @@
         "EZAKI GLICO CO., LTD.",
         "Fan Milk Limited",
         "Fonterra Co-operative Group Limited",
-        "Glac Biotech Co Ltd",
         "Gloria SA",
         "Grupo Lala SAB De CV",
         "Halakton PAT",
@@ -79,17 +79,14 @@
         "Pinar Sut Mamulleri Sanayii A.S.",
         "Plemzavod im. V.I. Chapayeva OAO (P)",
         "Prabhat Dairy Ltd",
-        "Prodlacta SA",
         "Sachsenmilch AG",
         "Saudi Dairy & Foodstuff Company",
         "Schwaelbchen Molkerei Jakob Berz AG",
         "SEIHYO Co., Ltd.",
         "Ultrajaya Milk Indty & Trading Co Tbk PT",
-        "Unikai Foods PJSC",
         "Unilever Pakistan Food Ltd.",
         "Uni-President Enterprises Corp.",
         "Vadilal Enterprises Ltd",
-        "Vadilal Industries Ltd",
         "Valsoia SpA",
         "Vietnam Dairy Products JSC",
         "Vigor Alimentos SA",
@@ -100,416 +97,619 @@
         "Yashili International Holdings Ltd",
         "Zhytomyrs'kyi maslozavod PAT"
     ],
-    "compLi_detail": [
+    "target_label": {
+        "name": "Vadilal Industries Ltd",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
         {
             "name": "ABR Holdings Ltd",
             "sic": "2024",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Almarai Co",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Anik Industries Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Barbados Dairy Industries Ltd.",
             "sic": "2023",
-            "selected": false
-        },
-        {
-            "name": "Beijing Sanyuan Foods Company Limited",
-            "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Belgorodskiy Khladokombinat AO (P)",
             "sic": "2024",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Binggrae Co Ltd",
             "sic": "2026",
-            "selected": true
-        },
-        {
-            "name": "Bringwell publ AB",
-            "sic": "2023",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Can-One Bhd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China Dairy Group Ltd.",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China Huishan Dairy Holdings Co Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China Mengniu Dairy Company Limited",
             "sic": "2026",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dairibord Holdings Limited",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dairy Crest Group plc",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dean Foods Co",
             "sic": "2024",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Donegal Investment Group PLC",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dukat dd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dutch Lady Milk Industries Bhd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Emmi AG",
             "sic": "2026",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Enervit SpA",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Engro Foods Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "EZAKI GLICO CO., LTD.",
             "sic": "2026",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Fan Milk Limited",
             "sic": "2024",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Fonterra Co-operative Group Limited",
             "sic": "2026",
-            "selected": false
-        },
-        {
-            "name": "Glac Biotech Co Ltd",
-            "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Gloria SA",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Grupo Lala SAB De CV",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Halakton PAT",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hanoimilk JSC",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hatsun Agro Product Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jordan Dairy",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Juhayna Food Industries Co",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Konservshchik OAO (P)",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kotmale Holdings Limited",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "KRI-KRI Milk Industry S.A.",
             "sic": "2026",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kubarus-Moloko OAO (P)",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kwality Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lactate Natura SA",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lactose India Ltd",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lanka Milk Foods (CWE) PLC",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lifeway Foods, Inc.",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Maabarot Products Ltd.",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Maiquer Group Co Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Marusan-Ai Co Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mead Johnson Nutrition CO",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "MEGMILK SNOW BRAND Co Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "MEIJI Holdings Co Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mezzan Holding Company KSCP",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Midsona AB",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Milkfood Limited",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Molochnyi kombinat Penzenskiy OAO",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Morinaga Milk Industry Co., Ltd.",
             "sic": "2026",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "National Agricultural Development Co",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nestle (Malaysia) Berhad",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nestle Pakistan Ltd.",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "New Nordic Healthbrands AB",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "NutriDar",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Orient Europharma Co., Ltd.",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Pieno Zvaigzdes AB",
             "sic": "2026",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Pinar Sut Mamulleri Sanayii A.S.",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Plemzavod im. V.I. Chapayeva OAO (P)",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Prabhat Dairy Ltd",
             "sic": "2026",
-            "selected": false
-        },
-        {
-            "name": "Prodlacta SA",
-            "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sachsenmilch AG",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Saudi Dairy & Foodstuff Company",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Schwaelbchen Molkerei Jakob Berz AG",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SEIHYO Co., Ltd.",
             "sic": "2024",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ultrajaya Milk Indty & Trading Co Tbk PT",
             "sic": "2026",
-            "selected": false
-        },
-        {
-            "name": "Unikai Foods PJSC",
-            "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Unilever Pakistan Food Ltd.",
             "sic": "2024",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Uni-President Enterprises Corp.",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Vadilal Enterprises Ltd",
             "sic": "2024",
-            "selected": false
-        },
-        {
-            "name": "Vadilal Industries Ltd",
-            "sic": "2024",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Valsoia SpA",
             "sic": "2024",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Vietnam Dairy Products JSC",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Vigor Alimentos SA",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Want Want China Holdings Ltd.",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Wei Chuan Foods Corp.",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "WhiteWave Foods Co",
             "sic": "2023",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Yakult Honsha Co., Ltd.",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Yashili International Holdings Ltd",
             "sic": "2026",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zhytomyrs'kyi maslozavod PAT",
             "sic": "2024",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         }
     ]
 }

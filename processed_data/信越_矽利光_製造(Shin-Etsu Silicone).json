@@ -1,12 +1,13 @@
 {
-    "target": "信越_矽利光_製造(Shin-Etsu Silicone)",
-    "website": "http://www.shinetsu.com.tw/html/en/html/index.asp",
+    "target": "Momentive Performance Materials Inc",
+    "target_ori": "信越_矽利光_製造(Shin-Etsu Silicone)",
+    "compLi_Len": 55,
     "sic": {
-        "2800": "Chemicals & Allied Products Sector (化學品及相關產品部門)",
-        "2821": "Plastics Materials, Synthetic Resins, and Nonvulcanizable Elastomers (塑膠原料，合成樹脂及非硫化彈性體)",
-        "2822": "Synthetic Rubber (Vulcanizable Elastomers) (合成橡膠-硫化彈性體)",
         "2865": "Cyclic Crudes & Intermediates (週期性原料及中間物)",
-        "3081": "Unsupported Plastics Film & Sheet (塑料薄膜與片材)"
+        "3081": "Unsupported Plastics Film & Sheet (塑料薄膜與片材)",
+        "2821": "Plastics Materials, Synthetic Resins, and Nonvulcanizable Elastomers (塑膠原料，合成樹脂及非硫化彈性體)",
+        "2800": "Chemicals & Allied Products Sector (化學品及相關產品部門)",
+        "2822": "Synthetic Rubber (Vulcanizable Elastomers) (合成橡膠-硫化彈性體)"
     },
     "keywords_ori": [
         "silicone",
@@ -53,7 +54,6 @@
         "Baotou Tomorrow Technology Co., Ltd",
         "Biome Technologies plc",
         "BioSolar Inc",
-        "Carclo plc",
         "Carlisle Companies, Inc.",
         "Chemours Co",
         "Chengdu Guibao",
@@ -80,7 +80,6 @@
         "Kumpulan Jetson Berhad",
         "Landec Corporation",
         "LCY Chemical Corp",
-        "Momentive Performance Materials Inc",
         "Nano One Materials Corp",
         "NEPES AMC",
         "Nexam Chemical AB",
@@ -105,286 +104,443 @@
         "Zeon Corp",
         "Ziwo Holdings Ltd"
     ],
-    "compLi_detail": [
+    "target_label": {
+        "name": "Momentive Performance Materials Inc",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
         {
             "name": "American Nano Silicon Technology Inc",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Arrow Coated Products Ltd",
             "sic": "3081",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Baotou Tomorrow Technology Co., Ltd",
             "sic": "2865",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Biome Technologies plc",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "BioSolar Inc",
             "sic": "3081",
-            "selected": false
-        },
-        {
-            "name": "Carclo plc",
-            "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Carlisle Companies, Inc.",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chemours Co",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chengdu Guibao",
             "sic": "2822",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Cytec Industries Inc",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Dow Chemical Co",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "E I Du Pont De Nemours And Co",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ecosynthetix Inc",
             "sic": "2822",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "EMAS Kiara Industries Berhad",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ForceField Energy Inc",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Fu Yu Corporation Ltd",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "General Silicones Co Ltd",
             "sic": "2822",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ginar Technology Co Ltd",
             "sic": "2821",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Guangdong Silver Age Sci& Tech Co Ltd",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hexion Inc",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "HEXPOL AB",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Himadri Chemicals & Industries Ltd.",
             "sic": "2865",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Holland Colours NV",
             "sic": "2865",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "HRS Co Ltd",
             "sic": "2822",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jiangsu Hongda New Material Co., Ltd.",
             "sic": "2822",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jiangsu Yuxing Film Technology Co Ltd",
             "sic": "3081",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "JSR Corp",
             "sic": "2822",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "KIMOTO CO.,LTD.",
             "sic": "3081",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kukdo Chemical Co Ltd",
             "sic": "2821",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kumpulan Jetson Berhad",
             "sic": "2822",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Landec Corporation",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "LCY Chemical Corp",
             "sic": "2821",
-            "selected": false
-        },
-        {
-            "name": "Momentive Performance Materials Inc",
-            "sic": "2821",
-            "selected": true
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nano One Materials Corp",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "NEPES AMC",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nexam Chemical AB",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Plastics Capital Plc",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Plastrade Technology Berhad",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Polyplex (Thailand) PCL",
             "sic": "3081",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Polyplex Corporation Limited",
             "sic": "3081",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Qingdao Gon Technology Co Ltd",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Raven Industries, Inc.",
             "sic": "3081",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Revolymer PLC",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Rogers Corporation",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sichuan EM Technology Co Ltd",
             "sic": "3081",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SK Chemicals Co Ltd",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Solvay SA",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SP Group A/S",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sunvic Technology Co Ltd",
             "sic": "3081",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Topco Technologies Corp",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "UNIC TECHNOLOGY CORP.",
             "sic": "2821",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Union Plastic Public Company Limited",
             "sic": "2821",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Univacco Technology Inc",
             "sic": "3081",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Vystar Corp",
             "sic": "2822",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zeon Corp",
             "sic": "2822",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ziwo Holdings Ltd",
             "sic": "2822",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         }
     ]
 }

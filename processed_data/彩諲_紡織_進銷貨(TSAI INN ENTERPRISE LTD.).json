@@ -1,14 +1,15 @@
 {
-    "target": "彩諲_紡織_進銷貨(TSAI INN ENTERPRISE LTD.)",
-    "website": "",
+    "target": "Momai Apparels Ltd",
+    "target_ori": "彩諲_紡織_進銷貨(TSAI INN ENTERPRISE LTD.)",
+    "compLi_Len": 7,
     "sic": {
-        "2253": "Knit Outerwear Mills (針織外套)",
-        "2311": "Men's & Boys' Suits & Coats(男裝服飾及大衣)",
         "2339": "Women's & Misses' Outerwear, nec (女裝服飾及大衣)",
-        "2341": "Women's & Children's Underwear(婦女及幼童內衣)",
+        "2253": "Knit Outerwear Mills (針織外套)",
         "5131": "Piece Goods & Notations（布匹、鈕扣）",
+        "2341": "Women's & Children's Underwear(婦女及幼童內衣)",
         "5136": "Men's & Boys' Clothing（男裝服飾及大衣）",
-        "5137": "Women's & Children's Clothing（婦幼服飾）"
+        "5137": "Women's & Children's Clothing（婦幼服飾）",
+        "2311": "Men's & Boys' Suits & Coats(男裝服飾及大衣)"
     },
     "keywords_ori": [
         "Hat",
@@ -34,769 +35,201 @@
         "KeyWords(Filtered)": []
     },
     "compLi": [
-        "Aaswa Trading And Exports Ltd",
-        "Adolfo Dominguez SA",
-        "Al Arafa for Investment & Consultancies",
-        "Anshu's Clothing Ltd",
         "Arman Holdings Ltd",
-        "Armeyski Holding AD",
-        "Ashapura Intimates Fashion Ltd",
         "Asia Brands Bhd",
-        "Atsugi Co Ltd",
-        "Bombay Rayon Fashions Limited",
-        "Broke Out Inc",
-        "Burberry Group plc",
-        "CALIDA Holding AG",
-        "China Dongxiang (Group) Co Ltd",
-        "China Fordoo Holdings Ltd",
-        "China Lilang Ltd",
-        "China Ting Group Holdings Limited",
-        "Codes Combine Co Ltd",
         "Collins Co., Ltd.",
-        "Cosmo Lady China Holdings Co Ltd",
-        "Cravatex Ltd",
-        "Croe Inc",
-        "Cross Plus Inc",
-        "CRYMSON Co., Ltd.",
-        "Dagi Giyim Sanayi ve Ticaret AS",
-        "DAIDOH LIMITED",
-        "Delta Galil Industries (ADR)",
-        "Delta Galil Industries Ltd.",
         "Divinus Fabrics Ltd",
-        "Embry Holdings Limited",
-        "Ever-Glory International Group Inc",
-        "F&F Co., Ltd",
         "Fila Korea Ltd",
-        "Gildan Activewear Inc (USA)",
-        "Gokaldas Exports Ltd.",
-        "GSI Creos Corporation",
         "Guangdong Boxin Invstng & Holdings CoLtd",
-        "Haha Generation Corp",
-        "Hakers Enterprise Co Ltd",
-        "Hanbo Enterprises Holdings Ltd",
-        "Handsome Corp",
-        "Hansae Co., Ltd.",
-        "Hatzioannou Holdings S.A.",
-        "Hubei Mailyard Share Co., Ltd.",
-        "Hugo Boss AG",
-        "I.C.C. International Public Company Ltd.",
-        "In the F CO LTD",
-        "Indian Terrain Fashions Ltd",
-        "ISTRA dd",
         "Jackson Investments Ltd",
-        "Jiangsu Guotai Intl Grp Guomao Co., Ltd.",
         "Jiangsu Holly Corporation",
-        "JLM Couture, Inc.",
-        "Kaiser China Culture Co Ltd",
         "KING Co., Ltd.",
-        "LANAKAM S.A.",
-        "Leeds Group plc",
-        "LF Corp",
         "Liaoning Shidai Wanheng Co Ltd",
         "LS Networks Corporation Limited",
-        "Luen Thai Holdings Ltd",
-        "Makoteks AD Skopje",
-        "Marumitsu Co Ltd",
         "Mizia 96 AD",
-        "Modern Sewing Co",
-        "Momai Apparels Ltd",
-        "Monte Carlo Fashions Ltd",
-        "MOONBAT Co., Ltd.",
         "Moryo Industries Ltd",
         "Munsin Garment Corporation",
         "Newcity (Bangkok) Public Company Limited",
-        "Ningbo Shanshan Co., Ltd",
-        "NJ Textiles Import & Export Corp.,Ltd.",
-        "NR 21 SA",
-        "ONWARD HOLDINGS Co., Ltd.",
-        "Orient International Enterprise, Ltd.",
-        "Pan-Pacific Co Ltd",
-        "PCCS Group Berhad",
-        "Pergamon-Status Dis Ticaret AS",
-        "Prochnik SA",
-        "Quasar India Ltd",
-        "Ralph Lauren Corp",
-        "Regina Miracle International Holdngs Ltd",
-        "Renown Inc",
         "Risa International Ltd",
-        "Runway Global Holdings Co Ltd",
-        "SANKYO SEIKO CO., LTD",
-        "SANYO SHOKAI LTD.",
-        "SDIC Essence Holdings Co Ltd",
         "Shandong Hiking International Co., Ltd.",
-        "Shanghai Lansheng Corporation",
-        "Shanghai Shenda Co., Ltd",
-        "Shinsegae International Inc",
-        "Shinwon Corp",
-        "Silvano Fashion Group AS",
-        "Sinar OAO (P)",
-        "Sinoer Men's Wear Co., Ltd.",
-        "Smalto SA",
         "Solar Company SA",
-        "Standard Industries Limited",
-        "Sunbridge Group Ltd",
         "Sunrise Asian Ltd",
-        "Takihyo Co., Ltd.",
-        "Tan Mai General Wood JSC",
-        "Taroko Textile Corporation",
-        "Tekstilpromet dd",
-        "Textile Garment Impt Expt and Prdctn JSC",
-        "Thai Wacoal Public Company Limited",
-        "Tiemco Limited",
-        "TOKYO SOIR CO.,LTD.",
-        "TOPBI International Holdings Ltd",
-        "Tristate Holdings Limited",
-        "TSUKAMOTO CORPORATION CO., LTD.",
-        "Varteks d.d.",
-        "V-Grass Fashion Co Ltd",
-        "Vinatex Danang JSC",
-        "WACOAL HOLDINGS CORP.",
-        "Wacoal Holdings Corporation (ADR)",
-        "Wolford AG",
-        "WonpungMulsan",
         "YAGI & CO., LTD.",
-        "Yamano Holdings Corp",
-        "Youngor Group Co., Ltd.",
-        "Zhejiang Busen Garments Co Ltd",
-        "Zhejiang Giuseppe Garment Co Ltd",
-        "Zhejiang Orient Holdings Co., Ltd",
-        "Zhejiang Semir Garment Co Ltd"
+        "Yamano Holdings Corp"
     ],
-    "compLi_detail": [
-        {
-            "name": "Aaswa Trading And Exports Ltd",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Adolfo Dominguez SA",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Al Arafa for Investment & Consultancies",
-            "sic": "5136",
-            "selected": false
-        },
-        {
-            "name": "Anshu's Clothing Ltd",
-            "sic": "2339",
-            "selected": false
-        },
+    "target_label": {
+        "name": "Momai Apparels Ltd",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
         {
             "name": "Arman Holdings Ltd",
             "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Armeyski Holding AD",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Ashapura Intimates Fashion Ltd",
-            "sic": "2341",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Asia Brands Bhd",
             "sic": "5136",
-            "selected": true
-        },
-        {
-            "name": "Atsugi Co Ltd",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Bombay Rayon Fashions Limited",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Broke Out Inc",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Burberry Group plc",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "CALIDA Holding AG",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "China Dongxiang (Group) Co Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "China Fordoo Holdings Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "China Lilang Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "China Ting Group Holdings Limited",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Codes Combine Co Ltd",
-            "sic": "2339",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Collins Co., Ltd.",
             "sic": "5136",
-            "selected": true
-        },
-        {
-            "name": "Cosmo Lady China Holdings Co Ltd",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Cravatex Ltd",
-            "sic": "5136",
-            "selected": false
-        },
-        {
-            "name": "Croe Inc",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Cross Plus Inc",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "CRYMSON Co., Ltd.",
-            "sic": "5137",
-            "selected": false
-        },
-        {
-            "name": "Dagi Giyim Sanayi ve Ticaret AS",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "DAIDOH LIMITED",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Delta Galil Industries (ADR)",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Delta Galil Industries Ltd.",
-            "sic": "2341",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Divinus Fabrics Ltd",
             "sic": "5131",
-            "selected": true
-        },
-        {
-            "name": "Embry Holdings Limited",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Ever-Glory International Group Inc",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "F&F Co., Ltd",
-            "sic": "2339",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Fila Korea Ltd",
             "sic": "5136",
-            "selected": true
-        },
-        {
-            "name": "Gildan Activewear Inc (USA)",
-            "sic": "2253",
-            "selected": false
-        },
-        {
-            "name": "Gokaldas Exports Ltd.",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "GSI Creos Corporation",
-            "sic": "2341",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Guangdong Boxin Invstng & Holdings CoLtd",
             "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Haha Generation Corp",
-            "sic": "5137",
-            "selected": false
-        },
-        {
-            "name": "Hakers Enterprise Co Ltd",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Hanbo Enterprises Holdings Ltd",
-            "sic": "5137",
-            "selected": false
-        },
-        {
-            "name": "Handsome Corp",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Hansae Co., Ltd.",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Hatzioannou Holdings S.A.",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Hubei Mailyard Share Co., Ltd.",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Hugo Boss AG",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "I.C.C. International Public Company Ltd.",
-            "sic": "5137",
-            "selected": false
-        },
-        {
-            "name": "In the F CO LTD",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Indian Terrain Fashions Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "ISTRA dd",
-            "sic": "5136",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jackson Investments Ltd",
             "sic": "5137",
-            "selected": false
-        },
-        {
-            "name": "Jiangsu Guotai Intl Grp Guomao Co., Ltd.",
-            "sic": "5131",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jiangsu Holly Corporation",
             "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "JLM Couture, Inc.",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Kaiser China Culture Co Ltd",
-            "sic": "2341",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "KING Co., Ltd.",
             "sic": "5137",
-            "selected": true
-        },
-        {
-            "name": "LANAKAM S.A.",
-            "sic": "5137",
-            "selected": false
-        },
-        {
-            "name": "Leeds Group plc",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "LF Corp",
-            "sic": "2311",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Liaoning Shidai Wanheng Co Ltd",
             "sic": "5136",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "LS Networks Corporation Limited",
             "sic": "5136",
-            "selected": false
-        },
-        {
-            "name": "Luen Thai Holdings Ltd",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Makoteks AD Skopje",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Marumitsu Co Ltd",
-            "sic": "5137",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mizia 96 AD",
             "sic": "2311",
-            "selected": true
-        },
-        {
-            "name": "Modern Sewing Co",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Momai Apparels Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Monte Carlo Fashions Ltd",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "MOONBAT Co., Ltd.",
-            "sic": "5136",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Moryo Industries Ltd",
             "sic": "5131",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Munsin Garment Corporation",
             "sic": "5136",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Newcity (Bangkok) Public Company Limited",
             "sic": "5137",
-            "selected": true
-        },
-        {
-            "name": "Ningbo Shanshan Co., Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "NJ Textiles Import & Export Corp.,Ltd.",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "NR 21 SA",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "ONWARD HOLDINGS Co., Ltd.",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Orient International Enterprise, Ltd.",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Pan-Pacific Co Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "PCCS Group Berhad",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Pergamon-Status Dis Ticaret AS",
-            "sic": "5136",
-            "selected": false
-        },
-        {
-            "name": "Prochnik SA",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Quasar India Ltd",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Ralph Lauren Corp",
-            "sic": "5137",
-            "selected": false
-        },
-        {
-            "name": "Regina Miracle International Holdngs Ltd",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Renown Inc",
-            "sic": "2311",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Risa International Ltd",
             "sic": "5136",
-            "selected": true
-        },
-        {
-            "name": "Runway Global Holdings Co Ltd",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "SANKYO SEIKO CO., LTD",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "SANYO SHOKAI LTD.",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "SDIC Essence Holdings Co Ltd",
-            "sic": "5131",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Shandong Hiking International Co., Ltd.",
             "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Shanghai Lansheng Corporation",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Shanghai Shenda Co., Ltd",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Shinsegae International Inc",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Shinwon Corp",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Silvano Fashion Group AS",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Sinar OAO (P)",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Sinoer Men's Wear Co., Ltd.",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Smalto SA",
-            "sic": "2311",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Solar Company SA",
             "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Standard Industries Limited",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Sunbridge Group Ltd",
-            "sic": "2311",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sunrise Asian Ltd",
             "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Takihyo Co., Ltd.",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "Tan Mai General Wood JSC",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Taroko Textile Corporation",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Tekstilpromet dd",
-            "sic": "5136",
-            "selected": false
-        },
-        {
-            "name": "Textile Garment Impt Expt and Prdctn JSC",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Thai Wacoal Public Company Limited",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Tiemco Limited",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "TOKYO SOIR CO.,LTD.",
-            "sic": "5137",
-            "selected": false
-        },
-        {
-            "name": "TOPBI International Holdings Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Tristate Holdings Limited",
-            "sic": "2339",
-            "selected": false
-        },
-        {
-            "name": "TSUKAMOTO CORPORATION CO., LTD.",
-            "sic": "5136",
-            "selected": false
-        },
-        {
-            "name": "Varteks d.d.",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "V-Grass Fashion Co Ltd",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Vinatex Danang JSC",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "WACOAL HOLDINGS CORP.",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Wacoal Holdings Corporation (ADR)",
-            "sic": "2341",
-            "selected": false
-        },
-        {
-            "name": "Wolford AG",
-            "sic": "5137",
-            "selected": false
-        },
-        {
-            "name": "WonpungMulsan",
-            "sic": "2311",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "YAGI & CO., LTD.",
             "sic": "5131",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Yamano Holdings Corp",
             "sic": "5136",
-            "selected": false
-        },
-        {
-            "name": "Youngor Group Co., Ltd.",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Zhejiang Busen Garments Co Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Zhejiang Giuseppe Garment Co Ltd",
-            "sic": "2311",
-            "selected": false
-        },
-        {
-            "name": "Zhejiang Orient Holdings Co., Ltd",
-            "sic": "5131",
-            "selected": false
-        },
-        {
-            "name": "Zhejiang Semir Garment Co Ltd",
-            "sic": "2339",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         }
     ]
 }

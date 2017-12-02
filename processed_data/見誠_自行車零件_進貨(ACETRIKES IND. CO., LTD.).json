@@ -1,6 +1,7 @@
 {
-    "target": "見誠_自行車零件_進貨(ACETRIKES IND. CO., LTD.)",
-    "website": "",
+    "target": "Vietnam Manufacturing and Export Limited",
+    "target_ori": "見誠_自行車零件_進貨(ACETRIKES IND. CO., LTD.)",
+    "compLi_Len": 27,
     "sic": {
         "3751": "Motorcycles, Bicycles, and Parts（機車、自行車及零件）"
     },
@@ -28,172 +29,246 @@
         "China Jialing Industrial Co Ltd (Group)",
         "Chongqing Jianshe Motorcycle Co., Ltd",
         "Giant Manufacturing Co Ltd",
-        "Hero Motocorp Ltd",
         "HL Corp. (Shenzhen)",
         "Ideal Bike Corporation",
-        "Jinshan Development & Cons. Co., Ltd.",
         "Joy Industrial Co Ltd",
         "KR Motors Co Ltd",
         "Lee Chi Enterprises Co., Ltd.",
         "Merida Industry Co Ltd",
-        "National Metallic and Bicycles Indus",
         "Pihsiang Machinery MFG Co Ltd",
         "Samchuly Bicycle Co., Ltd.",
         "Sanyang Motor Co Ltd",
+        "Shanghai Phoenix Enterprise Group Co Ltd",
         "SHIMANO INC.",
         "Ste Euro Cycles SA",
         "Sun Race Sturmey-Archer Inc.",
         "Tandem Group plc",
-        "Vietnam Manufacturing and Export Limited",
+        "Vietnam Manfng and Exp Prcsng Hldng Ltd",
+        "Yadea Group Holdings Ltd",
         "Yamaha Motor Co., Ltd.",
-        "ZAP",
         "Zhonglu Co Ltd"
     ],
-    "compLi_detail": [
+    "target_label": {
+        "name": "Vietnam Manufacturing and Export Limited",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
         {
             "name": "Accell Group N.V.",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Alton Sports Co Ltd",
             "sic": "3751",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Amanasu Techno Holdings Corp",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Atlas Cycles (Haryana) Ltd",
             "sic": "3751",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Bicicletas Monark SA",
             "sic": "3751",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China Bicycle Co Holdings Ltd",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China Jialing Industrial Co Ltd (Group)",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chongqing Jianshe Motorcycle Co., Ltd",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Giant Manufacturing Co Ltd",
             "sic": "3751",
-            "selected": true
-        },
-        {
-            "name": "Hero Motocorp Ltd",
-            "sic": "3751",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "HL Corp. (Shenzhen)",
             "sic": "3751",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ideal Bike Corporation",
             "sic": "3751",
-            "selected": true
-        },
-        {
-            "name": "Jinshan Development & Cons. Co., Ltd.",
-            "sic": "3751",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Joy Industrial Co Ltd",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "KR Motors Co Ltd",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lee Chi Enterprises Co., Ltd.",
             "sic": "3751",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Merida Industry Co Ltd",
             "sic": "3751",
-            "selected": true
-        },
-        {
-            "name": "National Metallic and Bicycles Indus",
-            "sic": "3751",
-            "selected": false
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Pihsiang Machinery MFG Co Ltd",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Samchuly Bicycle Co., Ltd.",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sanyang Motor Co Ltd",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Shanghai Phoenix Enterprise Group Co Ltd",
+            "sic": "3751",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SHIMANO INC.",
             "sic": "3751",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ste Euro Cycles SA",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sun Race Sturmey-Archer Inc.",
             "sic": "3751",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tandem Group plc",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
-            "name": "Vietnam Manufacturing and Export Limited",
+            "name": "Vietnam Manfng and Exp Prcsng Hldng Ltd",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
+        },
+        {
+            "name": "Yadea Group Holdings Ltd",
+            "sic": "3751",
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Yamaha Motor Co., Ltd.",
             "sic": "3751",
-            "selected": false
-        },
-        {
-            "name": "ZAP",
-            "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Zhonglu Co Ltd",
             "sic": "3751",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         }
     ]
 }

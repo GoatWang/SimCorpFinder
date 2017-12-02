@@ -1,14 +1,15 @@
 {
-    "target": "台灣道達爾_製造_潤滑油(Total Lubricants)",
-    "website": "http://www.lubricants.total.com/",
+    "target": "Castrol India Limited",
+    "target_ori": "台灣道達爾_製造_潤滑油(Total Lubricants)",
+    "compLi_Len": 115,
     "sic": {
-        "2869": "Industrial Organic Chemicals(工業有機化學物)",
+        "5541": "Gasoline Service Stations(汽油服務站)",
         "2899": "Chemical Preparations(化學配製物)",
-        "2911": "Petroleum Refining（石化提煉）",
         "2992": "Lubricating Oils and Greases（潤滑油脂）",
+        "2911": "Petroleum Refining（石化提煉）",
         "5171": "Petroleum Bulk Stations &Terminals(散裝石油站)",
         "5172": "Petroleum Products(石油產品)",
-        "5541": "Gasoline Service Stations(汽油服務站)"
+        "2869": "Industrial Organic Chemicals(工業有機化學物)"
     },
     "keywords_ori": [
         "lubricant",
@@ -41,11 +42,9 @@
         "Bharat Petroleum Corp Ltd",
         "BP Castrol KK",
         "BP plc",
-        "BP plc (ADR)",
         "BROAD GATE SA",
         "Caltex Australia Limited",
         "Calumet Specialty Products Partners, L.P",
-        "Castrol India Limited",
         "Chemtura Corp",
         "Chevron Corporation",
         "China Rerun Chemical Group Ltd",
@@ -78,7 +77,6 @@
         "Hydrodec Group plc",
         "Idemitsu Kosan Co., Ltd.",
         "Ina dd",
-        "IRPC Public Company Limited",
         "Itochu Enex Co Ltd",
         "Jiangsu Gaoke Petrochemical Co Ltd",
         "Joong Ang Enervis Co Ltd",
@@ -98,9 +96,7 @@
         "Motor Oil (Hellas) Corinth Refineries SA",
         "MT Gas JSC",
         "N1 Hf",
-        "Naftopererobnyi Kompleks - Halychyna VAT",
         "Neftemarket OAO",
-        "Neftemaslozavod OAO (P)",
         "Neste Oyj",
         "Nestro Petrol a.d. Banja Luka",
         "Nihon Parkerizing Co., Ltd.",
@@ -137,7 +133,6 @@
         "Southern Waterborne Transport JS Corp",
         "Spanjaard Limited",
         "SUNAUTAS CO., LTD.",
-        "Susco PCL",
         "Terminali a.d. Doboj",
         "The Bangchak Petroleum Public Co. Ltd.",
         "Tianjin Sure Energy Lubrctn Tech Co Ltd",
@@ -152,606 +147,923 @@
         "Vung Ang Petroleum Joint Stock Company",
         "World Fuel Services Corp"
     ],
-    "compLi_detail": [
+    "target_label": {
+        "name": "Castrol India Limited",
+        "home_website": "",
+        "products": []
+    },
+    "compLi_label": [
         {
             "name": "Additives and Petroleum Products JSC",
             "sic": "2992",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Aegean Marine Petroleum Network Inc.",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Al Maha Petroleum Products Marketing Co.",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Aldrees Petroleum &Transport Services",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Antarchile SA",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "AP Oil International Ltd",
             "sic": "2899",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Atlantik Petrol Urnlr Tcrt ve SAS",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Bharat Petroleum Corp Ltd",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "BP Castrol KK",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "BP plc",
             "sic": "2911",
-            "selected": false
-        },
-        {
-            "name": "BP plc (ADR)",
-            "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "BROAD GATE SA",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Caltex Australia Limited",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Calumet Specialty Products Partners, L.P",
             "sic": "2911",
-            "selected": false
-        },
-        {
-            "name": "Castrol India Limited",
-            "sic": "2992",
-            "selected": true
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chemtura Corp",
             "sic": "2899",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Chevron Corporation",
             "sic": "2911",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "China Rerun Chemical Group Ltd",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Cmistone Viet Nam JSC",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Compania Logistica de Hidrocarbrs CLH SA",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Conoil Plc",
             "sic": "5172",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Cosan Limited",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Cosan Limited(USA)",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Cosan SA Industria e Comercio",
             "sic": "5541",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Cosmo Oil Co Ltd",
             "sic": "5171",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "ELINOIL Hellenic Petroleum Company S.A.",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Empresas Copec SA",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Esso (Thailand) PCL",
             "sic": "2911",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Esso Societe Anonyme Francaise",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Eterna Plc",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Forte Oil PLC",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Fuchs Petrolub SE",
             "sic": "2992",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "FUJI KOSAN COMPANY, LTD.",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ghana Oil Company Limited",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "GOCL Corp Ltd",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "GP Petroleums Ltd",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Grupa Lotos SA",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Gulf Oil Lubricants India Ltd",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ha Tay Petrolimex Transport & Ser",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hankook Shell Oil Co., Ltd",
             "sic": "2992",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hanoi Fuel JSC",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hardcastle & Waud Manufacturing Co Ltd",
             "sic": "2899",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hascol Petroleum Ltd",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "HollyFrontier Corp",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Hydrodec Group plc",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Idemitsu Kosan Co., Ltd.",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ina dd",
             "sic": "2911",
-            "selected": false
-        },
-        {
-            "name": "IRPC Public Company Limited",
-            "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Itochu Enex Co Ltd",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jiangsu Gaoke Petrochemical Co Ltd",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Joong Ang Enervis Co Ltd",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Jordan Petroleum Refinery Company Ltd.",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "KenolKobil Ltd",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kontsern Halnaftohaz PAT",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Kukdong Oil & Chemicals Co., Ltd.",
             "sic": "2992",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Lanka IOC Limited",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Makpetrol AD Skopje",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Martin Midstream Partners L.P.",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Materials Petroleum JSC",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Meghna Petroleum Ltd",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Michang Oil Ind Co Ltd",
             "sic": "2992",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "MJL Bangladesh Ltd",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Mobil Oil Nigeria plc",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "MoresCo Corp",
             "sic": "2992",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Motor Oil (Hellas) Corinth Refineries SA",
             "sic": "2911",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "MT Gas JSC",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "N1 Hf",
             "sic": "5171",
-            "selected": false
-        },
-        {
-            "name": "Naftopererobnyi Kompleks - Halychyna VAT",
-            "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Neftemarket OAO",
             "sic": "5541",
-            "selected": false
-        },
-        {
-            "name": "Neftemaslozavod OAO (P)",
-            "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Neste Oyj",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nestro Petrol a.d. Banja Luka",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Nihon Parkerizing Co., Ltd.",
             "sic": "2899",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "NNK - Khabarovsknefteprodukt AO",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Oman Oil Marketing Company SAOG",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "OMV Petrol Ofisi AS",
             "sic": "5541",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Parkland Fuel Corp",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Paz Oil Company Ltd",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "PBF Energy Inc",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Petrolimex Hanoi Trans & Trading JSC",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Petrolimex Petrochemical Corporation JSC",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Petrolimex Saigon Trans and Service JSC",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Petrolina (Holdings) Public Ltd",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Petronas Dagangan Berhad",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Phoenix Petroleum Philippines, Inc.",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "PTT Public Company Limited",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Puma Energy Zambia PLC",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Qatar Fuel QSC",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Rafinerija ulja a.d. Modrica",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Revoil S.A.",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ryazan'nefteprodukt OAO (P)",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "S Oil Corp",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Saigon Fuel JSC",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sea Oil PCL",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Shell Oman Marketing Company SAOG",
             "sic": "5541",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Shell Pakistan Limited",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Showa Shell Sekiyu KK",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Siam Pan Group Public Company Limited",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Sinopec Shandong Taishan Petrolum Co Ltd",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SK Innovation Co Ltd",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SK Networks Co Ltd",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Slavneft'-Yaroslavnefteorgsintez OAO",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Songwon Industrial Co., Ltd.",
             "sic": "2899",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Southern Waterborne Transport JS Corp",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Spanjaard Limited",
             "sic": "2899",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "SUNAUTAS CO., LTD.",
             "sic": "5541",
-            "selected": false
-        },
-        {
-            "name": "Susco PCL",
-            "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Terminali a.d. Doboj",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "The Bangchak Petroleum Public Co. Ltd.",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tianjin Sure Energy Lubrctn Tech Co Ltd",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Tide Water Oil India Ltd",
             "sic": "2992",
-            "selected": true
+            "selected": true,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Total Kenya Limited",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Total Maroc SA",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Total Nigeria PLC",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Total Petroleum Ghana",
             "sic": "2992",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Ultrapar Participacoes SA (ADR)",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Valero Energy Corporation",
             "sic": "2911",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Vivo Energy Cote d'Ivoire SA",
             "sic": "5171",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "Vung Ang Petroleum Joint Stock Company",
             "sic": "5541",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         },
         {
             "name": "World Fuel Services Corp",
             "sic": "5172",
-            "selected": false
+            "selected": false,
+            "home_website": "",
+            "products": [],
+            "score": 0
         }
     ]
 }
