@@ -108,7 +108,7 @@ class simCorpFinder(QWidget):
         grid.addWidget(keywords, 1, 0)
 
         keywordsEdit = QLineEdit()
-        keywordsEdit.setPlaceholderText("drink tea")
+        keywordsEdit.setPlaceholderText("drink, tea")
         grid.addWidget(keywordsEdit, 1, 1)
 
         def textChanged_keywords():
@@ -123,7 +123,7 @@ class simCorpFinder(QWidget):
         grid.addWidget(keywords_emphasize, 2, 0)
 
         keywords_emphasizeEdit = QLineEdit()
-        keywords_emphasizeEdit.setPlaceholderText('"beverage company" beverage')
+        keywords_emphasizeEdit.setPlaceholderText('beverage company, beverage')
         grid.addWidget(keywords_emphasizeEdit, 2, 1)
 
         def textChanged_keywords_emphasize():
@@ -307,18 +307,18 @@ class simCorpFinder(QWidget):
         btnNews = QPushButton("News")
         grid.addWidget(btnNews, 0, 3)
         def showNews():
-                collection = db['news']
-                res = collection.find()
-                newsLi = sorted(res, key=lambda x:x['time'], reverse=True)[:5]
-                newsStr = ""
-                for news in newsLi:
-                    newsStr += str(news['time'].date()) + " " + news['news'] + "\n"
-                msg = QMessageBox()
-                msg.setIcon(QMessageBox.Information)
-                msg.setText(newsStr)
-                msg.setWindowTitle("News")
-                msg.setStandardButtons(QMessageBox.Ok)
-                msg.exec_()
+            collection = db['news']
+            res = collection.find()
+            newsLi = sorted(res, key=lambda x:x['time'], reverse=True)[:5]
+            newsStr = ""
+            for news in newsLi:
+                newsStr += str(news['time'].date()) + " " + news['news'] + "\n"
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Information)
+            msg.setText(newsStr)
+            msg.setWindowTitle("News")
+            msg.setStandardButtons(QMessageBox.Ok)
+            msg.exec_()
 
         btnNews.clicked.connect(showNews)
 

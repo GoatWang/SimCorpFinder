@@ -15,7 +15,7 @@ setup(name = "SimCorpFinder" ,
       )],
       options = {
             'build_exe' : {
-                  'packages':['asyncio', 'numpy', 'lxml'],
+                  'packages':['asyncio', 'numpy', 'lxml', 'idna'],
                   'include_files':['phantomjs','phantomjs.exe','statesFilter','favicon.ico']
                   },
             # "bdist_msi": {
@@ -25,6 +25,10 @@ setup(name = "SimCorpFinder" ,
             },
       )
 
+
+#########################################################################
+###############build query: python .\setup.py bdist_msi
+#########################################################################
 
 # from cx_Freeze import setup, Executable
  

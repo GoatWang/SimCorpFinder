@@ -4,13 +4,13 @@ from datetime import datetime
 import subprocess
 
 class versionControl(): 
-    version = "2.5"
+    version = "2.7"
 
     def updateversion(self):
         conn = MongoClient(selfPwd.getMongoUrl())
         db = conn.simcorpfinder
 
-        updateInfo = '[bugfixed] imporve aldoritnm in retrieval'
+        updateInfo = '[change keyword input] pleas input keywords splited by comma and space(eg.juice, drink, ice).'
 
         collection = db['version']
         data = {

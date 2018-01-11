@@ -2,11 +2,15 @@ import numpy as np
 from numpy import dot
 from numpy.linalg import norm
 
-def cosine(keywordVector, docVector, tfidfnorm):
+# def cosine(keywordVector, docVector, tfidfnorm):
+# 	""" related documents j and q are in the concept space by comparing the vectors :
+# 		cosine  = ( V1 * V2 ) / ||V1|| x ||V2|| """
+# 	return float(dot(keywordVector, docVector) / (norm(keywordVector) * tfidfnorm))
+
+def cosine(vector1, vector2):
 	""" related documents j and q are in the concept space by comparing the vectors :
 		cosine  = ( V1 * V2 ) / ||V1|| x ||V2|| """
-	# return float(dot(vector1,vector2) / (norm(vector1) * norm(vector2)))
-	return float(dot(keywordVector, docVector) / (norm(keywordVector) * tfidfnorm))
+	return float(dot(vector1,vector2) / (norm(vector1) * norm(vector2)))
 
 from crawlerUtl import getDistinctName
 import json
@@ -28,15 +32,12 @@ lemmer = WordNetLemmatizer()
 
 def processKeywordLi(keyWords):
     keyWordLi = []
-    terms = re.findall(r"\"(.+?)\"", keyWords)
+    terms = keyWords.split(', ')
     for term in terms:
         processedTerm = []
         for word in term.split():
             processedTerm.append(lemmer.lemmatize(word))
         keyWordLi.append(" ".join(processedTerm))
-        keyWords = keyWords.replace(term, "").replace("\"", "")
-
-    keyWordLi.extend([lemmer.lemmatize(term) for term in keyWords.split()])
     return keyWordLi
 
 def processInfo(info, multiTermKeywords):
@@ -49,29 +50,28 @@ def processInfo(info, multiTermKeywords):
 
 
 def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outputDir, findingCorpsLi):
-
     keyWordLi = processKeywordLi(keyWords)
-    keywords_emphasizeLi = processKeywordLi(keywords_emphasize)
-    keywords_filteredLi = processKeywordLi(keywords_filtered)
+    keywords_emphasizeLi = processKeywordLi(keywords_emphasize) if keywords_emphasize != "" else []
+    keywords_filteredLi = processKeywordLi(keywords_filtered) if keywords_filtered != "" else []
     keywords_positive = keyWordLi + keywords_emphasizeLi
     allKeywords = keyWordLi + keywords_emphasizeLi + keywords_filteredLi
 
     multiTermKeywords = []
-    multiTermKeywords.extend(re.findall(r"\"(.+?)\"", keyWords))
-    multiTermKeywords.extend(re.findall(r"\"(.+?)\"", keywords_emphasize))
-    multiTermKeywords.extend(re.findall(r"\"(.+?)\"", keywords_filtered))
+    for keyword in allKeywords:
+        if len(keyword.split()) > 1:
+            multiTermKeywords.append(keyword)
 
     companyInfoDir = "C:\\SimCorpFinderData\\companyInfo_v23\\" + targetCorp + "\\companyInfo.json"
     with open(companyInfoDir, 'r', encoding='utf8') as f:
         companyInfoDict = json.loads(f.read())
 
-    ## IDF
+    # IDF
     docLen = len(companyInfoDict)
     idfDict = {}
     for word in allKeywords:
         f = 0
         for info in companyInfoDict:
-            if word in processInfo(info['info'], multiTermKeywords).keys():        
+            if word in info['info']:       
                 f += 1
         idfDict[word] = math.log(docLen / (f + 1))
 
@@ -109,16 +109,16 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
             if word in keywords_positive:
                 tfPositiveCount.append(tf)
         
-        tfidfnorm = norm([count for term, count in companyInfo.items()])
-        score = cosine(keyTfidf, tfidfLi, tfidfnorm) * 10 if tfidfLi != [0.0] * len(allKeywords) else 0
-        # score = score * (sum(np.array(tfCount) != 0)/len(allKeywords))
-        
-        if score > 0:
-            tfPositiveCount = np.array([count for count in tfPositiveCount if count >= 1])
-            weight = np.prod(tfPositiveCount) / ((sum(tfPositiveCount)/len(keywords_positive)) ** len(keywords_positive))
-            weight = weight if weight <= 1 else 1
-            weight = weight ** (1/len(keywords_positive))
-            score = score * weight
+        score = cosine(keyTfidf, tfidfLi) * 10 if tfidfLi != [0.0] * len(allKeywords) else 0
+
+        # 如果字出現的次數比較平均，則分數比較高 product(tf/((sum(tf)/len(tf)**len(tf))))
+        # if score > 0:
+        #     tfPositiveCount = np.array([count for count in tfPositiveCount if count >= 1])
+        #     len_keywords_positive = len(keywords_positive)
+        #     weight = np.prod(tfPositiveCount) / ((sum(tfPositiveCount)/len_keywords_positive) ** len_keywords_positive)
+        #     weight = weight if weight <= 1 else 1
+        #     weight = weight ** (1/len(keywords_positive))
+        #     score = score * weight
 
         companyScoreDict[info['name']] = score
         companyLenDict[info['name']] = companyInfoLen
@@ -126,16 +126,15 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
 
 
         ## debug
-        # companyInfoDict.append(info['name'])
-        # companyInfoDict.append(allKeywords)
-        # companyInfoDict.append(tfCount)
-        # companyInfoDict.append(str(keyTfidf))
-        # companyInfoDict.append(companyInfoLen)
-        # companyInfoDict.append(score)
-        # companyInfoLi.append(companyInfoDict) 
+    #     companyInfoDict.append(info['name'])
+    #     companyInfoDict.append(allKeywords)
+    #     companyInfoDict.append(tfCount)
+    #     companyInfoDict.append(str(keyTfidf))
+    #     companyInfoDict.append(companyInfoLen)
+    #     companyInfoDict.append(score)
+    #     companyInfoLi.append(companyInfoDict) 
     # from pprint import pprint
     # pprint(sorted(companyInfoLi, key=lambda x: x[5], reverse=True))
-
 
     scoreTupleList = sorted(companyScoreDict.items(), key=lambda x: x[1], reverse=True)
     scoreTupleList = [(comp, score) for (comp, score) in scoreTupleList if score != 0.00]
@@ -250,84 +249,6 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
 
         par = document.add_paragraph()
 
-
-
-
-    # heading = document.add_heading("Detail", level=1)
-    # urlInfoDir = "C:\\SimCorpFinderData\\companyInfo_v23\\" + targetCorp + "\\urlInfo.json"
-    # with open(urlInfoDir, 'r', encoding='utf8') as f:
-    #     urlInfoDict = json.loads(f.read())
-
-    # df = pd.DataFrame(urlInfoDict)
-    # # for each company
-    # for num, compTuple in enumerate(scoreTupleList):
-    #     compName = compTuple[0]
-    #     heading = document.add_heading(str(num+1) + ". " + compName + " (score: " + "{:.4f}".format(compTuple[1]) + ")", level=2)
-    #     heading.line_spacing_rule = WD_LINE_SPACING.DOUBLE
-    #     count = 0
-
-    #     # for each url
-    #     for row in df[df['name'] == compName].iterrows():
-    #         row = row[1]
-    #         info = row['info']
-    #         if len(set(allKeywords) & set(info.split())) > 0:
-    #             count += 1
-    #             # page source 1: "http://XXXXXXXXXXXXXXX.com"
-    #             par = document.add_paragraph()
-    #             run = par.add_run("page source "+ str(count) +": ")
-    #             run.bold = True
-    #             hyperlink = addHyperlink(par, row['url'])
-    #             # for each para
-    #             # para = document.add_paragraph()
-    #             # run = para.add_run('para' + '. ')
-    #             # run.bold = True
-    #             indices = []
-    #             infoTermLi = info.split()
-    #             for i in range(len(infoTermLi)):
-    #                 if infoTermLi[i] in allKeywords:
-    #                     indices.append(i)
-                
-    #             sliceLi = []
-    #             for idx in indices:
-    #                 subLi = []
-    #                 currentidx = indices.index(idx)
-    #                 while True:
-    #                     subLi.append(indices[currentidx])
-    #                     lowerBound = max(0, subLi[0]-10)
-    #                     upperBound = min(subLi[-1]+10, indices[-1])
-
-    #                     if indices[currentidx] == indices[-1]:
-    #                         sliceLi.append(range(lowerBound, upperBound))
-    #                         break
-                        
-    #                     elif  indices[currentidx+1] - indices[currentidx] > 10:
-    #                         sliceLi.append(range(lowerBound, upperBound))
-    #                         break
-    #                     indices.pop(currentidx)
-
-    #             for num, sli in enumerate(sliceLi):
-    #                 para = document.add_paragraph()
-    #                 run = para.add_run('para' + str(num+1) + '. ')
-    #                 run.bold = True
-    #                 for idx in sli:
-    #                     term = infoTermLi[idx]
-    #                     if term in keyWordLi + keywords_emphasizeLi:
-    #                         run = para.add_run(term + " ")
-    #                         run.bold = True
-    #                         font = run.font
-    #                         font.color.rgb = RGBColor(255, 0, 0)
-    #                     elif term in keywords_filteredLi:
-    #                         run = para.add_run(term + " ")
-    #                         run.bold = True
-    #                         font = run.font
-    #                         font.color.rgb = RGBColor(0, 255, 0)
-    #                     else:
-    #                         para.add_run(term + " ")
-
-    #                 document.add_paragraph("--------------------------")
-    #             document.add_paragraph()
-    #     document.add_paragraph()
-
     for para in document.paragraphs:
         para.paragraph_format.space_before = Pt(3)
         para.paragraph_format.space_after = Pt(3)
@@ -336,7 +257,6 @@ def writeStats(targetCorp, keyWords, keywords_emphasize, keywords_filtered, outp
     nowtime = datetime.now()
     filetime = str(nowtime).split()[0].replace("-","") + str(nowtime).split()[1].split(":")[0] + str(nowtime).split()[1].split(":")[1]
     document.save(outputDir + "\\" + targetCorp + filetime + '.docx')
-
 
 
 def addHyperlink(paragraph, url, font_size="22"):
