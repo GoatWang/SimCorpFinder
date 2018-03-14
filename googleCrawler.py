@@ -15,10 +15,10 @@ from selenium import webdriver
 import uuid
 from datetime import datetime
 import string
-from elasticUtl import datetimeReader, checkExist, checkDateoutAndDelete, esLogin, directlyDelete, check_typeExist
+# from elasticUtl import datetimeReader, checkExist, checkDateoutAndDelete, esLogin, directlyDelete, check_typeExist
 # from elasticsearch import Elasticsearch
 # es = Elasticsearch()
-es = esLogin()
+# es = esLogin()
 
 #user write
 from setting_selenium import cross_selenium

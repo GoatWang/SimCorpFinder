@@ -34,10 +34,10 @@ if not "outputs" in os.listdir("C:\\SimCorpFinderData"):
 
 from googleCrawler import Main
 from crawlerUtl import getDistinctName, getCurrentDir
-from elasticUtl import writeStats, esLogin, checkDateoutAndDelete, writeStats_word
+# from elasticUtl import writeStats, esLogin, checkDateoutAndDelete, writeStats_word
 # from elasticsearch import Elasticsearch
 # es = Elasticsearch()
-es = esLogin()
+# es = esLogin()
 
 # from PyQt5.QtGui import QLine
 class simCorpFinder(QWidget):

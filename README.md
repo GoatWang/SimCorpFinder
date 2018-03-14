@@ -3,19 +3,8 @@ Please go to our [website](https://goatwang.github.io/SimCorpFinder/index.html)
 
 # berfore build this app
 
-you should add a python file contain these code
+you should add a python file contain these code called selfpwd.py
 ```
-from elasticsearch import Elasticsearch
-
-def esPwdLogin():
-    es = Elasticsearch(
-        ['<es_url>'],
-        http_auth=('<user_name>', '<password>'),
-        port=<your_port>,
-        use_ssl=<true_or_false>
-    )
-    return es
-
 def getMongoUrl():
     url = "<your_mongo_url>"
     return url
@@ -27,7 +16,7 @@ def getMongoUrl():
 python setup.py build
 ```
 
-* if you want to build entire project into a directory 
+* if you want to build entire project as wondows installer(.msi)
 ```
 python setup.py bdist_msi
 ```

@@ -4,12 +4,12 @@ import numpy as np
 from datetime import datetime
 
 
-from elasticsearch import Elasticsearch
-from selfPwd import esPwdLogin
-def esLogin():
-    return esPwdLogin()
+# from elasticsearch import Elasticsearch
+# from selfPwd import esPwdLogin
+# def esLogin():
+#     return esPwdLogin()
 
-es = esLogin()
+# es = esLogin()
 
 
 
