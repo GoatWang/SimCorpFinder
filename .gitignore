@@ -25,6 +25,7 @@ to_be_labeled
 
 # docs
 .vs
+*.vscode
 debug.log
 
 # password
