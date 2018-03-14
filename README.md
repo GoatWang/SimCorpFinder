@@ -11,6 +11,13 @@ def getMongoUrl():
 ```
 
 # build shell script
+1. Prerequests
+```
+git checkout fileretrieval
+pip install -r requirements.txt
+```
+
+2. Build
 * if you want to build entire project into a directory 
 ```
 python setup.py build
