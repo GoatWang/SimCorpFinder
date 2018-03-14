@@ -2,7 +2,6 @@
 Please go to our [website](https://goatwang.github.io/SimCorpFinder/index.html)
 
 # berfore build this app
-
 you should add a python file contain these code called selfpwd.py
 ```
 def getMongoUrl():
